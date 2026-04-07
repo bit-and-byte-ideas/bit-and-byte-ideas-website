@@ -1,0 +1,42 @@
+footer {
+  border-top: 1px solid var(--border);
+  padding: 36px 0;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
+
+.footer-logo {
+  font-family: var(--font-mono);
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--text);
+
+  .logo-bracket,
+  .logo-amp {
+    color: var(--accent);
+  }
+}
+
+.footer-tagline {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  flex: 1;
+}
+
+.footer-copy {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  opacity: 0.5;
+}

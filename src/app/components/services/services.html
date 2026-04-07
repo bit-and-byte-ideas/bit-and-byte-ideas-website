@@ -1,0 +1,31 @@
+<section id="services" class="services" aria-labelledby="services-heading">
+  <div class="container">
+    <header class="section-header">
+      <span class="section-label">What We Do</span>
+      <h2 id="services-heading" class="section-title">Services Built<br />for Real Business</h2>
+    </header>
+    <div class="services-grid">
+      @for (service of services; track service.number) {
+        <article class="service-card">
+          <div class="card-header">
+            <span class="card-number" aria-hidden="true">{{ service.number }}</span>
+            @if (service.badge) {
+              <span class="card-badge">{{ service.badge }}</span>
+            }
+          </div>
+          <h3 class="card-title">{{ service.title }}</h3>
+          <p class="card-description">{{ service.description }}</p>
+          <ul class="card-features" aria-label="Included features">
+            @for (feature of service.features; track feature) {
+              <li>
+                <span class="feature-arrow" aria-hidden="true">→</span>
+                {{ feature }}
+              </li>
+            }
+          </ul>
+          <a href="#contact" class="card-cta">Get a Quote</a>
+        </article>
+      }
+    </div>
+  </div>
+</section>

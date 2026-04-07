@@ -1,0 +1,116 @@
+.contact {
+  padding: 120px 0;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 240px;
+  gap: 80px;
+  align-items: end;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+}
+
+.contact-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+
+  .label-line {
+    width: 24px;
+    height: 1px;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+}
+
+.contact-headline {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  font-weight: 800;
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+
+  em {
+    font-style: normal;
+    color: var(--accent);
+  }
+}
+
+.contact-sub {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 1px solid var(--border-accent);
+  padding: 18px 28px;
+  border-radius: var(--radius);
+  transition: background 0.2s, color 0.2s;
+
+  &:hover {
+    background: var(--accent);
+    color: var(--accent-text);
+  }
+
+  .btn-arrow {
+    font-size: 1.1rem;
+  }
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+
+  &:first-child {
+    border-top: 1px solid var(--border);
+  }
+}
+
+.detail-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.detail-value {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text);
+}
