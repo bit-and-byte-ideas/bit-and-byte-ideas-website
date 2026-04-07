@@ -5,16 +5,19 @@
 }
 
 :root {
-  --bg: #080808;
-  --surface: #0f0f0f;
-  --surface-2: #181818;
-  --accent: #b5ff47;
-  --accent-dim: rgba(181, 255, 71, 0.08);
-  --accent-text: #1a2e00;
-  --text: #f0f0f0;
-  --text-muted: #666666;
-  --border: rgba(255, 255, 255, 0.07);
-  --border-accent: rgba(181, 255, 71, 0.25);
+  --bg: #0F172A;
+  --surface: #111827;
+  --surface-2: #1a2440;
+  --accent: #22C55E;
+  --accent-dim: rgba(34, 197, 94, 0.08);
+  --accent-text: #0F172A;
+  --blue: #3B82F6;
+  --soft-green: #4ADE80;
+  --gradient: linear-gradient(135deg, #3B82F6, #22C55E);
+  --text: #F8FAFC;
+  --text-muted: #64748B;
+  --border: rgba(100, 116, 139, 0.18);
+  --border-accent: rgba(34, 197, 94, 0.3);
   --radius: 4px;
 
   --font-display: 'Syne', sans-serif;

@@ -12,7 +12,7 @@ nav {
   transition: background 0.3s ease, backdrop-filter 0.3s ease, border-bottom 0.3s ease;
 
   &.scrolled {
-    background: rgba(8, 8, 8, 0.85);
+    background: rgba(15, 23, 42, 0.88);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
@@ -67,15 +67,16 @@ nav {
     }
 
     &.nav-cta {
-      color: var(--accent);
+      color: var(--soft-green);
       border: 1px solid var(--border-accent);
       padding: 8px 18px;
       border-radius: var(--radius);
-      transition: background 0.2s, color 0.2s;
+      transition: all 0.25s ease;
 
       &:hover {
-        background: var(--accent);
-        color: var(--accent-text);
+        background: var(--gradient);
+        border-color: transparent;
+        color: #fff;
       }
     }
   }

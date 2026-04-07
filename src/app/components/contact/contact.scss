@@ -31,7 +31,7 @@
   .label-line {
     width: 24px;
     height: 1px;
-    background: var(--accent);
+    background: var(--gradient);
     flex-shrink: 0;
   }
 }
@@ -47,7 +47,10 @@
 
   em {
     font-style: normal;
-    color: var(--accent);
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 }
 
@@ -66,16 +69,17 @@
   font-family: var(--font-mono);
   font-size: 0.95rem;
   font-weight: 500;
-  color: var(--accent);
+  color: var(--soft-green);
   background: var(--accent-dim);
   border: 1px solid var(--border-accent);
   padding: 18px 28px;
   border-radius: var(--radius);
-  transition: background 0.2s, color 0.2s;
+  transition: all 0.25s ease;
 
   &:hover {
-    background: var(--accent);
-    color: var(--accent-text);
+    background: var(--gradient);
+    border-color: transparent;
+    color: #fff;
   }
 
   .btn-arrow {

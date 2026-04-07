@@ -38,7 +38,7 @@
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: var(--accent);
+    background: var(--gradient);
     flex-shrink: 0;
     animation: pulse 2.4s ease-in-out infinite;
   }
@@ -61,7 +61,10 @@
 
   em {
     font-style: normal;
-    color: var(--accent);
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 }
 
@@ -105,11 +108,12 @@
   white-space: nowrap;
 
   &.btn-primary {
-    background: var(--accent);
-    color: var(--accent-text);
+    background: var(--gradient);
+    color: #fff;
+    border: none;
 
     &:hover {
-      background: #c8ff6a;
+      opacity: 0.88;
       transform: translateY(-1px);
     }
   }

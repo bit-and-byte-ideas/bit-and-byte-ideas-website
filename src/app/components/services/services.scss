@@ -11,7 +11,10 @@
   display: inline-block;
   font-family: var(--font-mono);
   font-size: 0.75rem;
-  color: var(--accent);
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -125,7 +128,7 @@
   }
 
   .feature-arrow {
-    color: var(--accent);
+    color: var(--blue);
     font-family: var(--font-mono);
     flex-shrink: 0;
     margin-top: 1px;
@@ -151,7 +154,7 @@
   }
 
   &:hover {
-    color: var(--accent);
+    color: var(--soft-green);
     border-color: var(--accent);
   }
 }
