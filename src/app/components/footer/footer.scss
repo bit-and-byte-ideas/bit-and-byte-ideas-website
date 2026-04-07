@@ -17,15 +17,30 @@ footer {
 }
 
 .footer-logo {
-  font-family: var(--font-mono);
-  font-size: 1.05rem;
-  font-weight: 500;
-  color: var(--text);
+  display: inline-flex;
+  flex-shrink: 0;
+  text-decoration: none;
+}
 
-  .logo-bracket,
-  .logo-amp {
-    color: var(--accent);
+.footer-logo-pill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px 12px;
+  transition: opacity 0.2s;
+
+  .footer-logo:hover & {
+    opacity: 0.85;
   }
+}
+
+.footer-logo-img {
+  display: block;
+  width: 180px;
+  height: auto;
+  object-fit: contain;
 }
 
 .footer-tagline {

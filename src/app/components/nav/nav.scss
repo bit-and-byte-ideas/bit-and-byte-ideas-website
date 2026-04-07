@@ -26,26 +26,53 @@ nav {
 }
 
 .logo {
-  font-family: var(--font-mono);
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: var(--text);
   display: flex;
-  align-items: baseline;
-  gap: 1px;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
 
-  .logo-bracket,
+.logo-icon-pill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 8px;
+  padding: 4px;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.logo-icon {
+  display: block;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.logo-wordmark {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
   .logo-amp {
-    color: var(--accent);
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
-  .logo-text {
-    font-family: var(--font-body);
+  .logo-ideas {
     font-weight: 300;
-    font-size: 0.85rem;
+    font-family: var(--font-body);
+    text-transform: none;
+    font-size: 0.9rem;
     color: var(--text-muted);
-    margin-left: 6px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
   }
 }
 
