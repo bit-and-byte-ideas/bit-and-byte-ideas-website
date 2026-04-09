@@ -1,4 +1,5 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy, inject } from '@angular/core';
+import { BusinessInfoService } from '../../services/business-info.service';
 
 @Component({
   selector: 'app-contact',
@@ -8,4 +9,6 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
   styleUrl: './contact.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class Contact {}
+export class Contact {
+  protected readonly businessInfo = inject(BusinessInfoService);
+}
