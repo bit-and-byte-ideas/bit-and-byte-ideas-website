@@ -21,7 +21,8 @@
     "tslib": "^2.3.0"
   },
   "overrides": {
-    "hono": ">=4.12.14"
+    "hono": ">=4.12.14",
+    "postcss": ">=8.5.10"
   },
   "devDependencies": {
     "@angular/build": "^21.2.6",
