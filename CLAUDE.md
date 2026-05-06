@@ -22,6 +22,7 @@ ng generate service <name>      # Scaffold service
 ```
 
 Run a single test file by passing the spec file path or a grep pattern:
+
 ```bash
 ng test --include="**/foo.spec.ts"
 ```
@@ -46,12 +47,12 @@ This project uses Angular 17+ conventions enforced by the installed skills:
 
 Use these skills (via the Skill tool or slash commands) for their respective tasks:
 
-| Skill | When to use |
-|-------|-------------|
+| Skill               | When to use                                                                           |
+| ------------------- | ------------------------------------------------------------------------------------- |
 | `angular-developer` | Creating components/services, routing, DI, forms, styling, animations, SSR, CLI usage |
-| `angular-architect` | NgRx state management, RxJS patterns, bundle optimization, enterprise architecture |
-| `angular-testing` | Writing unit/integration tests with Vitest and TestBed |
-| `frontend-design` | Designing distinctive, production-quality UI with intentional aesthetics |
+| `angular-architect` | NgRx state management, RxJS patterns, bundle optimization, enterprise architecture    |
+| `angular-testing`   | Writing unit/integration tests with Vitest and TestBed                                |
+| `frontend-design`   | Designing distinctive, production-quality UI with intentional aesthetics              |
 
 ## Design Direction
 

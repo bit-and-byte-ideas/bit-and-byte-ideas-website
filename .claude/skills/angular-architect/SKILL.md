@@ -4,7 +4,7 @@ description: Generates Angular 17+ standalone components, configures advanced ro
 license: MIT
 metadata:
   author: https://github.com/Jeffallan
-  version: "1.1.0"
+  version: '1.1.0'
   domain: frontend
   triggers: Angular, Angular 17, standalone components, signals, RxJS, NgRx, Angular performance, Angular routing, Angular testing
   role: specialist
@@ -30,13 +30,13 @@ Senior Angular architect specializing in Angular 17+ with standalone components,
 
 Load detailed guidance based on context:
 
-| Topic | Reference | Load When |
-|-------|-----------|-----------|
-| Components | `references/components.md` | Standalone components, signals, input/output |
-| RxJS | `references/rxjs.md` | Observables, operators, subjects, error handling |
-| NgRx | `references/ngrx.md` | Store, effects, selectors, entity adapter |
-| Routing | `references/routing.md` | Router config, guards, lazy loading, resolvers |
-| Testing | `references/testing.md` | TestBed, component tests, service tests |
+| Topic      | Reference                  | Load When                                        |
+| ---------- | -------------------------- | ------------------------------------------------ |
+| Components | `references/components.md` | Standalone components, signals, input/output     |
+| RxJS       | `references/rxjs.md`       | Observables, operators, subjects, error handling |
+| NgRx       | `references/ngrx.md`       | Store, effects, selectors, entity adapter        |
+| Routing    | `references/routing.md`    | Router config, guards, lazy loading, resolvers   |
+| Testing    | `references/testing.md`    | TestBed, component tests, service tests          |
 
 ## Key Patterns
 
@@ -85,10 +85,13 @@ export class UsersComponent implements OnInit {
   private destroyRef = inject(DestroyRef);
 
   ngOnInit(): void {
-    this.userService.getUsers()
+    this.userService
+      .getUsers()
       .pipe(takeUntilDestroyed(this.destroyRef))
       .subscribe({
-        next: (users) => { /* handle */ },
+        next: (users) => {
+          /* handle */
+        },
         error: (err) => console.error('Failed to load users', err),
       });
   }
@@ -100,11 +103,21 @@ export class UsersComponent implements OnInit {
 ```typescript
 // actions
 export const loadUsers = createAction('[Users] Load Users');
-export const loadUsersSuccess = createAction('[Users] Load Users Success', props<{ users: User[] }>());
-export const loadUsersFailure = createAction('[Users] Load Users Failure', props<{ error: string }>());
+export const loadUsersSuccess = createAction(
+  '[Users] Load Users Success',
+  props<{ users: User[] }>(),
+);
+export const loadUsersFailure = createAction(
+  '[Users] Load Users Failure',
+  props<{ error: string }>(),
+);
 
 // reducer
-export interface UsersState { users: User[]; loading: boolean; error: string | null; }
+export interface UsersState {
+  users: User[];
+  loading: boolean;
+  error: string | null;
+}
 const initialState: UsersState = { users: [], loading: false, error: null };
 
 export const usersReducer = createReducer(
@@ -123,6 +136,7 @@ export const selectUsersLoading = createSelector(selectUsersState, (s) => s.load
 ## Constraints
 
 ### MUST DO
+
 - Use standalone components (Angular 17+ default)
 - Use signals for reactive state where appropriate
 - Use OnPush change detection strategy
@@ -133,6 +147,7 @@ export const selectUsersLoading = createSelector(selectUsersState, (s) => s.load
 - Follow Angular style guide
 
 ### MUST NOT DO
+
 - Use NgModule-based components (except when required for compatibility)
 - Forget to unsubscribe from observables (use `takeUntilDestroyed` or `async` pipe)
 - Use async operations without proper error handling
@@ -145,6 +160,7 @@ export const selectUsersLoading = createSelector(selectUsersState, (s) => s.load
 ## Output Templates
 
 When implementing Angular features, provide:
+
 1. Component file with standalone configuration
 2. Service file if business logic is involved
 3. State management files if using NgRx

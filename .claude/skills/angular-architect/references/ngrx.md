@@ -12,14 +12,14 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideStore({
       users: usersReducer,
-      products: productsReducer
+      products: productsReducer,
     }),
     provideEffects([UsersEffects, ProductsEffects]),
     provideStoreDevtools({
       maxAge: 25,
-      logOnly: !isDevMode()
-    })
-  ]
+      logOnly: !isDevMode(),
+    }),
+  ],
 };
 ```
 
@@ -45,8 +45,8 @@ export const UsersActions = createActionGroup({
     'Update User Success': props<{ user: User }>(),
 
     'Delete User': props<{ id: string }>(),
-    'Delete User Success': props<{ id: string }>()
-  }
+    'Delete User Success': props<{ id: string }>(),
+  },
 });
 ```
 
@@ -67,13 +67,13 @@ export interface UsersState extends EntityState<User> {
 
 export const usersAdapter: EntityAdapter<User> = createEntityAdapter<User>({
   selectId: (user: User) => user.id,
-  sortComparer: (a, b) => a.name.localeCompare(b.name)
+  sortComparer: (a, b) => a.name.localeCompare(b.name),
 });
 
 const initialState: UsersState = usersAdapter.getInitialState({
   loading: false,
   error: null,
-  selectedUserId: null
+  selectedUserId: null,
 });
 
 export const usersReducer = createReducer(
@@ -83,39 +83,32 @@ export const usersReducer = createReducer(
   on(UsersActions.loadUsers, (state) => ({
     ...state,
     loading: true,
-    error: null
+    error: null,
   })),
 
   on(UsersActions.loadUsersSuccess, (state, { users }) =>
     usersAdapter.setAll(users, {
       ...state,
-      loading: false
-    })
+      loading: false,
+    }),
   ),
 
   on(UsersActions.loadUsersFailure, (state, { error }) => ({
     ...state,
     loading: false,
-    error
+    error,
   })),
 
   // Add user
-  on(UsersActions.addUserSuccess, (state, { user }) =>
-    usersAdapter.addOne(user, state)
-  ),
+  on(UsersActions.addUserSuccess, (state, { user }) => usersAdapter.addOne(user, state)),
 
   // Update user
   on(UsersActions.updateUserSuccess, (state, { user }) =>
-    usersAdapter.updateOne(
-      { id: user.id, changes: user },
-      state
-    )
+    usersAdapter.updateOne({ id: user.id, changes: user }, state),
   ),
 
   // Delete user
-  on(UsersActions.deleteUserSuccess, (state, { id }) =>
-    usersAdapter.removeOne(id, state)
-  )
+  on(UsersActions.deleteUserSuccess, (state, { id }) => usersAdapter.removeOne(id, state)),
 );
 ```
 
@@ -129,54 +122,27 @@ import { usersAdapter, UsersState } from './users.reducer';
 export const selectUsersState = createFeatureSelector<UsersState>('users');
 
 // Entity adapter selectors
-const {
-  selectIds,
-  selectEntities,
-  selectAll,
-  selectTotal
-} = usersAdapter.getSelectors();
+const { selectIds, selectEntities, selectAll, selectTotal } = usersAdapter.getSelectors();
 
-export const selectUserIds = createSelector(
-  selectUsersState,
-  selectIds
-);
+export const selectUserIds = createSelector(selectUsersState, selectIds);
 
-export const selectUserEntities = createSelector(
-  selectUsersState,
-  selectEntities
-);
+export const selectUserEntities = createSelector(selectUsersState, selectEntities);
 
-export const selectAllUsers = createSelector(
-  selectUsersState,
-  selectAll
-);
+export const selectAllUsers = createSelector(selectUsersState, selectAll);
 
-export const selectUsersTotal = createSelector(
-  selectUsersState,
-  selectTotal
-);
+export const selectUsersTotal = createSelector(selectUsersState, selectTotal);
 
-export const selectUsersLoading = createSelector(
-  selectUsersState,
-  (state) => state.loading
-);
+export const selectUsersLoading = createSelector(selectUsersState, (state) => state.loading);
 
-export const selectUsersError = createSelector(
-  selectUsersState,
-  (state) => state.error
-);
+export const selectUsersError = createSelector(selectUsersState, (state) => state.error);
 
 // Parameterized selector
 export const selectUserById = (id: string) =>
-  createSelector(
-    selectUserEntities,
-    (entities) => entities[id]
-  );
+  createSelector(selectUserEntities, (entities) => entities[id]);
 
 // Composed selector
-export const selectActiveUsers = createSelector(
-  selectAllUsers,
-  (users) => users.filter(user => user.isActive)
+export const selectActiveUsers = createSelector(selectAllUsers, (users) =>
+  users.filter((user) => user.isActive),
 );
 
 // Selector with multiple inputs
@@ -185,8 +151,8 @@ export const selectUserWithPosts = createSelector(
   selectAllPosts,
   (user, posts) => ({
     user,
-    posts: posts.filter(post => post.userId === user?.id)
-  })
+    posts: posts.filter((post) => post.userId === user?.id),
+  }),
 );
 ```
 
@@ -212,13 +178,11 @@ export class UsersEffects {
       ofType(UsersActions.loadUsers),
       mergeMap(() =>
         this.usersService.getAll().pipe(
-          map(users => UsersActions.loadUsersSuccess({ users })),
-          catchError(error =>
-            of(UsersActions.loadUsersFailure({ error: error.message }))
-          )
-        )
-      )
-    )
+          map((users) => UsersActions.loadUsersSuccess({ users })),
+          catchError((error) => of(UsersActions.loadUsersFailure({ error: error.message }))),
+        ),
+      ),
+    ),
   );
 
   // Add user effect (exhaustMap prevents duplicate submits)
@@ -227,13 +191,11 @@ export class UsersEffects {
       ofType(UsersActions.addUser),
       exhaustMap(({ user }) =>
         this.usersService.create(user).pipe(
-          map(createdUser => UsersActions.addUserSuccess({ user: createdUser })),
-          catchError(error =>
-            of(UsersActions.addUserFailure({ error: error.message }))
-          )
-        )
-      )
-    )
+          map((createdUser) => UsersActions.addUserSuccess({ user: createdUser })),
+          catchError((error) => of(UsersActions.addUserFailure({ error: error.message }))),
+        ),
+      ),
+    ),
   );
 
   // Update user effect
@@ -242,13 +204,11 @@ export class UsersEffects {
       ofType(UsersActions.updateUser),
       mergeMap(({ id, changes }) =>
         this.usersService.update(id, changes).pipe(
-          map(user => UsersActions.updateUserSuccess({ user })),
-          catchError(error =>
-            of(UsersActions.loadUsersFailure({ error: error.message }))
-          )
-        )
-      )
-    )
+          map((user) => UsersActions.updateUserSuccess({ user })),
+          catchError((error) => of(UsersActions.loadUsersFailure({ error: error.message }))),
+        ),
+      ),
+    ),
   );
 
   // Delete user effect
@@ -258,12 +218,10 @@ export class UsersEffects {
       mergeMap(({ id }) =>
         this.usersService.delete(id).pipe(
           map(() => UsersActions.deleteUserSuccess({ id })),
-          catchError(error =>
-            of(UsersActions.loadUsersFailure({ error: error.message }))
-          )
-        )
-      )
-    )
+          catchError((error) => of(UsersActions.loadUsersFailure({ error: error.message }))),
+        ),
+      ),
+    ),
   );
 
   // Non-dispatching effect (side effect only)
@@ -273,11 +231,11 @@ export class UsersEffects {
         ofType(
           UsersActions.addUserSuccess,
           UsersActions.updateUserSuccess,
-          UsersActions.deleteUserSuccess
+          UsersActions.deleteUserSuccess,
         ),
-        tap(action => console.log('User action:', action))
+        tap((action) => console.log('User action:', action)),
       ),
-    { dispatch: false }
+    { dispatch: false },
   );
 }
 ```
@@ -289,11 +247,7 @@ export class UsersEffects {
 import { Component, inject } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { UsersActions } from './store/users.actions';
-import {
-  selectAllUsers,
-  selectUsersLoading,
-  selectUsersError
-} from './store/users.selectors';
+import { selectAllUsers, selectUsersLoading, selectUsersError } from './store/users.selectors';
 
 @Component({
   selector: 'app-users-list',
@@ -311,7 +265,7 @@ import {
         </div>
       }
     }
-  `
+  `,
 })
 export class UsersListComponent {
   private store = inject(Store);
@@ -369,7 +323,7 @@ export class UsersFacade {
 // Usage in component
 @Component({
   selector: 'app-users',
-  standalone: true
+  standalone: true,
 })
 export class UsersComponent {
   private facade = inject(UsersFacade);
@@ -389,13 +343,13 @@ export class UsersComponent {
 
 ## Quick Reference
 
-| Concept | Usage |
-|---------|-------|
-| Actions | `createActionGroup()` |
-| Reducer | `createReducer()`, `on()` |
-| Entity | `createEntityAdapter()` |
-| Selectors | `createSelector()`, `createFeatureSelector()` |
-| Effects | `createEffect()`, `ofType()` |
-| Store | `inject(Store)`, `store.select()`, `store.dispatch()` |
-| DevTools | `provideStoreDevtools()` |
-| Testing | Mock store, marble testing |
+| Concept   | Usage                                                 |
+| --------- | ----------------------------------------------------- |
+| Actions   | `createActionGroup()`                                 |
+| Reducer   | `createReducer()`, `on()`                             |
+| Entity    | `createEntityAdapter()`                               |
+| Selectors | `createSelector()`, `createFeatureSelector()`         |
+| Effects   | `createEffect()`, `ofType()`                          |
+| Store     | `inject(Store)`, `store.select()`, `store.dispatch()` |
+| DevTools  | `provideStoreDevtools()`                              |
+| Testing   | Mock store, marble testing                            |
