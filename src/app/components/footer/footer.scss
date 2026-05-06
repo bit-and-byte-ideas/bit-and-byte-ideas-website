@@ -1,6 +1,7 @@
 footer {
   border-top: 1px solid var(--border);
   padding: 36px 0;
+  padding-bottom: max(36px, calc(env(safe-area-inset-bottom, 0px) + 24px));
 }
 
 .footer-inner {
@@ -38,7 +39,7 @@ footer {
 
 .footer-logo-img {
   display: block;
-  width: 180px;
+  width: min(180px, 40vw);
   height: auto;
   object-fit: contain;
 }
