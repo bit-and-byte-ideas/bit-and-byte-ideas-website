@@ -1,21 +1,23 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 :root {
-  --bg: #0F172A;
+  --bg: #0f172a;
   --surface: #111827;
   --surface-2: #1a2440;
-  --accent: #22C55E;
+  --accent: #22c55e;
   --accent-dim: rgba(34, 197, 94, 0.08);
-  --accent-text: #0F172A;
-  --blue: #3B82F6;
-  --soft-green: #4ADE80;
-  --gradient: linear-gradient(135deg, #3B82F6, #22C55E);
-  --text: #F8FAFC;
-  --text-muted: #64748B;
+  --accent-text: #0f172a;
+  --blue: #3b82f6;
+  --soft-green: #4ade80;
+  --gradient: linear-gradient(135deg, #3b82f6, #22c55e);
+  --text: #f8fafc;
+  --text-muted: #64748b;
   --border: rgba(100, 116, 139, 0.18);
   --border-accent: rgba(34, 197, 94, 0.3);
   --radius: 4px;

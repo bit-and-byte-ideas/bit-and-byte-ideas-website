@@ -29,13 +29,13 @@ describe('Nav', () => {
 
   it('should have a Services link pointing to #services', () => {
     const links = Array.from(nativeEl.querySelectorAll<HTMLAnchorElement>('a'));
-    const link = links.find(l => l.textContent?.trim() === 'Services');
+    const link = links.find((l) => l.textContent?.trim() === 'Services');
     expect(link?.getAttribute('href')).toBe('#services');
   });
 
   it('should have a "Get in Touch" link pointing to #contact', () => {
     const links = Array.from(nativeEl.querySelectorAll<HTMLAnchorElement>('a'));
-    const link = links.find(l => l.textContent?.includes('Get in Touch'));
+    const link = links.find((l) => l.textContent?.includes('Get in Touch'));
     expect(link?.getAttribute('href')).toBe('#contact');
   });
 

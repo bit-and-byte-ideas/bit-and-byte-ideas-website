@@ -35,13 +35,13 @@ describe('Hero', () => {
 
   it('should have an "Explore Services" CTA linking to #services', () => {
     const links = Array.from(nativeEl.querySelectorAll<HTMLAnchorElement>('.hero-ctas a'));
-    const link = links.find(l => l.textContent?.includes('Explore Services'));
+    const link = links.find((l) => l.textContent?.includes('Explore Services'));
     expect(link?.getAttribute('href')).toBe('#services');
   });
 
   it('should have a "Get in Touch" CTA linking to #contact', () => {
     const links = Array.from(nativeEl.querySelectorAll<HTMLAnchorElement>('.hero-ctas a'));
-    const link = links.find(l => l.textContent?.includes('Get in Touch'));
+    const link = links.find((l) => l.textContent?.includes('Get in Touch'));
     expect(link?.getAttribute('href')).toBe('#contact');
   });
 

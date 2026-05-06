@@ -32,17 +32,17 @@ describe('Services', () => {
 
   it('should render a Static Website Development card', () => {
     const titles = Array.from(nativeEl.querySelectorAll('.card-title'));
-    expect(titles.some(t => t.textContent?.includes('Static Website Development'))).toBe(true);
+    expect(titles.some((t) => t.textContent?.includes('Static Website Development'))).toBe(true);
   });
 
   it('should render a Web Application Development card', () => {
     const titles = Array.from(nativeEl.querySelectorAll('.card-title'));
-    expect(titles.some(t => t.textContent?.includes('Web Application Development'))).toBe(true);
+    expect(titles.some((t) => t.textContent?.includes('Web Application Development'))).toBe(true);
   });
 
   it('should render a Maintenance + Hosting card', () => {
     const titles = Array.from(nativeEl.querySelectorAll('.card-title'));
-    expect(titles.some(t => t.textContent?.includes('Maintenance + Hosting'))).toBe(true);
+    expect(titles.some((t) => t.textContent?.includes('Maintenance + Hosting'))).toBe(true);
   });
 
   it('should show the "Add-on subscription" badge only on the Maintenance + Hosting card', () => {
@@ -54,6 +54,6 @@ describe('Services', () => {
   it('should have all "Get a Quote" CTAs linking to #contact', () => {
     const ctas = Array.from(nativeEl.querySelectorAll<HTMLAnchorElement>('.card-cta'));
     expect(ctas.length).toBe(3);
-    ctas.forEach(cta => expect(cta.getAttribute('href')).toBe('#contact'));
+    ctas.forEach((cta) => expect(cta.getAttribute('href')).toBe('#contact'));
   });
 });
