@@ -108,24 +108,25 @@ nav {
       color: var(--text);
     }
 
-    &.nav-cta {
-      color: var(--soft-green);
-      border: 1px solid var(--border-accent);
+    &.nav-book {
+      background: var(--gradient);
+      color: #0f172a;
+      font-weight: 600;
       padding: 8px 18px;
       border-radius: var(--radius);
-      transition: all 0.25s ease;
+      transition: opacity 0.2s ease;
 
       &:hover {
-        background: var(--gradient);
-        border-color: transparent;
-        color: #fff;
+        opacity: 0.85;
+        color: #0f172a;
       }
     }
   }
 }
 
 @media (max-width: 600px) {
-  .nav-links li:first-child {
+  .nav-links li:first-child,
+  .nav-contact-item {
     display: none;
   }
 }
