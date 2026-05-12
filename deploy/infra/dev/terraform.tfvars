@@ -1,8 +1,9 @@
-project_name          = "bit-and-byte-ideas-website"
-environment           = "dev"
-location              = "westus2"
-sku_tier              = "Free"
-application_insights  = false
+project_name         = "bit-and-byte-ideas-website"
+environment          = "dev"
+location             = "westus2"
+sku_tier             = "Free"
+application_insights = false
+
 tags = {
   owner       = "bit-and-byte-ideas"
   environment = "dev"
