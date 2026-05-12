@@ -1,4 +1,4 @@
-module "static_web_app" {
+module "static_webapp" {
   source                      = "github.com/bit-and-byte-ideas/azure-static-webapp-cicd-kit/modules/azure-static-webapp"
   resource_group_name         = "${var.project_name}-${var.environment}-rg"
   static_webapp_name          = "${var.project_name}-${var.environment}-swa"
