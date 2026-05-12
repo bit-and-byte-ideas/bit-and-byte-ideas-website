@@ -1,20 +1,15 @@
-output "static_web_app_url" {
-  description = "URL of the Static Web App"
-  value       = module.static_web_app.default_host_name
+output "site_url" {
+  description = "Public URL of the Azure Static Web App."
+  value       = "https://${module.static_webapp.default_host_name}"
 }
 
-output "static_webapp_id" {
-  description = "Resource ID of the Azure Static Web App"
-  value       = module.static_web_app.static_webapp_id
-}
-
-output "static_web_app_api_key" {
-  description = "Deployment token for the Static Web App (use in GitHub Secrets)"
-  value       = module.static_web_app.api_key
+output "api_key" {
+  description = "Deployment API key — store as AZURE_STATIC_WEB_APPS_API_TOKEN_DEV in the site repo's GitHub secrets."
+  value       = module.static_webapp.api_key
   sensitive   = true
 }
 
 output "resource_group_name" {
-  description = "Name of the resource group"
-  value       = module.static_web_app.resource_group_name
+  description = "Name of the provisioned resource group."
+  value       = module.static_webapp.resource_group_name
 }
