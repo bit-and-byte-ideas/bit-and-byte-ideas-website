@@ -8,8 +8,3 @@ output "api_key" {
   value       = module.static_webapp.api_key
   sensitive   = true
 }
-
-output "resource_group_name" {
-  description = "Name of the provisioned resource group."
-  value       = module.static_webapp.resource_group_name
-}
