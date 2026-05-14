@@ -1,0 +1,16 @@
+repos:
+  - repo: local
+    hooks:
+      - id: tofu-fmt
+        name: OpenTofu fmt
+        language: script
+        entry: .pre-commit-hooks/tofu-fmt.sh
+        files: \.tf$
+        pass_filenames: false
+
+      - id: tofu-validate
+        name: OpenTofu validate
+        language: script
+        entry: .pre-commit-hooks/tofu-validate.sh
+        files: \.tf$
+        pass_filenames: false
