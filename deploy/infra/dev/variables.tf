@@ -3,12 +3,6 @@ variable "project_name" {
   type        = string
 }
 
-variable "location" {
-  description = "Azure region where resources will be deployed."
-  type        = string
-  default     = "westus2"
-}
-
 variable "environment" {
   description = "Environment where resources will be deployed"
   type        = string
