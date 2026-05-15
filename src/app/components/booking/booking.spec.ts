@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { Booking } from './booking';
 
@@ -16,6 +16,10 @@ describe('Booking', () => {
     fixture.detectChanges();
   });
 
+  afterEach(() => {
+    delete (window as Window & { Calendly?: unknown }).Calendly;
+  });
+
   it('should create', () => {
     expect(fixture.componentInstance).toBeTruthy();
   });
@@ -26,9 +30,9 @@ describe('Booking', () => {
     );
   });
 
-  it('should bind calendlyUrl to the data-url attribute of the Calendly widget', () => {
-    const widget = nativeEl.querySelector<HTMLElement>('.calendly-inline-widget');
-    expect(widget?.getAttribute('data-url')).toBe(fixture.componentInstance.calendlyUrl);
+  it('should render the Calendly container with the correct class', () => {
+    const container = nativeEl.querySelector<HTMLElement>('.calendly-inline-widget');
+    expect(container).not.toBeNull();
   });
 
   it('should have aria-labelledby="booking-heading" on the section', () => {
@@ -41,7 +45,7 @@ describe('Booking', () => {
     expect(heading?.getAttribute('id')).toBe('booking-heading');
   });
 
-  it('should have the correct aria-label on the Calendly widget', () => {
+  it('should have the correct aria-label on the Calendly container', () => {
     const widget = nativeEl.querySelector<HTMLElement>('.calendly-inline-widget');
     expect(widget?.getAttribute('aria-label')).toBe('Schedule a free 30-minute consultation');
   });
@@ -54,5 +58,33 @@ describe('Booking', () => {
   it('should have id="booking" on the section', () => {
     const section = nativeEl.querySelector<HTMLElement>('section');
     expect(section?.getAttribute('id')).toBe('booking');
+  });
+
+  it('should call Calendly.initInlineWidget with the correct URL when Calendly is already loaded', () => {
+    const initInlineWidget = vi.fn();
+    (window as Window & { Calendly?: unknown }).Calendly = { initInlineWidget };
+
+    const f = TestBed.createComponent(Booking);
+    f.detectChanges();
+
+    expect(initInlineWidget).toHaveBeenCalledOnce();
+    expect(initInlineWidget).toHaveBeenCalledWith({
+      url: f.componentInstance.calendlyUrl,
+      parentElement: expect.any(HTMLElement),
+    });
+  });
+
+  it('should listen for the Calendly script load event when Calendly is not yet loaded', () => {
+    const script = document.createElement('script');
+    script.src = 'https://assets.calendly.com/assets/external/widget.js';
+    const addEventListenerSpy = vi.spyOn(script, 'addEventListener');
+    document.head.appendChild(script);
+
+    const f = TestBed.createComponent(Booking);
+    f.detectChanges();
+
+    expect(addEventListenerSpy).toHaveBeenCalledWith('load', expect.any(Function), { once: true });
+
+    document.head.removeChild(script);
   });
 });
