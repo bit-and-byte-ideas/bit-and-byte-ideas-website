@@ -1,3 +1,8 @@
+output "dns_nameservers" {
+  description = "Azure DNS nameservers — set these as custom nameservers in GoDaddy to delegate DNS to Azure."
+  value       = length(azurerm_dns_zone.this) > 0 ? azurerm_dns_zone.this[0].name_servers : []
+}
+
 output "site_url" {
   description = "Public URL of the Azure Static Web App."
   value       = "https://${module.static_webapp.default_host_name}"
