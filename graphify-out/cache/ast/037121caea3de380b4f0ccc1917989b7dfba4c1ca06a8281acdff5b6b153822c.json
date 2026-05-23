@@ -1,0 +1,107 @@
+{
+  "nodes": [
+    {
+      "id": "users_carlosbarajas_source_repos_github_bit_and_byte_ideas_bit_and_byte_ideas_website_vscode_mcp_json",
+      "label": "mcp.json",
+      "file_type": "code",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/mcp.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "vscode_mcp_servers",
+      "label": "servers",
+      "file_type": "code",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/mcp.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "vscode_mcp_servers_angular_cli",
+      "label": "angular-cli",
+      "file_type": "code",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/mcp.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "vscode_mcp_angular_cli_command",
+      "label": "command",
+      "file_type": "code",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/mcp.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "vscode_mcp_angular_cli_args",
+      "label": "args",
+      "file_type": "code",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/mcp.json",
+      "source_location": "L6"
+    }
+  ],
+  "edges": [
+    {
+      "source": "users_carlosbarajas_source_repos_github_bit_and_byte_ideas_bit_and_byte_ideas_website_vscode_mcp_json",
+      "target": "vscode_mcp_servers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/mcp.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "vscode_mcp_servers",
+      "target": "vscode_mcp_servers_angular_cli",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/mcp.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "vscode_mcp_servers_angular_cli",
+      "target": "vscode_mcp_angular_cli_command",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/mcp.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "vscode_mcp_servers_angular_cli",
+      "target": "vscode_mcp_angular_cli_args",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/mcp.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "vscode_mcp_angular_cli_args",
+      "target": "ref_y",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/mcp.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_mcp_angular_cli_args",
+      "target": "ref_angular_cli",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/mcp.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "vscode_mcp_angular_cli_args",
+      "target": "ref_mcp",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/mcp.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "import"
+    }
+  ]
+}

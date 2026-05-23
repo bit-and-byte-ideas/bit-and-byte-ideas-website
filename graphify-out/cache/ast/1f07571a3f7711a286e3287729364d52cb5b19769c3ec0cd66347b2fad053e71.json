@@ -1,0 +1,45 @@
+{
+  "nodes": [
+    {
+      "id": "users_carlosbarajas_source_repos_github_bit_and_byte_ideas_bit_and_byte_ideas_website_vscode_launch_json",
+      "label": "launch.json",
+      "file_type": "code",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/launch.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "vscode_launch_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/launch.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "vscode_launch_configurations",
+      "label": "configurations",
+      "file_type": "code",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/launch.json",
+      "source_location": "L4"
+    }
+  ],
+  "edges": [
+    {
+      "source": "users_carlosbarajas_source_repos_github_bit_and_byte_ideas_bit_and_byte_ideas_website_vscode_launch_json",
+      "target": "vscode_launch_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/launch.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "users_carlosbarajas_source_repos_github_bit_and_byte_ideas_bit_and_byte_ideas_website_vscode_launch_json",
+      "target": "vscode_launch_configurations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/.vscode/launch.json",
+      "source_location": "L4",
+      "weight": 1.0
+    }
+  ]
+}
