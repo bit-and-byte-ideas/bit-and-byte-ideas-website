@@ -4,5 +4,6 @@ module "static_webapp" {
   static_webapp_name          = "swa-${var.project_name}-${var.environment}"
   sku_tier                    = var.sku_tier
   enable_application_insights = var.application_insights
+  custom_domain               = var.custom_domain
   tags                        = var.tags
 }

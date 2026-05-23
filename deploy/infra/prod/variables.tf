@@ -20,6 +20,12 @@ variable "application_insights" {
   default     = false
 }
 
+variable "custom_domain" {
+  description = "Custom domain to bind the Static Web App"
+  type        = string
+  default     = null
+}
+
 variable "tags" {
   description = "Azure resource tags applied to all provisioned resources."
   type        = map(string)
