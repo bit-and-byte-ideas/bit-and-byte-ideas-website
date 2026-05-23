@@ -14,3 +14,10 @@ repos:
         entry: .pre-commit-hooks/tofu-validate.sh
         files: \.tf$
         pass_filenames: false
+
+      - id: prettier
+        name: Prettier format
+        language: node
+        entry: npx prettier --write
+        types_or: [javascript, jsx, ts, tsx, css, json, yaml, markdown]
+        pass_filenames: true

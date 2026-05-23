@@ -1,7 +1,8 @@
 project_name         = "bit-and-byte-ideas-website"
 environment          = "prod"
 sku_tier             = "Free"
-application_insights = false
+application_insights = true
+custom_domain        = "bitandbyteideas.com"
 
 tags = {
   owner       = "bit-and-byte-ideas"
