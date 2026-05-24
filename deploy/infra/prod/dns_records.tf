@@ -6,8 +6,11 @@ resource "azurerm_dns_txt_record" "apex" {
   zone_name           = azurerm_dns_zone.this[0].name
   resource_group_name = "rg-${var.project_name}-${var.environment}"
   ttl                 = 300
-  record {
-    value = azurerm_static_web_app_custom_domain.apex[0].validation_token
+  dynamic "record" {
+    for_each = can(regex(".+", azurerm_static_web_app_custom_domain.apex[0].validation_token)) ? [azurerm_static_web_app_custom_domain.apex[0].validation_token] : []
+    content {
+      value = record.value
+    }
   }
   record {
     value = "atlassian-domain-verification=tbGo0150p21lA6kaANcW2PauHlwaPSqB5a6GiahGN7W4vA9o3FzyKzMOfdiRenLS"
