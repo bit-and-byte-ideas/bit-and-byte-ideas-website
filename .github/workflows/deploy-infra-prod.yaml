@@ -4,8 +4,6 @@ name: Deploy Infrastructure (prod)
 on:
   push:
     branches: [main]
-  release:
-    types: [published]
 
 concurrency:
   group: deploy-infra-prod-${{ github.ref }}
