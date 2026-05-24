@@ -5,18 +5,6 @@ resource "azurerm_static_web_app_custom_domain" "apex" {
   validation_type   = "dns-txt-token"
 }
 
-resource "azurerm_dns_txt_record" "apex_validation" {
-  count               = var.custom_domain != null ? 1 : 0
-  name                = "@"
-  zone_name           = azurerm_dns_zone.this[0].name
-  resource_group_name = "rg-${var.project_name}-${var.environment}"
-  ttl                 = 300
-  record {
-    value = azurerm_static_web_app_custom_domain.apex[0].validation_token
-  }
-  depends_on = [azurerm_static_web_app_custom_domain.apex]
-}
-
 # ALIAS A record — Azure DNS resolves this to the SWA's IP at query time (no fixed IP needed)
 resource "azurerm_dns_a_record" "apex" {
   count               = var.custom_domain != null ? 1 : 0
