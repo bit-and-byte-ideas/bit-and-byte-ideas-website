@@ -39,10 +39,14 @@ describe('Nav', () => {
     expect(link?.getAttribute('href')).toBe('#contact');
   });
 
-  it('should have a "Book a Call" link pointing to #booking', () => {
+  it('should have a "Book a Call" link pointing to the external Calendly URL', () => {
     const links = Array.from(nativeEl.querySelectorAll<HTMLAnchorElement>('a'));
     const link = links.find((l) => l.textContent?.includes('Book a Call'));
-    expect(link?.getAttribute('href')).toBe('#booking');
+    expect(link?.getAttribute('href')).toBe(
+      'https://calendly.com/carlos-barajas-bitandbyteideas/30min',
+    );
+    expect(link?.getAttribute('target')).toBe('_blank');
+    expect(link?.getAttribute('rel')).toBe('noopener noreferrer');
   });
 
   it('should have an aria-label on the logo link', () => {

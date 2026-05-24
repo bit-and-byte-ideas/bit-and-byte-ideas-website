@@ -22,9 +22,13 @@ test.describe('Homepage', () => {
     await expect(link).toHaveAttribute('href', '#services');
   });
 
-  test('nav Book a Call link points to #booking', async ({ page }) => {
+  test('nav Book a Call link opens external Calendly URL', async ({ page }) => {
     const link = page.locator('nav').getByRole('link', { name: /Book a Call/i });
-    await expect(link).toHaveAttribute('href', '#booking');
+    await expect(link).toHaveAttribute(
+      'href',
+      'https://calendly.com/carlos-barajas-bitandbyteideas/30min',
+    );
+    await expect(link).toHaveAttribute('target', '_blank');
   });
 
   test('renders hero h1 headline', async ({ page }) => {

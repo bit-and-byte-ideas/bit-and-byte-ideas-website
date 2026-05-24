@@ -23,7 +23,6 @@ describe('App', () => {
     expect(compiled.querySelector('app-nav')).toBeTruthy();
     expect(compiled.querySelector('app-hero')).toBeTruthy();
     expect(compiled.querySelector('app-services')).toBeTruthy();
-    expect(compiled.querySelector('app-booking')).toBeTruthy();
     expect(compiled.querySelector('app-contact')).toBeTruthy();
     expect(compiled.querySelector('app-footer')).toBeTruthy();
   });
