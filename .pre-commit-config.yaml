@@ -21,3 +21,10 @@ repos:
         entry: npx prettier --write
         types_or: [javascript, jsx, ts, tsx, css, json, yaml, markdown]
         pass_filenames: true
+
+      - id: ng-test
+        name: Angular unit tests
+        language: node
+        entry: npx ng test --watch=false
+        pass_filenames: false
+        files: ^src/.*\.(ts|html|scss)$

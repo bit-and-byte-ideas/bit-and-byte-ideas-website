@@ -9,8 +9,7 @@
     "test": "ng test",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
-    "serve:ssr:bit-and-byte-ideas": "node dist/bit-and-byte-ideas/server/server.mjs",
-    "prepare": "husky"
+    "serve:ssr:bit-and-byte-ideas": "node dist/bit-and-byte-ideas/server/server.mjs"
   },
   "private": true,
   "packageManager": "npm@11.11.0",
@@ -36,7 +35,6 @@
     "@angular/compiler-cli": "^21.2.14",
     "@playwright/test": "^1.60.0",
     "@types/express": "^5.0.1",
-    "husky": "^9.1.7",
     "jsdom": "^28.0.0",
     "prettier": "^3.8.1",
     "typescript": "~5.9.2",
