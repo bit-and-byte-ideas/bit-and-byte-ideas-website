@@ -6,7 +6,9 @@ import {
   AfterViewInit,
   inject,
   DOCUMENT,
+  PLATFORM_ID,
 } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 
 declare global {
   interface Window {
@@ -29,9 +31,10 @@ export class Booking implements AfterViewInit {
 
   @ViewChild('calendlyContainer') private container!: ElementRef<HTMLElement>;
   private readonly doc = inject(DOCUMENT);
+  private readonly platformId = inject(PLATFORM_ID);
 
   ngAfterViewInit(): void {
-    this.initWidget();
+    if (isPlatformBrowser(this.platformId)) this.initWidget();
   }
 
   private initWidget(): void {
