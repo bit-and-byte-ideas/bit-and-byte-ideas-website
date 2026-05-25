@@ -1,5 +1,6 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { provideRouter } from '@angular/router';
 import { Nav } from './nav';
 
 describe('Nav', () => {
@@ -10,6 +11,7 @@ describe('Nav', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [Nav],
+      providers: [provideRouter([])],
     }).compileComponents();
 
     fixture = TestBed.createComponent(Nav);
@@ -30,13 +32,13 @@ describe('Nav', () => {
   it('should have a Services link pointing to #services', () => {
     const links = Array.from(nativeEl.querySelectorAll<HTMLAnchorElement>('a'));
     const link = links.find((l) => l.textContent?.trim() === 'Services');
-    expect(link?.getAttribute('href')).toBe('#services');
+    expect(link?.getAttribute('href')).toBe('/#services');
   });
 
   it('should have a "Get in Touch" link pointing to #contact', () => {
     const links = Array.from(nativeEl.querySelectorAll<HTMLAnchorElement>('a'));
     const link = links.find((l) => l.textContent?.includes('Get in Touch'));
-    expect(link?.getAttribute('href')).toBe('#contact');
+    expect(link?.getAttribute('href')).toBe('/#contact');
   });
 
   it('should have a "Book a Call" link pointing to the external Calendly URL', () => {
