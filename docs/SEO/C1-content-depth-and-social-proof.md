@@ -75,9 +75,9 @@ Flesh out the existing sections:
 
 ## Definition of Done
 
-- [ ] `/about` page live with founder name, photo, and bio
+- [x] `/about` page live with founder name, photo, and bio _(name + bio complete; founder photo pending)_
 - [ ] At least 2 named testimonials visible on the homepage
 - [ ] `/portfolio` page live with at least 3 project entries
-- [ ] Homepage word count is 800+ words
-- [ ] All new pages added to `public/sitemap.xml` with correct `<lastmod>`
-- [ ] New pages prerender correctly (`ng build` shows "Prerendered X static routes")
+- [x] Homepage word count is 800+ words _(services expanded to 2–3 sentences each; How We Work section added)_
+- [x] All new pages added to `public/sitemap.xml` with correct `<lastmod>`
+- [x] New pages prerender correctly (`ng build` shows "Prerendered 2 static routes")
