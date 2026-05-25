@@ -1,6 +1,6 @@
 <nav [class.scrolled]="scrolled()">
   <div class="container nav-inner">
-    <a href="#" class="logo" aria-label="Bit and Byte Ideas home">
+    <a routerLink="/" class="logo" aria-label="Bit and Byte Ideas home">
       <span class="logo-icon-pill">
         <span class="logo-icon-inner">
           <img
@@ -18,8 +18,16 @@
       </span>
     </a>
     <ul class="nav-links" role="list">
-      <li><a href="#services">Services</a></li>
-      <li class="nav-contact-item"><a href="#contact">Get in Touch</a></li>
+      <li><a href="/#services">Services</a></li>
+      <li>
+        <a
+          routerLink="/about"
+          routerLinkActive="nav-active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          >About</a
+        >
+      </li>
+      <li class="nav-contact-item"><a href="/#contact">Get in Touch</a></li>
       <li>
         <a
           href="https://calendly.com/carlos-barajas-bitandbyteideas/30min"

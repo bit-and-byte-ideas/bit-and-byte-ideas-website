@@ -1,6 +1,8 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { provideRouter } from '@angular/router';
 import { App } from './app';
+import { routes } from './app.routes';
 
 describe('App', () => {
   let fixture: ComponentFixture<App>;
@@ -8,6 +10,7 @@ describe('App', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [App],
+      providers: [provideRouter(routes)],
     }).compileComponents();
 
     fixture = TestBed.createComponent(App);
@@ -17,13 +20,11 @@ describe('App', () => {
     expect(fixture.componentInstance).toBeTruthy();
   });
 
-  it('should render all section components', async () => {
+  it('should render nav, router-outlet, and footer', async () => {
     await fixture.whenStable();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('app-nav')).toBeTruthy();
-    expect(compiled.querySelector('app-hero')).toBeTruthy();
-    expect(compiled.querySelector('app-services')).toBeTruthy();
-    expect(compiled.querySelector('app-contact')).toBeTruthy();
+    expect(compiled.querySelector('router-outlet')).toBeTruthy();
     expect(compiled.querySelector('app-footer')).toBeTruthy();
   });
 
@@ -33,10 +34,11 @@ describe('App', () => {
     expect(compiled.querySelector('main')).toBeTruthy();
   });
 
-  it('should render the hero headline', async () => {
+  it('should render the home route inside the main landmark', async () => {
     await fixture.whenStable();
-    fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('We Build');
+    const main = compiled.querySelector('main');
+    expect(main).toBeTruthy();
+    expect(main?.querySelector('router-outlet')).toBeTruthy();
   });
 });
