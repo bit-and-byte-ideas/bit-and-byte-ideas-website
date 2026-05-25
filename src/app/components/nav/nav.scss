@@ -108,6 +108,10 @@ nav {
       color: var(--text);
     }
 
+    &.nav-active {
+      color: var(--text);
+    }
+
     &.nav-book {
       background: var(--gradient);
       color: #0f172a;
