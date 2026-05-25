@@ -129,582 +129,6 @@
   },
   "nodes": [
     {
-      "label": "angular.json",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L1",
-      "id": "angular_json",
-      "community": 116,
-      "norm_label": "angular.json"
-    },
-    {
-      "label": "$schema",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L2",
-      "id": "bit_and_byte_ideas_website_angular_schema",
-      "community": 116,
-      "norm_label": "$schema"
-    },
-    {
-      "label": "version",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L3",
-      "id": "bit_and_byte_ideas_website_angular_version",
-      "community": 116,
-      "norm_label": "version"
-    },
-    {
-      "label": "cli",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L4",
-      "id": "bit_and_byte_ideas_website_angular_cli",
-      "community": 116,
-      "norm_label": "cli"
-    },
-    {
-      "label": "packageManager",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L5",
-      "id": "bit_and_byte_ideas_website_angular_cli_packagemanager",
-      "community": 116,
-      "norm_label": "packagemanager"
-    },
-    {
-      "label": "analytics",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L6",
-      "id": "bit_and_byte_ideas_website_angular_cli_analytics",
-      "community": 116,
-      "norm_label": "analytics"
-    },
-    {
-      "label": "newProjectRoot",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L8",
-      "id": "bit_and_byte_ideas_website_angular_newprojectroot",
-      "community": 116,
-      "norm_label": "newprojectroot"
-    },
-    {
-      "label": "projects",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L9",
-      "id": "bit_and_byte_ideas_website_angular_projects",
-      "community": 116,
-      "norm_label": "projects"
-    },
-    {
-      "label": "bit-and-byte-ideas",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L10",
-      "id": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas",
-      "community": 118,
-      "norm_label": "bit-and-byte-ideas"
-    },
-    {
-      "label": "projectType",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L11",
-      "id": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_projecttype",
-      "community": 118,
-      "norm_label": "projecttype"
-    },
-    {
-      "label": "schematics",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L12",
-      "id": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_schematics",
-      "community": 118,
-      "norm_label": "schematics"
-    },
-    {
-      "label": "@schematics/angular:component",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L13",
-      "id": "bit_and_byte_ideas_website_angular_schematics_schematics_angular_component",
-      "community": 118,
-      "norm_label": "@schematics/angular:component"
-    },
-    {
-      "label": "style",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L14",
-      "id": "bit_and_byte_ideas_website_angular_schematics_angular_component_style",
-      "community": 118,
-      "norm_label": "style"
-    },
-    {
-      "label": "root",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L17",
-      "id": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_root",
-      "community": 118,
-      "norm_label": "root"
-    },
-    {
-      "label": "sourceRoot",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L18",
-      "id": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_sourceroot",
-      "community": 118,
-      "norm_label": "sourceroot"
-    },
-    {
-      "label": "prefix",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L19",
-      "id": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_prefix",
-      "community": 118,
-      "norm_label": "prefix"
-    },
-    {
-      "label": "architect",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L20",
-      "id": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_architect",
-      "community": 172,
-      "norm_label": "architect"
-    },
-    {
-      "label": "build",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L21",
-      "id": "bit_and_byte_ideas_website_angular_architect_build",
-      "community": 172,
-      "norm_label": "build"
-    },
-    {
-      "label": "builder",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L22",
-      "id": "bit_and_byte_ideas_website_angular_build_builder",
-      "community": 172,
-      "norm_label": "builder"
-    },
-    {
-      "label": "options",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L23",
-      "id": "bit_and_byte_ideas_website_angular_build_options",
-      "community": 39,
-      "norm_label": "options"
-    },
-    {
-      "label": "browser",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L24",
-      "id": "bit_and_byte_ideas_website_angular_options_browser",
-      "community": 39,
-      "norm_label": "browser"
-    },
-    {
-      "label": "server",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L25",
-      "id": "bit_and_byte_ideas_website_angular_options_server",
-      "community": 39,
-      "norm_label": "server"
-    },
-    {
-      "label": "tsConfig",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L26",
-      "id": "bit_and_byte_ideas_website_angular_options_tsconfig",
-      "community": 39,
-      "norm_label": "tsconfig"
-    },
-    {
-      "label": "inlineStyleLanguage",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L27",
-      "id": "bit_and_byte_ideas_website_angular_options_inlinestylelanguage",
-      "community": 39,
-      "norm_label": "inlinestylelanguage"
-    },
-    {
-      "label": "assets",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L28",
-      "id": "bit_and_byte_ideas_website_angular_options_assets",
-      "community": 39,
-      "norm_label": "assets"
-    },
-    {
-      "label": "styles",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L34",
-      "id": "bit_and_byte_ideas_website_angular_options_styles",
-      "community": 39,
-      "norm_label": "styles"
-    },
-    {
-      "label": "security",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L35",
-      "id": "bit_and_byte_ideas_website_angular_options_security",
-      "community": 39,
-      "norm_label": "security"
-    },
-    {
-      "label": "allowedHosts",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L36",
-      "id": "bit_and_byte_ideas_website_angular_security_allowedhosts",
-      "community": 39,
-      "norm_label": "allowedhosts"
-    },
-    {
-      "label": "outputMode",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L38",
-      "id": "bit_and_byte_ideas_website_angular_options_outputmode",
-      "community": 39,
-      "norm_label": "outputmode"
-    },
-    {
-      "label": "prerender",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L39",
-      "id": "bit_and_byte_ideas_website_angular_options_prerender",
-      "community": 39,
-      "norm_label": "prerender"
-    },
-    {
-      "label": "discoverRoutes",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L40",
-      "id": "bit_and_byte_ideas_website_angular_prerender_discoverroutes",
-      "community": 39,
-      "norm_label": "discoverroutes"
-    },
-    {
-      "label": "routesFile",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L41",
-      "id": "bit_and_byte_ideas_website_angular_prerender_routesfile",
-      "community": 39,
-      "norm_label": "routesfile"
-    },
-    {
-      "label": "ssr",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L43",
-      "id": "bit_and_byte_ideas_website_angular_options_ssr",
-      "community": 39,
-      "norm_label": "ssr"
-    },
-    {
-      "label": "entry",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L44",
-      "id": "bit_and_byte_ideas_website_angular_ssr_entry",
-      "community": 39,
-      "norm_label": "entry"
-    },
-    {
-      "label": "configurations",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L47",
-      "id": "bit_and_byte_ideas_website_angular_build_configurations",
-      "community": 117,
-      "norm_label": "configurations"
-    },
-    {
-      "label": "production",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L48",
-      "id": "bit_and_byte_ideas_website_angular_configurations_production",
-      "community": 117,
-      "norm_label": "production"
-    },
-    {
-      "label": "budgets",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L49",
-      "id": "bit_and_byte_ideas_website_angular_production_budgets",
-      "community": 117,
-      "norm_label": "budgets"
-    },
-    {
-      "label": "outputHashing",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L61",
-      "id": "bit_and_byte_ideas_website_angular_production_outputhashing",
-      "community": 117,
-      "norm_label": "outputhashing"
-    },
-    {
-      "label": "development",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L63",
-      "id": "bit_and_byte_ideas_website_angular_configurations_development",
-      "community": 117,
-      "norm_label": "development"
-    },
-    {
-      "label": "optimization",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L64",
-      "id": "bit_and_byte_ideas_website_angular_development_optimization",
-      "community": 117,
-      "norm_label": "optimization"
-    },
-    {
-      "label": "extractLicenses",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L65",
-      "id": "bit_and_byte_ideas_website_angular_development_extractlicenses",
-      "community": 117,
-      "norm_label": "extractlicenses"
-    },
-    {
-      "label": "sourceMap",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L66",
-      "id": "bit_and_byte_ideas_website_angular_development_sourcemap",
-      "community": 117,
-      "norm_label": "sourcemap"
-    },
-    {
-      "label": "defaultConfiguration",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L69",
-      "id": "bit_and_byte_ideas_website_angular_build_defaultconfiguration",
-      "community": 172,
-      "norm_label": "defaultconfiguration"
-    },
-    {
-      "label": "serve",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L71",
-      "id": "bit_and_byte_ideas_website_angular_architect_serve",
-      "community": 172,
-      "norm_label": "serve"
-    },
-    {
-      "label": "builder",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L72",
-      "id": "bit_and_byte_ideas_website_angular_serve_builder",
-      "community": 172,
-      "norm_label": "builder"
-    },
-    {
-      "label": "configurations",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L73",
-      "id": "bit_and_byte_ideas_website_angular_serve_configurations",
-      "community": 172,
-      "norm_label": "configurations"
-    },
-    {
-      "label": "buildTarget",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L75",
-      "id": "bit_and_byte_ideas_website_angular_production_buildtarget",
-      "community": 117,
-      "norm_label": "buildtarget"
-    },
-    {
-      "label": "buildTarget",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L78",
-      "id": "bit_and_byte_ideas_website_angular_development_buildtarget",
-      "community": 117,
-      "norm_label": "buildtarget"
-    },
-    {
-      "label": "defaultConfiguration",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L81",
-      "id": "bit_and_byte_ideas_website_angular_serve_defaultconfiguration",
-      "community": 172,
-      "norm_label": "defaultconfiguration"
-    },
-    {
-      "label": "test",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L83",
-      "id": "bit_and_byte_ideas_website_angular_architect_test",
-      "community": 172,
-      "norm_label": "test"
-    },
-    {
-      "label": "builder",
-      "file_type": "code",
-      "source_file": "angular.json",
-      "source_location": "L84",
-      "id": "bit_and_byte_ideas_website_angular_test_builder",
-      "community": 172,
-      "norm_label": "builder"
-    },
-    {
-      "label": "app.config.ts",
-      "file_type": "code",
-      "source_file": "src/app/app.config.ts",
-      "source_location": "L1",
-      "id": "src_app_app_config_ts",
-      "community": 144,
-      "norm_label": "app.config.ts"
-    },
-    {
-      "label": "appConfig",
-      "file_type": "code",
-      "source_file": "src/app/app.config.ts",
-      "source_location": "L5",
-      "id": "app_app_config_appconfig",
-      "community": 144,
-      "norm_label": "appconfig"
-    },
-    {
-      "label": "app.routes.ts",
-      "file_type": "code",
-      "source_file": "src/app/app.routes.ts",
-      "source_location": "L1",
-      "id": "src_app_app_routes_ts",
-      "community": 144,
-      "norm_label": "app.routes.ts"
-    },
-    {
-      "label": "routes",
-      "file_type": "code",
-      "source_file": "src/app/app.routes.ts",
-      "source_location": "L3",
-      "id": "app_app_routes_routes",
-      "community": 144,
-      "norm_label": "routes"
-    },
-    {
-      "label": "app.ts",
-      "file_type": "code",
-      "source_file": "src/app/app.ts",
-      "source_location": "L1",
-      "id": "src_app_app_ts",
-      "community": 129,
-      "norm_label": "app.ts"
-    },
-    {
-      "label": "App",
-      "file_type": "code",
-      "source_file": "src/app/app.ts",
-      "source_location": "L14",
-      "id": "app_app_app",
-      "community": 144,
-      "norm_label": "app"
-    },
-    {
-      "label": "about.ts",
-      "file_type": "code",
-      "source_file": "src/app/components/about/about.ts",
-      "source_location": "L1",
-      "id": "src_app_components_about_about_ts",
-      "community": 221,
-      "norm_label": "about.ts"
-    },
-    {
-      "label": "About",
-      "file_type": "code",
-      "source_file": "src/app/components/about/about.ts",
-      "source_location": "L11",
-      "id": "about_about_about",
-      "community": 221,
-      "norm_label": "about"
-    },
-    {
-      "label": "home.ts",
-      "file_type": "code",
-      "source_file": "src/app/components/home/home.ts",
-      "source_location": "L1",
-      "id": "src_app_components_home_home_ts",
-      "community": 112,
-      "norm_label": "home.ts"
-    },
-    {
-      "label": "Home",
-      "file_type": "code",
-      "source_file": "src/app/components/home/home.ts",
-      "source_location": "L13",
-      "id": "home_home_home",
-      "community": 112,
-      "norm_label": "home"
-    },
-    {
-      "label": "nav.ts",
-      "file_type": "code",
-      "source_file": "src/app/components/nav/nav.ts",
-      "source_location": "L1",
-      "id": "src_app_components_nav_nav_ts",
-      "community": 130,
-      "norm_label": "nav.ts"
-    },
-    {
-      "label": "Nav",
-      "file_type": "code",
-      "source_file": "src/app/components/nav/nav.ts",
-      "source_location": "L12",
-      "id": "nav_nav_nav",
-      "community": 130,
-      "norm_label": "nav"
-    },
-    {
-      "label": ".onScroll()",
-      "file_type": "code",
-      "source_file": "src/app/components/nav/nav.ts",
-      "source_location": "L16",
-      "id": "nav_nav_nav_onscroll",
-      "community": 130,
-      "norm_label": ".onscroll()"
-    },
-    {
       "label": "skills-lock.json",
       "file_type": "code",
       "source_file": "skills-lock.json",
@@ -784,6 +208,393 @@
       "community": 204,
       "norm_label": "tsconfig.app.json",
       "id": "tsconfig_app_json"
+    },
+    {
+      "label": "angular.json",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L1",
+      "community": 116,
+      "norm_label": "angular.json",
+      "id": "angular_json"
+    },
+    {
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L2",
+      "community": 116,
+      "norm_label": "$schema",
+      "id": "bit_and_byte_ideas_website_angular_schema"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L3",
+      "community": 116,
+      "norm_label": "version",
+      "id": "bit_and_byte_ideas_website_angular_version"
+    },
+    {
+      "label": "cli",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L4",
+      "community": 116,
+      "norm_label": "cli",
+      "id": "bit_and_byte_ideas_website_angular_cli"
+    },
+    {
+      "label": "packageManager",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L5",
+      "community": 116,
+      "norm_label": "packagemanager",
+      "id": "bit_and_byte_ideas_website_angular_cli_packagemanager"
+    },
+    {
+      "label": "analytics",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L6",
+      "community": 116,
+      "norm_label": "analytics",
+      "id": "bit_and_byte_ideas_website_angular_cli_analytics"
+    },
+    {
+      "label": "newProjectRoot",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L8",
+      "community": 116,
+      "norm_label": "newprojectroot",
+      "id": "bit_and_byte_ideas_website_angular_newprojectroot"
+    },
+    {
+      "label": "projects",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L9",
+      "community": 116,
+      "norm_label": "projects",
+      "id": "bit_and_byte_ideas_website_angular_projects"
+    },
+    {
+      "label": "bit-and-byte-ideas",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L10",
+      "community": 118,
+      "norm_label": "bit-and-byte-ideas",
+      "id": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas"
+    },
+    {
+      "label": "projectType",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L11",
+      "community": 118,
+      "norm_label": "projecttype",
+      "id": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_projecttype"
+    },
+    {
+      "label": "schematics",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L12",
+      "community": 118,
+      "norm_label": "schematics",
+      "id": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_schematics"
+    },
+    {
+      "label": "@schematics/angular:component",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L13",
+      "community": 118,
+      "norm_label": "@schematics/angular:component",
+      "id": "bit_and_byte_ideas_website_angular_schematics_schematics_angular_component"
+    },
+    {
+      "label": "style",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L14",
+      "community": 118,
+      "norm_label": "style",
+      "id": "bit_and_byte_ideas_website_angular_schematics_angular_component_style"
+    },
+    {
+      "label": "root",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L17",
+      "community": 118,
+      "norm_label": "root",
+      "id": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_root"
+    },
+    {
+      "label": "sourceRoot",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L18",
+      "community": 118,
+      "norm_label": "sourceroot",
+      "id": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_sourceroot"
+    },
+    {
+      "label": "prefix",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L19",
+      "community": 118,
+      "norm_label": "prefix",
+      "id": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_prefix"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L21",
+      "community": 51,
+      "norm_label": "build",
+      "id": "bit_and_byte_ideas_website_angular_architect_build"
+    },
+    {
+      "label": "options",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L23",
+      "community": 39,
+      "norm_label": "options",
+      "id": "bit_and_byte_ideas_website_angular_build_options"
+    },
+    {
+      "label": "browser",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L24",
+      "community": 39,
+      "norm_label": "browser",
+      "id": "bit_and_byte_ideas_website_angular_options_browser"
+    },
+    {
+      "label": "server",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L25",
+      "community": 39,
+      "norm_label": "server",
+      "id": "bit_and_byte_ideas_website_angular_options_server"
+    },
+    {
+      "label": "tsConfig",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L26",
+      "community": 39,
+      "norm_label": "tsconfig",
+      "id": "bit_and_byte_ideas_website_angular_options_tsconfig"
+    },
+    {
+      "label": "inlineStyleLanguage",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L27",
+      "community": 39,
+      "norm_label": "inlinestylelanguage",
+      "id": "bit_and_byte_ideas_website_angular_options_inlinestylelanguage"
+    },
+    {
+      "label": "assets",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L28",
+      "community": 39,
+      "norm_label": "assets",
+      "id": "bit_and_byte_ideas_website_angular_options_assets"
+    },
+    {
+      "label": "styles",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L34",
+      "community": 39,
+      "norm_label": "styles",
+      "id": "bit_and_byte_ideas_website_angular_options_styles"
+    },
+    {
+      "label": "security",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L35",
+      "community": 39,
+      "norm_label": "security",
+      "id": "bit_and_byte_ideas_website_angular_options_security"
+    },
+    {
+      "label": "allowedHosts",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L36",
+      "community": 39,
+      "norm_label": "allowedhosts",
+      "id": "bit_and_byte_ideas_website_angular_security_allowedhosts"
+    },
+    {
+      "label": "outputMode",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L38",
+      "community": 39,
+      "norm_label": "outputmode",
+      "id": "bit_and_byte_ideas_website_angular_options_outputmode"
+    },
+    {
+      "label": "prerender",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L39",
+      "community": 39,
+      "norm_label": "prerender",
+      "id": "bit_and_byte_ideas_website_angular_options_prerender"
+    },
+    {
+      "label": "discoverRoutes",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L40",
+      "community": 39,
+      "norm_label": "discoverroutes",
+      "id": "bit_and_byte_ideas_website_angular_prerender_discoverroutes"
+    },
+    {
+      "label": "routesFile",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L41",
+      "community": 39,
+      "norm_label": "routesfile",
+      "id": "bit_and_byte_ideas_website_angular_prerender_routesfile"
+    },
+    {
+      "label": "ssr",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L43",
+      "community": 39,
+      "norm_label": "ssr",
+      "id": "bit_and_byte_ideas_website_angular_options_ssr"
+    },
+    {
+      "label": "entry",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L44",
+      "community": 39,
+      "norm_label": "entry",
+      "id": "bit_and_byte_ideas_website_angular_ssr_entry"
+    },
+    {
+      "label": "production",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L48",
+      "community": 117,
+      "norm_label": "production",
+      "id": "bit_and_byte_ideas_website_angular_configurations_production"
+    },
+    {
+      "label": "budgets",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L49",
+      "community": 117,
+      "norm_label": "budgets",
+      "id": "bit_and_byte_ideas_website_angular_production_budgets"
+    },
+    {
+      "label": "outputHashing",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L61",
+      "community": 117,
+      "norm_label": "outputhashing",
+      "id": "bit_and_byte_ideas_website_angular_production_outputhashing"
+    },
+    {
+      "label": "optimization",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L64",
+      "community": 117,
+      "norm_label": "optimization",
+      "id": "bit_and_byte_ideas_website_angular_development_optimization"
+    },
+    {
+      "label": "extractLicenses",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L65",
+      "community": 117,
+      "norm_label": "extractlicenses",
+      "id": "bit_and_byte_ideas_website_angular_development_extractlicenses"
+    },
+    {
+      "label": "sourceMap",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L66",
+      "community": 117,
+      "norm_label": "sourcemap",
+      "id": "bit_and_byte_ideas_website_angular_development_sourcemap"
+    },
+    {
+      "label": "defaultConfiguration",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L69",
+      "community": 51,
+      "norm_label": "defaultconfiguration",
+      "id": "bit_and_byte_ideas_website_angular_build_defaultconfiguration"
+    },
+    {
+      "label": "serve",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L71",
+      "community": 51,
+      "norm_label": "serve",
+      "id": "bit_and_byte_ideas_website_angular_architect_serve"
+    },
+    {
+      "label": "buildTarget",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L75",
+      "community": 117,
+      "norm_label": "buildtarget",
+      "id": "bit_and_byte_ideas_website_angular_production_buildtarget"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L83",
+      "community": 51,
+      "norm_label": "test",
+      "id": "bit_and_byte_ideas_website_angular_architect_test"
+    },
+    {
+      "label": "builder",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": "L84",
+      "community": 51,
+      "norm_label": "builder",
+      "id": "bit_and_byte_ideas_website_angular_test_builder"
     },
     {
       "label": "package.json",
@@ -1499,7 +1310,7 @@
       "file_type": "code",
       "source_file": "src/main.ts",
       "source_location": "L1",
-      "community": 144,
+      "community": 67,
       "norm_label": "main.ts",
       "id": "src_main_ts"
     },
@@ -1517,7 +1328,7 @@
       "file_type": "code",
       "source_file": "src/main.server.ts",
       "source_location": "L5",
-      "community": 89,
+      "community": 131,
       "norm_label": "bootstrap()",
       "id": "src_main_server_bootstrap"
     },
@@ -1571,7 +1382,7 @@
       "file_type": "code",
       "source_file": "src/app/app.spec.ts",
       "source_location": "L1",
-      "community": 144,
+      "community": 67,
       "norm_label": "app.spec.ts",
       "id": "src_app_app_spec_ts"
     },
@@ -1580,7 +1391,7 @@
       "file_type": "code",
       "source_file": "src/app/app.spec.ts",
       "source_location": "L22",
-      "community": 144,
+      "community": 67,
       "norm_label": "compiled",
       "id": "app_app_spec_compiled"
     },
@@ -1610,6 +1421,51 @@
       "community": 144,
       "norm_label": "config",
       "id": "app_app_config_server_config"
+    },
+    {
+      "label": "app.routes.ts",
+      "file_type": "code",
+      "source_file": "src/app/app.routes.ts",
+      "source_location": "L1",
+      "community": 144,
+      "norm_label": "app.routes.ts",
+      "id": "src_app_app_routes_ts"
+    },
+    {
+      "label": "routes",
+      "file_type": "code",
+      "source_file": "src/app/app.routes.ts",
+      "source_location": "L3",
+      "community": 144,
+      "norm_label": "routes",
+      "id": "app_app_routes_routes"
+    },
+    {
+      "label": "app.ts",
+      "file_type": "code",
+      "source_file": "src/app/app.ts",
+      "source_location": "L1",
+      "community": 67,
+      "norm_label": "app.ts",
+      "id": "src_app_app_ts"
+    },
+    {
+      "label": "App",
+      "file_type": "code",
+      "source_file": "src/app/app.ts",
+      "source_location": "L16",
+      "community": 67,
+      "norm_label": "app",
+      "id": "app_app_app"
+    },
+    {
+      "label": "app.config.ts",
+      "file_type": "code",
+      "source_file": "src/app/app.config.ts",
+      "source_location": "L1",
+      "community": 144,
+      "norm_label": "app.config.ts",
+      "id": "src_app_app_config_ts"
     },
     {
       "label": "footer.ts",
@@ -1688,7 +1544,7 @@
       "file_type": "code",
       "source_file": "src/app/components/contact/contact.ts",
       "source_location": "L1",
-      "community": 200,
+      "community": 0,
       "norm_label": "contact.ts",
       "id": "src_app_components_contact_contact_ts"
     },
@@ -1697,7 +1553,7 @@
       "file_type": "code",
       "source_file": "src/app/components/contact/contact.ts",
       "source_location": "L12",
-      "community": 200,
+      "community": 0,
       "norm_label": "contact",
       "id": "contact_contact_contact"
     },
@@ -1706,7 +1562,7 @@
       "file_type": "code",
       "source_file": "src/app/components/contact/contact.spec.ts",
       "source_location": "L1",
-      "community": 200,
+      "community": 0,
       "norm_label": "contact.spec.ts",
       "id": "src_app_components_contact_contact_spec_ts"
     },
@@ -1715,7 +1571,7 @@
       "file_type": "code",
       "source_file": "src/app/components/contact/contact.spec.ts",
       "source_location": "L6",
-      "community": 200,
+      "community": 0,
       "norm_label": "mockbusinessinfo",
       "id": "contact_contact_spec_mockbusinessinfo"
     },
@@ -1724,7 +1580,7 @@
       "file_type": "code",
       "source_file": "src/app/components/contact/contact.spec.ts",
       "source_location": "L42",
-      "community": 200,
+      "community": 0,
       "norm_label": "link",
       "id": "contact_contact_spec_link"
     },
@@ -1853,6 +1709,33 @@
       "community": 49,
       "norm_label": ".initwidget()",
       "id": "booking_booking_booking_initwidget"
+    },
+    {
+      "label": "nav.ts",
+      "file_type": "code",
+      "source_file": "src/app/components/nav/nav.ts",
+      "source_location": "L1",
+      "community": 130,
+      "norm_label": "nav.ts",
+      "id": "src_app_components_nav_nav_ts"
+    },
+    {
+      "label": "Nav",
+      "file_type": "code",
+      "source_file": "src/app/components/nav/nav.ts",
+      "source_location": "L11",
+      "community": 130,
+      "norm_label": "nav",
+      "id": "nav_nav_nav"
+    },
+    {
+      "label": ".onScroll()",
+      "file_type": "code",
+      "source_file": "src/app/components/nav/nav.ts",
+      "source_location": "L15",
+      "community": 130,
+      "norm_label": ".onscroll()",
+      "id": "nav_nav_nav_onscroll"
     },
     {
       "label": "nav.spec.ts",
@@ -2057,7 +1940,7 @@
       "file_type": "code",
       "source_file": "src/app/services/business-info.service.ts",
       "source_location": "L3",
-      "community": 200,
+      "community": 0,
       "norm_label": "businessinfo",
       "id": "services_business_info_service_businessinfo"
     },
@@ -2066,7 +1949,7 @@
       "file_type": "code",
       "source_file": "src/app/services/business-info.service.ts",
       "source_location": "L19",
-      "community": 200,
+      "community": 0,
       "norm_label": ".mailtohref()",
       "id": "services_business_info_service_businessinfoservice_mailtohref"
     },
@@ -2885,7 +2768,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-testing/references/testing-patterns.md",
       "source_location": "L218",
-      "community": 218,
+      "community": 6,
       "norm_label": "creating a harness",
       "id": "agents_skills_angular_testing_references_testing_patterns_md_references_testing_patterns_creating_a_harness"
     },
@@ -2894,7 +2777,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-testing/references/testing-patterns.md",
       "source_location": "L220",
-      "community": 218,
+      "community": 6,
       "norm_label": "code:typescript (import { componentharness, harnesspredicate } from '@angular)",
       "id": "agents_skills_angular_testing_references_testing_patterns_md_references_testing_patterns_codeblock_10"
     },
@@ -2903,7 +2786,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-testing/references/testing-patterns.md",
       "source_location": "L262",
-      "community": 218,
+      "community": 6,
       "norm_label": "using harnesses in tests",
       "id": "agents_skills_angular_testing_references_testing_patterns_md_references_testing_patterns_using_harnesses_in_tests"
     },
@@ -2912,7 +2795,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-testing/references/testing-patterns.md",
       "source_location": "L264",
-      "community": 218,
+      "community": 6,
       "norm_label": "code:typescript (import { testbedharnessenvironment } from '@angular/cdk/test)",
       "id": "agents_skills_angular_testing_references_testing_patterns_md_references_testing_patterns_codeblock_11"
     },
@@ -3992,7 +3875,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L1",
-      "community": 41,
+      "community": 80,
       "norm_label": "skill.md",
       "id": "agents_skills_angular_developer_skill_md"
     },
@@ -4001,7 +3884,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L10",
-      "community": 41,
+      "community": 80,
       "norm_label": "angular developer guidelines",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_angular_developer_guidelines"
     },
@@ -4010,7 +3893,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L18",
-      "community": 41,
+      "community": 80,
       "norm_label": "creating new projects",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_creating_new_projects"
     },
@@ -4019,7 +3902,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L55",
-      "community": 41,
+      "community": 80,
       "norm_label": "reactivity and data management",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_reactivity_and_data_management"
     },
@@ -4028,7 +3911,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L64",
-      "community": 41,
+      "community": 80,
       "norm_label": "forms",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_forms"
     },
@@ -4037,7 +3920,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L75",
-      "community": 41,
+      "community": 80,
       "norm_label": "dependency injection",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_dependency_injection"
     },
@@ -4046,7 +3929,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L85",
-      "community": 41,
+      "community": 80,
       "norm_label": "angular aria",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_angular_aria"
     },
@@ -4055,7 +3938,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L91",
-      "community": 41,
+      "community": 80,
       "norm_label": "routing",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_routing"
     },
@@ -4064,7 +3947,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L107",
-      "community": 41,
+      "community": 80,
       "norm_label": "styling and animations",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_styling_and_animations"
     },
@@ -4073,7 +3956,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L115",
-      "community": 41,
+      "community": 80,
       "norm_label": "testing",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_testing"
     },
@@ -4082,7 +3965,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L124",
-      "community": 41,
+      "community": 80,
       "norm_label": "tooling",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_tooling"
     },
@@ -4451,7 +4334,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/mcp.md",
       "source_location": "L1",
-      "community": 53,
+      "community": 134,
       "norm_label": "mcp.md",
       "id": "agents_skills_angular_developer_references_mcp_md"
     },
@@ -4460,7 +4343,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/mcp.md",
       "source_location": "L5",
-      "community": 53,
+      "community": 134,
       "norm_label": "available tools (default)",
       "id": "agents_skills_angular_developer_references_mcp_md_references_mcp_available_tools_default"
     },
@@ -4469,7 +4352,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/mcp.md",
       "source_location": "L18",
-      "community": 53,
+      "community": 134,
       "norm_label": "experimental tools",
       "id": "agents_skills_angular_developer_references_mcp_md_references_mcp_experimental_tools"
     },
@@ -4523,7 +4406,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/mcp.md",
       "source_location": "L96",
-      "community": 53,
+      "community": 134,
       "norm_label": "command options",
       "id": "agents_skills_angular_developer_references_mcp_md_references_mcp_command_options"
     },
@@ -4532,7 +4415,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/mcp.md",
       "source_location": "L106",
-      "community": 53,
+      "community": 134,
       "norm_label": "code:json (\"args\": [\"-y\", \"@angular/cli\", \"mcp\", \"--read-only\", \"-e\", \")",
       "id": "agents_skills_angular_developer_references_mcp_md_references_mcp_codeblock_5"
     },
@@ -4559,7 +4442,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/inputs.md",
       "source_location": "L9",
-      "community": 146,
+      "community": 132,
       "norm_label": "code:ts (import { component, input, computed } from '@angular/core';)",
       "id": "agents_skills_angular_developer_references_inputs_md_references_inputs_codeblock_1"
     },
@@ -4703,7 +4586,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L36",
-      "community": 217,
+      "community": 1,
       "norm_label": "3. development server & proxying",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_3_development_server_proxying"
     },
@@ -4712,7 +4595,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L40",
-      "community": 217,
+      "community": 1,
       "norm_label": "code:bash (ng serve)",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_codeblock_3"
     },
@@ -4721,7 +4604,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L44",
-      "community": 217,
+      "community": 1,
       "norm_label": "backend api proxying",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_backend_api_proxying"
     },
@@ -4730,7 +4613,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L49",
-      "community": 217,
+      "community": 1,
       "norm_label": "code:json ({)",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_codeblock_4"
     },
@@ -4739,7 +4622,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L55",
-      "community": 217,
+      "community": 1,
       "norm_label": "code:json (\"serve\": {)",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_codeblock_5"
     },
@@ -5135,7 +5018,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/di-fundamentals.md",
       "source_location": "L1",
-      "community": 132,
+      "community": 91,
       "norm_label": "di-fundamentals.md",
       "id": "agents_skills_angular_developer_references_di_fundamentals_md"
     },
@@ -5144,7 +5027,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/di-fundamentals.md",
       "source_location": "L1",
-      "community": 132,
+      "community": 91,
       "norm_label": "dependency injection (di) fundamentals",
       "id": "agents_skills_angular_developer_references_di_fundamentals_md_references_di_fundamentals_dependency_injection_di_fundamentals"
     },
@@ -5153,7 +5036,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/di-fundamentals.md",
       "source_location": "L5",
-      "community": 132,
+      "community": 91,
       "norm_label": "how di works in angular",
       "id": "agents_skills_angular_developer_references_di_fundamentals_md_references_di_fundamentals_how_di_works_in_angular"
     },
@@ -5711,7 +5594,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/component-harnesses.md",
       "source_location": "L1",
-      "community": 218,
+      "community": 6,
       "norm_label": "component-harnesses.md",
       "id": "agents_skills_angular_developer_references_component_harnesses_md"
     },
@@ -5720,7 +5603,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/component-harnesses.md",
       "source_location": "L5",
-      "community": 134,
+      "community": 6,
       "norm_label": "why use harnesses?",
       "id": "agents_skills_angular_developer_references_component_harnesses_md_references_component_harnesses_why_use_harnesses"
     },
@@ -5729,7 +5612,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/component-harnesses.md",
       "source_location": "L13",
-      "community": 134,
+      "community": 6,
       "norm_label": "using a harness in a unit test",
       "id": "agents_skills_angular_developer_references_component_harnesses_md_references_component_harnesses_using_a_harness_in_a_unit_test"
     },
@@ -5738,7 +5621,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/component-harnesses.md",
       "source_location": "L17",
-      "community": 134,
+      "community": 6,
       "norm_label": "example: testing with a `matbuttonharness`",
       "id": "agents_skills_angular_developer_references_component_harnesses_md_references_component_harnesses_example_testing_with_a_matbuttonharness"
     },
@@ -5747,7 +5630,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/component-harnesses.md",
       "source_location": "L19",
-      "community": 134,
+      "community": 6,
       "norm_label": "code:ts (import { testbedharnessenvironment } from '@angular/cdk/test)",
       "id": "agents_skills_angular_developer_references_component_harnesses_md_references_component_harnesses_codeblock_1"
     },
@@ -5756,7 +5639,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/component-harnesses.md",
       "source_location": "L51",
-      "community": 134,
+      "community": 6,
       "norm_label": "key concepts",
       "id": "agents_skills_angular_developer_references_component_harnesses_md_references_component_harnesses_key_concepts"
     },
@@ -6341,7 +6224,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/template-driven-forms.md",
       "source_location": "L13",
-      "community": 146,
+      "community": 132,
       "norm_label": "setup",
       "id": "agents_skills_angular_developer_references_template_driven_forms_md_references_template_driven_forms_setup"
     },
@@ -6629,7 +6512,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/signal-forms.md",
       "source_location": "L34",
-      "community": 146,
+      "community": 132,
       "norm_label": "creating a form",
       "id": "agents_skills_angular_developer_references_signal_forms_md_references_signal_forms_creating_a_form"
     },
@@ -6773,7 +6656,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/signal-forms.md",
       "source_location": "L245",
-      "community": 12,
+      "community": 197,
       "norm_label": "submitting",
       "id": "agents_skills_angular_developer_references_signal_forms_md_references_signal_forms_submitting"
     },
@@ -6782,7 +6665,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/signal-forms.md",
       "source_location": "L251",
-      "community": 12,
+      "community": 197,
       "norm_label": "code:ts (import { submit } from '@angular/forms/signals';)",
       "id": "agents_skills_angular_developer_references_signal_forms_md_references_signal_forms_codeblock_12"
     },
@@ -7727,7 +7610,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/injection-context.md",
       "source_location": "L1",
-      "community": 219,
+      "community": 37,
       "norm_label": "injection-context.md",
       "id": "agents_skills_angular_developer_references_injection_context_md"
     },
@@ -7736,7 +7619,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/injection-context.md",
       "source_location": "L5",
-      "community": 219,
+      "community": 37,
       "norm_label": "where is an injection context available?",
       "id": "agents_skills_angular_developer_references_injection_context_md_references_injection_context_where_is_an_injection_context_available"
     },
@@ -7745,7 +7628,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/injection-context.md",
       "source_location": "L14",
-      "community": 219,
+      "community": 37,
       "norm_label": "code:ts (@component({...}))",
       "id": "agents_skills_angular_developer_references_injection_context_md_references_injection_context_codeblock_1"
     },
@@ -7763,7 +7646,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/injection-context.md",
       "source_location": "L52",
-      "community": 219,
+      "community": 37,
       "norm_label": "`assertininjectioncontext`",
       "id": "agents_skills_angular_developer_references_injection_context_md_references_injection_context_assertininjectioncontext"
     },
@@ -7772,7 +7655,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/injection-context.md",
       "source_location": "L56",
-      "community": 219,
+      "community": 37,
       "norm_label": "code:ts (import { assertininjectioncontext, inject, elementref } from)",
       "id": "agents_skills_angular_developer_references_injection_context_md_references_injection_context_codeblock_3"
     },
@@ -12632,7 +12515,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/signal-forms.md",
       "source_location": "L7",
-      "community": 222,
+      "community": 12,
       "norm_label": "imports",
       "id": "claude_skills_angular_developer_references_signal_forms_md_references_signal_forms_imports"
     },
@@ -12641,7 +12524,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/signal-forms.md",
       "source_location": "L11",
-      "community": 222,
+      "community": 12,
       "norm_label": "code:ts (import {)",
       "id": "claude_skills_angular_developer_references_signal_forms_md_references_signal_forms_codeblock_1"
     },
@@ -12650,7 +12533,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/signal-forms.md",
       "source_location": "L34",
-      "community": 12,
+      "community": 200,
       "norm_label": "creating a form",
       "id": "claude_skills_angular_developer_references_signal_forms_md_references_signal_forms_creating_a_form"
     },
@@ -12659,7 +12542,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/signal-forms.md",
       "source_location": "L38",
-      "community": 12,
+      "community": 200,
       "norm_label": "code:ts (import { component, signal } from '@angular/core';)",
       "id": "claude_skills_angular_developer_references_signal_forms_md_references_signal_forms_codeblock_2"
     },
@@ -13793,7 +13676,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/injection-context.md",
       "source_location": "L1",
-      "community": 59,
+      "community": 1,
       "norm_label": "injection-context.md",
       "id": "claude_skills_angular_developer_references_injection_context_md"
     },
@@ -13802,7 +13685,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/injection-context.md",
       "source_location": "L1",
-      "community": 59,
+      "community": 1,
       "norm_label": "injection context",
       "id": "claude_skills_angular_developer_references_injection_context_md_references_injection_context_injection_context"
     },
@@ -13811,7 +13694,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/injection-context.md",
       "source_location": "L5",
-      "community": 59,
+      "community": 1,
       "norm_label": "where is an injection context available?",
       "id": "claude_skills_angular_developer_references_injection_context_md_references_injection_context_where_is_an_injection_context_available"
     },
@@ -13820,7 +13703,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/injection-context.md",
       "source_location": "L14",
-      "community": 59,
+      "community": 1,
       "norm_label": "code:ts (@component({...}))",
       "id": "claude_skills_angular_developer_references_injection_context_md_references_injection_context_codeblock_1"
     },
@@ -13829,7 +13712,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/injection-context.md",
       "source_location": "L36",
-      "community": 59,
+      "community": 1,
       "norm_label": "code:ts (import { injectable, inject, environmentinjector, runininjec)",
       "id": "claude_skills_angular_developer_references_injection_context_md_references_injection_context_codeblock_2"
     },
@@ -13838,7 +13721,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/injection-context.md",
       "source_location": "L56",
-      "community": 59,
+      "community": 1,
       "norm_label": "code:ts (import { assertininjectioncontext, inject, elementref } from)",
       "id": "claude_skills_angular_developer_references_injection_context_md_references_injection_context_codeblock_3"
     },
@@ -14189,7 +14072,7 @@
       "file_type": "document",
       "source_file": "docs/ux-content.md",
       "source_location": "L1",
-      "community": 173,
+      "community": 0,
       "norm_label": "ux-content.md",
       "id": "docs_ux_content_md"
     },
@@ -14198,7 +14081,7 @@
       "file_type": "document",
       "source_file": "docs/ux-content.md",
       "source_location": "L1",
-      "community": 173,
+      "community": 0,
       "norm_label": "ux and content",
       "id": "docs_ux_content_ux_and_content"
     },
@@ -14207,7 +14090,7 @@
       "file_type": "document",
       "source_file": "docs/ux-content.md",
       "source_location": "L3",
-      "community": 173,
+      "community": 0,
       "norm_label": "primary audience",
       "id": "docs_ux_content_primary_audience"
     },
@@ -14216,7 +14099,7 @@
       "file_type": "document",
       "source_file": "docs/ux-content.md",
       "source_location": "L13",
-      "community": 173,
+      "community": 0,
       "norm_label": "page journey",
       "id": "docs_ux_content_page_journey"
     },
@@ -14225,7 +14108,7 @@
       "file_type": "document",
       "source_file": "docs/ux-content.md",
       "source_location": "L38",
-      "community": 173,
+      "community": 0,
       "norm_label": "content ownership",
       "id": "docs_ux_content_content_ownership"
     },
@@ -14234,7 +14117,7 @@
       "file_type": "document",
       "source_file": "docs/ux-content.md",
       "source_location": "L59",
-      "community": 173,
+      "community": 0,
       "norm_label": "brand direction",
       "id": "docs_ux_content_brand_direction"
     },
@@ -14252,7 +14135,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L1",
-      "community": 80,
+      "community": 1,
       "norm_label": "development",
       "id": "docs_development_development"
     },
@@ -14261,7 +14144,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L3",
-      "community": 80,
+      "community": 1,
       "norm_label": "prerequisites",
       "id": "docs_development_prerequisites"
     },
@@ -14270,7 +14153,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L10",
-      "community": 80,
+      "community": 1,
       "norm_label": "code:bash (npm install)",
       "id": "docs_development_codeblock_1"
     },
@@ -14279,7 +14162,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L14",
-      "community": 80,
+      "community": 1,
       "norm_label": "local server",
       "id": "docs_development_local_server"
     },
@@ -14288,7 +14171,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L18",
-      "community": 80,
+      "community": 1,
       "norm_label": "code:bash (npm start)",
       "id": "docs_development_codeblock_2"
     },
@@ -14315,7 +14198,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L37",
-      "community": 80,
+      "community": 1,
       "norm_label": "tests",
       "id": "docs_development_tests"
     },
@@ -14324,7 +14207,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L41",
-      "community": 80,
+      "community": 1,
       "norm_label": "code:bash (npm test)",
       "id": "docs_development_codeblock_4"
     },
@@ -14333,7 +14216,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L47",
-      "community": 80,
+      "community": 1,
       "norm_label": "code:bash (ng test --include=\"**/component-name.spec.ts\")",
       "id": "docs_development_codeblock_5"
     },
@@ -14342,7 +14225,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L65",
-      "community": 80,
+      "community": 1,
       "norm_label": "adding or changing sections",
       "id": "docs_development_adding_or_changing_sections"
     },
@@ -14351,7 +14234,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L75",
-      "community": 80,
+      "community": 1,
       "norm_label": "documentation changes",
       "id": "docs_development_documentation_changes"
     },
@@ -16965,7 +16848,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 70,
+      "community": 173,
       "norm_label": "mkdocs site configuration",
       "id": "root_mkdocs"
     },
@@ -17004,7 +16887,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 70,
       "norm_label": "agents.md - codex agent instructions",
       "id": "root_agents"
     },
@@ -17017,7 +16900,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 70,
       "norm_label": "claude.md - claude code instructions",
       "id": "root_claude"
     },
@@ -17030,7 +16913,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 70,
+      "community": 173,
       "norm_label": "backstage catalog info",
       "id": "root_cataloginfo"
     },
@@ -17056,7 +16939,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 59,
       "norm_label": "angular standalone components",
       "id": "concept_angular_standalone"
     },
@@ -17069,7 +16952,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 172,
       "norm_label": "angular signals for reactive state",
       "id": "concept_angular_signals"
     },
@@ -17082,7 +16965,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 59,
       "norm_label": "onpush change detection strategy",
       "id": "concept_onpush_change_detection"
     },
@@ -17108,7 +16991,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 59,
       "norm_label": "inject() function for dependency injection",
       "id": "concept_inject_fn"
     },
@@ -17121,7 +17004,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 59,
       "norm_label": "takeuntildestroyed for rxjs cleanup",
       "id": "concept_takeuntildestroyed"
     },
@@ -17134,7 +17017,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 52,
       "norm_label": "vitest unit testing framework",
       "id": "concept_vitest"
     },
@@ -17147,7 +17030,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 172,
       "norm_label": "signal forms (angular v21+)",
       "id": "concept_signal_forms"
     },
@@ -17186,7 +17069,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 70,
+      "community": 173,
       "norm_label": "techdocs core mkdocs plugin",
       "id": "techdocs_plugin"
     },
@@ -17199,7 +17082,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 70,
+      "community": 173,
       "norm_label": "backstage component entity",
       "id": "backstage_component"
     },
@@ -17212,7 +17095,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 52,
       "norm_label": "angular testing skill",
       "id": "skill_angular_testing"
     },
@@ -17225,7 +17108,7 @@
       "captured_at": null,
       "author": "https://github.com/Jeffallan",
       "contributor": null,
-      "community": 53,
+      "community": 59,
       "norm_label": "angular architect skill",
       "id": "skill_angular_architect"
     },
@@ -17238,7 +17121,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 70,
       "norm_label": "frontend design skill",
       "id": "skill_frontend_design"
     },
@@ -17264,7 +17147,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 52,
       "norm_label": "vitest migration guide",
       "id": "angular_testing_vitest_migration"
     },
@@ -17303,7 +17186,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 59,
       "norm_label": "angular standalone components reference",
       "id": "angular_architect_components"
     },
@@ -17316,7 +17199,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 59,
       "norm_label": "rxjs patterns reference",
       "id": "angular_architect_rxjs"
     },
@@ -17329,7 +17212,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 59,
       "norm_label": "angular architect testing reference",
       "id": "angular_architect_testing"
     },
@@ -17342,7 +17225,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 59,
       "norm_label": "ngrx state management reference",
       "id": "angular_architect_ngrx"
     },
@@ -17381,7 +17264,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 134,
       "norm_label": "angular cli mcp server reference",
       "id": "angular_developer_mcp"
     },
@@ -17394,7 +17277,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 172,
       "norm_label": "angular signal-based inputs reference",
       "id": "angular_developer_inputs"
     },
@@ -17420,7 +17303,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 59,
       "norm_label": "ngrx state management pattern",
       "id": "concept_ngrx"
     },
@@ -17433,7 +17316,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 59,
       "norm_label": "rxjs operators and patterns",
       "id": "concept_rxjs_operators"
     },
@@ -17472,7 +17355,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 134,
       "norm_label": "angular cli mcp server",
       "id": "concept_angular_cli_mcp"
     },
@@ -17485,7 +17368,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 172,
       "norm_label": "angular signal-based inputs api",
       "id": "concept_signal_inputs"
     },
@@ -17498,7 +17381,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 52,
       "norm_label": "angular testbed testing utility",
       "id": "concept_testbed"
     },
@@ -17511,7 +17394,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 70,
       "norm_label": "frontend aesthetic design principles",
       "id": "concept_frontend_aesthetics"
     },
@@ -17524,7 +17407,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 52,
       "norm_label": "jasmine testing framework (legacy)",
       "id": "concept_jasmine"
     },
@@ -17537,7 +17420,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 59,
       "norm_label": "ngrx facade pattern",
       "id": "concept_ngrx_facade"
     },
@@ -17550,7 +17433,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 59,
       "norm_label": "ngrx entity adapter",
       "id": "concept_ngrx_entity_adapter"
     },
@@ -17615,7 +17498,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 134,
+      "community": 6,
       "norm_label": "end-to-end testing with cypress",
       "id": "references_e2e_testing"
     },
@@ -17628,7 +17511,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 197,
+      "community": 6,
       "norm_label": "tailwind css v4 with angular",
       "id": "references_tailwind_css"
     },
@@ -17667,7 +17550,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 41,
+      "community": 174,
       "norm_label": "angular components",
       "id": "references_components"
     },
@@ -17732,7 +17615,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 134,
+      "community": 6,
       "norm_label": "testing with component harnesses",
       "id": "references_component_harnesses"
     },
@@ -17784,7 +17667,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 216,
+      "community": 109,
       "norm_label": "angular animations",
       "id": "references_angular_animations"
     },
@@ -17836,7 +17719,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 216,
+      "community": 46,
       "norm_label": "route transition animations (view transitions api)",
       "id": "references_route_animations"
     },
@@ -18018,7 +17901,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 41,
+      "community": 174,
       "norm_label": "standalone angular components",
       "id": "concept_standalone_component"
     },
@@ -18031,7 +17914,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 41,
+      "community": 174,
       "norm_label": "angular template control flow (@if, @for, @switch)",
       "id": "concept_template_control_flow"
     },
@@ -18096,7 +17979,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 134,
+      "community": 6,
       "norm_label": "harnessloader and testbedharnessenvironment",
       "id": "concept_harness_loader"
     },
@@ -18174,7 +18057,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 216,
+      "community": 109,
       "norm_label": "native css animations (animate.enter / animate.leave)",
       "id": "concept_native_css_animations"
     },
@@ -18187,7 +18070,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 216,
+      "community": 109,
       "norm_label": "legacy @angular/animations dsl",
       "id": "concept_legacy_animations_dsl"
     },
@@ -18200,7 +18083,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 46,
       "norm_label": "providerouter route configuration",
       "id": "concept_provide_router"
     },
@@ -18239,7 +18122,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 216,
+      "community": 46,
       "norm_label": "view transitions api for route animations",
       "id": "concept_view_transitions"
     },
@@ -18291,7 +18174,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 197,
+      "community": 6,
       "norm_label": "tailwind css v4 postcss integration",
       "id": "concept_tailwind_v4"
     },
@@ -18304,7 +18187,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 134,
+      "community": 6,
       "norm_label": "cypress e2e testing framework",
       "id": "concept_cypress_e2e"
     },
@@ -19136,7 +19019,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 197,
+      "community": 6,
       "norm_label": "angular cli guide",
       "id": "references_cli"
     },
@@ -19149,7 +19032,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 197,
+      "community": 6,
       "norm_label": "ng add command",
       "id": "references_cli_ng_add"
     },
@@ -19162,7 +19045,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 197,
+      "community": 6,
       "norm_label": "ng generate command",
       "id": "references_cli_ng_generate"
     },
@@ -19175,7 +19058,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 197,
+      "community": 6,
       "norm_label": "ng build command",
       "id": "references_cli_ng_build"
     },
@@ -19188,7 +19071,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 197,
+      "community": 6,
       "norm_label": "ng serve command",
       "id": "references_cli_ng_serve"
     },
@@ -19201,7 +19084,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 197,
+      "community": 6,
       "norm_label": "ng test command",
       "id": "references_cli_ng_test"
     },
@@ -19214,7 +19097,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 134,
+      "community": 6,
       "norm_label": "cypress e2e framework",
       "id": "references_e2e_testing_cypress"
     },
@@ -19228,7 +19111,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Tailwind v4 replaces tailwind.config.js and @tailwind directives with a single @import and PostCSS plugin; critical breaking change from v3.",
-      "community": 197,
+      "community": 6,
       "norm_label": "tailwind css v4 setup pattern",
       "id": "references_tailwind_css_v4"
     },
@@ -19293,7 +19176,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 41,
+      "community": 174,
       "norm_label": "template control flow (@if @for @switch)",
       "id": "references_components_template_controlflow"
     },
@@ -19501,7 +19384,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 216,
+      "community": 109,
       "norm_label": "legacy animations dsl (@angular/animations)",
       "id": "references_angular_animations_legacy_dsl"
     },
@@ -19593,7 +19476,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 216,
+      "community": 46,
       "norm_label": "view transitions api (withviewtransitions)",
       "id": "references_route_animations_viewtransitions"
     },
@@ -19853,7 +19736,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 0,
       "norm_label": "lazy loading routes",
       "id": "loading_strategies_lazyloading"
     },
@@ -19866,7 +19749,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 0,
       "norm_label": "eager loading routes",
       "id": "loading_strategies_eagerloading"
     },
@@ -19879,7 +19762,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 0,
       "norm_label": "loadcomponent()",
       "id": "loading_strategies_loadcomponent"
     },
@@ -19892,7 +19775,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 0,
       "norm_label": "loadchildren()",
       "id": "loading_strategies_loadchildren"
     },
@@ -19905,7 +19788,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 1,
       "norm_label": "canactivatefn guard",
       "id": "route_guards_canactivatefn"
     },
@@ -19983,7 +19866,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 1,
       "norm_label": "inject() function",
       "id": "injection_context_injectfn"
     },
@@ -19996,7 +19879,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 1,
       "norm_label": "runininjectioncontext()",
       "id": "injection_context_runinjectioncontext"
     },
@@ -20009,7 +19892,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 1,
       "norm_label": "assertininjectioncontext()",
       "id": "injection_context_assertinjectioncontext"
     },
@@ -20074,7 +19957,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 1,
       "norm_label": "environmentinjector",
       "id": "hierarchical_injectors_environmentinjector"
     },
@@ -20087,7 +19970,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 1,
       "norm_label": "elementinjector",
       "id": "hierarchical_injectors_elementinjector"
     },
@@ -20100,7 +19983,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 1,
       "norm_label": "viewproviders vs providers",
       "id": "hierarchical_injectors_viewproviders"
     },
@@ -20113,7 +19996,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 0,
       "norm_label": "architecture documentation",
       "id": "docs_architecture"
     },
@@ -20126,7 +20009,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 0,
       "norm_label": "app root component",
       "id": "docs_architecture_appcomponent"
     },
@@ -20139,7 +20022,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 200,
+      "community": 0,
       "norm_label": "businessinfoservice",
       "id": "docs_architecture_businessinfoservice"
     },
@@ -20152,7 +20035,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 0,
       "norm_label": "global scss styles (src/styles.scss)",
       "id": "docs_architecture_stylesscss"
     },
@@ -20165,7 +20048,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 0,
       "norm_label": "single-page anchor navigation",
       "id": "docs_architecture_singlepagerouting"
     },
@@ -20178,7 +20061,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 0,
       "norm_label": "backstage techdocs integration",
       "id": "docs_architecture_techdocs"
     },
@@ -20191,7 +20074,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 174,
+      "community": 0,
       "norm_label": "quality required checks",
       "id": "docs_quality_requiredchecks"
     },
@@ -20204,7 +20087,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 174,
+      "community": 0,
       "norm_label": "operational risks",
       "id": "docs_quality_operationalrisks"
     },
@@ -20217,7 +20100,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 173,
+      "community": 0,
       "norm_label": "page journey flow",
       "id": "docs_uxcontent_pagejourney"
     },
@@ -20230,7 +20113,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 173,
+      "community": 0,
       "norm_label": "calls to action",
       "id": "docs_uxcontent_callstoaction"
     },
@@ -20243,7 +20126,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 173,
+      "community": 0,
       "norm_label": "brand direction (dark navy, green/blue accents)",
       "id": "docs_uxcontent_branddirection"
     },
@@ -20256,7 +20139,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 173,
+      "community": 0,
       "norm_label": "accessibility expectations",
       "id": "docs_uxcontent_accessibility"
     },
@@ -20269,7 +20152,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 80,
+      "community": 1,
       "norm_label": "angular conventions",
       "id": "docs_development_conventions"
     },
@@ -20282,7 +20165,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 80,
+      "community": 1,
       "norm_label": "build bundle budgets",
       "id": "docs_development_buildbudgets"
     },
@@ -20295,7 +20178,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 174,
+      "community": 0,
       "norm_label": "ci github actions workflow",
       "id": "ci_workflow"
     },
@@ -20308,7 +20191,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 174,
+      "community": 0,
       "norm_label": "ci format check job (prettier)",
       "id": "ci_workflow_formatjob"
     },
@@ -20321,7 +20204,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 174,
+      "community": 0,
       "norm_label": "ci unit tests job",
       "id": "ci_workflow_testjob"
     },
@@ -20334,7 +20217,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 174,
+      "community": 0,
       "norm_label": "ci production build job",
       "id": "ci_workflow_buildjob"
     },
@@ -20399,7 +20282,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 174,
+      "community": 0,
       "norm_label": "index.html entry point",
       "id": "src_indexhtml"
     },
@@ -20412,7 +20295,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 174,
+      "community": 0,
       "norm_label": "google fonts (syne, plus jakarta sans, dm mono)",
       "id": "src_indexhtml_googlefonts"
     },
@@ -20425,9 +20308,22 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 174,
+      "community": 0,
       "norm_label": "calendly widget script and css",
       "id": "src_indexhtml_calendly"
+    },
+    {
+      "label": "App Root Template (app.html)",
+      "file_type": "code",
+      "source_file": "src/app/app.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 0,
+      "norm_label": "app root template (app.html)",
+      "id": "src_apphtml"
     },
     {
       "label": "Footer Component Template",
@@ -20451,7 +20347,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 200,
+      "community": 0,
       "norm_label": "contact component template",
       "id": "src_contacthtml"
     },
@@ -20467,6 +20363,19 @@
       "community": 25,
       "norm_label": "booking component template",
       "id": "booking_booking_html"
+    },
+    {
+      "label": "Nav Component Template",
+      "file_type": "code",
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 25,
+      "norm_label": "nav component template",
+      "id": "nav_nav_html"
     },
     {
       "label": "Hero Component Template",
@@ -20519,6 +20428,32 @@
       "community": 25,
       "norm_label": "free consultation cta",
       "id": "concept_free_consultation"
+    },
+    {
+      "label": "Scrolled Signal Binding",
+      "file_type": "concept",
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 25,
+      "norm_label": "scrolled signal binding",
+      "id": "concept_scrolled_signal"
+    },
+    {
+      "label": "Nav Links (Services, Contact, Book a Call)",
+      "file_type": "concept",
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": "line 20-24",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 25,
+      "norm_label": "nav links (services, contact, book a call)",
+      "id": "concept_nav_links"
     },
     {
       "label": "Hero CTAs (Explore Services, Get in Touch)",
@@ -20586,6 +20521,19 @@
       "id": "concept_angular_for_loop"
     },
     {
+      "label": "Anchor-based Page Navigation (#services, #contact, #booking)",
+      "file_type": "concept",
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": "line 21-23",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 25,
+      "norm_label": "anchor-based page navigation (#services, #contact, #booking)",
+      "id": "concept_anchor_navigation"
+    },
+    {
       "label": "Get a Quote CTA",
       "file_type": "concept",
       "source_file": "src/app/components/services/services.html",
@@ -20597,6 +20545,19 @@
       "community": 25,
       "norm_label": "get a quote cta",
       "id": "concept_get_quote_cta"
+    },
+    {
+      "label": "Logo Icon Pill Design",
+      "file_type": "concept",
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": "line 4-15",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 25,
+      "norm_label": "logo icon pill design",
+      "id": "concept_logo_pill"
     },
     {
       "label": "ARIA Accessibility Attributes",
@@ -20755,6 +20716,19 @@
       "id": "assets_bit_byte_ideas_full_logo_digital_theme"
     },
     {
+      "label": "Angular Project Configuration",
+      "file_type": "code",
+      "source_file": "angular.json",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "angular_json_project_config",
+      "community": 131,
+      "norm_label": "angular project configuration"
+    },
+    {
       "label": "Package.json Project Manifest",
       "file_type": "code",
       "source_file": "package.json",
@@ -20763,9 +20737,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "package_json_project_manifest",
       "community": 89,
-      "norm_label": "package.json project manifest",
-      "id": "package_json_project_manifest"
+      "norm_label": "package.json project manifest"
     },
     {
       "label": "Playwright E2E Test Configuration",
@@ -20776,9 +20750,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "playwright_config_e2e_config",
       "community": 89,
-      "norm_label": "playwright e2e test configuration",
-      "id": "playwright_config_e2e_config"
+      "norm_label": "playwright e2e test configuration"
     },
     {
       "label": "Husky Post-Commit Hook (Graphify Rebuild)",
@@ -20789,9 +20763,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "husky_post_commit_hook",
       "community": 175,
-      "norm_label": "husky post-commit hook (graphify rebuild)",
-      "id": "husky_post_commit_hook"
+      "norm_label": "husky post-commit hook (graphify rebuild)"
     },
     {
       "label": "Husky Post-Checkout Hook (Graphify Rebuild)",
@@ -20802,9 +20776,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "husky_post_checkout_hook",
       "community": 175,
-      "norm_label": "husky post-checkout hook (graphify rebuild)",
-      "id": "husky_post_checkout_hook"
+      "norm_label": "husky post-checkout hook (graphify rebuild)"
     },
     {
       "label": "Claude Code Project Settings",
@@ -20815,9 +20789,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "claude_settings_project",
       "community": 175,
-      "norm_label": "claude code project settings",
-      "id": "claude_settings_project"
+      "norm_label": "claude code project settings"
     },
     {
       "label": "Claude Code Local Settings (Permissions & Hooks)",
@@ -20828,9 +20802,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "claude_settings_local",
       "community": 89,
-      "norm_label": "claude code local settings (permissions & hooks)",
-      "id": "claude_settings_local"
+      "norm_label": "claude code local settings (permissions & hooks)"
     },
     {
       "label": "E2E Booking Spec (Playwright)",
@@ -20841,9 +20815,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "e2e_booking_spec",
       "community": 89,
-      "norm_label": "e2e booking spec (playwright)",
-      "id": "e2e_booking_spec"
+      "norm_label": "e2e booking spec (playwright)"
     },
     {
       "label": "E2E Homepage Spec (Playwright)",
@@ -20854,9 +20828,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "e2e_homepage_spec",
       "community": 89,
-      "norm_label": "e2e homepage spec (playwright)",
-      "id": "e2e_homepage_spec"
+      "norm_label": "e2e homepage spec (playwright)"
     },
     {
       "label": "Browser Bootstrap Entry Point",
@@ -20867,9 +20841,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "src_main_browser_bootstrap",
       "community": 131,
-      "norm_label": "browser bootstrap entry point",
-      "id": "src_main_browser_bootstrap"
+      "norm_label": "browser bootstrap entry point"
     },
     {
       "label": "Express SSR Server",
@@ -20880,9 +20854,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 89,
-      "norm_label": "express ssr server",
-      "id": "src_server_express"
+      "id": "src_server_express",
+      "community": 131,
+      "norm_label": "express ssr server"
     },
     {
       "label": "Server Application Config",
@@ -20893,9 +20867,35 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 89,
-      "norm_label": "server application config",
-      "id": "app_config_server_serverconfig"
+      "id": "app_config_server_serverconfig",
+      "community": 131,
+      "norm_label": "server application config"
+    },
+    {
+      "label": "App Root Component",
+      "file_type": "code",
+      "source_file": "src/app/app.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "app_app_appcomponent",
+      "community": 131,
+      "norm_label": "app root component"
+    },
+    {
+      "label": "App Application Config",
+      "file_type": "code",
+      "source_file": "src/app/app.config.ts",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "app_config_appconfig",
+      "community": 131,
+      "norm_label": "app application config"
     },
     {
       "label": "Booking Component (Calendly Widget)",
@@ -20906,9 +20906,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "booking_booking_component",
       "community": 89,
-      "norm_label": "booking component (calendly widget)",
-      "id": "booking_booking_component"
+      "norm_label": "booking component (calendly widget)"
     },
     {
       "label": "Nav Component Unit Tests (Vitest)",
@@ -20919,9 +20919,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "nav_nav_spec",
       "community": 89,
-      "norm_label": "nav component unit tests (vitest)",
-      "id": "nav_nav_spec"
+      "norm_label": "nav component unit tests (vitest)"
     },
     {
       "label": "Pre-Commit Config (tofu-fmt, prettier, ng-test)",
@@ -20932,9 +20932,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "pre_commit_config",
       "community": 89,
-      "norm_label": "pre-commit config (tofu-fmt, prettier, ng-test)",
-      "id": "pre_commit_config"
+      "norm_label": "pre-commit config (tofu-fmt, prettier, ng-test)"
     },
     {
       "label": "Graphify Auto-Rebuild on Git Events",
@@ -20945,9 +20945,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "concept_graphify_auto_rebuild",
       "community": 175,
-      "norm_label": "graphify auto-rebuild on git events",
-      "id": "concept_graphify_auto_rebuild"
+      "norm_label": "graphify auto-rebuild on git events"
     },
     {
       "label": "Angular SSR with Static Prerender Strategy",
@@ -20958,9 +20958,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 89,
-      "norm_label": "angular ssr with static prerender strategy",
-      "id": "concept_ssr_prerender_strategy"
+      "id": "concept_ssr_prerender_strategy",
+      "community": 131,
+      "norm_label": "angular ssr with static prerender strategy"
     },
     {
       "label": "Calendly Widget Init via afterNextRender (SSR-safe)",
@@ -20971,9 +20971,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "concept_calendly_afterNextRender",
       "community": 89,
-      "norm_label": "calendly widget init via afternextrender (ssr-safe)",
-      "id": "concept_calendly_afterNextRender"
+      "norm_label": "calendly widget init via afternextrender (ssr-safe)"
     },
     {
       "label": "Pre-Commit Quality Enforcement (tests + format)",
@@ -20984,9 +20984,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "concept_precommit_enforcement",
       "community": 89,
-      "norm_label": "pre-commit quality enforcement (tests + format)",
-      "id": "concept_precommit_enforcement"
+      "norm_label": "pre-commit quality enforcement (tests + format)"
     },
     {
       "label": "Calendly External Link Pattern (no inline widget in prod)",
@@ -20997,9 +20997,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "concept_calendly_external_link",
       "community": 89,
-      "norm_label": "calendly external link pattern (no inline widget in prod)",
-      "id": "concept_calendly_external_link"
+      "norm_label": "calendly external link pattern (no inline widget in prod)"
     },
     {
       "label": "Bit and Byte Ideas Angular Project",
@@ -21010,9 +21010,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "claude_md_project_overview",
       "community": 188,
-      "norm_label": "bit and byte ideas angular project",
-      "id": "claude_md_project_overview"
+      "norm_label": "bit and byte ideas angular project"
     },
     {
       "label": "Angular 17+ Architecture Conventions",
@@ -21023,9 +21023,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "claude_md_angular_architecture",
       "community": 188,
-      "norm_label": "angular 17+ architecture conventions",
-      "id": "claude_md_angular_architecture"
+      "norm_label": "angular 17+ architecture conventions"
     },
     {
       "label": "Claude Code Available Skills",
@@ -21036,9 +21036,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "claude_md_available_skills",
       "community": 188,
-      "norm_label": "claude code available skills",
-      "id": "claude_md_available_skills"
+      "norm_label": "claude code available skills"
     },
     {
       "label": "Root Route /",
@@ -21049,9 +21049,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "routes_txt_root_route",
       "community": 178,
-      "norm_label": "root route /",
-      "id": "routes_txt_root_route"
+      "norm_label": "root route /"
     },
     {
       "label": "SEO Health Score 47/100",
@@ -21062,9 +21062,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_readme_health_score",
       "community": 57,
-      "norm_label": "seo health score 47/100",
-      "id": "seo_readme_health_score"
+      "norm_label": "seo health score 47/100"
     },
     {
       "label": "Calendly CSS Render-Blocking Issue",
@@ -21075,9 +21075,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h4_calendly_css_async_render_blocking",
       "community": 142,
-      "norm_label": "calendly css render-blocking issue",
-      "id": "seo_h4_calendly_css_async_render_blocking"
+      "norm_label": "calendly css render-blocking issue"
     },
     {
       "label": "src/index.html Calendly CSS Change",
@@ -21088,9 +21088,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h4_calendly_css_async_src_index_html",
       "community": 142,
-      "norm_label": "src/index.html calendly css change",
-      "id": "seo_h4_calendly_css_async_src_index_html"
+      "norm_label": "src/index.html calendly css change"
     },
     {
       "label": "OG Share Image (1200x630)",
@@ -21101,9 +21101,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m3_og_share_image_og_image",
       "community": 57,
-      "norm_label": "og share image (1200x630)",
-      "id": "seo_m3_og_share_image_og_image"
+      "norm_label": "og share image (1200x630)"
     },
     {
       "label": "Dedicated Social Card vs Logo",
@@ -21114,9 +21114,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m3_og_share_image_social_card",
       "community": 57,
-      "norm_label": "dedicated social card vs logo",
-      "id": "seo_m3_og_share_image_social_card"
+      "norm_label": "dedicated social card vs logo"
     },
     {
       "label": "Crawl Budget Conservation via /assets/ Disallow",
@@ -21127,9 +21127,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_l3_robots_assets_disallow_crawl_budget",
       "community": 143,
-      "norm_label": "crawl budget conservation via /assets/ disallow",
-      "id": "seo_l3_robots_assets_disallow_crawl_budget"
+      "norm_label": "crawl budget conservation via /assets/ disallow"
     },
     {
       "label": "robots.txt Assets Disallow Rule",
@@ -21140,9 +21140,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_l3_robots_assets_disallow_robots_txt",
       "community": 143,
-      "norm_label": "robots.txt assets disallow rule",
-      "id": "seo_l3_robots_assets_disallow_robots_txt"
+      "norm_label": "robots.txt assets disallow rule"
     },
     {
       "label": "Footer Logo Lazy Loading and WebP Conversion",
@@ -21153,9 +21153,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m9_image_lazy_loading_webp_footer_logo",
       "community": 142,
-      "norm_label": "footer logo lazy loading and webp conversion",
-      "id": "seo_m9_image_lazy_loading_webp_footer_logo"
+      "norm_label": "footer logo lazy loading and webp conversion"
     },
     {
       "label": "Picture Element with WebP Source Pattern",
@@ -21166,9 +21166,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m9_image_lazy_loading_webp_picture_element",
       "community": 142,
-      "norm_label": "picture element with webp source pattern",
-      "id": "seo_m9_image_lazy_loading_webp_picture_element"
+      "norm_label": "picture element with webp source pattern"
     },
     {
       "label": "DMARC Policy Upgrade (quarantine to reject)",
@@ -21179,9 +21179,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_l1_dmarc_reject_dmarc_policy",
       "community": 193,
-      "norm_label": "dmarc policy upgrade (quarantine to reject)",
-      "id": "seo_l1_dmarc_reject_dmarc_policy"
+      "norm_label": "dmarc policy upgrade (quarantine to reject)"
     },
     {
       "label": "dns_records.tf DMARC TXT Record",
@@ -21192,9 +21192,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_l1_dmarc_reject_dns_records_tf",
       "community": 193,
-      "norm_label": "dns_records.tf dmarc txt record",
-      "id": "seo_l1_dmarc_reject_dns_records_tf"
+      "norm_label": "dns_records.tf dmarc txt record"
     },
     {
       "label": "ProtonMail DKIM Verification Prerequisite",
@@ -21205,9 +21205,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_l1_dmarc_reject_protonmail_prereq",
       "community": 193,
-      "norm_label": "protonmail dkim verification prerequisite",
-      "id": "seo_l1_dmarc_reject_protonmail_prereq"
+      "norm_label": "protonmail dkim verification prerequisite"
     },
     {
       "label": "E-E-A-T Content Depth and Social Proof",
@@ -21218,9 +21218,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_c1_content_depth_eeat",
       "community": 140,
-      "norm_label": "e-e-a-t content depth and social proof",
-      "id": "seo_c1_content_depth_eeat"
+      "norm_label": "e-e-a-t content depth and social proof"
     },
     {
       "label": "/about Page Creation",
@@ -21231,9 +21231,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_c1_content_depth_about_page",
       "community": 140,
-      "norm_label": "/about page creation",
-      "id": "seo_c1_content_depth_about_page"
+      "norm_label": "/about page creation"
     },
     {
       "label": "/portfolio Page Creation",
@@ -21244,9 +21244,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_c1_content_depth_portfolio_page",
       "community": 140,
-      "norm_label": "/portfolio page creation",
-      "id": "seo_c1_content_depth_portfolio_page"
+      "norm_label": "/portfolio page creation"
     },
     {
       "label": "Testimonials Section on Homepage",
@@ -21257,9 +21257,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_c1_content_depth_testimonials",
       "community": 140,
-      "norm_label": "testimonials section on homepage",
-      "id": "seo_c1_content_depth_testimonials"
+      "norm_label": "testimonials section on homepage"
     },
     {
       "label": "Explicit AI Crawler Allow Rules in robots.txt",
@@ -21270,9 +21270,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h7_robots_ai_crawlers_explicit_allow",
       "community": 143,
-      "norm_label": "explicit ai crawler allow rules in robots.txt",
-      "id": "seo_h7_robots_ai_crawlers_explicit_allow"
+      "norm_label": "explicit ai crawler allow rules in robots.txt"
     },
     {
       "label": "GEO (Generative Engine Optimization) via robots.txt",
@@ -21283,9 +21283,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h7_robots_ai_crawlers_geo",
       "community": 143,
-      "norm_label": "geo (generative engine optimization) via robots.txt",
-      "id": "seo_h7_robots_ai_crawlers_geo"
+      "norm_label": "geo (generative engine optimization) via robots.txt"
     },
     {
       "label": "Missing og:locale and Meta Tags",
@@ -21296,9 +21296,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m4_missing_meta_tags_og_locale",
       "community": 57,
-      "norm_label": "missing og:locale and meta tags",
-      "id": "seo_m4_missing_meta_tags_og_locale"
+      "norm_label": "missing og:locale and meta tags"
     },
     {
       "label": "FAQ Section and FAQPage Schema",
@@ -21309,9 +21309,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m2_faq_section_faqpage_schema",
       "community": 143,
-      "norm_label": "faq section and faqpage schema",
-      "id": "seo_m2_faq_section_faqpage_schema"
+      "norm_label": "faq section and faqpage schema"
     },
     {
       "label": "FAQ for AI Search Citation (LLM)",
@@ -21322,9 +21322,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m2_faq_section_ai_citation",
       "community": 143,
-      "norm_label": "faq for ai search citation (llm)",
-      "id": "seo_m2_faq_section_ai_citation"
+      "norm_label": "faq for ai search citation (llm)"
     },
     {
       "label": "FaqComponent Angular Implementation",
@@ -21335,9 +21335,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m2_faq_section_faq_component",
       "community": 143,
-      "norm_label": "faqcomponent angular implementation",
-      "id": "seo_m2_faq_section_faq_component"
+      "norm_label": "faqcomponent angular implementation"
     },
     {
       "label": "External B2B Directory Listings",
@@ -21348,9 +21348,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_l4_external_listings_directories",
       "community": 167,
-      "norm_label": "external b2b directory listings",
-      "id": "seo_l4_external_listings_directories"
+      "norm_label": "external b2b directory listings"
     },
     {
       "label": "Entity Footprint via Directory Listings",
@@ -21361,9 +21361,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_l4_external_listings_entity_footprint",
       "community": 167,
-      "norm_label": "entity footprint via directory listings",
-      "id": "seo_l4_external_listings_entity_footprint"
+      "norm_label": "entity footprint via directory listings"
     },
     {
       "label": "Organization Schema sameAs Population",
@@ -21374,9 +21374,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m6_schema_same_as_organization_schema",
       "community": 167,
-      "norm_label": "organization schema sameas population",
-      "id": "seo_m6_schema_same_as_organization_schema"
+      "norm_label": "organization schema sameas population"
     },
     {
       "label": "Google Knowledge Graph Entity Confidence",
@@ -21387,9 +21387,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m6_schema_same_as_knowledge_graph",
       "community": 167,
-      "norm_label": "google knowledge graph entity confidence",
-      "id": "seo_m6_schema_same_as_knowledge_graph"
+      "norm_label": "google knowledge graph entity confidence"
     },
     {
       "label": "NAP Consistency Across Platforms",
@@ -21400,9 +21400,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m6_schema_same_as_nap_consistency",
       "community": 167,
-      "norm_label": "nap consistency across platforms",
-      "id": "seo_m6_schema_same_as_nap_consistency"
+      "norm_label": "nap consistency across platforms"
     },
     {
       "label": "Blog Content Cadence for Topical Authority",
@@ -21413,9 +21413,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_l5_blog_content_cadence_topical_authority",
       "community": 140,
-      "norm_label": "blog content cadence for topical authority",
-      "id": "seo_l5_blog_content_cadence_topical_authority"
+      "norm_label": "blog content cadence for topical authority"
     },
     {
       "label": "Angular SSG Blog Implementation",
@@ -21426,9 +21426,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_l5_blog_content_cadence_angular_ssg",
       "community": 140,
-      "norm_label": "angular ssg blog implementation",
-      "id": "seo_l5_blog_content_cadence_angular_ssg"
+      "norm_label": "angular ssg blog implementation"
     },
     {
       "label": "Article Schema for Blog Posts",
@@ -21439,9 +21439,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_l5_blog_content_cadence_article_schema",
       "community": 140,
-      "norm_label": "article schema for blog posts",
-      "id": "seo_l5_blog_content_cadence_article_schema"
+      "norm_label": "article schema for blog posts"
     },
     {
       "label": "Calendly noscript Fallback",
@@ -21452,9 +21452,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m7_calendly_noscript_fallback",
       "community": 57,
-      "norm_label": "calendly noscript fallback",
-      "id": "seo_m7_calendly_noscript_fallback"
+      "norm_label": "calendly noscript fallback"
     },
     {
       "label": "Calendly SSR Prerendering Gap",
@@ -21465,9 +21465,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m7_calendly_noscript_prerendering",
       "community": 57,
-      "norm_label": "calendly ssr prerendering gap",
-      "id": "seo_m7_calendly_noscript_prerendering"
+      "norm_label": "calendly ssr prerendering gap"
     },
     {
       "label": "Custom 404 NotFoundComponent",
@@ -21478,9 +21478,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m8_404_route_not_found_component",
       "community": 178,
-      "norm_label": "custom 404 notfoundcomponent",
-      "id": "seo_m8_404_route_not_found_component"
+      "norm_label": "custom 404 notfoundcomponent"
     },
     {
       "label": "Soft 404 Problem (200 status with blank content)",
@@ -21491,9 +21491,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m8_404_route_soft_404",
       "community": 178,
-      "norm_label": "soft 404 problem (200 status with blank content)",
-      "id": "seo_m8_404_route_soft_404"
+      "norm_label": "soft 404 problem (200 status with blank content)"
     },
     {
       "label": "Azure SWA 404 Response Override",
@@ -21504,9 +21504,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_m8_404_route_azure_swa_response_override",
       "community": 178,
-      "norm_label": "azure swa 404 response override",
-      "id": "seo_m8_404_route_azure_swa_response_override"
+      "norm_label": "azure swa 404 response override"
     },
     {
       "label": "Sitemap lastmod Future Date Issue",
@@ -21517,9 +21517,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h2_sitemap_lastmod_future_date",
       "community": 57,
-      "norm_label": "sitemap lastmod future date issue",
-      "id": "seo_h2_sitemap_lastmod_future_date"
+      "norm_label": "sitemap lastmod future date issue"
     },
     {
       "label": "generate-sitemap.mjs Build Script",
@@ -21530,9 +21530,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h2_sitemap_lastmod_generate_script",
       "community": 57,
-      "norm_label": "generate-sitemap.mjs build script",
-      "id": "seo_h2_sitemap_lastmod_generate_script"
+      "norm_label": "generate-sitemap.mjs build script"
     },
     {
       "label": "Schema Markup Fix and Expansion",
@@ -21543,9 +21543,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h3_schema_markup_schema_markup",
       "community": 3,
-      "norm_label": "schema markup fix and expansion",
-      "id": "seo_h3_schema_markup_schema_markup"
+      "norm_label": "schema markup fix and expansion"
     },
     {
       "label": "Organization Schema Block",
@@ -21556,9 +21556,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h3_schema_markup_organization_schema",
       "community": 3,
-      "norm_label": "organization schema block",
-      "id": "seo_h3_schema_markup_organization_schema"
+      "norm_label": "organization schema block"
     },
     {
       "label": "ProfessionalService Schema with hasOfferCatalog",
@@ -21569,9 +21569,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h3_schema_markup_professionalservice_schema",
       "community": 3,
-      "norm_label": "professionalservice schema with hasoffercatalog",
-      "id": "seo_h3_schema_markup_professionalservice_schema"
+      "norm_label": "professionalservice schema with hasoffercatalog"
     },
     {
       "label": "FAQPage Schema Block",
@@ -21582,9 +21582,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h3_schema_markup_faqpage_schema",
       "community": 3,
-      "norm_label": "faqpage schema block",
-      "id": "seo_h3_schema_markup_faqpage_schema"
+      "norm_label": "faqpage schema block"
     },
     {
       "label": "sameAs Social Profile Linking Rationale",
@@ -21595,9 +21595,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h3_schema_markup_sameas_rationale",
       "community": 3,
-      "norm_label": "sameas social profile linking rationale",
-      "id": "seo_h3_schema_markup_sameas_rationale"
+      "norm_label": "sameas social profile linking rationale"
     },
     {
       "label": "staticwebapp.config.json Security Headers",
@@ -21608,9 +21608,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h1_staticwebapp_config_staticwebapp_config",
       "community": 3,
-      "norm_label": "staticwebapp.config.json security headers",
-      "id": "seo_h1_staticwebapp_config_staticwebapp_config"
+      "norm_label": "staticwebapp.config.json security headers"
     },
     {
       "label": "Content Security Policy for Azure SWA",
@@ -21621,9 +21621,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h1_staticwebapp_config_csp",
       "community": 3,
-      "norm_label": "content security policy for azure swa",
-      "id": "seo_h1_staticwebapp_config_csp"
+      "norm_label": "content security policy for azure swa"
     },
     {
       "label": "Apex to WWW Redirect",
@@ -21634,9 +21634,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h1_staticwebapp_config_apex_redirect",
       "community": 84,
-      "norm_label": "apex to www redirect",
-      "id": "seo_h1_staticwebapp_config_apex_redirect"
+      "norm_label": "apex to www redirect"
     },
     {
       "label": "Pricing Anchors on Service Cards",
@@ -21647,9 +21647,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 220,
-      "norm_label": "pricing anchors on service cards",
-      "id": "seo_m1_pricing_anchors_pricing_anchors"
+      "id": "seo_m1_pricing_anchors_pricing_anchors",
+      "community": 3,
+      "norm_label": "pricing anchors on service cards"
     },
     {
       "label": "Geographic Targeting for Local SEO",
@@ -21660,9 +21660,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h5_geographic_targeting_geographic_targeting",
       "community": 3,
-      "norm_label": "geographic targeting for local seo",
-      "id": "seo_h5_geographic_targeting_geographic_targeting"
+      "norm_label": "geographic targeting for local seo"
     },
     {
       "label": "PostalAddress in ProfessionalService Schema",
@@ -21673,9 +21673,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h5_geographic_targeting_location_schema",
       "community": 3,
-      "norm_label": "postaladdress in professionalservice schema",
-      "id": "seo_h5_geographic_targeting_location_schema"
+      "norm_label": "postaladdress in professionalservice schema"
     },
     {
       "label": "CTA Label Standardization",
@@ -21686,9 +21686,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 220,
-      "norm_label": "cta label standardization",
-      "id": "seo_m5_cta_standardization_cta_standardization"
+      "id": "seo_m5_cta_standardization_cta_standardization",
+      "community": 3,
+      "norm_label": "cta label standardization"
     },
     {
       "label": "Primary/Secondary CTA Hierarchy",
@@ -21699,9 +21699,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 220,
-      "norm_label": "primary/secondary cta hierarchy",
-      "id": "seo_m5_cta_standardization_cta_hierarchy"
+      "id": "seo_m5_cta_standardization_cta_hierarchy",
+      "community": 3,
+      "norm_label": "primary/secondary cta hierarchy"
     },
     {
       "label": "llms.txt for AI Search Crawlers",
@@ -21712,9 +21712,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_c3_llms_txt_llms_txt",
       "community": 3,
-      "norm_label": "llms.txt for ai search crawlers",
-      "id": "seo_c3_llms_txt_llms_txt"
+      "norm_label": "llms.txt for ai search crawlers"
     },
     {
       "label": "GEO AI Citation Signal Rationale",
@@ -21725,9 +21725,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_c3_llms_txt_geo_rationale",
       "community": 3,
-      "norm_label": "geo ai citation signal rationale",
-      "id": "seo_c3_llms_txt_geo_rationale"
+      "norm_label": "geo ai citation signal rationale"
     },
     {
       "label": "H1 Keyword Targeting",
@@ -21738,9 +21738,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_c2_h1_keyword_targeting_h1_keyword",
       "community": 3,
-      "norm_label": "h1 keyword targeting",
-      "id": "seo_c2_h1_keyword_targeting_h1_keyword"
+      "norm_label": "h1 keyword targeting"
     },
     {
       "label": "H1 Rewrite Options",
@@ -21751,9 +21751,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_c2_h1_keyword_targeting_h1_rewrite_options",
       "community": 3,
-      "norm_label": "h1 rewrite options",
-      "id": "seo_c2_h1_keyword_targeting_h1_rewrite_options"
+      "norm_label": "h1 rewrite options"
     },
     {
       "label": "theme-color Meta Tag",
@@ -21764,9 +21764,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_l2_theme_color_meta_theme_color",
       "community": 3,
-      "norm_label": "theme-color meta tag",
-      "id": "seo_l2_theme_color_meta_theme_color"
+      "norm_label": "theme-color meta tag"
     },
     {
       "label": "LCP Image Optimization",
@@ -21777,9 +21777,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_c4_lcp_image_optimization_lcp_optimization",
       "community": 3,
-      "norm_label": "lcp image optimization",
-      "id": "seo_c4_lcp_image_optimization_lcp_optimization"
+      "norm_label": "lcp image optimization"
     },
     {
       "label": "fetchpriority=high for Hero Image",
@@ -21790,9 +21790,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_c4_lcp_image_optimization_fetchpriority",
       "community": 3,
-      "norm_label": "fetchpriority=high for hero image",
-      "id": "seo_c4_lcp_image_optimization_fetchpriority"
+      "norm_label": "fetchpriority=high for hero image"
     },
     {
       "label": "WebP Image Conversion",
@@ -21803,9 +21803,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_c4_lcp_image_optimization_webp_conversion",
       "community": 3,
-      "norm_label": "webp image conversion",
-      "id": "seo_c4_lcp_image_optimization_webp_conversion"
+      "norm_label": "webp image conversion"
     },
     {
       "label": "Favicon Size Optimization",
@@ -21816,9 +21816,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_c4_lcp_image_optimization_favicon_optimization",
       "community": 3,
-      "norm_label": "favicon size optimization",
-      "id": "seo_c4_lcp_image_optimization_favicon_optimization"
+      "norm_label": "favicon size optimization"
     },
     {
       "label": "IndexNow and Sitemap Submission on Deploy",
@@ -21829,9 +21829,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h6_indexnow_sitemap_submission_indexnow",
       "community": 3,
-      "norm_label": "indexnow and sitemap submission on deploy",
-      "id": "seo_h6_indexnow_sitemap_submission_indexnow"
+      "norm_label": "indexnow and sitemap submission on deploy"
     },
     {
       "label": "Post-Deploy Search Engine Ping Step",
@@ -21842,9 +21842,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "seo_h6_indexnow_sitemap_submission_deploy_ping",
       "community": 3,
-      "norm_label": "post-deploy search engine ping step",
-      "id": "seo_h6_indexnow_sitemap_submission_deploy_ping"
+      "norm_label": "post-deploy search engine ping step"
     },
     {
       "label": "robots.txt",
@@ -21855,9 +21855,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "public_robots_txt_robots_txt",
       "community": 3,
-      "norm_label": "robots.txt",
-      "id": "public_robots_txt_robots_txt"
+      "norm_label": "robots.txt"
     },
     {
       "label": "Deploy Infrastructure (prod) Workflow",
@@ -21868,9 +21868,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "workflows_deploy_infra_prod_deploy_infra_workflow",
       "community": 84,
-      "norm_label": "deploy infrastructure (prod) workflow",
-      "id": "workflows_deploy_infra_prod_deploy_infra_workflow"
+      "norm_label": "deploy infrastructure (prod) workflow"
     },
     {
       "label": "OpenTofu Infrastructure Job",
@@ -21881,9 +21881,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "workflows_deploy_infra_prod_opentofu_job",
       "community": 84,
-      "norm_label": "opentofu infrastructure job",
-      "id": "workflows_deploy_infra_prod_opentofu_job"
+      "norm_label": "opentofu infrastructure job"
     },
     {
       "label": "Policy Checks Workflow",
@@ -21894,9 +21894,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "workflows_policy_checks_policy_checks_workflow",
       "community": 195,
-      "norm_label": "policy checks workflow",
-      "id": "workflows_policy_checks_policy_checks_workflow"
+      "norm_label": "policy checks workflow"
     },
     {
       "label": "OPA Policy Tests Job",
@@ -21907,9 +21907,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "workflows_policy_checks_opa_tests_job",
       "community": 195,
-      "norm_label": "opa policy tests job",
-      "id": "workflows_policy_checks_opa_tests_job"
+      "norm_label": "opa policy tests job"
     },
     {
       "label": "PR Policy Check Job",
@@ -21920,9 +21920,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "workflows_policy_checks_pr_policy_job",
       "community": 195,
-      "norm_label": "pr policy check job",
-      "id": "workflows_policy_checks_pr_policy_job"
+      "norm_label": "pr policy check job"
     },
     {
       "label": "Deploy App (prod) Workflow",
@@ -21933,9 +21933,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "workflows_deploy_app_prod_deploy_app_workflow",
       "community": 3,
-      "norm_label": "deploy app (prod) workflow",
-      "id": "workflows_deploy_app_prod_deploy_app_workflow"
+      "norm_label": "deploy app (prod) workflow"
     },
     {
       "label": "HTML Entry Point (index.html)",
@@ -21946,9 +21946,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "src_index_html_entry_point",
       "community": 3,
-      "norm_label": "html entry point (index.html)",
-      "id": "src_index_html_entry_point"
+      "norm_label": "html entry point (index.html)"
     },
     {
       "label": "Existing ProfessionalService JSON-LD Block",
@@ -21959,9 +21959,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "src_index_html_existing_jsonld",
       "community": 3,
-      "norm_label": "existing professionalservice json-ld block",
-      "id": "src_index_html_existing_jsonld"
+      "norm_label": "existing professionalservice json-ld block"
     },
     {
       "label": "Open Graph Meta Tags",
@@ -21972,9 +21972,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "src_index_html_open_graph_meta",
       "community": 3,
-      "norm_label": "open graph meta tags",
-      "id": "src_index_html_open_graph_meta"
+      "norm_label": "open graph meta tags"
     },
     {
       "label": "Twitter Card Meta Tags",
@@ -21985,9 +21985,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "src_index_html_twitter_card_meta",
       "community": 3,
-      "norm_label": "twitter card meta tags",
-      "id": "src_index_html_twitter_card_meta"
+      "norm_label": "twitter card meta tags"
     },
     {
       "label": "Calendly Widget Integration",
@@ -21998,9 +21998,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "src_index_html_calendly_integration",
       "community": 3,
-      "norm_label": "calendly widget integration",
-      "id": "src_index_html_calendly_integration"
+      "norm_label": "calendly widget integration"
     },
     {
       "label": "Google Fonts Preconnect",
@@ -22011,1039 +22011,64 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
+      "id": "src_index_html_font_preconnect",
       "community": 3,
-      "norm_label": "google fonts preconnect",
-      "id": "src_index_html_font_preconnect"
+      "norm_label": "google fonts preconnect"
+    },
+    {
+      "label": "App Shell Template",
+      "file_type": "code",
+      "source_file": "src/app/app.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "src_app_app_html_app_shell",
+      "community": 3,
+      "norm_label": "app shell template"
+    },
+    {
+      "label": "Navigation Component Template",
+      "file_type": "code",
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "src_app_components_nav_nav_html_nav_template",
+      "community": 3,
+      "norm_label": "navigation component template"
+    },
+    {
+      "label": "Book a Call CTA in Nav",
+      "file_type": "concept",
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": "lines 24-30",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "src_app_components_nav_nav_html_book_a_call_cta",
+      "community": 3,
+      "norm_label": "book a call cta in nav"
+    },
+    {
+      "label": "Calendly External Link in Nav",
+      "file_type": "concept",
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": "line 25",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "src_app_components_nav_nav_html_calendly_link",
+      "community": 3,
+      "norm_label": "calendly external link in nav"
     }
   ],
   "links": [
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "angular_json",
-      "target": "bit_and_byte_ideas_website_angular_schema"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "angular_json",
-      "target": "bit_and_byte_ideas_website_angular_version"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "angular_json",
-      "target": "bit_and_byte_ideas_website_angular_cli"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "angular_json",
-      "target": "bit_and_byte_ideas_website_angular_newprojectroot"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "angular_json",
-      "target": "bit_and_byte_ideas_website_angular_projects"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_cli",
-      "target": "bit_and_byte_ideas_website_angular_cli_packagemanager"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_cli",
-      "target": "bit_and_byte_ideas_website_angular_cli_analytics"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_projects",
-      "target": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas",
-      "target": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_projecttype"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas",
-      "target": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_schematics"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas",
-      "target": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_root"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas",
-      "target": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_sourceroot"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas",
-      "target": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_prefix"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas",
-      "target": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_architect",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas",
-      "target": "docs_architecture_md"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_schematics",
-      "target": "bit_and_byte_ideas_website_angular_schematics_schematics_angular_component"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_schematics_schematics_angular_component",
-      "target": "bit_and_byte_ideas_website_angular_schematics_angular_component_style"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_architect",
-      "target": "bit_and_byte_ideas_website_angular_architect_build",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L71",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_architect",
-      "target": "bit_and_byte_ideas_website_angular_architect_serve",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L83",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_architect",
-      "target": "bit_and_byte_ideas_website_angular_architect_test",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_architect_build",
-      "target": "bit_and_byte_ideas_website_angular_build_builder",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_architect_build",
-      "target": "bit_and_byte_ideas_website_angular_build_options"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L47",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_architect_build",
-      "target": "bit_and_byte_ideas_website_angular_build_configurations",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L69",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_architect_build",
-      "target": "bit_and_byte_ideas_website_angular_build_defaultconfiguration"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_architecture_md",
-      "target": "bit_and_byte_ideas_website_angular_architect_build"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_architect_build",
-      "target": "bit_and_byte_ideas_website_angular_test_builder"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L47",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_architect_build",
-      "target": "vscode_launch_configurations"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_build_options",
-      "target": "bit_and_byte_ideas_website_angular_options_browser"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_build_options",
-      "target": "bit_and_byte_ideas_website_angular_options_server"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_build_options",
-      "target": "bit_and_byte_ideas_website_angular_options_tsconfig"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_build_options",
-      "target": "bit_and_byte_ideas_website_angular_options_inlinestylelanguage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_build_options",
-      "target": "bit_and_byte_ideas_website_angular_options_assets"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_build_options",
-      "target": "bit_and_byte_ideas_website_angular_options_styles"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L35",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_build_options",
-      "target": "bit_and_byte_ideas_website_angular_options_security"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L38",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_build_options",
-      "target": "bit_and_byte_ideas_website_angular_options_outputmode"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L39",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_build_options",
-      "target": "bit_and_byte_ideas_website_angular_options_prerender"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L43",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_build_options",
-      "target": "bit_and_byte_ideas_website_angular_options_ssr"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L36",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_options_security",
-      "target": "bit_and_byte_ideas_website_angular_security_allowedhosts"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_options_prerender",
-      "target": "bit_and_byte_ideas_website_angular_prerender_discoverroutes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_options_prerender",
-      "target": "bit_and_byte_ideas_website_angular_prerender_routesfile"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L44",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_options_ssr",
-      "target": "bit_and_byte_ideas_website_angular_ssr_entry"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L48",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_build_configurations",
-      "target": "bit_and_byte_ideas_website_angular_configurations_production",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L63",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_build_configurations",
-      "target": "bit_and_byte_ideas_website_angular_configurations_development",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L49",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_configurations_production",
-      "target": "bit_and_byte_ideas_website_angular_production_budgets"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L61",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_configurations_production",
-      "target": "bit_and_byte_ideas_website_angular_production_outputhashing"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L74",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_serve_configurations",
-      "target": "bit_and_byte_ideas_website_angular_configurations_production",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L75",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_configurations_production",
-      "target": "bit_and_byte_ideas_website_angular_production_buildtarget"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L74",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "vscode_launch_configurations",
-      "target": "bit_and_byte_ideas_website_angular_configurations_production"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L64",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_configurations_development",
-      "target": "bit_and_byte_ideas_website_angular_development_optimization",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L65",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_configurations_development",
-      "target": "bit_and_byte_ideas_website_angular_development_extractlicenses",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L66",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_configurations_development",
-      "target": "bit_and_byte_ideas_website_angular_development_sourcemap",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L77",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_serve_configurations",
-      "target": "bit_and_byte_ideas_website_angular_configurations_development",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L78",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_configurations_development",
-      "target": "bit_and_byte_ideas_website_angular_development_buildtarget",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L64",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_development_md",
-      "target": "bit_and_byte_ideas_website_angular_development_optimization"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L65",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_development_md",
-      "target": "bit_and_byte_ideas_website_angular_development_extractlicenses"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L66",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_development_md",
-      "target": "bit_and_byte_ideas_website_angular_development_sourcemap"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L81",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_architect_serve",
-      "target": "bit_and_byte_ideas_website_angular_build_defaultconfiguration"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L72",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_architect_serve",
-      "target": "bit_and_byte_ideas_website_angular_serve_builder",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_architect_serve",
-      "target": "bit_and_byte_ideas_website_angular_serve_configurations",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L81",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_architect_serve",
-      "target": "bit_and_byte_ideas_website_angular_serve_defaultconfiguration",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L71",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_architecture_md",
-      "target": "bit_and_byte_ideas_website_angular_architect_serve"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L72",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_architect_serve",
-      "target": "bit_and_byte_ideas_website_angular_test_builder"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L73",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_architect_serve",
-      "target": "vscode_launch_configurations"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L78",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_development_md",
-      "target": "bit_and_byte_ideas_website_angular_production_buildtarget"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L84",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "bit_and_byte_ideas_website_angular_architect_test",
-      "target": "bit_and_byte_ideas_website_angular_test_builder"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "angular.json",
-      "source_location": "L83",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_architecture_md",
-      "target": "bit_and_byte_ideas_website_angular_architect_test"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.config.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_config_ts",
-      "target": "src_app_app_routes_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.config.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_config_ts",
-      "target": "app_app_routes_routes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.config.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "src_app_app_config_ts",
-      "target": "app_app_config_appconfig",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main_ts",
-      "target": "src_app_app_config_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.config.server.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_config_server_ts",
-      "target": "src_app_app_config_ts"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.routes.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_routes_ts",
-      "target": "app_app_routes_routes"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_ts",
-      "target": "src_app_components_nav_nav_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_ts",
-      "target": "nav_nav_nav"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_ts",
-      "target": "footer_footer_footer"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.ts",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_ts",
-      "target": "app_app_app"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main_ts",
-      "target": "src_app_app_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.server.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main_server_ts",
-      "target": "src_app_app_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.spec.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_spec_ts",
-      "target": "src_app_app_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_ts",
-      "target": "src_app_components_hero_hero_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_ts",
-      "target": "hero_hero_hero"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_ts",
-      "target": "src_app_components_services_services_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_ts",
-      "target": "services_services_services"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_ts",
-      "target": "src_app_components_contact_contact_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_ts",
-      "target": "contact_contact_contact"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_ts",
-      "target": "src_app_components_footer_footer_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_ts",
-      "target": "src_app_components_booking_booking_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_ts",
-      "target": "booking_booking_booking"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main_ts",
-      "target": "app_app_app"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main.server.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_main_server_ts",
-      "target": "app_app_app"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/app.spec.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_app_spec_ts",
-      "target": "app_app_app"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/components/about/about.ts",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "src_app_components_about_about_ts",
-      "target": "about_about_about",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/components/home/home.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "src_app_components_home_home_ts",
-      "target": "hero_hero_hero",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/components/home/home.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "src_app_components_home_home_ts",
-      "target": "services_services_services",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/components/home/home.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "src_app_components_home_home_ts",
-      "target": "contact_contact_contact",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/components/home/home.ts",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "src_app_components_home_home_ts",
-      "target": "home_home_home",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/components/nav/nav.ts",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_components_nav_nav_ts",
-      "target": "nav_nav_nav"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/components/nav/nav.spec.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_components_nav_nav_spec_ts",
-      "target": "src_app_components_nav_nav_ts"
-    },
-    {
-      "relation": "method",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/components/nav/nav.ts",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "nav_nav_nav",
-      "target": "nav_nav_nav_onscroll"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/components/nav/nav.spec.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_components_nav_nav_spec_ts",
-      "target": "nav_nav_nav"
-    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -23223,6 +22248,496 @@
       "confidence_score": 1.0,
       "source": "bit_and_byte_ideas_website_skills_lock_skills_frontend_design",
       "target": "bit_and_byte_ideas_website_skills_lock_angular_testing_computedhash"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "angular_json",
+      "target": "bit_and_byte_ideas_website_angular_schema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "angular_json",
+      "target": "bit_and_byte_ideas_website_angular_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "angular_json",
+      "target": "bit_and_byte_ideas_website_angular_cli"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "angular_json",
+      "target": "bit_and_byte_ideas_website_angular_newprojectroot"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "angular_json",
+      "target": "bit_and_byte_ideas_website_angular_projects"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_cli",
+      "target": "bit_and_byte_ideas_website_angular_cli_packagemanager"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_cli",
+      "target": "bit_and_byte_ideas_website_angular_cli_analytics"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_projects",
+      "target": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas",
+      "target": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_projecttype"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas",
+      "target": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_schematics"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas",
+      "target": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_root"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas",
+      "target": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_sourceroot"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas",
+      "target": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_prefix"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_projects_bit_and_byte_ideas",
+      "target": "docs_architecture_md"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_bit_and_byte_ideas_schematics",
+      "target": "bit_and_byte_ideas_website_angular_schematics_schematics_angular_component"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_schematics_schematics_angular_component",
+      "target": "bit_and_byte_ideas_website_angular_schematics_angular_component_style"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_architecture_md",
+      "target": "bit_and_byte_ideas_website_angular_architect_build"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_architect_build",
+      "target": "bit_and_byte_ideas_website_angular_test_builder"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_architect_build",
+      "target": "bit_and_byte_ideas_website_angular_build_options"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_architect_build",
+      "target": "vscode_launch_configurations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_architect_build",
+      "target": "bit_and_byte_ideas_website_angular_build_defaultconfiguration"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_build_options",
+      "target": "bit_and_byte_ideas_website_angular_options_browser"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_build_options",
+      "target": "bit_and_byte_ideas_website_angular_options_server"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_build_options",
+      "target": "bit_and_byte_ideas_website_angular_options_tsconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_build_options",
+      "target": "bit_and_byte_ideas_website_angular_options_inlinestylelanguage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_build_options",
+      "target": "bit_and_byte_ideas_website_angular_options_assets"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_build_options",
+      "target": "bit_and_byte_ideas_website_angular_options_styles"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_build_options",
+      "target": "bit_and_byte_ideas_website_angular_options_security"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_build_options",
+      "target": "bit_and_byte_ideas_website_angular_options_outputmode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_build_options",
+      "target": "bit_and_byte_ideas_website_angular_options_prerender"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_build_options",
+      "target": "bit_and_byte_ideas_website_angular_options_ssr"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_options_security",
+      "target": "bit_and_byte_ideas_website_angular_security_allowedhosts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_options_prerender",
+      "target": "bit_and_byte_ideas_website_angular_prerender_discoverroutes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_options_prerender",
+      "target": "bit_and_byte_ideas_website_angular_prerender_routesfile"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_options_ssr",
+      "target": "bit_and_byte_ideas_website_angular_ssr_entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vscode_launch_configurations",
+      "target": "bit_and_byte_ideas_website_angular_configurations_production"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_configurations_production",
+      "target": "bit_and_byte_ideas_website_angular_production_budgets"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_configurations_production",
+      "target": "bit_and_byte_ideas_website_angular_production_outputhashing"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_configurations_production",
+      "target": "bit_and_byte_ideas_website_angular_production_buildtarget"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_development_md",
+      "target": "bit_and_byte_ideas_website_angular_development_optimization"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_development_md",
+      "target": "bit_and_byte_ideas_website_angular_development_extractlicenses"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_development_md",
+      "target": "bit_and_byte_ideas_website_angular_development_sourcemap"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_architect_serve",
+      "target": "bit_and_byte_ideas_website_angular_build_defaultconfiguration"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_architecture_md",
+      "target": "bit_and_byte_ideas_website_angular_architect_serve"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_architect_serve",
+      "target": "bit_and_byte_ideas_website_angular_test_builder"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_architect_serve",
+      "target": "vscode_launch_configurations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_development_md",
+      "target": "bit_and_byte_ideas_website_angular_production_buildtarget"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_architecture_md",
+      "target": "bit_and_byte_ideas_website_angular_architect_test"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "angular.json",
+      "source_location": "L84",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bit_and_byte_ideas_website_angular_architect_test",
+      "target": "bit_and_byte_ideas_website_angular_test_builder"
     },
     {
       "relation": "contains",
@@ -23935,6 +23450,61 @@
       "target": "e2e_homepage_spec_footer"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_ts",
+      "target": "src_app_app_config_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_ts",
+      "target": "src_app_app_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_ts",
+      "target": "app_app_app"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.server.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_server_ts",
+      "target": "src_app_app_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.server.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_server_ts",
+      "target": "app_app_app"
+    },
+    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -23971,6 +23541,16 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/main.server.ts",
+      "source_location": "2",
+      "weight": 1.0,
+      "source": "src_main_server_bootstrap",
+      "target": "app_app_appcomponent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.server.ts",
       "source_location": "3",
       "weight": 1.0,
       "source": "src_main_server_bootstrap",
@@ -23984,6 +23564,16 @@
       "source_location": null,
       "weight": 1.0,
       "source": "src_server_express",
+      "target": "src_main_server_bootstrap"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "angular.json",
+      "source_location": "25",
+      "weight": 1.0,
+      "source": "angular_json_project_config",
       "target": "src_main_server_bootstrap"
     },
     {
@@ -24027,6 +23617,28 @@
       "target": "src_server_reqhandler"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_spec_ts",
+      "target": "src_app_app_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_spec_ts",
+      "target": "app_app_app"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/app/app.spec.ts",
@@ -24035,6 +23647,17 @@
       "confidence_score": 1.0,
       "source": "src_app_app_spec_ts",
       "target": "app_app_spec_compiled"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.config.server.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_config_server_ts",
+      "target": "src_app_app_config_ts"
     },
     {
       "relation": "contains",
@@ -24055,6 +23678,180 @@
       "confidence_score": 1.0,
       "source": "src_app_app_config_server_ts",
       "target": "app_app_config_server_config"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.routes.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_routes_ts",
+      "target": "app_app_routes_routes"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.config.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_config_ts",
+      "target": "src_app_app_routes_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.config.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_config_ts",
+      "target": "app_app_routes_routes"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_ts",
+      "target": "src_app_components_nav_nav_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_ts",
+      "target": "nav_nav_nav"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_ts",
+      "target": "src_app_components_hero_hero_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_ts",
+      "target": "hero_hero_hero"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_ts",
+      "target": "src_app_components_services_services_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_ts",
+      "target": "services_services_services"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_ts",
+      "target": "src_app_components_contact_contact_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_ts",
+      "target": "contact_contact_contact"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_ts",
+      "target": "src_app_components_footer_footer_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_ts",
+      "target": "footer_footer_footer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_ts",
+      "target": "app_app_app"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_ts",
+      "target": "src_app_components_booking_booking_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/app.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_app_ts",
+      "target": "booking_booking_booking"
     },
     {
       "relation": "contains",
@@ -24374,6 +24171,48 @@
       "confidence_score": 1.0,
       "source": "booking_booking_booking_ngafterviewinit",
       "target": "booking_booking_booking_initwidget"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/components/nav/nav.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_components_nav_nav_ts",
+      "target": "nav_nav_nav"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/components/nav/nav.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_components_nav_nav_spec_ts",
+      "target": "src_app_components_nav_nav_ts"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/components/nav/nav.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "nav_nav_nav",
+      "target": "nav_nav_nav_onscroll"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/components/nav/nav.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_components_nav_nav_spec_ts",
+      "target": "nav_nav_nav"
     },
     {
       "relation": "contains",
@@ -44360,6 +44199,16 @@
       "target": "docs_architecture_techdocs"
     },
     {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/app.html",
+      "source_location": "line 1",
+      "weight": 1.0,
+      "source": "src_apphtml",
+      "target": "docs_architecture_appcomponent"
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -44613,6 +44462,56 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": "line 1",
+      "weight": 1.0,
+      "source": "nav_nav_html",
+      "target": "concept_scrolled_signal"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": "line 20-24",
+      "weight": 1.0,
+      "source": "nav_nav_html",
+      "target": "concept_nav_links"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": "line 4-15",
+      "weight": 1.0,
+      "source": "nav_nav_html",
+      "target": "concept_logo_pill"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": "line 21-23",
+      "weight": 1.0,
+      "source": "nav_nav_html",
+      "target": "concept_anchor_navigation"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": "line 3,8",
+      "weight": 1.0,
+      "source": "concept_aria_accessibility",
+      "target": "nav_nav_html"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "src/app/components/hero/hero.html",
       "source_location": "line 22-25",
       "weight": 1.0,
@@ -44638,6 +44537,16 @@
       "weight": 1.0,
       "source": "hero_hero_html",
       "target": "concept_scroll_indicator"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/components/hero/hero.html",
+      "source_location": "line 23-24",
+      "weight": 1.0,
+      "source": "hero_hero_html",
+      "target": "concept_anchor_navigation"
     },
     {
       "relation": "rationale_for",
@@ -44680,6 +44589,16 @@
       "target": "concept_get_quote_cta"
     },
     {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/components/services/services.html",
+      "source_location": "line 26",
+      "weight": 1.0,
+      "source": "services_services_html",
+      "target": "concept_anchor_navigation"
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -44708,6 +44627,16 @@
       "weight": 0.75,
       "source": "concept_free_consultation",
       "target": "concept_get_quote_cta"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "src/app/components/hero/hero.html",
+      "source_location": null,
+      "weight": 0.85,
+      "source": "concept_hero_ctas",
+      "target": "concept_nav_links"
     },
     {
       "relation": "contains",
@@ -44863,6 +44792,26 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "angular.json",
+      "source_location": "24",
+      "weight": 1.0,
+      "source": "angular_json_project_config",
+      "target": "src_main_browser_bootstrap"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "angular.json",
+      "source_location": "45",
+      "weight": 1.0,
+      "source": "angular_json_project_config",
+      "target": "src_server_express"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "package.json",
       "source_location": "10",
       "weight": 1.0,
@@ -44940,6 +44889,36 @@
       "target": "concept_calendly_external_link"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.ts",
+      "source_location": "6",
+      "weight": 1.0,
+      "source": "src_main_browser_bootstrap",
+      "target": "app_app_appcomponent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/main.ts",
+      "source_location": "3",
+      "weight": 1.0,
+      "source": "src_main_browser_bootstrap",
+      "target": "app_config_appconfig"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/app.config.server.ts",
+      "source_location": "3",
+      "weight": 1.0,
+      "source": "app_config_server_serverconfig",
+      "target": "app_config_appconfig"
+    },
+    {
       "relation": "implements",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -44948,6 +44927,16 @@
       "weight": 1.0,
       "source": "app_config_server_serverconfig",
       "target": "concept_ssr_prerender_strategy"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "src/app/components/nav/nav.spec.ts",
+      "source_location": null,
+      "weight": 0.8,
+      "source": "nav_nav_spec",
+      "target": "app_app_appcomponent"
     },
     {
       "relation": "implements",
@@ -45470,6 +45459,26 @@
       "target": "seo_h5_geographic_targeting_geographic_targeting"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/SEO/M5-cta-standardization.md",
+      "source_location": "line 49",
+      "weight": 1.0,
+      "source": "seo_m5_cta_standardization_cta_standardization",
+      "target": "src_app_components_nav_nav_html_nav_template"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/SEO/M5-cta-standardization.md",
+      "source_location": "lines 44-49",
+      "weight": 1.0,
+      "source": "seo_m5_cta_standardization_cta_standardization",
+      "target": "src_app_components_nav_nav_html_book_a_call_cta"
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -45688,6 +45697,46 @@
       "weight": 1.0,
       "source": "src_index_html_entry_point",
       "target": "src_index_html_font_preconnect"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": null,
+      "weight": 0.95,
+      "source": "src_app_components_nav_nav_html_calendly_link",
+      "target": "src_index_html_calendly_integration"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/app.html",
+      "source_location": "line 1",
+      "weight": 1.0,
+      "source": "src_app_app_html_app_shell",
+      "target": "src_app_components_nav_nav_html_nav_template"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": "lines 24-30",
+      "weight": 1.0,
+      "source": "src_app_components_nav_nav_html_nav_template",
+      "target": "src_app_components_nav_nav_html_book_a_call_cta"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/components/nav/nav.html",
+      "source_location": "line 25",
+      "weight": 1.0,
+      "source": "src_app_components_nav_nav_html_book_a_call_cta",
+      "target": "src_app_components_nav_nav_html_calendly_link"
     }
   ],
   "hyperedges": [
@@ -45814,5 +45863,5 @@
       "source_file": "docs/SEO/C4-lcp-image-optimization.md"
     }
   ],
-  "built_at_commit": "2607872976a105e6a81e2368c0c3d0fb63d57cc8"
+  "built_at_commit": "e2fe2440abe7918492be383e9b9c67631d72f1c4"
 }

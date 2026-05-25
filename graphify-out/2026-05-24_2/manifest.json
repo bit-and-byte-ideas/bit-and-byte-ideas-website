@@ -10,9 +10,9 @@
     "semantic_hash": "ee004e9e896705414e485e264967831a"
   },
   "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/angular.json": {
-    "mtime": 1779683878.429971,
-    "ast_hash": "74beef18b7ec5099c1449c496918d799",
-    "semantic_hash": ""
+    "mtime": 1779679186.4729028,
+    "ast_hash": "2818854549ef3ef664718e3827fe0154",
+    "semantic_hash": "2818854549ef3ef664718e3827fe0154"
   },
   "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/package.json": {
     "mtime": 1779679186.4747467,
@@ -80,19 +80,19 @@
     "semantic_hash": "0b0fd0f0d7450d53b2914ba4c6355c4f"
   },
   "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/src/app/app.routes.ts": {
-    "mtime": 1779683695.0134218,
-    "ast_hash": "9983fa53e68386040a4b5c71911f1ad2",
-    "semantic_hash": ""
+    "mtime": 1779679186.4756567,
+    "ast_hash": "9e82134f3e41732656270447c4c872fe",
+    "semantic_hash": "9e82134f3e41732656270447c4c872fe"
   },
   "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/src/app/app.ts": {
-    "mtime": 1779683707.9283853,
-    "ast_hash": "c224a58d7351bfe277647f7d8bbde66c",
-    "semantic_hash": ""
+    "mtime": 1779679186.4757676,
+    "ast_hash": "24425e99886e996af14bcec0fb1f8bf9",
+    "semantic_hash": "24425e99886e996af14bcec0fb1f8bf9"
   },
   "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/src/app/app.config.ts": {
-    "mtime": 1779683684.3441794,
-    "ast_hash": "136684a5ab4d5c5bd7466e8361f307ea",
-    "semantic_hash": ""
+    "mtime": 1779679186.4753091,
+    "ast_hash": "505eb9a9b52eb8e8a39a5a2d96ef3842",
+    "semantic_hash": "505eb9a9b52eb8e8a39a5a2d96ef3842"
   },
   "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/src/app/components/footer/footer.ts": {
     "mtime": 1775537244.8339133,
@@ -125,9 +125,9 @@
     "semantic_hash": "9666a5f0faa3a8947a01236c10a8b9df"
   },
   "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/src/app/components/nav/nav.ts": {
-    "mtime": 1779683817.455945,
-    "ast_hash": "44c27dd573a24ef659565e156e9db1b3",
-    "semantic_hash": ""
+    "mtime": 1775537170.7261612,
+    "ast_hash": "d2079819a9b8ca19da603067c6dbfc1b",
+    "semantic_hash": "d2079819a9b8ca19da603067c6dbfc1b"
   },
   "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/src/app/components/nav/nav.spec.ts": {
     "mtime": 1779679186.4761994,
@@ -700,9 +700,9 @@
     "semantic_hash": "435413a11cacb8c196c78324210be499"
   },
   "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/src/app/app.html": {
-    "mtime": 1779683717.756447,
-    "ast_hash": "4c670648ce2f44f14b2cfc46d8a745d8",
-    "semantic_hash": ""
+    "mtime": 1779679186.4755437,
+    "ast_hash": "b4a8017cf3ff1a8636c41615f4787eb0",
+    "semantic_hash": "b4a8017cf3ff1a8636c41615f4787eb0"
   },
   "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/src/app/components/footer/footer.html": {
     "mtime": 1775707023.5467634,
@@ -720,9 +720,9 @@
     "semantic_hash": "ece81f74574f69abf5c5f44badfae044"
   },
   "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/src/app/components/nav/nav.html": {
-    "mtime": 1779683836.379759,
-    "ast_hash": "ac5cce0f577439afe79542d622c4021b",
-    "semantic_hash": ""
+    "mtime": 1779679186.475939,
+    "ast_hash": "51c8a691287529ae4d2ce2cecd61f30c",
+    "semantic_hash": "51c8a691287529ae4d2ce2cecd61f30c"
   },
   "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/src/app/components/hero/hero.html": {
     "mtime": 1778040033.6756146,
@@ -943,30 +943,5 @@
     "mtime": 1779556068.7126884,
     "ast_hash": "af1d330dec51d2b84ec0b2987d26087a",
     "semantic_hash": "af1d330dec51d2b84ec0b2987d26087a"
-  },
-  "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/src/app/components/home/home.ts": {
-    "mtime": 1779683723.3635576,
-    "ast_hash": "df53f7ab4c02096f7520eafdb64b1926",
-    "semantic_hash": ""
-  },
-  "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/src/app/components/about/about.ts": {
-    "mtime": 1779683728.9360983,
-    "ast_hash": "5d102660a26138d68900a2910b537282",
-    "semantic_hash": ""
-  },
-  "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/src/app/components/about/about.html": {
-    "mtime": 1779683769.4688103,
-    "ast_hash": "a88c86a12df80a005326cb29dd301b7b",
-    "semantic_hash": ""
-  },
-  "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/Samples/Screenshot 2026-05-24 at 9.43.49\u202fPM.png": {
-    "mtime": 1779684234.9335284,
-    "ast_hash": "ace6b2c1f84cce99468cae0a39dae65a",
-    "semantic_hash": ""
-  },
-  "/Users/carlosbarajas/source/repos/github/bit-and-byte-ideas/bit-and-byte-ideas-website/Samples/Screenshot 2026-05-24 at 9.43.26\u202fPM.png": {
-    "mtime": 1779684212.494767,
-    "ast_hash": "06095c15c744524958d48ff09aac6594",
-    "semantic_hash": ""
   }
 }
