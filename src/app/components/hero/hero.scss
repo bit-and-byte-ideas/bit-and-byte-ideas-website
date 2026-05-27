@@ -145,11 +145,12 @@
 
   &.btn-primary {
     background: var(--gradient);
-    color: #fff;
+    color: var(--accent-text);
     border: none;
+    font-weight: 700;
 
     &:hover {
-      opacity: 0.88;
+      opacity: 0.9;
       transform: translateY(-1px);
     }
   }

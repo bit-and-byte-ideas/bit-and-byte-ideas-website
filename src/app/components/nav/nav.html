@@ -1,6 +1,8 @@
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
 <nav [class.scrolled]="scrolled()">
   <div class="container nav-inner">
-    <a routerLink="/" class="logo" aria-label="Bit and Byte Ideas home">
+    <a routerLink="/" class="logo" aria-label="Bit and Byte Ideas home" (click)="closeMenu()">
       <span class="logo-icon-pill">
         <span class="logo-icon-inner">
           <img
@@ -38,5 +40,73 @@
         >
       </li>
     </ul>
+
+    <button
+      class="hamburger"
+      type="button"
+      [attr.aria-expanded]="menuOpen()"
+      aria-controls="mobile-menu"
+      aria-label="Toggle navigation menu"
+      (click)="toggleMenu()"
+    >
+      <span class="hamburger-line" [class.open]="menuOpen()"></span>
+      <span class="hamburger-line" [class.open]="menuOpen()"></span>
+      <span class="hamburger-line" [class.open]="menuOpen()"></span>
+    </button>
   </div>
 </nav>
+
+<div
+  id="mobile-menu"
+  class="mobile-menu"
+  [class.open]="menuOpen()"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Navigation menu"
+>
+  <button
+    class="mobile-close"
+    type="button"
+    aria-label="Close navigation menu"
+    (click)="closeMenu()"
+  >
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      aria-hidden="true"
+    >
+      <line x1="18" y1="6" x2="6" y2="18" />
+      <line x1="6" y1="6" x2="18" y2="18" />
+    </svg>
+  </button>
+
+  <nav aria-label="Mobile navigation">
+    <ul class="mobile-nav-links" role="list">
+      <li><a href="/#services" (click)="closeMenu()">Services</a></li>
+      <li>
+        <a
+          routerLink="/about"
+          routerLinkActive="nav-active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          (click)="closeMenu()"
+          >About</a
+        >
+      </li>
+      <li><a href="/#contact" (click)="closeMenu()">Get in Touch</a></li>
+      <li>
+        <a
+          href="https://calendly.com/carlos-barajas-bitandbyteideas/30min"
+          class="mobile-book"
+          target="_blank"
+          rel="noopener noreferrer"
+          (click)="closeMenu()"
+          >Book a Call ↗</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>
