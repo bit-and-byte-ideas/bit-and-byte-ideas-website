@@ -1,5 +1,7 @@
 .terraform/
 graphify-out/cache/
+graphify-out/**/manifest.json
+graphify-out/**/cost.json
 
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
