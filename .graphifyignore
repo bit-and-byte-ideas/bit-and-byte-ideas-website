@@ -1,0 +1,7 @@
+# .graphifyignore
+node_modules/
+dist/
+*.generated.py
+.idea/
+test-results/
+# only index src/, ignore everything else
