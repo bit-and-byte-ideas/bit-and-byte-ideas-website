@@ -27,7 +27,7 @@ switch in Phase 5.
 - **Gate:** `pnpm lint && pnpm build && pnpm test` green; `pre-commit` installed and
   passing; prerendered HTML exists for all three routes (placeholder content).
 
-## Phase 2 — Design system & shell (PR 2)
+## Phase 2 — Design system & shell (PR 2) ✅ (2026-07-07)
 
 - `design/tokens.css`: full token set from 03 (color, type scale, spacing, motion,
   z-index) with light-mode values stubbed for future use.
