@@ -1,4 +1,5 @@
 import { services } from '../content/services';
+import './services.css';
 
 export function Services() {
   return (
@@ -34,7 +35,7 @@ export function Services() {
                 ))}
               </ul>
               <a href="#contact" className="card-cta">
-                Get a Quote
+                Get in Touch
               </a>
             </article>
           ))}

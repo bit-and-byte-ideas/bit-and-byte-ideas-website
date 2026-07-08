@@ -1,4 +1,5 @@
 import { businessInfo, mailtoHref } from '../content/business-info';
+import './contact.css';
 
 export function Contact() {
   return (

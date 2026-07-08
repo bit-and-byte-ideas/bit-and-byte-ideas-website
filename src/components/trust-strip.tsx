@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import { trustItems } from '../content/trust';
+import './trust-strip.css';
 
 export function TrustStrip() {
   return (

@@ -38,7 +38,7 @@ switch in Phase 5.
 - **Gate:** ui-ux-pro-max CRITICAL checks pass on the shell (contrast, focus, touch
   targets, reduced-motion); component tests for nav/footer.
 
-## Phase 3 — Home sections (PR 3)
+## Phase 3 — Home sections (PR 3) ✅ (2026-07-07)
 
 - Trust strip, services, process, contact — all fed from content modules; "Book a call"
   as an external Calendly link (embed dropped, see 02).
