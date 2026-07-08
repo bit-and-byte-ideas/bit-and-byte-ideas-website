@@ -6,7 +6,7 @@ export default defineConfig({
   retries: process.env['CI'] ? 2 : 0,
   reporter: process.env['CI'] ? 'github' : 'list',
   use: {
-    baseURL: 'http://localhost:4200',
+    baseURL: 'http://localhost:5173',
     trace: 'on-first-retry',
   },
   projects: [
@@ -16,8 +16,8 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'ng serve',
-    url: 'http://localhost:4200',
+    command: 'pnpm dev',
+    url: 'http://localhost:5173',
     reuseExistingServer: !process.env['CI'],
     timeout: 120_000,
   },

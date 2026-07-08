@@ -4,59 +4,80 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the website for Bit and Byte Ideas, built with Angular. The Angular project has not yet been scaffolded — use the `angular-developer` skill when initializing it.
+This is the public website for Bit and Byte Ideas, a software consulting studio. It is a
+Vite + React 19 + TypeScript app using React Router v7 framework mode with **static
+prerendering** (`ssr: false` + `prerender` in `react-router.config.ts`): every route is
+emitted as real HTML at build time and served from Azure Static Web Apps. Package manager
+is **pnpm** (managed via Corepack — `corepack enable pnpm` if missing).
 
-## Common Commands
+The ground-up rebuild is tracked in `docs/redesign/` (00–05) — read those before making
+structural or design decisions; they are the decision record.
 
-Once the Angular project is initialized, use these commands from the project root:
+## Commands
 
-```bash
-ng serve                        # Dev server (http://localhost:4200)
-ng build                        # Production build
-ng build --configuration production  # Production build with bundle size verification
-ng test                         # Run unit tests
-ng test --watch                 # Watch mode
-ng test --code-coverage         # With coverage report
-ng generate component <name>    # Scaffold component
-ng generate service <name>      # Scaffold service
-```
+- `pnpm dev` — React Router dev server with HMR (http://localhost:5173).
+- `pnpm build` — type-check (`tsc -b`, gating) then `react-router build`; static output
+  lands in `build/client/` with prerendered HTML for `/`, `/about`, and `/404`.
+- `pnpm lint` — ESLint flat config (`eslint.config.js`) across the repo.
+- `pnpm typecheck` — `tsc -b` only (the type-check half of the build).
+- `pnpm test` — Vitest unit suite once; `pnpm test:watch` for watch mode.
+- `pnpm test:e2e` — Playwright e2e against the dev server (`pnpm test:e2e:ui` for UI mode).
+- `pnpm preview` — serve the built output locally.
 
-Run a single test file by passing the spec file path or a grep pattern:
+These scripts are the single source of truth: the local pre-commit hooks and the CI
+workflow both invoke them, so a green commit and a green CI run can't disagree. Change
+behavior by editing the script in `package.json`, not by duplicating flags in a hook or
+workflow.
 
-```bash
-ng test --include="**/foo.spec.ts"
-```
+## Architecture
 
-After generating any code, always run `ng build` to verify there are no build errors before proceeding.
+- `src/routes.ts` declares routes; route modules live in `src/routes/` and export a
+  default component plus a `meta()` function built from `src/content/seo.ts`.
+- `src/content/` holds all copy and business data as typed modules — the single source of
+  truth for text, contact details, and structured data. Never hardcode copy in components.
+- `src/components/` holds presentational components; `src/design/tokens.css` owns every
+  color/type/spacing/motion token. No raw hex values in components.
+- `public/` assets (robots.txt, sitemap.xml, favicons, images) are copied verbatim into
+  the build output.
 
-## Architecture Expectations
+## Testing
 
-This project uses Angular 17+ conventions enforced by the installed skills:
+Vitest with the jsdom environment and Testing Library. Config lives in `vite.config.ts`
+under the `test` key (`globals: true`, `setupFiles: ['./src/setupTests.ts']`). Co-locate
+tests as `*.test.ts(x)` next to the code. Query by role/label, not by class name.
 
-- **Standalone components only** — no NgModule-based components
-- **OnPush change detection** on all components
-- **Signals** for reactive state (`signal`, `computed`, `linkedSignal`, `resource`)
-- **Signal Forms** for new forms (Angular v21+); reactive/template-driven for existing forms
-- **`inject()`** function for dependency injection (not constructor injection)
-- **`takeUntilDestroyed`** for RxJS subscription cleanup
-- **Lazy-loaded routes** by default; eager only where justified
-- **Strict TypeScript** — avoid `any` without justification
-- **Vitest** for unit testing (not Jasmine); use `vi.fn()` for mocks
+## TypeScript layout
 
-## Available Skills
+TS project references — root `tsconfig.json` is a solution file referencing
+`tsconfig.app.json` (src) and `tsconfig.node.json` (vite/react-router/playwright configs).
+`verbatimModuleSyntax`, `noUnusedLocals`/`noUnusedParameters`, and `erasableSyntaxOnly`
+are on: type-only imports must use `import type`, unused symbols fail the build, and
+enums/namespaces are rejected — prefer plain unions/objects.
 
-Use these skills (via the Skill tool or slash commands) for their respective tasks:
+## Commit hygiene
 
-| Skill               | When to use                                                                           |
-| ------------------- | ------------------------------------------------------------------------------------- |
-| `angular-developer` | Creating components/services, routing, DI, forms, styling, animations, SSR, CLI usage |
-| `angular-architect` | NgRx state management, RxJS patterns, bundle optimization, enterprise architecture    |
-| `angular-testing`   | Writing unit/integration tests with Vitest and TestBed                                |
-| `frontend-design`   | Designing distinctive, production-quality UI with intentional aesthetics              |
+- **Conventional Commits** enforced via commitlint (`commitlint.config.js`).
+- **pre-commit framework** (`.pre-commit-config.yaml`): commitlint on `commit-msg`;
+  `eslint --fix` on staged files, `pnpm typecheck`, and `pnpm test` on `pre-commit`;
+  OpenTofu fmt/validate for `deploy/**.tf`.
+- New clones: run `pre-commit install --hook-type pre-commit --hook-type commit-msg` once.
+- **Do not bypass with `--no-verify`.** A Claude PreToolUse hook
+  (`.claude/hooks/block-no-verify.sh`) rejects it; fix the underlying failure instead.
+
+## CI & deployment
+
+`.github/workflows/ci.yaml` runs `pnpm lint`, `pnpm build`, `pnpm test` on push/PR to
+`main` — the same scripts as the pre-commit hooks. Production deploys are release-driven
+(`deploy-app-prod.yaml`) and upload the static build to Azure Static Web Apps; infra is
+Terraform under `deploy/infra/`.
 
 ## Design Direction
 
-When building UI, use the `frontend-design` skill. Avoid generic AI aesthetics: no Inter/Roboto/Arial fonts, no purple gradients on white, no cookie-cutter layouts. Commit to a bold, context-specific aesthetic direction.
+When building UI, use the `frontend-design` skill together with `ui-ux-pro-max`. The
+accepted aesthetic is "Engineered Dark" (docs/redesign/03): today's palette (tokens in
+`src/design/tokens.css`), Bricolage Grotesque / Public Sans / IBM Plex Mono, monospace
+system labels, one primary CTA ("Book a call"). Avoid generic AI aesthetics: no
+Inter/Roboto/Arial, no purple gradients, no cookie-cutter layouts.
 
 ## graphify
 
