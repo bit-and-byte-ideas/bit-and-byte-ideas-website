@@ -2,12 +2,13 @@ import type { MetaDescriptor } from 'react-router';
 import { about } from '../content/about';
 import { site } from '../content/site';
 import { pageMeta } from '../content/seo';
+import './about.css';
 
 export function meta(): MetaDescriptor[] {
   return pageMeta({
     title: 'About — Bit & Byte Ideas',
     description:
-      'Bit & Byte Ideas is run by Carlos Barajas, an engineer with 18+ years of experience across fintech, energy, and financial services — bringing enterprise discipline to small business software.',
+      'Bit & Byte Ideas is run by Carlos Barajas, a San Diego-based engineer with 18+ years of experience across fintech, energy, and financial services — bringing enterprise discipline to small business software.',
     path: '/about',
   });
 }
@@ -111,16 +112,16 @@ export default function About() {
           <p className="cta-label">Ready to build something?</p>
           <h2 className="cta-heading">Let's Talk.</h2>
           <div className="cta-actions">
-            <a href="/#contact" className="btn btn-primary">
-              Get in Touch
-            </a>
             <a
               href={site.calendlyUrl}
-              className="btn btn-ghost"
+              className="btn btn-primary"
               target="_blank"
               rel="noopener noreferrer"
             >
               Book a Call
+            </a>
+            <a href="/#contact" className="btn btn-ghost">
+              Get in Touch
             </a>
           </div>
         </div>

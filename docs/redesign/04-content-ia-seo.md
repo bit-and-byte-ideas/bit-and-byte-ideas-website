@@ -50,7 +50,7 @@ rebuilt anyway.
 - H1 `staticwebapp.config.json` — security headers, apex redirect, 404 wiring
 - H2 sitemap regenerated at build with real `lastmod`
 - H3 / M6 JSON-LD upgrade: Organization + WebSite + sameAs, fixed serviceType, FAQPage
-- H7 / L3 robots.txt: name AI crawlers, disallow `/assets/`
+- H7 robots.txt: name AI crawlers explicitly
 - C2 H1 keyword targeting per route
 - C3 `llms.txt`
 - C4 / M9 image optimization: WebP, explicit dimensions, `fetchpriority` on hero asset, lazy-load below fold
@@ -58,12 +58,16 @@ rebuilt anyway.
 - M4 meta gaps: `og:locale`, og:image dimensions, `twitter:site`; L2 `theme-color`
 - M5 standardized CTA copy (single primary: "Book a call")
 - M8 404 route
-- H5 geographic targeting copy (needs your service-area input — Phase 4)
+- H5 geographic targeting — resolved 2026-07-07: US-wide service, San Diego, CA home base
+  (hero subheadline, footer line, schema PostalAddress, FAQ #7, llms.txt)
 
 ### Closed as won't-do / moot
 
 - M1 pricing anchors — pricing is quoted per engagement (owner decision, 2026-07-07)
 - H4 Calendly CSS async + M7 noscript — embed removed entirely (see 02)
+- L3 robots.txt `/assets/` disallow — won't-do: Vite emits the JS/CSS bundles and fonts
+  under `/assets/`, and Google must crawl them to render the page; blocking would hurt
+  more than the crawl-budget saving is worth
 
 ### Deferred (not part of the rebuild)
 
@@ -103,11 +107,13 @@ rebuilt anyway.
    and contact you, a fast static site is usually right. If they need to log in, submit
    data, or run a workflow, that's an application — the consultation sorts this out in
    the first ten minutes.
-7. **Where are you located and who do you work with?** We're a US-based studio working
-   remotely with small and medium businesses; response time is within one business day.
-   _(Adjust once H5 geographic targeting copy is decided.)_
+7. **Where are you located and who do you work with?** We're a software studio based in
+   San Diego, California, working remotely with small and medium businesses across the
+   United States. Response time is within one business day.
+
+The FAQ shipped in Phase 4 (`src/content/faq.ts`) — edits there, not here; this draft is
+kept as the decision record.
 
 ## Open items
 
-1. H5 geographic targeting: confirm the service-area wording for FAQ #7 and site
-   metadata before Phase 4 ships.
+None — H5 resolved 2026-07-07 (US-wide, San Diego home base).

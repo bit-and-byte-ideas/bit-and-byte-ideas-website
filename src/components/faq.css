@@ -1,0 +1,70 @@
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 760px;
+}
+
+.faq-item {
+  border-top: 1px solid var(--border);
+}
+
+.faq-item:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  min-height: 56px;
+  padding: var(--space-3) 0;
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 600;
+  list-style: none;
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.faq-question::-webkit-details-marker {
+  display: none;
+}
+
+.faq-question:hover {
+  color: var(--soft-green);
+}
+
+/* Plus marker that rotates into a cross when open */
+.faq-marker {
+  position: relative;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  transition: transform var(--duration-base) var(--ease-out);
+}
+
+.faq-marker::before,
+.faq-marker::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  margin-top: -1px;
+  background: var(--accent);
+}
+
+.faq-marker::after {
+  transform: rotate(90deg);
+}
+
+.faq-item[open] .faq-marker {
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  color: var(--text-muted);
+  max-width: 65ch;
+  padding-bottom: var(--space-4);
+}

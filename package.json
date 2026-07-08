@@ -7,7 +7,7 @@
   "packageManager": "pnpm@11.6.0",
   "scripts": {
     "dev": "react-router dev",
-    "build": "tsc -b && react-router build",
+    "build": "tsc -b && react-router build && node scripts/generate-sitemap.mjs",
     "lint": "eslint .",
     "typecheck": "tsc -b",
     "test": "vitest run",
