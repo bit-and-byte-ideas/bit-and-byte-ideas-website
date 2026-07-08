@@ -48,11 +48,11 @@ The existing tagline `"Building digital ideas, one bit at a time."` can remain a
 
 ## Files to Change
 
-| File                                | Change                                                                                                                                   |
+| File | Change |
 | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
-| `src/app/components/hero/hero.html` | Update H1 text                                                                                                                           |
-| `src/index.html`                    | Update `<title>` to match (already `"Bit & Byte Ideas — Software Studio"` — consider `"Web Design & App Development for Small Businesses | Bit & Byte Ideas"`) |
-| `src/index.html`                    | Update `og:title` to match new page title                                                                                                |
+| `src/app/components/hero/hero.html` | Update H1 text |
+| `src/index.html` | Update `<title>` to match (already `"Bit & Byte Ideas — Software Studio"` — consider `"Web Design & App Development for Small Businesses | Bit & Byte Ideas"`) |
+| `src/index.html` | Update `og:title` to match new page title |
 
 ## Definition of Done
 

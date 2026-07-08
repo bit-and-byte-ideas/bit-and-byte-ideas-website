@@ -1,0 +1,4 @@
+# pnpm build-script approvals (pnpm 11).
+# esbuild needs its postinstall to place the platform binary.
+allowBuilds:
+  esbuild: true
