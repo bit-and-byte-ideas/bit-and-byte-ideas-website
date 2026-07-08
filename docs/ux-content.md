@@ -2,9 +2,11 @@
 
 ## Primary Audience
 
-The website is aimed at small and medium businesses evaluating Bit and Byte Ideas for website, web application, maintenance, or hosting work.
+The website is aimed at small and medium businesses across the United States evaluating
+Bit and Byte Ideas for website, web application, maintenance, or hosting work. The studio's
+home base (San Diego, CA) is stated for trust and local search.
 
-The page should quickly answer:
+The site should quickly answer:
 
 - What does the studio build?
 - Is this relevant to my business?
@@ -12,58 +14,67 @@ The page should quickly answer:
 
 ## Page Journey
 
-The current page flow is:
+The home page flow is:
 
-1. Navigation with brand identity and anchor links.
-2. Hero section with the studio positioning and primary calls to action.
-3. Services section describing available work.
-4. Booking section with an embedded Calendly consultation flow.
-5. Contact section with direct email and business availability details.
-6. Footer with brand reinforcement and copyright.
+1. Fixed navigation with brand identity, anchor links, and the primary CTA.
+2. Hero with the keyword-targeted headline, positioning copy, and both CTAs.
+3. Trust strip with experience and platform proof points.
+4. Services section describing the three service lines.
+5. Process section explaining how an engagement runs.
+6. FAQ answering common buyer questions (pricing model, timelines, ownership, location).
+7. Contact section with direct email and business availability details.
+8. Footer with brand reinforcement, location line, navigation, and GitHub link.
 
-Changes should preserve a clear path from service discovery to contact or booking.
+`/about` carries the founder's background, technical range, and best-fit client profiles,
+ending in a CTA band. Changes should preserve a clear path from service discovery to
+booking or contact.
 
 ## Calls to Action
 
-Current calls to action are:
+There are exactly two CTA labels, in a fixed hierarchy:
 
-- `Explore Services`
-- `Get in Touch`
-- `Get a Quote`
-- `Book a Call`
-- Email link in the contact section
+- **Book a Call** — primary. Always an external link to Calendly, opening in a new tab.
+  Rendered as the filled green button in the nav, hero, mobile menu, and about CTA band.
+- **Get in Touch** — secondary. Anchors to `#contact` (email path). Rendered as the ghost
+  button or text link.
 
-Avoid adding competing primary calls to action unless the business workflow changes. If a new CTA is required, decide whether booking or email remains the main conversion path and update copy consistently.
+Do not introduce new CTA labels for the same actions (this was SEO item M5). If the
+conversion strategy changes, update every surface in the same change.
 
 ## Content Ownership
 
-Service descriptions are currently owned in `src/app/components/services/services.ts`.
+All copy lives in typed modules under `src/content/` — see
+[Architecture](architecture.md#content-ownership) for the full table. Components render
+content; they do not own it. When updating copy, edit the content module and let every
+surface pick it up.
 
-Business contact details are owned in `src/app/services/business-info.service.ts`.
-
-Calendly booking configuration is owned in `src/app/components/booking/booking.ts`.
-
-When updating content, prefer the existing source of truth rather than duplicating text in templates.
+SEO-sensitive strings (titles, meta descriptions, structured data) live in
+`src/content/seo.ts` and are covered by unit tests plus prerender checks.
 
 ## Accessibility Expectations
 
-Maintain these accessibility patterns:
+Maintain these patterns:
 
-- Landmarks and sections should use clear labels or heading references.
-- Decorative images should have empty `alt` text and be hidden from assistive technologies when appropriate.
-- Informative images, such as the footer logo, should have meaningful `alt` text.
-- Anchor destinations should match visible navigation labels.
-- Interactive elements should remain keyboard reachable.
-- Text contrast should remain high against the dark background.
+- A skip link is the first focusable element and targets `#main-content`.
+- Landmarks and sections use clear labels or heading references; headings are sequential.
+- Decorative images (hero watermark, nav icon) have empty `alt` and `aria-hidden`;
+  informative images (footer logo) have meaningful `alt` text.
+- Interactive elements are keyboard reachable with visible focus rings, and touch targets
+  are at least 44×44px.
+- Text contrast meets 4.5:1 on the dark background — body-muted text uses `--text-muted`;
+  `--text-faint` is reserved for decorative, `aria-hidden` ornament only.
+- Every animation is gated by `prefers-reduced-motion`, and scroll reveals are
+  transform-only so content is never hidden without JavaScript or in print.
 
 ## Brand Direction
 
-The existing design uses:
+The accepted direction is "Engineered Dark" (`docs/redesign/03-design-direction.md`):
 
-- Dark navy and slate backgrounds.
-- Green and blue accent colors.
-- Sharp, compact radius values.
-- Strong display typography for major headings.
-- Monospace labels for technical detail.
+- Dark navy/slate palette with green and blue accents, carried in `src/design/tokens.css`.
+- Bricolage Grotesque display type, Public Sans body, IBM Plex Mono for the `//` system
+  labels and technical detail.
+- Blueprint grid and grain textures, hairline rules, sharp 4px radii.
+- One orchestrated hero load; subtle scroll-triggered entrances elsewhere.
 
-Do not introduce unrelated visual systems or generic stock-section layouts. New sections should feel like part of the same focused software-studio site.
+Do not introduce unrelated visual systems or generic stock-section layouts. New sections
+should feel like part of the same focused software-studio site.

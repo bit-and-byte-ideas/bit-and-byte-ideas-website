@@ -3443,7 +3443,7 @@
       "source_file": "README.md",
       "source_location": "L40",
       "id": "bit_and_byte_ideas_website_readme_codeblock_5",
-      "community": 70,
+      "community": 93,
       "norm_label": "code:bash (ng test --include=\"**/example.spec.ts\")"
     },
     {
@@ -4212,49 +4212,67 @@
       "norm_label": "stack"
     },
     {
-      "label": "Routing and Rendering",
+      "label": "Application Entry Point",
       "file_type": "document",
       "source_file": "docs/architecture.md",
       "source_location": "L12",
-      "id": "docs_architecture_routing_and_rendering",
+      "id": "docs_architecture_application_entry_point",
       "community": 51,
-      "norm_label": "routing and rendering"
+      "norm_label": "application entry point"
     },
     {
-      "label": "Document Shell",
+      "label": "Component Composition",
       "file_type": "document",
       "source_file": "docs/architecture.md",
-      "source_location": "L33",
-      "id": "docs_architecture_document_shell",
+      "source_location": "L23",
+      "id": "docs_architecture_component_composition",
       "community": 51,
-      "norm_label": "document shell"
+      "norm_label": "component composition"
     },
     {
-      "label": "Content Ownership",
+      "label": "Data Flow",
       "file_type": "document",
       "source_file": "docs/architecture.md",
-      "source_location": "L39",
-      "id": "docs_architecture_content_ownership",
+      "source_location": "L36",
+      "id": "docs_architecture_data_flow",
       "community": 51,
-      "norm_label": "content ownership"
+      "norm_label": "data flow"
     },
     {
-      "label": "Components and Styling",
+      "label": "Styling",
       "file_type": "document",
       "source_file": "docs/architecture.md",
       "source_location": "L50",
-      "id": "docs_architecture_components_and_styling",
+      "id": "docs_architecture_styling",
       "community": 51,
-      "norm_label": "components and styling"
+      "norm_label": "styling"
     },
     {
-      "label": "Static Assets",
+      "label": "Assets and External Resources",
       "file_type": "document",
       "source_file": "docs/architecture.md",
-      "source_location": "L62",
-      "id": "docs_architecture_static_assets",
+      "source_location": "L58",
+      "id": "docs_architecture_assets_and_external_resources",
       "community": 51,
-      "norm_label": "static assets"
+      "norm_label": "assets and external resources"
+    },
+    {
+      "label": "Routing",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L69",
+      "id": "docs_architecture_routing",
+      "community": 51,
+      "norm_label": "routing"
+    },
+    {
+      "label": "Backstage TechDocs",
+      "file_type": "document",
+      "source_file": "docs/architecture.md",
+      "source_location": "L79",
+      "id": "docs_architecture_backstage_techdocs",
+      "community": 51,
+      "norm_label": "backstage techdocs"
     },
     {
       "label": "quality-operations.md",
@@ -4284,13 +4302,22 @@
       "norm_label": "required checks"
     },
     {
-      "label": "code:bash (pnpm lint)",
+      "label": "code:bash (npm run build)",
       "file_type": "document",
       "source_file": "docs/quality-operations.md",
       "source_location": "L7",
       "id": "docs_quality_operations_codeblock_1",
       "community": 235,
-      "norm_label": "code:bash (pnpm lint)"
+      "norm_label": "code:bash (npm run build)"
+    },
+    {
+      "label": "code:bash (npm test)",
+      "file_type": "document",
+      "source_file": "docs/quality-operations.md",
+      "source_location": "L13",
+      "id": "docs_quality_operations_codeblock_2",
+      "community": 235,
+      "norm_label": "code:bash (npm test)"
     },
     {
       "label": "Testing Strategy",
@@ -4302,40 +4329,49 @@
       "norm_label": "testing strategy"
     },
     {
-      "label": "CI",
+      "label": "Build and Deployment Assumptions",
       "file_type": "document",
       "source_file": "docs/quality-operations.md",
-      "source_location": "L34",
-      "id": "docs_quality_operations_ci",
+      "source_location": "L32",
+      "id": "docs_quality_operations_build_and_deployment_assumptions",
       "community": 235,
-      "norm_label": "ci"
+      "norm_label": "build and deployment assumptions"
     },
     {
-      "label": "Deployment",
+      "label": "External Dependencies",
       "file_type": "document",
       "source_file": "docs/quality-operations.md",
-      "source_location": "L40",
-      "id": "docs_quality_operations_deployment",
+      "source_location": "L38",
+      "id": "docs_quality_operations_external_dependencies",
       "community": 235,
-      "norm_label": "deployment"
+      "norm_label": "external dependencies"
     },
     {
-      "label": "Rollback",
+      "label": "Operational Risks",
       "file_type": "document",
       "source_file": "docs/quality-operations.md",
-      "source_location": "L54",
-      "id": "docs_quality_operations_rollback",
+      "source_location": "L48",
+      "id": "docs_quality_operations_operational_risks",
       "community": 235,
-      "norm_label": "rollback"
+      "norm_label": "operational risks"
     },
     {
-      "label": "SEO Operations",
+      "label": "TechDocs Publishing",
       "file_type": "document",
       "source_file": "docs/quality-operations.md",
-      "source_location": "L59",
-      "id": "docs_quality_operations_seo_operations",
+      "source_location": "L55",
+      "id": "docs_quality_operations_techdocs_publishing",
       "community": 235,
-      "norm_label": "seo operations"
+      "norm_label": "techdocs publishing"
+    },
+    {
+      "label": "code:bash (npx @techdocs/cli serve)",
+      "file_type": "document",
+      "source_file": "docs/quality-operations.md",
+      "source_location": "L65",
+      "id": "docs_quality_operations_codeblock_3",
+      "community": 235,
+      "norm_label": "code:bash (npx @techdocs/cli serve)"
     },
     {
       "label": "index.md",
@@ -4359,7 +4395,7 @@
       "label": "What the Site Does",
       "file_type": "document",
       "source_file": "docs/index.md",
-      "source_location": "L12",
+      "source_location": "L7",
       "id": "docs_index_what_the_site_does",
       "community": 152,
       "norm_label": "what the site does"
@@ -4368,7 +4404,7 @@
       "label": "Repository Purpose",
       "file_type": "document",
       "source_file": "docs/index.md",
-      "source_location": "L21",
+      "source_location": "L15",
       "id": "docs_index_repository_purpose",
       "community": 152,
       "norm_label": "repository purpose"
@@ -4377,7 +4413,7 @@
       "label": "Documentation Map",
       "file_type": "document",
       "source_file": "docs/index.md",
-      "source_location": "L28",
+      "source_location": "L19",
       "id": "docs_index_documentation_map",
       "community": 152,
       "norm_label": "documentation map"
@@ -4386,7 +4422,7 @@
       "label": "Current Scope",
       "file_type": "document",
       "source_file": "docs/index.md",
-      "source_location": "L40",
+      "source_location": "L26",
       "id": "docs_index_current_scope",
       "community": 152,
       "norm_label": "current scope"
@@ -4422,7 +4458,7 @@
       "label": "Page Journey",
       "file_type": "document",
       "source_file": "docs/ux-content.md",
-      "source_location": "L15",
+      "source_location": "L13",
       "id": "docs_ux_content_page_journey",
       "community": 173,
       "norm_label": "page journey"
@@ -4431,7 +4467,7 @@
       "label": "Calls to Action",
       "file_type": "document",
       "source_file": "docs/ux-content.md",
-      "source_location": "L32",
+      "source_location": "L26",
       "id": "docs_ux_content_calls_to_action",
       "community": 173,
       "norm_label": "calls to action"
@@ -4440,7 +4476,7 @@
       "label": "Content Ownership",
       "file_type": "document",
       "source_file": "docs/ux-content.md",
-      "source_location": "L44",
+      "source_location": "L38",
       "id": "docs_ux_content_content_ownership",
       "community": 173,
       "norm_label": "content ownership"
@@ -4449,7 +4485,7 @@
       "label": "Accessibility Expectations",
       "file_type": "document",
       "source_file": "docs/ux-content.md",
-      "source_location": "L54",
+      "source_location": "L48",
       "id": "docs_ux_content_accessibility_expectations",
       "community": 173,
       "norm_label": "accessibility expectations"
@@ -4458,7 +4494,7 @@
       "label": "Brand Direction",
       "file_type": "document",
       "source_file": "docs/ux-content.md",
-      "source_location": "L69",
+      "source_location": "L59",
       "id": "docs_ux_content_brand_direction",
       "community": 173,
       "norm_label": "brand direction"
@@ -4491,58 +4527,103 @@
       "norm_label": "prerequisites"
     },
     {
-      "label": "code:bash (pnpm install)",
+      "label": "code:bash (npm install)",
       "file_type": "document",
       "source_file": "docs/development.md",
-      "source_location": "L12",
+      "source_location": "L10",
       "id": "docs_development_codeblock_1",
       "community": 80,
-      "norm_label": "code:bash (pnpm install)"
+      "norm_label": "code:bash (npm install)"
     },
     {
-      "label": "Common Commands",
+      "label": "Local Server",
       "file_type": "document",
       "source_file": "docs/development.md",
-      "source_location": "L17",
-      "id": "docs_development_common_commands",
+      "source_location": "L14",
+      "id": "docs_development_local_server",
       "community": 80,
-      "norm_label": "common commands"
+      "norm_label": "local server"
     },
     {
-      "label": "code:bash (pnpm dev           # React Router dev server at http://local)",
+      "label": "code:bash (npm start)",
       "file_type": "document",
       "source_file": "docs/development.md",
-      "source_location": "L19",
+      "source_location": "L18",
       "id": "docs_development_codeblock_2",
       "community": 80,
-      "norm_label": "code:bash (pnpm dev           # react router dev server at http://local)"
+      "norm_label": "code:bash (npm start)"
     },
     {
-      "label": "TypeScript Layout",
+      "label": "Build",
       "file_type": "document",
       "source_file": "docs/development.md",
-      "source_location": "L34",
-      "id": "docs_development_typescript_layout",
+      "source_location": "L24",
+      "id": "docs_development_build",
+      "community": 252,
+      "norm_label": "build"
+    },
+    {
+      "label": "code:bash (npm run build)",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "L28",
+      "id": "docs_development_codeblock_3",
+      "community": 252,
+      "norm_label": "code:bash (npm run build)"
+    },
+    {
+      "label": "Tests",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "L37",
+      "id": "docs_development_tests",
       "community": 80,
-      "norm_label": "typescript layout"
+      "norm_label": "tests"
     },
     {
-      "label": "Conventions",
+      "label": "code:bash (npm test)",
       "file_type": "document",
       "source_file": "docs/development.md",
-      "source_location": "L44",
-      "id": "docs_development_conventions",
-      "community": 215,
-      "norm_label": "conventions"
-    },
-    {
-      "label": "Commit Hygiene",
-      "file_type": "document",
-      "source_file": "docs/development.md",
-      "source_location": "L54",
-      "id": "docs_development_commit_hygiene",
+      "source_location": "L41",
+      "id": "docs_development_codeblock_4",
       "community": 80,
-      "norm_label": "commit hygiene"
+      "norm_label": "code:bash (npm test)"
+    },
+    {
+      "label": "code:bash (ng test --include=\"**/component-name.spec.ts\")",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "L47",
+      "id": "docs_development_codeblock_5",
+      "community": 80,
+      "norm_label": "code:bash (ng test --include=\"**/component-name.spec.ts\")"
+    },
+    {
+      "label": "Angular Conventions",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "L53",
+      "id": "docs_development_angular_conventions",
+      "community": 80,
+      "norm_label": "angular conventions"
+    },
+    {
+      "label": "Adding or Changing Sections",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "L65",
+      "id": "docs_development_adding_or_changing_sections",
+      "community": 80,
+      "norm_label": "adding or changing sections"
+    },
+    {
+      "label": "Documentation Changes",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "L75",
+      "id": "docs_development_documentation_changes",
+      "community": 80,
+      "norm_label": "documentation changes"
     },
     {
       "label": "00-overview.md",
@@ -4761,28 +4842,28 @@
       "norm_label": "phase 4 \u2014 new content & remaining routes (pr 4) \u2705 (2026-07-07)"
     },
     {
-      "label": "Phase 5 \u2014 CI/CD switchover (PR 5) \u2705 (2026-07-07)",
+      "label": "Phase 5 \u2014 CI/CD switchover (PR 5)",
       "file_type": "document",
       "source_file": "docs/redesign/05-migration-roadmap.md",
       "source_location": "L57",
-      "id": "redesign_05_migration_roadmap_phase_5_ci_cd_switchover_pr_5_2026_07_07",
+      "id": "redesign_05_migration_roadmap_phase_5_ci_cd_switchover_pr_5",
       "community": 184,
-      "norm_label": "phase 5 \u2014 ci/cd switchover (pr 5) \u2705 (2026-07-07)"
+      "norm_label": "phase 5 \u2014 ci/cd switchover (pr 5)"
     },
     {
-      "label": "Phase 6 \u2014 Docs & cutover (PR 6 \u2192 main) \ud83d\udd04 docs shipped 2026-07-07; merge + release are owner actions",
+      "label": "Phase 6 \u2014 Docs & cutover (PR 6 \u2192 main)",
       "file_type": "document",
       "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L78",
-      "id": "redesign_05_migration_roadmap_phase_6_docs_cutover_pr_6_main_docs_shipped_2026_07_07_merge_release_are_owner_actions",
+      "source_location": "L66",
+      "id": "redesign_05_migration_roadmap_phase_6_docs_cutover_pr_6_main",
       "community": 184,
-      "norm_label": "phase 6 \u2014 docs & cutover (pr 6 \u2192 main) \ud83d\udd04 docs shipped 2026-07-07; merge + release are owner actions"
+      "norm_label": "phase 6 \u2014 docs & cutover (pr 6 \u2192 main)"
     },
     {
       "label": "Rollback",
       "file_type": "document",
       "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L87",
+      "source_location": "L75",
       "id": "redesign_05_migration_roadmap_rollback",
       "community": 184,
       "norm_label": "rollback"
@@ -4791,7 +4872,7 @@
       "label": "Estimated shape",
       "file_type": "document",
       "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L93",
+      "source_location": "L81",
       "id": "redesign_05_migration_roadmap_estimated_shape",
       "community": 184,
       "norm_label": "estimated shape"
@@ -7803,222 +7884,6 @@
       "norm_label": "definition of done"
     },
     {
-      "label": "Application Entry Point",
-      "file_type": "document",
-      "source_file": "docs/architecture.md",
-      "source_location": "L12",
-      "community": 51,
-      "norm_label": "application entry point",
-      "id": "docs_architecture_application_entry_point"
-    },
-    {
-      "label": "Component Composition",
-      "file_type": "document",
-      "source_file": "docs/architecture.md",
-      "source_location": "L23",
-      "community": 51,
-      "norm_label": "component composition",
-      "id": "docs_architecture_component_composition"
-    },
-    {
-      "label": "Data Flow",
-      "file_type": "document",
-      "source_file": "docs/architecture.md",
-      "source_location": "L36",
-      "community": 51,
-      "norm_label": "data flow",
-      "id": "docs_architecture_data_flow"
-    },
-    {
-      "label": "Styling",
-      "file_type": "document",
-      "source_file": "docs/architecture.md",
-      "source_location": "L50",
-      "community": 51,
-      "norm_label": "styling",
-      "id": "docs_architecture_styling"
-    },
-    {
-      "label": "Assets and External Resources",
-      "file_type": "document",
-      "source_file": "docs/architecture.md",
-      "source_location": "L58",
-      "community": 51,
-      "norm_label": "assets and external resources",
-      "id": "docs_architecture_assets_and_external_resources"
-    },
-    {
-      "label": "Routing",
-      "file_type": "document",
-      "source_file": "docs/architecture.md",
-      "source_location": "L69",
-      "community": 51,
-      "norm_label": "routing",
-      "id": "docs_architecture_routing"
-    },
-    {
-      "label": "Backstage TechDocs",
-      "file_type": "document",
-      "source_file": "docs/architecture.md",
-      "source_location": "L79",
-      "community": 51,
-      "norm_label": "backstage techdocs",
-      "id": "docs_architecture_backstage_techdocs"
-    },
-    {
-      "label": "code:bash (npm test)",
-      "file_type": "document",
-      "source_file": "docs/quality-operations.md",
-      "source_location": "L13",
-      "community": 235,
-      "norm_label": "code:bash (npm test)",
-      "id": "docs_quality_operations_codeblock_2"
-    },
-    {
-      "label": "Build and Deployment Assumptions",
-      "file_type": "document",
-      "source_file": "docs/quality-operations.md",
-      "source_location": "L32",
-      "community": 235,
-      "norm_label": "build and deployment assumptions",
-      "id": "docs_quality_operations_build_and_deployment_assumptions"
-    },
-    {
-      "label": "External Dependencies",
-      "file_type": "document",
-      "source_file": "docs/quality-operations.md",
-      "source_location": "L38",
-      "community": 235,
-      "norm_label": "external dependencies",
-      "id": "docs_quality_operations_external_dependencies"
-    },
-    {
-      "label": "Operational Risks",
-      "file_type": "document",
-      "source_file": "docs/quality-operations.md",
-      "source_location": "L48",
-      "community": 235,
-      "norm_label": "operational risks",
-      "id": "docs_quality_operations_operational_risks"
-    },
-    {
-      "label": "TechDocs Publishing",
-      "file_type": "document",
-      "source_file": "docs/quality-operations.md",
-      "source_location": "L55",
-      "community": 235,
-      "norm_label": "techdocs publishing",
-      "id": "docs_quality_operations_techdocs_publishing"
-    },
-    {
-      "label": "code:bash (npx @techdocs/cli serve)",
-      "file_type": "document",
-      "source_file": "docs/quality-operations.md",
-      "source_location": "L65",
-      "community": 235,
-      "norm_label": "code:bash (npx @techdocs/cli serve)",
-      "id": "docs_quality_operations_codeblock_3"
-    },
-    {
-      "label": "Local Server",
-      "file_type": "document",
-      "source_file": "docs/development.md",
-      "source_location": "L14",
-      "community": 80,
-      "norm_label": "local server",
-      "id": "docs_development_local_server"
-    },
-    {
-      "label": "Build",
-      "file_type": "document",
-      "source_file": "docs/development.md",
-      "source_location": "L24",
-      "community": 252,
-      "norm_label": "build",
-      "id": "docs_development_build"
-    },
-    {
-      "label": "code:bash (npm run build)",
-      "file_type": "document",
-      "source_file": "docs/development.md",
-      "source_location": "L28",
-      "community": 252,
-      "norm_label": "code:bash (npm run build)",
-      "id": "docs_development_codeblock_3"
-    },
-    {
-      "label": "Tests",
-      "file_type": "document",
-      "source_file": "docs/development.md",
-      "source_location": "L37",
-      "community": 258,
-      "norm_label": "tests",
-      "id": "docs_development_tests"
-    },
-    {
-      "label": "code:bash (npm test)",
-      "file_type": "document",
-      "source_file": "docs/development.md",
-      "source_location": "L41",
-      "community": 258,
-      "norm_label": "code:bash (npm test)",
-      "id": "docs_development_codeblock_4"
-    },
-    {
-      "label": "code:bash (ng test --include=\"**/component-name.spec.ts\")",
-      "file_type": "document",
-      "source_file": "docs/development.md",
-      "source_location": "L47",
-      "community": 258,
-      "norm_label": "code:bash (ng test --include=\"**/component-name.spec.ts\")",
-      "id": "docs_development_codeblock_5"
-    },
-    {
-      "label": "Angular Conventions",
-      "file_type": "document",
-      "source_file": "docs/development.md",
-      "source_location": "L53",
-      "community": 80,
-      "norm_label": "angular conventions",
-      "id": "docs_development_angular_conventions"
-    },
-    {
-      "label": "Adding or Changing Sections",
-      "file_type": "document",
-      "source_file": "docs/development.md",
-      "source_location": "L65",
-      "community": 80,
-      "norm_label": "adding or changing sections",
-      "id": "docs_development_adding_or_changing_sections"
-    },
-    {
-      "label": "Documentation Changes",
-      "file_type": "document",
-      "source_file": "docs/development.md",
-      "source_location": "L75",
-      "community": 80,
-      "norm_label": "documentation changes",
-      "id": "docs_development_documentation_changes"
-    },
-    {
-      "label": "Phase 5 \u2014 CI/CD switchover (PR 5)",
-      "file_type": "document",
-      "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L57",
-      "community": 184,
-      "norm_label": "phase 5 \u2014 ci/cd switchover (pr 5)",
-      "id": "redesign_05_migration_roadmap_phase_5_ci_cd_switchover_pr_5"
-    },
-    {
-      "label": "Phase 6 \u2014 Docs & cutover (PR 6 \u2192 main)",
-      "file_type": "document",
-      "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L66",
-      "community": 184,
-      "norm_label": "phase 6 \u2014 docs & cutover (pr 6 \u2192 main)",
-      "id": "redesign_05_migration_roadmap_phase_6_docs_cutover_pr_6_main"
-    },
-    {
       "label": "Phase 4 \u2014 New content & remaining routes (PR 4)",
       "file_type": "document",
       "source_file": "docs/redesign/05-migration-roadmap.md",
@@ -9724,7 +9589,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-testing/SKILL.md",
       "source_location": "L1",
-      "community": 79,
+      "community": 134,
       "norm_label": "skill.md",
       "id": "agents_skills_angular_testing_skill_md"
     },
@@ -9733,7 +9598,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-testing/SKILL.md",
       "source_location": "L6",
-      "community": 79,
+      "community": 134,
       "norm_label": "angular testing",
       "id": "agents_skills_angular_testing_skill_md_angular_testing_skill_angular_testing"
     },
@@ -9796,7 +9661,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-testing/SKILL.md",
       "source_location": "L89",
-      "community": 79,
+      "community": 254,
       "norm_label": "testing signals",
       "id": "agents_skills_angular_testing_skill_md_angular_testing_skill_testing_signals"
     },
@@ -9805,7 +9670,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-testing/SKILL.md",
       "source_location": "L91",
-      "community": 79,
+      "community": 254,
       "norm_label": "direct signal testing",
       "id": "agents_skills_angular_testing_skill_md_angular_testing_skill_direct_signal_testing"
     },
@@ -9814,7 +9679,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-testing/SKILL.md",
       "source_location": "L93",
-      "community": 79,
+      "community": 254,
       "norm_label": "code:typescript (import { signal, computed } from '@angular/core';)",
       "id": "agents_skills_angular_testing_skill_md_angular_testing_skill_codeblock_5"
     },
@@ -12289,7 +12154,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/inputs.md",
       "source_location": "L5",
-      "community": 254,
+      "community": 35,
       "norm_label": "signal-based inputs",
       "id": "agents_skills_angular_developer_references_inputs_md_references_inputs_signal_based_inputs"
     },
@@ -12298,7 +12163,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/inputs.md",
       "source_location": "L9",
-      "community": 254,
+      "community": 132,
       "norm_label": "code:ts (import { component, input, computed } from '@angular/core';)",
       "id": "agents_skills_angular_developer_references_inputs_md_references_inputs_codeblock_1"
     },
@@ -12307,7 +12172,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/inputs.md",
       "source_location": "L28",
-      "community": 254,
+      "community": 35,
       "norm_label": "usage in template",
       "id": "agents_skills_angular_developer_references_inputs_md_references_inputs_usage_in_template"
     },
@@ -12316,7 +12181,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/inputs.md",
       "source_location": "L30",
-      "community": 254,
+      "community": 35,
       "norm_label": "code:html (<app-user [name]=\"username\" [age]=\"25\" />)",
       "id": "agents_skills_angular_developer_references_inputs_md_references_inputs_codeblock_2"
     },
@@ -12379,7 +12244,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/inputs.md",
       "source_location": "L82",
-      "community": 35,
+      "community": 132,
       "norm_label": "decorator-based inputs (@input)",
       "id": "agents_skills_angular_developer_references_inputs_md_references_inputs_decorator_based_inputs_input"
     },
@@ -12388,7 +12253,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/inputs.md",
       "source_location": "L86",
-      "community": 35,
+      "community": 132,
       "norm_label": "code:ts (import { component, input } from '@angular/core';)",
       "id": "agents_skills_angular_developer_references_inputs_md_references_inputs_codeblock_6"
     },
@@ -12460,7 +12325,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L36",
-      "community": 256,
+      "community": 1,
       "norm_label": "3. development server & proxying",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_3_development_server_proxying"
     },
@@ -12469,7 +12334,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L40",
-      "community": 256,
+      "community": 1,
       "norm_label": "code:bash (ng serve)",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_codeblock_3"
     },
@@ -12478,7 +12343,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L44",
-      "community": 256,
+      "community": 1,
       "norm_label": "backend api proxying",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_backend_api_proxying"
     },
@@ -12487,7 +12352,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L49",
-      "community": 256,
+      "community": 1,
       "norm_label": "code:json ({)",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_codeblock_4"
     },
@@ -12496,7 +12361,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L55",
-      "community": 256,
+      "community": 1,
       "norm_label": "code:json (\"serve\": {)",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_codeblock_5"
     },
@@ -13000,7 +12865,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/di-fundamentals.md",
       "source_location": "L43",
-      "community": 132,
+      "community": 91,
       "norm_label": "injecting dependencies",
       "id": "agents_skills_angular_developer_references_di_fundamentals_md_references_di_fundamentals_injecting_dependencies"
     },
@@ -13027,7 +12892,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/di-fundamentals.md",
       "source_location": "L73",
-      "community": 132,
+      "community": 91,
       "norm_label": "where can `inject()` be used? (injection context)",
       "id": "agents_skills_angular_developer_references_di_fundamentals_md_references_di_fundamentals_where_can_inject_be_used_injection_context"
     },
@@ -13036,7 +12901,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/di-fundamentals.md",
       "source_location": "L84",
-      "community": 132,
+      "community": 91,
       "norm_label": "code:typescript (import { component, directive, injectable, inject, elementre)",
       "id": "agents_skills_angular_developer_references_di_fundamentals_md_references_di_fundamentals_codeblock_3"
     },
@@ -14125,7 +13990,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L127",
-      "community": 255,
+      "community": 216,
       "norm_label": "3. legacy animations dsl (deprecated)",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_3_legacy_animations_dsl_deprecated"
     },
@@ -14134,7 +13999,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L133",
-      "community": 255,
+      "community": 216,
       "norm_label": "setup",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_setup"
     },
@@ -14143,7 +14008,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L135",
-      "community": 255,
+      "community": 216,
       "norm_label": "code:ts (bootstrapapplication(app, {)",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_codeblock_9"
     },
@@ -14152,7 +14017,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L141",
-      "community": 255,
+      "community": 216,
       "norm_label": "defining transitions",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_defining_transitions"
     },
@@ -14161,7 +14026,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L143",
-      "community": 255,
+      "community": 216,
       "norm_label": "code:ts (import { signal } from '@angular/core';)",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_codeblock_10"
     },
@@ -14710,7 +14575,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/signal-forms.md",
       "source_location": "L34",
-      "community": 254,
+      "community": 179,
       "norm_label": "creating a form",
       "id": "agents_skills_angular_developer_references_signal_forms_md_references_signal_forms_creating_a_form"
     },
@@ -14719,7 +14584,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/signal-forms.md",
       "source_location": "L38",
-      "community": 254,
+      "community": 179,
       "norm_label": "code:ts (import { component, signal } from '@angular/core';)",
       "id": "agents_skills_angular_developer_references_signal_forms_md_references_signal_forms_codeblock_2"
     },
@@ -21172,7 +21037,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/signal-forms.md",
       "source_location": "L111",
-      "community": 257,
+      "community": 12,
       "norm_label": "fieldstate vs formfield: the parental requirement",
       "id": "claude_skills_angular_developer_references_signal_forms_md_references_signal_forms_fieldstate_vs_formfield_the_parental_requirement"
     },
@@ -21181,7 +21046,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/signal-forms.md",
       "source_location": "L117",
-      "community": 257,
+      "community": 12,
       "norm_label": "code:ts (// f is a formfield (structural))",
       "id": "claude_skills_angular_developer_references_signal_forms_md_references_signal_forms_codeblock_5"
     },
@@ -21190,7 +21055,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/signal-forms.md",
       "source_location": "L131",
-      "community": 257,
+      "community": 12,
       "norm_label": "code:html (<!-- wrong: property 'hidden' does not exist on type 'formfi)",
       "id": "claude_skills_angular_developer_references_signal_forms_md_references_signal_forms_codeblock_6"
     },
@@ -24690,7 +24555,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 254,
+      "community": 35,
       "norm_label": "angular inputs reference",
       "id": "references_inputs"
     },
@@ -24703,7 +24568,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 254,
+      "community": 35,
       "norm_label": "signal-based input (input())",
       "id": "references_inputs_signal_input"
     },
@@ -24729,7 +24594,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 254,
+      "community": 35,
       "norm_label": "decorator-based input (@input)",
       "id": "references_inputs_decorator_input"
     },
@@ -25511,7 +25376,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 59,
       "norm_label": "canactivatefn guard",
       "id": "route_guards_canactivatefn"
     },
@@ -25589,7 +25454,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 59,
       "norm_label": "inject() function",
       "id": "injection_context_injectfn"
     },
@@ -25680,7 +25545,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 59,
       "norm_label": "environmentinjector",
       "id": "hierarchical_injectors_environmentinjector"
     },
@@ -25693,7 +25558,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 59,
       "norm_label": "elementinjector",
       "id": "hierarchical_injectors_elementinjector"
     },
@@ -25706,7 +25571,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 59,
       "norm_label": "viewproviders vs providers",
       "id": "hierarchical_injectors_viewproviders"
     },
@@ -25719,7 +25584,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 244,
+      "community": 215,
       "norm_label": "architecture documentation",
       "id": "docs_architecture"
     },
@@ -25732,7 +25597,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 244,
+      "community": 215,
       "norm_label": "app root component",
       "id": "docs_architecture_appcomponent"
     },
@@ -25758,7 +25623,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 244,
+      "community": 215,
       "norm_label": "global scss styles (src/styles.scss)",
       "id": "docs_architecture_stylesscss"
     },
@@ -25784,7 +25649,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 244,
+      "community": 215,
       "norm_label": "backstage techdocs integration",
       "id": "docs_architecture_techdocs"
     },
@@ -25867,6 +25732,19 @@
       "id": "docs_uxcontent_accessibility"
     },
     {
+      "label": "Angular Conventions",
+      "file_type": "document",
+      "source_file": "docs/development.md",
+      "source_location": "line 55",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 80,
+      "norm_label": "angular conventions",
+      "id": "docs_development_conventions"
+    },
+    {
       "label": "Build Bundle Budgets",
       "file_type": "concept",
       "source_file": "docs/development.md",
@@ -25875,7 +25753,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 80,
       "norm_label": "build bundle budgets",
       "id": "docs_development_buildbudgets"
     },
@@ -29976,9 +29854,9 @@
       "source_file": "public/staticwebapp.config.json",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "public_staticwebapp_config_json",
-      "target": "public_staticwebapp_config_responseoverrides"
+      "target": "public_staticwebapp_config_responseoverrides",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29986,9 +29864,9 @@
       "source_file": "public/staticwebapp.config.json",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "public_staticwebapp_config_json",
-      "target": "public_staticwebapp_config_globalheaders"
+      "target": "public_staticwebapp_config_globalheaders",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29996,9 +29874,9 @@
       "source_file": "public/staticwebapp.config.json",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "public_staticwebapp_config_responseoverrides",
-      "target": "public_staticwebapp_config_responseoverrides_404"
+      "target": "public_staticwebapp_config_responseoverrides_404",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30006,9 +29884,9 @@
       "source_file": "public/staticwebapp.config.json",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "public_staticwebapp_config_responseoverrides_404",
-      "target": "public_staticwebapp_config_404_rewrite"
+      "target": "public_staticwebapp_config_404_rewrite",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30016,9 +29894,9 @@
       "source_file": "public/staticwebapp.config.json",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "public_staticwebapp_config_responseoverrides_404",
-      "target": "public_staticwebapp_config_404_statuscode"
+      "target": "public_staticwebapp_config_404_statuscode",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30026,9 +29904,9 @@
       "source_file": "public/staticwebapp.config.json",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "public_staticwebapp_config_globalheaders",
-      "target": "public_staticwebapp_config_globalheaders_x_frame_options"
+      "target": "public_staticwebapp_config_globalheaders_x_frame_options",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30036,9 +29914,9 @@
       "source_file": "public/staticwebapp.config.json",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "public_staticwebapp_config_globalheaders",
-      "target": "public_staticwebapp_config_globalheaders_x_content_type_options"
+      "target": "public_staticwebapp_config_globalheaders_x_content_type_options",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30046,9 +29924,9 @@
       "source_file": "public/staticwebapp.config.json",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "public_staticwebapp_config_globalheaders",
-      "target": "public_staticwebapp_config_globalheaders_referrer_policy"
+      "target": "public_staticwebapp_config_globalheaders_referrer_policy",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30056,9 +29934,9 @@
       "source_file": "public/staticwebapp.config.json",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "public_staticwebapp_config_globalheaders",
-      "target": "public_staticwebapp_config_globalheaders_permissions_policy"
+      "target": "public_staticwebapp_config_globalheaders_permissions_policy",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30066,9 +29944,9 @@
       "source_file": "public/staticwebapp.config.json",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "public_staticwebapp_config_globalheaders",
-      "target": "public_staticwebapp_config_globalheaders_content_security_policy"
+      "target": "public_staticwebapp_config_globalheaders_content_security_policy",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30076,9 +29954,9 @@
       "source_file": "scripts/generate-sitemap.mjs",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "scripts_generate_sitemap_mjs",
-      "target": "scripts_generate_sitemap_out"
+      "target": "scripts_generate_sitemap_out",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30086,9 +29964,9 @@
       "source_file": "scripts/generate-sitemap.mjs",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "scripts_generate_sitemap_mjs",
-      "target": "scripts_generate_sitemap_routes"
+      "target": "scripts_generate_sitemap_routes",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30096,9 +29974,9 @@
       "source_file": "scripts/generate-sitemap.mjs",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "scripts_generate_sitemap_mjs",
-      "target": "scripts_generate_sitemap_lastmod"
+      "target": "scripts_generate_sitemap_lastmod",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30501,9 +30379,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "src_content_seo_ts"
+      "target": "src_content_seo_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -30512,9 +30390,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_seo_faqpageschema"
+      "target": "content_seo_faqpageschema",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -30523,9 +30401,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_seo_organizationschema"
+      "target": "content_seo_organizationschema",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -30534,9 +30412,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_seo_pagemeta"
+      "target": "content_seo_pagemeta",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -30545,9 +30423,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_seo_professionalserviceschema"
+      "target": "content_seo_professionalserviceschema",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -30556,9 +30434,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "src_content_faq_ts"
+      "target": "src_content_faq_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -30567,9 +30445,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_faq_faqitems"
+      "target": "content_faq_faqitems",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -30578,9 +30456,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "src_content_services_ts"
+      "target": "src_content_services_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -30589,9 +30467,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_services_services"
+      "target": "content_services_services",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30599,9 +30477,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_seo_test_schemanode"
+      "target": "content_seo_test_schemanode",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30609,9 +30487,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_seo_test_meta"
+      "target": "content_seo_test_meta",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30619,9 +30497,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_seo_test_address"
+      "target": "content_seo_test_address",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30629,9 +30507,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L63",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_seo_test_schema"
+      "target": "content_seo_test_schema",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30639,9 +30517,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_seo_test_catalog"
+      "target": "content_seo_test_catalog",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30649,9 +30527,9 @@
       "source_file": "src/content/faq.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_faq_ts",
-      "target": "content_faq_faqitem"
+      "target": "content_faq_faqitem",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30659,9 +30537,9 @@
       "source_file": "src/content/faq.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_faq_ts",
-      "target": "content_faq_faqitems"
+      "target": "content_faq_faqitems",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -30670,9 +30548,9 @@
       "source_file": "src/content/seo.ts",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_ts",
-      "target": "src_content_faq_ts"
+      "target": "src_content_faq_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -30681,9 +30559,9 @@
       "source_file": "src/components/faq.test.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_faq_test_tsx",
-      "target": "src_content_faq_ts"
+      "target": "src_content_faq_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -30692,9 +30570,9 @@
       "source_file": "src/components/faq.tsx",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_faq_tsx",
-      "target": "src_content_faq_ts"
+      "target": "src_content_faq_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -30703,9 +30581,9 @@
       "source_file": "src/content/seo.ts",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_ts",
-      "target": "content_faq_faqitems"
+      "target": "content_faq_faqitems",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -30714,9 +30592,9 @@
       "source_file": "src/components/faq.test.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_faq_test_tsx",
-      "target": "content_faq_faqitems"
+      "target": "content_faq_faqitems",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -30725,9 +30603,9 @@
       "source_file": "src/components/faq.tsx",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_faq_tsx",
-      "target": "content_faq_faqitems"
+      "target": "content_faq_faqitems",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -31090,9 +30968,9 @@
       "source_file": "src/content/seo.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_ts",
-      "target": "src_content_services_ts"
+      "target": "src_content_services_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -31101,9 +30979,9 @@
       "source_file": "src/content/seo.ts",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_ts",
-      "target": "content_services_services"
+      "target": "content_services_services",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -31111,9 +30989,9 @@
       "source_file": "src/content/seo.ts",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_ts",
-      "target": "content_seo_ogimage"
+      "target": "content_seo_ogimage",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -31141,9 +31019,9 @@
       "source_file": "src/content/seo.ts",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_ts",
-      "target": "content_seo_postaladdress"
+      "target": "content_seo_postaladdress",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -31151,9 +31029,9 @@
       "source_file": "src/content/seo.ts",
       "source_location": "L60",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_ts",
-      "target": "content_seo_organizationschema"
+      "target": "content_seo_organizationschema",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -31171,9 +31049,9 @@
       "source_file": "src/content/seo.ts",
       "source_location": "L125",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_ts",
-      "target": "content_seo_faqpageschema"
+      "target": "content_seo_faqpageschema",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -31281,9 +31159,9 @@
       "source_file": "src/routes/home.tsx",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_routes_home_tsx",
-      "target": "content_seo_organizationschema"
+      "target": "content_seo_organizationschema",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -31325,9 +31203,9 @@
       "source_file": "src/routes/home.tsx",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_routes_home_tsx",
-      "target": "content_seo_faqpageschema"
+      "target": "content_seo_faqpageschema",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -31697,9 +31575,9 @@
       "source_file": "src/components/faq.test.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_faq_test_tsx",
-      "target": "src_components_faq_tsx"
+      "target": "src_components_faq_tsx",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -31708,9 +31586,9 @@
       "source_file": "src/components/faq.test.tsx",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_faq_test_tsx",
-      "target": "components_faq_faq"
+      "target": "components_faq_faq",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -31718,9 +31596,9 @@
       "source_file": "src/components/faq.test.tsx",
       "source_location": "L15",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_faq_test_tsx",
-      "target": "components_faq_test_section"
+      "target": "components_faq_test_section",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -31800,9 +31678,9 @@
       "source_file": "src/components/faq.tsx",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_faq_tsx",
-      "target": "components_faq_faq"
+      "target": "components_faq_faq",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -31811,9 +31689,9 @@
       "source_file": "src/routes/home.tsx",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_routes_home_tsx",
-      "target": "src_components_faq_tsx"
+      "target": "src_components_faq_tsx",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -31822,9 +31700,9 @@
       "source_file": "src/routes/home.tsx",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_routes_home_tsx",
-      "target": "components_faq_faq"
+      "target": "components_faq_faq",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -31842,9 +31720,9 @@
       "source_file": "src/routes/home.tsx",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_routes_home_tsx",
-      "target": "routes_home_jsonld"
+      "target": "routes_home_jsonld",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -33182,56 +33060,6 @@
       "source_file": "docs/architecture.md",
       "source_location": "L12",
       "weight": 1.0,
-      "source": "docs_architecture_architecture",
-      "target": "docs_architecture_routing_and_rendering",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/architecture.md",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "docs_architecture_architecture",
-      "target": "docs_architecture_document_shell",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/architecture.md",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "docs_architecture_architecture",
-      "target": "docs_architecture_content_ownership",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/architecture.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "source": "docs_architecture_architecture",
-      "target": "docs_architecture_components_and_styling",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/architecture.md",
-      "source_location": "L62",
-      "weight": 1.0,
-      "source": "docs_architecture_architecture",
-      "target": "docs_architecture_static_assets",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/architecture.md",
-      "source_location": "L12",
-      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "docs_architecture_architecture",
       "target": "docs_architecture_application_entry_point"
@@ -33330,46 +33158,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/quality-operations.md",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "docs_quality_operations_quality_and_operations",
-      "target": "docs_quality_operations_ci",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/quality-operations.md",
-      "source_location": "L40",
-      "weight": 1.0,
-      "source": "docs_quality_operations_quality_and_operations",
-      "target": "docs_quality_operations_deployment",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/quality-operations.md",
-      "source_location": "L54",
-      "weight": 1.0,
-      "source": "docs_quality_operations_quality_and_operations",
-      "target": "docs_quality_operations_rollback",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/quality-operations.md",
-      "source_location": "L59",
-      "weight": 1.0,
-      "source": "docs_quality_operations_quality_and_operations",
-      "target": "docs_quality_operations_seo_operations",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/quality-operations.md",
       "source_location": "L32",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -33435,6 +33223,16 @@
       "confidence_score": 1.0,
       "source": "docs_quality_operations_required_checks",
       "target": "docs_quality_operations_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/quality-operations.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_quality_operations_techdocs_publishing",
+      "target": "docs_quality_operations_codeblock_3"
     },
     {
       "relation": "contains",
@@ -33640,46 +33438,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/development.md",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "docs_development_development",
-      "target": "docs_development_common_commands",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/development.md",
-      "source_location": "L34",
-      "weight": 1.0,
-      "source": "docs_development_development",
-      "target": "docs_development_typescript_layout",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/development.md",
-      "source_location": "L53",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_development_development",
-      "target": "docs_development_conventions"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/development.md",
-      "source_location": "L54",
-      "weight": 1.0,
-      "source": "docs_development_development",
-      "target": "docs_development_commit_hygiene",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/development.md",
       "source_location": "L14",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -33740,21 +33498,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/development.md",
-      "source_location": "L10",
+      "source_location": "L53",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "docs_development_prerequisites",
-      "target": "docs_development_codeblock_1"
+      "source": "docs_development_development",
+      "target": "docs_development_conventions"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/development.md",
-      "source_location": "L19",
+      "source_location": "L10",
       "weight": 1.0,
-      "source": "docs_development_common_commands",
-      "target": "docs_development_codeblock_2",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "docs_development_prerequisites",
+      "target": "docs_development_codeblock_1"
     },
     {
       "relation": "contains",
@@ -33767,44 +33525,44 @@
       "target": "docs_development_codeblock_2"
     },
     {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/index.md",
-      "source_location": "line 22",
+      "source_file": "docs/development.md",
+      "source_location": "L28",
       "weight": 1.0,
-      "source": "bitandbyte_website",
-      "target": "docs_development_conventions"
+      "confidence_score": 1.0,
+      "source": "docs_development_build",
+      "target": "docs_development_codeblock_3"
     },
     {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "docs/development.md",
-      "source_location": "line 63",
-      "weight": 0.85,
-      "source": "docs_development_conventions",
-      "target": "loading_strategies_lazyloading"
-    },
-    {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "docs/development.md",
-      "source_location": "line 58",
-      "weight": 0.85,
-      "source": "docs_development_conventions",
-      "target": "injection_context_injectfn"
-    },
-    {
-      "relation": "references",
+      "relation": "contains",
       "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "docs/development.md",
-      "source_location": "line 32",
+      "source_file": ".agents/skills/angular-developer/references/cli.md",
+      "source_location": "L66",
       "weight": 1.0,
-      "source": "docs_development_conventions",
-      "target": "docs_development_buildbudgets"
+      "confidence_score": 1.0,
+      "source": "agents_skills_angular_developer_references_cli_md_references_cli_4_building_the_application",
+      "target": "docs_development_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/development.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_development_tests",
+      "target": "docs_development_codeblock_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/development.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_development_tests",
+      "target": "docs_development_codeblock_5"
     },
     {
       "relation": "contains",
@@ -34012,49 +33770,9 @@
       "source_file": "docs/redesign/05-migration-roadmap.md",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_phase_4_new_content_remaining_routes_pr_4_2026_07_07"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L57",
-      "weight": 1.0,
-      "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_phase_5_ci_cd_switchover_pr_5_2026_07_07",
+      "target": "redesign_05_migration_roadmap_phase_4_new_content_remaining_routes_pr_4_2026_07_07",
       "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L78",
-      "weight": 1.0,
-      "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_phase_6_docs_cutover_pr_6_main_docs_shipped_2026_07_07_merge_release_are_owner_actions",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L75",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_rollback"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L81",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_estimated_shape"
     },
     {
       "relation": "contains",
@@ -34075,6 +33793,26 @@
       "confidence_score": 1.0,
       "source": "redesign_05_migration_roadmap_05_migration_roadmap",
       "target": "redesign_05_migration_roadmap_phase_6_docs_cutover_pr_6_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/redesign/05-migration-roadmap.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "redesign_05_migration_roadmap_05_migration_roadmap",
+      "target": "redesign_05_migration_roadmap_rollback"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/redesign/05-migration-roadmap.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "redesign_05_migration_roadmap_05_migration_roadmap",
+      "target": "redesign_05_migration_roadmap_estimated_shape"
     },
     {
       "relation": "contains",
@@ -37655,56 +37393,6 @@
       "confidence_score": 1.0,
       "source": "seo_h6_indexnow_sitemap_submission_3_add_a_deploy_step_to_github_workflows_deploy_app_prod_yaml",
       "target": "seo_h6_indexnow_sitemap_submission_codeblock_3"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/quality-operations.md",
-      "source_location": "L65",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_quality_operations_techdocs_publishing",
-      "target": "docs_quality_operations_codeblock_3"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/development.md",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_development_build",
-      "target": "docs_development_codeblock_3"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".agents/skills/angular-developer/references/cli.md",
-      "source_location": "L66",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agents_skills_angular_developer_references_cli_md_references_cli_4_building_the_application",
-      "target": "docs_development_codeblock_3"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/development.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_development_tests",
-      "target": "docs_development_codeblock_4"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/development.md",
-      "source_location": "L47",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_development_tests",
-      "target": "docs_development_codeblock_5"
     },
     {
       "relation": "contains",
@@ -56006,6 +55694,16 @@
       "target": "docs_uxcontent_pagejourney"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/index.md",
+      "source_location": "line 22",
+      "weight": 1.0,
+      "source": "bitandbyte_website",
+      "target": "docs_development_conventions"
+    },
+    {
       "relation": "implements",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -58636,6 +58334,16 @@
       "target": "loading_strategies_lazyloading"
     },
     {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/development.md",
+      "source_location": "line 63",
+      "weight": 0.85,
+      "source": "docs_development_conventions",
+      "target": "loading_strategies_lazyloading"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -58704,6 +58412,16 @@
       "weight": 1.0,
       "source": "injection_context_injectfn",
       "target": "injection_context_assertinjectioncontext"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "docs/development.md",
+      "source_location": "line 58",
+      "weight": 0.85,
+      "source": "docs_development_conventions",
+      "target": "injection_context_injectfn"
     },
     {
       "relation": "conceptually_related_to",
@@ -58924,6 +58642,16 @@
       "weight": 0.75,
       "source": "docs_uxcontent_branddirection",
       "target": "src_indexhtml_googlefonts"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/development.md",
+      "source_location": "line 32",
+      "weight": 1.0,
+      "source": "docs_development_conventions",
+      "target": "docs_development_buildbudgets"
     },
     {
       "relation": "references",
@@ -60260,5 +59988,5 @@
       "source_file": "docs/SEO/C4-lcp-image-optimization.md"
     }
   ],
-  "built_at_commit": "1ba8e4de60c89f2d75693bd5f2fce6af5a00b3fe"
+  "built_at_commit": "ce2a9e0a63f3175b3f3534d018927c938be4f2e3"
 }

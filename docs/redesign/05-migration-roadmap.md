@@ -75,7 +75,7 @@ Outcome notes:
   `/seo-page` + Lighthouse against dev; fix regressions.
 - **Gate:** dev environment audit clean vs. Phase 0 baseline.
 
-## Phase 6 — Docs & cutover (PR 6 → main)
+## Phase 6 — Docs & cutover (PR 6 → main) 🔄 docs shipped 2026-07-07; merge + release are owner actions
 
 - Rewrite `docs/architecture.md`, `development.md`, `ux-content.md`,
   `quality-operations.md`, `docs/index.md` for the React app; add `docs/redesign/` to
