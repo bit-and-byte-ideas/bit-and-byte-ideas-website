@@ -54,7 +54,19 @@ switch in Phase 5.
   ProfessionalService) per route; sitemap generation script.
 - **Gate:** prerender smoke tests assert every item in 04's "re-implemented" list.
 
-## Phase 5 — CI/CD switchover (PR 5)
+## Phase 5 — CI/CD switchover (PR 5) ✅ (2026-07-07)
+
+Outcome notes:
+
+- Dev deployment of `site-redesign` is live at
+  https://red-grass-0d5881a1e.7.azurestaticapps.net — audit passed 14/14
+  (security headers + CSP active, real 404 status, prerendered HTML with all
+  schema, llms/robots/sitemap served, hydration verified with zero console
+  errors).
+- The `dev` GitHub environment was switched from protected-branches-only to
+  custom branch policies (`main`, `site-redesign`) to allow the branch deploy.
+  **Post-cutover cleanup:** remove the `site-redesign` policy (or restore
+  protected-branches-only).
 
 - `ci.yaml` → template shape (pnpm lint/build/test) + e2e job + existing policy checks.
 - `deploy-app-*.yaml`: pnpm setup, `pnpm build`, `app_location: dist` (framework-mode
