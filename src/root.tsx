@@ -10,6 +10,10 @@ import {
 } from 'react-router';
 import { Nav } from './components/nav';
 import { Footer } from './components/footer';
+import '@fontsource-variable/bricolage-grotesque/index.css';
+import '@fontsource-variable/public-sans/index.css';
+import '@fontsource/ibm-plex-mono/400.css';
+import '@fontsource/ibm-plex-mono/500.css';
 import './design/base.css';
 
 export function Layout({ children }: { children: ReactNode }) {

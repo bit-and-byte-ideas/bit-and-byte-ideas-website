@@ -18,6 +18,11 @@ html {
   border-radius: 2px;
 }
 
+::selection {
+  background: var(--accent);
+  color: var(--accent-text);
+}
+
 button,
 [role='button'],
 summary {
@@ -37,6 +42,7 @@ summary {
 
 body {
   font-family: var(--font-body);
+  font-size: var(--text-base);
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -48,7 +54,9 @@ h1,
 h2,
 h3 {
   font-family: var(--font-display);
-  line-height: 1.1;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
 }
 
 a {
@@ -79,14 +87,21 @@ img {
 }
 
 section {
-  padding: 64px 0;
+  padding: var(--space-8) 0;
 }
+
+/* Anchor targets land below the fixed 72px nav. */
+section[id] {
+  scroll-margin-top: 88px;
+}
+
+/* ── Skip link ─────────────────────────────────────────────── */
 
 .skip-link {
   position: absolute;
   top: -100%;
   left: 16px;
-  z-index: 100;
+  z-index: var(--z-skip);
   padding: 12px 20px;
   background: var(--accent);
   color: var(--accent-text);
@@ -96,4 +111,110 @@ section {
 
 .skip-link:focus {
   top: 16px;
+}
+
+/* ── Section primitives ────────────────────────────────────── */
+
+.section-header {
+  margin-bottom: var(--space-7);
+}
+
+.section-label {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  margin-bottom: var(--space-3);
+}
+
+.section-label::before {
+  content: '// ';
+  color: var(--text-faint);
+}
+
+.section-title {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+}
+
+.section-title em {
+  font-style: normal;
+  color: var(--accent);
+}
+
+/* ── Buttons ───────────────────────────────────────────────── */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: 48px;
+  padding: 12px 28px;
+  border-radius: var(--radius);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition:
+    background-color var(--duration-fast) var(--ease-out),
+    border-color var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out),
+    transform var(--duration-fast) var(--ease-out);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--accent-text);
+  border: 1px solid var(--accent);
+}
+
+.btn-primary:hover {
+  background: var(--soft-green);
+  border-color: var(--soft-green);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.btn-ghost:hover {
+  border-color: var(--border-accent);
+  color: var(--soft-green);
+}
+
+/* ── Error / not-found pages ───────────────────────────────── */
+
+.not-found,
+.error-page {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+.not-found h1,
+.error-page h1 {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-3);
+}
+
+.not-found p,
+.error-page p {
+  color: var(--text-muted);
+  margin-bottom: var(--space-4);
+}
+
+.cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
 }

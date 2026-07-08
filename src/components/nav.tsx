@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router';
 import { site } from '../content/site';
+import './nav.css';
 
 export function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -21,7 +22,7 @@ export function Nav() {
         Skip to main content
       </a>
 
-      <nav className={scrolled ? 'scrolled' : undefined}>
+      <nav className={scrolled ? 'site-nav scrolled' : 'site-nav'}>
         <div className="container nav-inner">
           <Link to="/" className="logo" aria-label="Bit and Byte Ideas home" onClick={closeMenu}>
             <span className="logo-icon-pill">
