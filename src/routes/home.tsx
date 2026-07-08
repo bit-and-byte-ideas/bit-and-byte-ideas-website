@@ -3,15 +3,28 @@ import { Hero } from '../components/hero';
 import { TrustStrip } from '../components/trust-strip';
 import { Services } from '../components/services';
 import { Process } from '../components/process';
+import { Faq } from '../components/faq';
 import { Contact } from '../components/contact';
-import { defaultDescription, pageMeta, professionalServiceSchema } from '../content/seo';
+import {
+  defaultDescription,
+  faqPageSchema,
+  organizationSchema,
+  pageMeta,
+  professionalServiceSchema,
+} from '../content/seo';
 
 export function meta(): MetaDescriptor[] {
   return pageMeta({
-    title: 'Bit & Byte Ideas — Software Consulting',
+    title: 'Custom Websites & Web Apps for Small Businesses | Bit & Byte Ideas',
     description: defaultDescription,
     path: '/',
   });
+}
+
+function JsonLd({ schema }: { schema: object }) {
+  return (
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+  );
 }
 
 export default function Home() {
@@ -21,11 +34,11 @@ export default function Home() {
       <TrustStrip />
       <Services />
       <Process />
+      <Faq />
       <Contact />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(professionalServiceSchema()) }}
-      />
+      <JsonLd schema={organizationSchema()} />
+      <JsonLd schema={professionalServiceSchema()} />
+      <JsonLd schema={faqPageSchema()} />
     </>
   );
 }

@@ -28,7 +28,7 @@ export function Nav() {
             <span className="logo-icon-pill">
               <span className="logo-icon-inner">
                 <img
-                  src="/assets/BandBIdeas-Icon-small.png"
+                  src="/assets/bandb-icon-64.webp"
                   alt=""
                   className="logo-icon"
                   aria-hidden="true"

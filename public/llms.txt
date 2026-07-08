@@ -1,0 +1,45 @@
+# Bit & Byte Ideas
+
+> Bit & Byte Ideas is a custom software studio that builds websites and web applications
+> for small and medium businesses. No templates — everything is designed and built from scratch.
+> Contact: info@bitandbyteideas.com | Response time: within 24 hours.
+
+## Services
+
+- **Static Website Development** — Custom-designed, performance-optimized, SEO-ready static
+  sites. Mobile-first, Core Web Vitals optimized, third-party integrations included.
+  Pricing: quote-based.
+
+- **Web Application Development** — Full-featured web applications for small and medium
+  businesses. Custom business logic, user authentication, database design, API integrations,
+  and scalable cloud architecture. Pricing: quote-based.
+
+- **Maintenance + Hosting** — Subscription-based managed hosting. Includes automated backups,
+  security patches, performance monitoring, and priority support for minor changes.
+
+## About
+
+- Studio type: Independent software studio
+- Founded: 2024
+- Location: San Diego, California, United States (serving clients across the US, remote-first)
+- Founder: Carlos Barajas — engineer with 18+ years across fintech, energy, and financial services
+- Clients: Small and medium businesses
+- Currently: Accepting new clients
+- Email: info@bitandbyteideas.com
+- Free consultation: 30-minute discovery call, no commitment
+
+## Differentiators
+
+- Custom design only — no templates or page builders
+- Performance-first: static prerendered pages, Core Web Vitals optimized
+- SEO built into every build
+- Managed hosting available as an add-on subscription
+
+## Links
+
+- Homepage: https://www.bitandbyteideas.com
+- About the founder: https://www.bitandbyteideas.com/about
+- Services: https://www.bitandbyteideas.com/#services
+- FAQ: https://www.bitandbyteideas.com/#faq
+- Contact: https://www.bitandbyteideas.com/#contact
+- Book a call: https://calendly.com/carlos-barajas-bitandbyteideas/30min

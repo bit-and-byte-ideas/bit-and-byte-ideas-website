@@ -12,16 +12,19 @@ export function Footer() {
           <a href="#" className="footer-logo" aria-label="Bit and Byte Ideas — back to top">
             <span className="footer-logo-pill">
               <img
-                src="/assets/bit_byte_ideas_full_logo.png"
+                src="/assets/bandb-logo-360.webp"
                 alt="Bit and Byte Ideas"
                 className="footer-logo-img"
                 width="180"
-                height="120"
+                height="75"
                 loading="lazy"
               />
             </span>
           </a>
           <p className="footer-tagline">{site.tagline}</p>
+          <p className="footer-location">
+            {site.location.display} — serving the {site.location.areaServed}
+          </p>
         </div>
 
         <nav className="footer-nav" aria-label="Footer navigation">

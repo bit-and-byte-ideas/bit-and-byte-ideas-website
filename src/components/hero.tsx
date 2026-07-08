@@ -6,7 +6,7 @@ export function Hero() {
     <section className="hero" aria-label="Hero">
       <div className="dot-grid" aria-hidden="true" />
       <div className="hero-icon-bg" aria-hidden="true">
-        <img src="/assets/BandBIdeas-Icon-small.png" alt="" width="600" height="600" />
+        <img src="/assets/bandb-icon-600.webp" alt="" width="600" height="900" />
       </div>
       <div className="container hero-content">
         <div className="hero-label">
@@ -16,17 +16,17 @@ export function Hero() {
         <h1 className="hero-headline">
           We Build
           <br />
-          Digital
+          Custom
           <br />
-          <em>Products</em>
+          <em>Websites</em>
           <br />
-          That Work.
+          &amp; Web Apps.
           <span className="caret" aria-hidden="true" />
         </h1>
         <div className="hero-sub-row">
           <p className="hero-description">
-            From polished static sites to full-featured web applications, we craft digital solutions
-            tailored to your business goals.
+            From polished static sites to full-featured web apps — custom-built in San Diego for
+            small businesses across the United States.
           </p>
           <div className="hero-ctas">
             <a href={site.calendlyUrl} className="btn btn-primary" target="_blank" rel="noopener noreferrer">

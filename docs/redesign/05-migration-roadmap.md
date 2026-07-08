@@ -46,7 +46,7 @@ switch in Phase 5.
 - **Gate:** e2e green locally; CLS < 0.1 and LCP sane in a Lighthouse run against
   `pnpm preview`.
 
-## Phase 4 — New content & remaining routes (PR 4)
+## Phase 4 — New content & remaining routes (PR 4) ✅ (2026-07-07)
 
 - `/about` rebuilt (C1 depth), FAQ (M2 — draft in 04, pending your edit), 404 page (M8).
   No pricing anchors (M1 won't-do).
