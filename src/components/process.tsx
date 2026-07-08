@@ -1,4 +1,5 @@
 import { processSteps } from '../content/process';
+import './process.css';
 
 export function Process() {
   return (

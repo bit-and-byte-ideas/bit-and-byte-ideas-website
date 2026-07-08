@@ -10,20 +10,20 @@ test.describe('Homepage', () => {
   });
 
   test('renders navigation with all links', async ({ page }) => {
-    const nav = page.locator('nav');
+    const nav = page.locator('.site-nav');
     await expect(nav).toBeVisible();
     await expect(nav.getByRole('link', { name: 'Services' })).toBeVisible();
     await expect(nav.getByRole('link', { name: /Get in Touch/i })).toBeVisible();
     await expect(nav.getByRole('link', { name: /Book a Call/i })).toBeVisible();
   });
 
-  test('nav Services link points to #services', async ({ page }) => {
-    const link = page.locator('nav').getByRole('link', { name: 'Services' });
-    await expect(link).toHaveAttribute('href', '#services');
+  test('nav Services link points to the services anchor', async ({ page }) => {
+    const link = page.locator('.site-nav').getByRole('link', { name: 'Services' });
+    await expect(link).toHaveAttribute('href', '/#services');
   });
 
   test('nav Book a Call link opens external Calendly URL', async ({ page }) => {
-    const link = page.locator('nav').getByRole('link', { name: /Book a Call/i });
+    const link = page.locator('.site-nav').getByRole('link', { name: /Book a Call/i });
     await expect(link).toHaveAttribute(
       'href',
       'https://calendly.com/carlos-barajas-bitandbyteideas/30min',
@@ -64,9 +64,11 @@ test.describe('Homepage', () => {
     await expect(footer).toContainText('Bit & Byte Ideas');
   });
 
-  test('nav gains scrolled class after scrolling past 50px', async ({ page }) => {
+  test('nav gains scrolled class after scrolling', async ({ page }) => {
     await page.evaluate(() => window.scrollTo(0, 200));
-    await page.waitForFunction(() => document.querySelector('nav')?.classList.contains('scrolled'));
-    await expect(page.locator('nav')).toHaveClass(/scrolled/);
+    await page.waitForFunction(() =>
+      document.querySelector('.site-nav')?.classList.contains('scrolled'),
+    );
+    await expect(page.locator('.site-nav')).toHaveClass(/scrolled/);
   });
 });

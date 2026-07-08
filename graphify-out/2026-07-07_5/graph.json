@@ -134,7 +134,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L1",
       "id": "skills_lock_json",
-      "community": 196,
+      "community": 182,
       "norm_label": "skills-lock.json"
     },
     {
@@ -143,7 +143,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L2",
       "id": "bit_and_byte_ideas_website_skills_lock_version",
-      "community": 196,
+      "community": 182,
       "norm_label": "version"
     },
     {
@@ -152,7 +152,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L3",
       "id": "bit_and_byte_ideas_website_skills_lock_skills",
-      "community": 196,
+      "community": 182,
       "norm_label": "skills"
     },
     {
@@ -161,7 +161,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L4",
       "id": "bit_and_byte_ideas_website_skills_lock_skills_commitlint",
-      "community": 196,
+      "community": 182,
       "norm_label": "commitlint"
     },
     {
@@ -170,7 +170,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L5",
       "id": "bit_and_byte_ideas_website_skills_lock_commitlint_source",
-      "community": 196,
+      "community": 182,
       "norm_label": "source"
     },
     {
@@ -179,7 +179,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L6",
       "id": "bit_and_byte_ideas_website_skills_lock_commitlint_sourcetype",
-      "community": 196,
+      "community": 182,
       "norm_label": "sourcetype"
     },
     {
@@ -188,7 +188,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L7",
       "id": "bit_and_byte_ideas_website_skills_lock_commitlint_skillpath",
-      "community": 196,
+      "community": 182,
       "norm_label": "skillpath"
     },
     {
@@ -197,7 +197,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L8",
       "id": "bit_and_byte_ideas_website_skills_lock_commitlint_computedhash",
-      "community": 196,
+      "community": 182,
       "norm_label": "computedhash"
     },
     {
@@ -2340,15 +2340,6 @@
       "norm_label": "link"
     },
     {
-      "label": "cta",
-      "file_type": "code",
-      "source_file": "e2e/booking.spec.ts",
-      "source_location": "L30",
-      "id": "e2e_booking_spec_cta",
-      "community": 201,
-      "norm_label": "cta"
-    },
-    {
       "label": "homepage.spec.ts",
       "file_type": "code",
       "source_file": "e2e/homepage.spec.ts",
@@ -2419,51 +2410,6 @@
       "id": "e2e_homepage_spec_footer",
       "community": 122,
       "norm_label": "footer"
-    },
-    {
-      "label": "journey.spec.ts",
-      "file_type": "code",
-      "source_file": "e2e/journey.spec.ts",
-      "source_location": "L1",
-      "id": "e2e_journey_spec_ts",
-      "community": 186,
-      "norm_label": "journey.spec.ts"
-    },
-    {
-      "label": "skip",
-      "file_type": "code",
-      "source_file": "e2e/journey.spec.ts",
-      "source_location": "L22",
-      "id": "e2e_journey_spec_skip",
-      "community": 186,
-      "norm_label": "skip"
-    },
-    {
-      "label": "toggle",
-      "file_type": "code",
-      "source_file": "e2e/journey.spec.ts",
-      "source_location": "L30",
-      "id": "e2e_journey_spec_toggle",
-      "community": 186,
-      "norm_label": "toggle"
-    },
-    {
-      "label": "menu",
-      "file_type": "code",
-      "source_file": "e2e/journey.spec.ts",
-      "source_location": "L37",
-      "id": "e2e_journey_spec_menu",
-      "community": 186,
-      "norm_label": "menu"
-    },
-    {
-      "label": "cta",
-      "file_type": "code",
-      "source_file": "e2e/journey.spec.ts",
-      "source_location": "L46",
-      "id": "e2e_journey_spec_cta",
-      "community": 186,
-      "norm_label": "cta"
     },
     {
       "label": "routes.ts",
@@ -2784,7 +2730,7 @@
       "label": "Contact()",
       "file_type": "code",
       "source_file": "src/components/contact.tsx",
-      "source_location": "L4",
+      "source_location": "L3",
       "id": "components_contact_contact",
       "community": 0,
       "norm_label": "contact()"
@@ -2802,7 +2748,7 @@
       "label": "TrustStrip()",
       "file_type": "code",
       "source_file": "src/components/trust-strip.tsx",
-      "source_location": "L5",
+      "source_location": "L4",
       "id": "components_trust_strip_truststrip",
       "community": 0,
       "norm_label": "truststrip()"
@@ -2820,7 +2766,7 @@
       "label": "Services()",
       "file_type": "code",
       "source_file": "src/components/services.tsx",
-      "source_location": "L4",
+      "source_location": "L3",
       "id": "components_services_services",
       "community": 0,
       "norm_label": "services()"
@@ -2955,7 +2901,7 @@
       "label": "Process()",
       "file_type": "code",
       "source_file": "src/components/process.tsx",
-      "source_location": "L4",
+      "source_location": "L3",
       "id": "components_process_process",
       "community": 0,
       "norm_label": "process()"
@@ -4262,7 +4208,7 @@
       "source_file": "docs/development.md",
       "source_location": "L24",
       "id": "docs_development_build",
-      "community": 80,
+      "community": 1,
       "norm_label": "build"
     },
     {
@@ -4271,7 +4217,7 @@
       "source_file": "docs/development.md",
       "source_location": "L28",
       "id": "docs_development_codeblock_3",
-      "community": 80,
+      "community": 1,
       "norm_label": "code:bash (npm run build)"
     },
     {
@@ -4527,13 +4473,13 @@
       "norm_label": "phase 2 \u2014 design system & shell (pr 2) \u2705 (2026-07-07)"
     },
     {
-      "label": "Phase 3 \u2014 Home sections (PR 3) \u2705 (2026-07-07)",
+      "label": "Phase 3 \u2014 Home sections (PR 3)",
       "file_type": "document",
       "source_file": "docs/redesign/05-migration-roadmap.md",
       "source_location": "L41",
-      "id": "redesign_05_migration_roadmap_phase_3_home_sections_pr_3_2026_07_07",
+      "id": "redesign_05_migration_roadmap_phase_3_home_sections_pr_3",
       "community": 184,
-      "norm_label": "phase 3 \u2014 home sections (pr 3) \u2705 (2026-07-07)"
+      "norm_label": "phase 3 \u2014 home sections (pr 3)"
     },
     {
       "label": "Phase 4 \u2014 New content & remaining routes (PR 4)",
@@ -7587,15 +7533,6 @@
       "norm_label": "definition of done"
     },
     {
-      "label": "Phase 3 \u2014 Home sections (PR 3)",
-      "file_type": "document",
-      "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L41",
-      "community": 184,
-      "norm_label": "phase 3 \u2014 home sections (pr 3)",
-      "id": "redesign_05_migration_roadmap_phase_3_home_sections_pr_3"
-    },
-    {
       "label": "Phase 2 \u2014 Design system & shell (PR 2)",
       "file_type": "document",
       "source_file": "docs/redesign/05-migration-roadmap.md",
@@ -7609,7 +7546,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L4",
-      "community": 196,
+      "community": 182,
       "norm_label": "angular-architect",
       "id": "bit_and_byte_ideas_website_skills_lock_skills_angular_architect"
     },
@@ -7618,7 +7555,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L5",
-      "community": 196,
+      "community": 182,
       "norm_label": "source",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_architect_source"
     },
@@ -7627,7 +7564,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L6",
-      "community": 196,
+      "community": 182,
       "norm_label": "sourcetype",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_architect_sourcetype"
     },
@@ -7636,7 +7573,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L7",
-      "community": 196,
+      "community": 182,
       "norm_label": "computedhash",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_architect_computedhash"
     },
@@ -7645,7 +7582,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L9",
-      "community": 196,
+      "community": 182,
       "norm_label": "angular-developer",
       "id": "bit_and_byte_ideas_website_skills_lock_skills_angular_developer"
     },
@@ -7654,7 +7591,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L10",
-      "community": 196,
+      "community": 182,
       "norm_label": "source",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_developer_source"
     },
@@ -7663,7 +7600,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L11",
-      "community": 196,
+      "community": 182,
       "norm_label": "sourcetype",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_developer_sourcetype"
     },
@@ -7672,7 +7609,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L12",
-      "community": 196,
+      "community": 182,
       "norm_label": "computedhash",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_developer_computedhash"
     },
@@ -9283,7 +9220,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-testing/SKILL.md",
       "source_location": "L1",
-      "community": 79,
+      "community": 134,
       "norm_label": "skill.md",
       "id": "agents_skills_angular_testing_skill_md"
     },
@@ -9292,7 +9229,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-testing/SKILL.md",
       "source_location": "L6",
-      "community": 79,
+      "community": 134,
       "norm_label": "angular testing",
       "id": "agents_skills_angular_testing_skill_md_angular_testing_skill_angular_testing"
     },
@@ -11218,7 +11155,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L1",
-      "community": 53,
+      "community": 41,
       "norm_label": "skill.md",
       "id": "agents_skills_angular_developer_skill_md"
     },
@@ -11227,7 +11164,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L10",
-      "community": 53,
+      "community": 41,
       "norm_label": "angular developer guidelines",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_angular_developer_guidelines"
     },
@@ -11236,7 +11173,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L18",
-      "community": 53,
+      "community": 41,
       "norm_label": "creating new projects",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_creating_new_projects"
     },
@@ -11245,7 +11182,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L44",
-      "community": 53,
+      "community": 41,
       "norm_label": "components",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_components"
     },
@@ -11254,7 +11191,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L55",
-      "community": 53,
+      "community": 41,
       "norm_label": "reactivity and data management",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_reactivity_and_data_management"
     },
@@ -11263,7 +11200,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L64",
-      "community": 53,
+      "community": 41,
       "norm_label": "forms",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_forms"
     },
@@ -11272,7 +11209,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L75",
-      "community": 53,
+      "community": 41,
       "norm_label": "dependency injection",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_dependency_injection"
     },
@@ -11281,7 +11218,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L85",
-      "community": 53,
+      "community": 41,
       "norm_label": "angular aria",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_angular_aria"
     },
@@ -11290,7 +11227,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L91",
-      "community": 53,
+      "community": 41,
       "norm_label": "routing",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_routing"
     },
@@ -11299,7 +11236,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L107",
-      "community": 53,
+      "community": 41,
       "norm_label": "styling and animations",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_styling_and_animations"
     },
@@ -11308,7 +11245,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L115",
-      "community": 53,
+      "community": 41,
       "norm_label": "testing",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_testing"
     },
@@ -11317,7 +11254,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/SKILL.md",
       "source_location": "L124",
-      "community": 53,
+      "community": 41,
       "norm_label": "tooling",
       "id": "agents_skills_angular_developer_skill_md_angular_developer_skill_tooling"
     },
@@ -12019,7 +11956,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L36",
-      "community": 1,
+      "community": 228,
       "norm_label": "3. development server & proxying",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_3_development_server_proxying"
     },
@@ -12028,7 +11965,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L40",
-      "community": 1,
+      "community": 228,
       "norm_label": "code:bash (ng serve)",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_codeblock_3"
     },
@@ -12037,7 +11974,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L44",
-      "community": 1,
+      "community": 228,
       "norm_label": "backend api proxying",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_backend_api_proxying"
     },
@@ -12046,7 +11983,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L49",
-      "community": 1,
+      "community": 228,
       "norm_label": "code:json ({)",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_codeblock_4"
     },
@@ -12055,7 +11992,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L55",
-      "community": 1,
+      "community": 228,
       "norm_label": "code:json (\"serve\": {)",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_codeblock_5"
     },
@@ -12064,7 +12001,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L62",
-      "community": 80,
+      "community": 1,
       "norm_label": "4. building the application",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_4_building_the_application"
     },
@@ -12073,7 +12010,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L66",
-      "community": 80,
+      "community": 1,
       "norm_label": "code:bash (ng build)",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_codeblock_6"
     },
@@ -13684,7 +13621,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L127",
-      "community": 216,
+      "community": 139,
       "norm_label": "3. legacy animations dsl (deprecated)",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_3_legacy_animations_dsl_deprecated"
     },
@@ -13693,7 +13630,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L133",
-      "community": 216,
+      "community": 139,
       "norm_label": "setup",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_setup"
     },
@@ -13702,7 +13639,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L135",
-      "community": 216,
+      "community": 139,
       "norm_label": "code:ts (bootstrapapplication(app, {)",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_codeblock_9"
     },
@@ -13711,7 +13648,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L141",
-      "community": 216,
+      "community": 139,
       "norm_label": "defining transitions",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_defining_transitions"
     },
@@ -13720,7 +13657,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L143",
-      "community": 216,
+      "community": 139,
       "norm_label": "code:ts (import { signal } from '@angular/core';)",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_codeblock_10"
     },
@@ -15637,7 +15574,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/hierarchical-injectors.md",
       "source_location": "L1",
-      "community": 37,
+      "community": 243,
       "norm_label": "hierarchical-injectors.md",
       "id": "agents_skills_angular_developer_references_hierarchical_injectors_md"
     },
@@ -15646,7 +15583,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/hierarchical-injectors.md",
       "source_location": "L1",
-      "community": 37,
+      "community": 243,
       "norm_label": "hierarchical injectors",
       "id": "agents_skills_angular_developer_references_hierarchical_injectors_md_references_hierarchical_injectors_hierarchical_injectors"
     },
@@ -15655,7 +15592,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/hierarchical-injectors.md",
       "source_location": "L5",
-      "community": 37,
+      "community": 243,
       "norm_label": "types of injector hierarchies",
       "id": "agents_skills_angular_developer_references_hierarchical_injectors_md_references_hierarchical_injectors_types_of_injector_hierarchies"
     },
@@ -15664,7 +15601,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/hierarchical-injectors.md",
       "source_location": "L10",
-      "community": 37,
+      "community": 243,
       "norm_label": "resolution rules",
       "id": "agents_skills_angular_developer_references_hierarchical_injectors_md_references_hierarchical_injectors_resolution_rules"
     },
@@ -15673,7 +15610,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/hierarchical-injectors.md",
       "source_location": "L18",
-      "community": 37,
+      "community": 243,
       "norm_label": "resolution modifiers",
       "id": "agents_skills_angular_developer_references_hierarchical_injectors_md_references_hierarchical_injectors_resolution_modifiers"
     },
@@ -15682,7 +15619,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/hierarchical-injectors.md",
       "source_location": "L27",
-      "community": 37,
+      "community": 243,
       "norm_label": "code:ts (@component({...}))",
       "id": "agents_skills_angular_developer_references_hierarchical_injectors_md_references_hierarchical_injectors_codeblock_1"
     },
@@ -15691,7 +15628,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/hierarchical-injectors.md",
       "source_location": "L38",
-      "community": 37,
+      "community": 243,
       "norm_label": "`providers` vs `viewproviders`",
       "id": "agents_skills_angular_developer_references_hierarchical_injectors_md_references_hierarchical_injectors_providers_vs_viewproviders"
     },
@@ -21847,7 +21784,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/component-styling.md",
       "source_location": "L47",
-      "community": 19,
+      "community": 226,
       "norm_label": "special selectors",
       "id": "claude_skills_angular_developer_references_component_styling_md_references_component_styling_special_selectors"
     },
@@ -21856,7 +21793,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/component-styling.md",
       "source_location": "L49",
-      "community": 19,
+      "community": 226,
       "norm_label": "`:host`",
       "id": "claude_skills_angular_developer_references_component_styling_md_references_component_styling_host"
     },
@@ -21865,7 +21802,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/component-styling.md",
       "source_location": "L53",
-      "community": 19,
+      "community": 226,
       "norm_label": "code:css (:host {)",
       "id": "claude_skills_angular_developer_references_component_styling_md_references_component_styling_codeblock_3"
     },
@@ -21874,7 +21811,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/component-styling.md",
       "source_location": "L60",
-      "community": 19,
+      "community": 226,
       "norm_label": "`:host-context()`",
       "id": "claude_skills_angular_developer_references_component_styling_md_references_component_styling_host_context"
     },
@@ -21883,7 +21820,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/component-styling.md",
       "source_location": "L64",
-      "community": 19,
+      "community": 226,
       "norm_label": "code:css (/* apply styles if any ancestor has the 'theme-dark' class *)",
       "id": "claude_skills_angular_developer_references_component_styling_md_references_component_styling_codeblock_4"
     },
@@ -21892,7 +21829,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/component-styling.md",
       "source_location": "L71",
-      "community": 19,
+      "community": 226,
       "norm_label": "`::ng-deep`",
       "id": "claude_skills_angular_developer_references_component_styling_md_references_component_styling_ng_deep"
     },
@@ -22169,7 +22106,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 186,
       "norm_label": "agents.md - codex agent instructions",
       "id": "root_agents"
     },
@@ -22182,7 +22119,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 186,
       "norm_label": "claude.md - claude code instructions",
       "id": "root_claude"
     },
@@ -22221,7 +22158,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 53,
       "norm_label": "angular standalone components",
       "id": "concept_angular_standalone"
     },
@@ -22234,7 +22171,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 53,
       "norm_label": "angular signals for reactive state",
       "id": "concept_angular_signals"
     },
@@ -22247,7 +22184,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 53,
       "norm_label": "onpush change detection strategy",
       "id": "concept_onpush_change_detection"
     },
@@ -22286,7 +22223,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 53,
       "norm_label": "takeuntildestroyed for rxjs cleanup",
       "id": "concept_takeuntildestroyed"
     },
@@ -22299,7 +22236,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 186,
       "norm_label": "vitest unit testing framework",
       "id": "concept_vitest"
     },
@@ -22377,7 +22314,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 186,
       "norm_label": "angular testing skill",
       "id": "skill_angular_testing"
     },
@@ -22390,7 +22327,7 @@
       "captured_at": null,
       "author": "https://github.com/Jeffallan",
       "contributor": null,
-      "community": 196,
+      "community": 53,
       "norm_label": "angular architect skill",
       "id": "skill_angular_architect"
     },
@@ -22403,7 +22340,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 186,
       "norm_label": "frontend design skill",
       "id": "skill_frontend_design"
     },
@@ -22429,7 +22366,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 186,
       "norm_label": "vitest migration guide",
       "id": "angular_testing_vitest_migration"
     },
@@ -22468,7 +22405,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 53,
       "norm_label": "angular standalone components reference",
       "id": "angular_architect_components"
     },
@@ -22481,7 +22418,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 53,
       "norm_label": "rxjs patterns reference",
       "id": "angular_architect_rxjs"
     },
@@ -22494,7 +22431,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 53,
       "norm_label": "angular architect testing reference",
       "id": "angular_architect_testing"
     },
@@ -22507,7 +22444,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 53,
       "norm_label": "ngrx state management reference",
       "id": "angular_architect_ngrx"
     },
@@ -22585,7 +22522,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 53,
       "norm_label": "ngrx state management pattern",
       "id": "concept_ngrx"
     },
@@ -22598,7 +22535,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 53,
       "norm_label": "rxjs operators and patterns",
       "id": "concept_rxjs_operators"
     },
@@ -22663,7 +22600,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 186,
       "norm_label": "angular testbed testing utility",
       "id": "concept_testbed"
     },
@@ -22676,7 +22613,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 186,
       "norm_label": "frontend aesthetic design principles",
       "id": "concept_frontend_aesthetics"
     },
@@ -22689,7 +22626,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 186,
       "norm_label": "jasmine testing framework (legacy)",
       "id": "concept_jasmine"
     },
@@ -22702,7 +22639,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 53,
       "norm_label": "ngrx facade pattern",
       "id": "concept_ngrx_facade"
     },
@@ -22715,7 +22652,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 53,
       "norm_label": "ngrx entity adapter",
       "id": "concept_ngrx_entity_adapter"
     },
@@ -22793,7 +22730,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 182,
+      "community": 6,
       "norm_label": "tailwind css v4 with angular",
       "id": "references_tailwind_css"
     },
@@ -22832,7 +22769,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 226,
+      "community": 41,
       "norm_label": "angular components",
       "id": "references_components"
     },
@@ -23183,7 +23120,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 226,
+      "community": 41,
       "norm_label": "standalone angular components",
       "id": "concept_standalone_component"
     },
@@ -23196,7 +23133,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 226,
+      "community": 41,
       "norm_label": "angular template control flow (@if, @for, @switch)",
       "id": "concept_template_control_flow"
     },
@@ -23443,7 +23380,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 180,
+      "community": 216,
       "norm_label": "routertestingharness",
       "id": "concept_router_testing_harness"
     },
@@ -23456,7 +23393,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 182,
+      "community": 6,
       "norm_label": "tailwind css v4 postcss integration",
       "id": "concept_tailwind_v4"
     },
@@ -23482,7 +23419,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 42,
+      "community": 246,
       "norm_label": "angular resource() api",
       "id": "agents_resource_resource_api"
     },
@@ -23495,7 +23432,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 42,
+      "community": 246,
       "norm_label": "httpresource",
       "id": "agents_resource_httpresouce"
     },
@@ -23508,7 +23445,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 42,
+      "community": 246,
       "norm_label": "signal-based async reactivity",
       "id": "agents_resource_signal_based_reactivity"
     },
@@ -23638,7 +23575,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 71,
+      "community": 42,
       "norm_label": "testbed configuration",
       "id": "agents_testing_fundamentals_testbed"
     },
@@ -23677,7 +23614,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 243,
       "norm_label": "elementinjector",
       "id": "agents_hierarchical_injectors_element_injector"
     },
@@ -23690,7 +23627,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 243,
       "norm_label": "providers vs viewproviders",
       "id": "agents_hierarchical_injectors_providers_vs_viewproviders"
     },
@@ -23755,7 +23692,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 42,
+      "community": 246,
       "norm_label": "http resource testing",
       "id": "claude_angular_testing_http_resource_testing"
     },
@@ -23963,7 +23900,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 71,
+      "community": 42,
       "norm_label": "testbed component & service testing",
       "id": "claude_architect_testing_testbed"
     },
@@ -24301,7 +24238,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 182,
+      "community": 6,
       "norm_label": "angular cli guide",
       "id": "references_cli"
     },
@@ -24314,7 +24251,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 182,
+      "community": 6,
       "norm_label": "ng add command",
       "id": "references_cli_ng_add"
     },
@@ -24327,7 +24264,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 182,
+      "community": 6,
       "norm_label": "ng generate command",
       "id": "references_cli_ng_generate"
     },
@@ -24340,7 +24277,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 182,
+      "community": 6,
       "norm_label": "ng build command",
       "id": "references_cli_ng_build"
     },
@@ -24353,7 +24290,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 182,
+      "community": 6,
       "norm_label": "ng serve command",
       "id": "references_cli_ng_serve"
     },
@@ -24366,7 +24303,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 182,
+      "community": 6,
       "norm_label": "ng test command",
       "id": "references_cli_ng_test"
     },
@@ -24393,7 +24330,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Tailwind v4 replaces tailwind.config.js and @tailwind directives with a single @import and PostCSS plugin; critical breaking change from v3.",
-      "community": 182,
+      "community": 6,
       "norm_label": "tailwind css v4 setup pattern",
       "id": "references_tailwind_css_v4"
     },
@@ -24458,7 +24395,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 226,
+      "community": 41,
       "norm_label": "template control flow (@if @for @switch)",
       "id": "references_components_template_controlflow"
     },
@@ -27958,9 +27895,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "bit_and_byte_ideas_website_package_dependencies",
-      "target": "bit_and_byte_ideas_website_package_dependencies_fontsource_variable_bricolage_grotesque"
+      "target": "bit_and_byte_ideas_website_package_dependencies_fontsource_variable_bricolage_grotesque",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -27968,9 +27905,9 @@
       "source_file": "package.json",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "bit_and_byte_ideas_website_package_dependencies",
-      "target": "bit_and_byte_ideas_website_package_dependencies_fontsource_variable_public_sans"
+      "target": "bit_and_byte_ideas_website_package_dependencies_fontsource_variable_public_sans",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -27978,9 +27915,9 @@
       "source_file": "package.json",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "bit_and_byte_ideas_website_package_dependencies",
-      "target": "bit_and_byte_ideas_website_package_dependencies_fontsource_ibm_plex_mono"
+      "target": "bit_and_byte_ideas_website_package_dependencies_fontsource_ibm_plex_mono",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28468,9 +28405,9 @@
       "source_file": ".react-router/types/+future.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_future_ts",
-      "target": "types_future_future"
+      "target": "types_future_future",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28478,9 +28415,9 @@
       "source_file": ".react-router/types/+routes.ts",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_routes_ts",
-      "target": "types_routes_register"
+      "target": "types_routes_register",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28488,9 +28425,9 @@
       "source_file": ".react-router/types/+routes.ts",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_routes_ts",
-      "target": "types_routes_pages"
+      "target": "types_routes_pages",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28498,9 +28435,9 @@
       "source_file": ".react-router/types/+routes.ts",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_routes_ts",
-      "target": "types_routes_routefiles"
+      "target": "types_routes_routefiles",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28508,9 +28445,9 @@
       "source_file": ".react-router/types/+routes.ts",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_routes_ts",
-      "target": "types_routes_routemodules"
+      "target": "types_routes_routemodules",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28518,9 +28455,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_module"
+      "target": "types_root_module",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28528,9 +28465,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_info"
+      "target": "types_root_info",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28538,9 +28475,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_matches"
+      "target": "types_root_matches",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28548,9 +28485,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_annotations"
+      "target": "types_root_annotations",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28558,9 +28495,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_linkdescriptors"
+      "target": "types_root_linkdescriptors",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28568,9 +28505,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_linksfunction"
+      "target": "types_root_linksfunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28578,9 +28515,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_metaargs"
+      "target": "types_root_metaargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28588,9 +28525,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_metadescriptors"
+      "target": "types_root_metadescriptors",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28598,9 +28535,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_metafunction"
+      "target": "types_root_metafunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28608,9 +28545,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_headersargs"
+      "target": "types_root_headersargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28618,9 +28555,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_headersfunction"
+      "target": "types_root_headersfunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28628,9 +28565,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_middlewarefunction"
+      "target": "types_root_middlewarefunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28638,9 +28575,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_clientmiddlewarefunction"
+      "target": "types_root_clientmiddlewarefunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28648,9 +28585,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_loaderargs"
+      "target": "types_root_loaderargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28658,9 +28595,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_clientloaderargs"
+      "target": "types_root_clientloaderargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28668,9 +28605,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_actionargs"
+      "target": "types_root_actionargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28678,9 +28615,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_clientactionargs"
+      "target": "types_root_clientactionargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28688,9 +28625,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_hydratefallbackprops"
+      "target": "types_root_hydratefallbackprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28698,9 +28635,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_serverhydratefallbackprops"
+      "target": "types_root_serverhydratefallbackprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28708,9 +28645,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L58",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_componentprops"
+      "target": "types_root_componentprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28718,9 +28655,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L61",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_servercomponentprops"
+      "target": "types_root_servercomponentprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28728,9 +28665,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L64",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_errorboundaryprops"
+      "target": "types_root_errorboundaryprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28738,9 +28675,9 @@
       "source_file": ".react-router/types/src/+types/root.ts",
       "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_types_root_ts",
-      "target": "types_root_servererrorboundaryprops"
+      "target": "types_root_servererrorboundaryprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28748,9 +28685,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_module"
+      "target": "types_not_found_module",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28758,9 +28695,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_info"
+      "target": "types_not_found_info",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28768,9 +28705,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_matches"
+      "target": "types_not_found_matches",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28778,9 +28715,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_annotations"
+      "target": "types_not_found_annotations",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28788,9 +28725,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_linkdescriptors"
+      "target": "types_not_found_linkdescriptors",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28798,9 +28735,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_linksfunction"
+      "target": "types_not_found_linksfunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28808,9 +28745,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_metaargs"
+      "target": "types_not_found_metaargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28818,9 +28755,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_metadescriptors"
+      "target": "types_not_found_metadescriptors",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28828,9 +28765,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_metafunction"
+      "target": "types_not_found_metafunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28838,9 +28775,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_headersargs"
+      "target": "types_not_found_headersargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28848,9 +28785,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_headersfunction"
+      "target": "types_not_found_headersfunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28858,9 +28795,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_middlewarefunction"
+      "target": "types_not_found_middlewarefunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28868,9 +28805,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_clientmiddlewarefunction"
+      "target": "types_not_found_clientmiddlewarefunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28878,9 +28815,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_loaderargs"
+      "target": "types_not_found_loaderargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28888,9 +28825,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_clientloaderargs"
+      "target": "types_not_found_clientloaderargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28898,9 +28835,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_actionargs"
+      "target": "types_not_found_actionargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28908,9 +28845,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_clientactionargs"
+      "target": "types_not_found_clientactionargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28918,9 +28855,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_hydratefallbackprops"
+      "target": "types_not_found_hydratefallbackprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28928,9 +28865,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L58",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_serverhydratefallbackprops"
+      "target": "types_not_found_serverhydratefallbackprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28938,9 +28875,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L61",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_componentprops"
+      "target": "types_not_found_componentprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28948,9 +28885,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L64",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_servercomponentprops"
+      "target": "types_not_found_servercomponentprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28958,9 +28895,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_errorboundaryprops"
+      "target": "types_not_found_errorboundaryprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28968,9 +28905,9 @@
       "source_file": ".react-router/types/src/routes/+types/not-found.ts",
       "source_location": "L70",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_not_found_ts",
-      "target": "types_not_found_servererrorboundaryprops"
+      "target": "types_not_found_servererrorboundaryprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28978,9 +28915,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_module"
+      "target": "types_about_module",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28988,9 +28925,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_info"
+      "target": "types_about_info",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -28998,9 +28935,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_matches"
+      "target": "types_about_matches",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29008,9 +28945,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_annotations"
+      "target": "types_about_annotations",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29018,9 +28955,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_linkdescriptors"
+      "target": "types_about_linkdescriptors",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29028,9 +28965,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_linksfunction"
+      "target": "types_about_linksfunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29038,9 +28975,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_metaargs"
+      "target": "types_about_metaargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29048,9 +28985,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_metadescriptors"
+      "target": "types_about_metadescriptors",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29058,9 +28995,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_metafunction"
+      "target": "types_about_metafunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29068,9 +29005,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_headersargs"
+      "target": "types_about_headersargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29078,9 +29015,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_headersfunction"
+      "target": "types_about_headersfunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29088,9 +29025,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_middlewarefunction"
+      "target": "types_about_middlewarefunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29098,9 +29035,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_clientmiddlewarefunction"
+      "target": "types_about_clientmiddlewarefunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29108,9 +29045,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_loaderargs"
+      "target": "types_about_loaderargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29118,9 +29055,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_clientloaderargs"
+      "target": "types_about_clientloaderargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29128,9 +29065,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_actionargs"
+      "target": "types_about_actionargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29138,9 +29075,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_clientactionargs"
+      "target": "types_about_clientactionargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29148,9 +29085,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_hydratefallbackprops"
+      "target": "types_about_hydratefallbackprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29158,9 +29095,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L58",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_serverhydratefallbackprops"
+      "target": "types_about_serverhydratefallbackprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29168,9 +29105,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L61",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_componentprops"
+      "target": "types_about_componentprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29178,9 +29115,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L64",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_servercomponentprops"
+      "target": "types_about_servercomponentprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29188,9 +29125,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_errorboundaryprops"
+      "target": "types_about_errorboundaryprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29198,9 +29135,9 @@
       "source_file": ".react-router/types/src/routes/+types/about.ts",
       "source_location": "L70",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_about_ts",
-      "target": "types_about_servererrorboundaryprops"
+      "target": "types_about_servererrorboundaryprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29208,9 +29145,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_module"
+      "target": "types_home_module",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29218,9 +29155,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_info"
+      "target": "types_home_info",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29228,9 +29165,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_matches"
+      "target": "types_home_matches",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29238,9 +29175,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_annotations"
+      "target": "types_home_annotations",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29248,9 +29185,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_linkdescriptors"
+      "target": "types_home_linkdescriptors",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29258,9 +29195,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L25",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_linksfunction"
+      "target": "types_home_linksfunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29268,9 +29205,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_metaargs"
+      "target": "types_home_metaargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29278,9 +29215,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L29",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_metadescriptors"
+      "target": "types_home_metadescriptors",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29288,9 +29225,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_metafunction"
+      "target": "types_home_metafunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29298,9 +29235,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_headersargs"
+      "target": "types_home_headersargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29308,9 +29245,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_headersfunction"
+      "target": "types_home_headersfunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29318,9 +29255,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_middlewarefunction"
+      "target": "types_home_middlewarefunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29328,9 +29265,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_clientmiddlewarefunction"
+      "target": "types_home_clientmiddlewarefunction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29338,9 +29275,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_loaderargs"
+      "target": "types_home_loaderargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29348,9 +29285,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_clientloaderargs"
+      "target": "types_home_clientloaderargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29358,9 +29295,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_actionargs"
+      "target": "types_home_actionargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29368,9 +29305,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_clientactionargs"
+      "target": "types_home_clientactionargs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29378,9 +29315,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_hydratefallbackprops"
+      "target": "types_home_hydratefallbackprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29388,9 +29325,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L58",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_serverhydratefallbackprops"
+      "target": "types_home_serverhydratefallbackprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29398,9 +29335,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L61",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_componentprops"
+      "target": "types_home_componentprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29408,9 +29345,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L64",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_servercomponentprops"
+      "target": "types_home_servercomponentprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29418,9 +29355,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L67",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_errorboundaryprops"
+      "target": "types_home_errorboundaryprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29428,9 +29365,9 @@
       "source_file": ".react-router/types/src/routes/+types/home.ts",
       "source_location": "L70",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "react_router_types_src_routes_types_home_ts",
-      "target": "types_home_servererrorboundaryprops"
+      "target": "types_home_servererrorboundaryprops",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -29745,16 +29682,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "e2e/booking.spec.ts",
-      "source_location": "L30",
-      "weight": 1.0,
-      "source": "e2e_booking_spec_ts",
-      "target": "e2e_booking_spec_cta",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "e2e/homepage.spec.ts",
       "source_location": "L13",
       "weight": 1.0,
@@ -29821,46 +29748,6 @@
       "confidence_score": 1.0,
       "source": "e2e_homepage_spec_ts",
       "target": "e2e_homepage_spec_footer"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2e/journey.spec.ts",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "e2e_journey_spec_ts",
-      "target": "e2e_journey_spec_skip",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2e/journey.spec.ts",
-      "source_location": "L30",
-      "weight": 1.0,
-      "source": "e2e_journey_spec_ts",
-      "target": "e2e_journey_spec_toggle",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2e/journey.spec.ts",
-      "source_location": "L37",
-      "weight": 1.0,
-      "source": "e2e_journey_spec_ts",
-      "target": "e2e_journey_spec_menu",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2e/journey.spec.ts",
-      "source_location": "L46",
-      "weight": 1.0,
-      "source": "e2e_journey_spec_ts",
-      "target": "e2e_journey_spec_cta",
-      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -30048,9 +29935,9 @@
       "source_file": "src/components/hero.tsx",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_hero_tsx",
-      "target": "src_content_site_ts"
+      "target": "src_content_site_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -30070,9 +29957,9 @@
       "source_file": "src/components/hero.test.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_hero_test_tsx",
-      "target": "src_content_site_ts"
+      "target": "src_content_site_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -30114,9 +30001,9 @@
       "source_file": "src/components/hero.tsx",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_hero_tsx",
-      "target": "content_site_site"
+      "target": "content_site_site",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -30136,9 +30023,9 @@
       "source_file": "src/components/hero.test.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_hero_test_tsx",
-      "target": "content_site_site"
+      "target": "content_site_site",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -30576,9 +30463,9 @@
       "source_file": "src/components/nav.test.tsx",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_nav_test_tsx",
-      "target": "src_components_nav_tsx"
+      "target": "src_components_nav_tsx",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -30587,9 +30474,9 @@
       "source_file": "src/components/nav.test.tsx",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_nav_test_tsx",
-      "target": "components_nav_nav"
+      "target": "components_nav_nav",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30597,9 +30484,9 @@
       "source_file": "src/components/hero.test.tsx",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_hero_test_tsx",
-      "target": "components_hero_test_primary"
+      "target": "components_hero_test_primary",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30736,9 +30623,9 @@
       "source_file": "src/components/footer.test.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_footer_test_tsx",
-      "target": "src_components_footer_tsx"
+      "target": "src_components_footer_tsx",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -30747,9 +30634,9 @@
       "source_file": "src/components/footer.test.tsx",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_footer_test_tsx",
-      "target": "components_footer_footer"
+      "target": "components_footer_footer",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30767,9 +30654,9 @@
       "source_file": "src/components/footer.test.tsx",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_footer_test_tsx",
-      "target": "components_footer_test_renderfooter"
+      "target": "components_footer_test_renderfooter",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30777,9 +30664,9 @@
       "source_file": "src/components/footer.test.tsx",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_footer_test_tsx",
-      "target": "components_footer_test_year"
+      "target": "components_footer_test_year",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30787,9 +30674,9 @@
       "source_file": "src/components/footer.test.tsx",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_footer_test_tsx",
-      "target": "components_footer_test_github"
+      "target": "components_footer_test_github",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30797,9 +30684,9 @@
       "source_file": "src/components/nav.test.tsx",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_nav_test_tsx",
-      "target": "components_nav_test_rendernav"
+      "target": "components_nav_test_rendernav",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30807,9 +30694,9 @@
       "source_file": "src/components/nav.test.tsx",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_nav_test_tsx",
-      "target": "components_nav_test_booklinks"
+      "target": "components_nav_test_booklinks",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30817,9 +30704,9 @@
       "source_file": "src/components/nav.test.tsx",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_nav_test_tsx",
-      "target": "components_nav_test_user"
+      "target": "components_nav_test_user",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30827,9 +30714,9 @@
       "source_file": "src/components/nav.test.tsx",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_components_nav_test_tsx",
-      "target": "components_nav_test_toggle"
+      "target": "components_nav_test_toggle",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -32899,9 +32786,9 @@
       "source_file": "docs/redesign/05-migration-roadmap.md",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_phase_2_design_system_shell_pr_2_2026_07_07"
+      "target": "redesign_05_migration_roadmap_phase_2_design_system_shell_pr_2_2026_07_07",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -32909,9 +32796,9 @@
       "source_file": "docs/redesign/05-migration-roadmap.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_phase_3_home_sections_pr_3_2026_07_07",
-      "confidence_score": 1.0
+      "target": "redesign_05_migration_roadmap_phase_3_home_sections_pr_3"
     },
     {
       "relation": "contains",
@@ -32962,16 +32849,6 @@
       "confidence_score": 1.0,
       "source": "redesign_05_migration_roadmap_05_migration_roadmap",
       "target": "redesign_05_migration_roadmap_estimated_shape"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_phase_3_home_sections_pr_3"
     },
     {
       "relation": "contains",
@@ -59127,5 +59004,5 @@
       "source_file": "docs/SEO/C4-lcp-image-optimization.md"
     }
   ],
-  "built_at_commit": "eb1a49ec2c4120c39078437f8d6a6e7faf0e9f5c"
+  "built_at_commit": "fd769b0821d6f4f2a84c7e9a70565154d85b0715"
 }

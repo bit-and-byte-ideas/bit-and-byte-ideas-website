@@ -45,5 +45,24 @@ jobs:
           path: build/client/
           retention-days: 7
 
-  # A Playwright e2e job is added in Phase 3 of docs/redesign/05-migration-roadmap.md,
-  # once the e2e specs are updated to the new DOM.
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Playwright browsers
+        run: pnpm exec playwright install --with-deps chromium
+
+      # playwright.config.ts starts the dev server itself (webServer).
+      - name: Run e2e tests
+        run: pnpm test:e2e
