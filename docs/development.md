@@ -2,78 +2,59 @@
 
 ## Prerequisites
 
-- Node.js compatible with Angular 21.
-- npm 11.x, matching the package manager declared in `package.json`.
+- Node.js 24.x.
+- pnpm via Corepack — run `corepack enable pnpm` once; the exact version comes from the
+  `packageManager` field in `package.json`.
+- `pre-commit` (Python tool) for the git hooks.
 
-Install dependencies with:
-
-```bash
-npm install
-```
-
-## Local Server
-
-Start the Angular development server with:
+Install dependencies and hooks:
 
 ```bash
-npm start
+pnpm install
+pre-commit install --hook-type pre-commit --hook-type commit-msg
 ```
 
-Open `http://localhost:4200/`. The server uses the development Angular configuration and reloads on source changes.
-
-## Build
-
-Run the production build with:
+## Common Commands
 
 ```bash
-npm run build
+pnpm dev           # React Router dev server at http://localhost:5173
+pnpm build         # tsc -b (gating) + react-router build + sitemap generation
+pnpm lint          # ESLint flat config across the repo
+pnpm typecheck     # tsc -b only
+pnpm test          # Vitest unit suite (once)
+pnpm test:watch    # Vitest watch mode
+pnpm test:e2e      # Playwright e2e (starts the dev server itself)
+pnpm preview       # Serve the built output locally
 ```
 
-Angular writes output to `dist/`. Production budgets are configured in `angular.json`:
+These scripts are the single source of truth: pre-commit hooks and CI invoke the same
+commands, so a green commit and a green CI run cannot disagree. Change behavior by editing
+the script in `package.json`, not by duplicating flags in a hook or workflow.
 
-- Initial bundle warning at 500 kB and error at 1 MB.
-- Any component style warning at 4 kB and error at 8 kB.
+## TypeScript Layout
 
-## Tests
+Project references: the root `tsconfig.json` is a solution file pointing at
+`tsconfig.app.json` (everything under `src/`) and `tsconfig.node.json` (Vite, React
+Router, and Playwright config files). Strictness flags to know about:
 
-Run unit tests with:
+- `verbatimModuleSyntax` — type-only imports must use `import type`.
+- `noUnusedLocals` / `noUnusedParameters` — unused symbols fail the build.
+- `erasableSyntaxOnly` — no `enum` or `namespace`; use plain unions and objects.
 
-```bash
-npm test
-```
+## Conventions
 
-Run a focused spec with:
+- Function components and hooks only; co-locate `*.test.tsx` next to the source.
+- Query the DOM by role/label in tests, not by class name.
+- Copy belongs in `src/content/` modules, never inline in components.
+- Component styles go in a co-located CSS file consuming tokens from
+  `src/design/tokens.css`; no raw hex values in components.
+- Route modules may export `meta`/`links` alongside the component — the ESLint
+  react-refresh rule is configured to allow this for `src/routes/**` and `src/root.tsx`.
 
-```bash
-ng test --include="**/component-name.spec.ts"
-```
+## Commit Hygiene
 
-The repository uses Vitest through Angular's unit-test builder. Use `vi.fn()` and Vitest assertions for new tests.
-
-## Angular Conventions
-
-Follow the repository's Angular conventions:
-
-- Standalone components only.
-- `ChangeDetectionStrategy.OnPush` for components.
-- `inject()` for dependency injection.
-- Signals for local reactive state.
-- `takeUntilDestroyed` for RxJS subscriptions when subscriptions are needed.
-- Strict TypeScript; avoid `any` unless there is a documented reason.
-- Lazy-loaded routes by default when routes are introduced.
-
-## Adding or Changing Sections
-
-When adding a page section:
-
-1. Create a standalone component under `src/app/components/<section-name>/`.
-2. Keep template, SCSS, and spec files beside the component.
-3. Import the component in `src/app/app.ts` if it belongs on the current landing page.
-4. Add or update in-page anchors in nav only when the section is a primary user destination.
-5. Run `npm run build` before handing off the change.
-
-## Documentation Changes
-
-Documentation content belongs in `docs/`. If new docs pages are added, update `mkdocs.yml` so the page appears in TechDocs navigation.
-
-Keep `README.md` limited to project setup and local development usage. Put architecture, usability, operations, and contributor guidance in TechDocs pages.
+Conventional Commits are enforced by commitlint (`commit-msg` stage) — note that
+sentence-case subjects are rejected; keep subjects lowercase. The `pre-commit` stage runs
+`eslint --fix` on staged files, then `pnpm typecheck` and `pnpm test` for the whole repo,
+plus OpenTofu fmt/validate when Terraform files change. Do not bypass with `--no-verify`;
+a Claude Code hook blocks it, and CI would catch the failure anyway.

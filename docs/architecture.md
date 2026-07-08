@@ -2,86 +2,67 @@
 
 ## Stack
 
-- Angular 21 standalone application.
-- TypeScript with strict Angular compiler settings.
-- SCSS for global and component-level styles.
-- Angular signals for small reactive UI state.
-- Vitest through the Angular unit-test builder.
-- Static assets served from `public/`.
+- Vite 8 + React 19 + TypeScript (strict, project references).
+- React Router 7 framework mode with `ssr: false` and build-time prerendering.
+- Plain CSS with design tokens (custom properties); no CSS framework.
+- Self-hosted fonts via Fontsource (Bricolage Grotesque, Public Sans, IBM Plex Mono).
+- Vitest + Testing Library for unit tests; Playwright for e2e.
+- pnpm (pinned via the `packageManager` field, managed by Corepack).
 
-## Application Entry Point
+## Routing and Rendering
 
-The browser entry point is `src/main.ts`. It bootstraps the standalone `App` component with providers from `src/app/app.config.ts`.
+Routes are declared in `src/routes.ts` and implemented as route modules under
+`src/routes/`:
 
-`app.config.ts` currently provides:
+| Route | Module | Notes |
+| --- | --- | --- |
+| `/` | `routes/home.tsx` | Full landing journey + JSON-LD blocks |
+| `/about` | `routes/about.tsx` | Founder background (E-E-A-T) |
+| `*` | `routes/not-found.tsx` | Branded 404, `noindex` |
 
-- `provideBrowserGlobalErrorListeners()`
-- `provideRouter(routes)`
+`react-router.config.ts` sets `ssr: false` and `prerender: ['/', '/about', '/404']`. The
+build emits static HTML for each route into `build/client/`; the client bundle hydrates
+after load. There is no runtime server — Azure Static Web Apps serves the output as-is,
+and `public/staticwebapp.config.json` maps unknown paths to `/404/index.html` with a real
+404 status.
 
-The route table in `src/app/app.routes.ts` is empty because the current site is a single landing page composed directly by the root component.
+Each route module exports a `meta()` function built from `src/content/seo.ts`, so titles,
+descriptions, canonical URLs, Open Graph tags, and JSON-LD are present in the prerendered
+HTML without JavaScript.
 
-## Component Composition
+## Document Shell
 
-`src/app/app.ts` imports and renders the major page sections in `src/app/app.html`:
+`src/root.tsx` owns the HTML document (`Layout` export with `<Meta/>`/`<Links/>`), renders
+the fixed `Nav` and `Footer` around the route `Outlet`, imports the font CSS and
+`src/design/base.css`, and provides the root `ErrorBoundary`.
 
-- `Nav`
-- `Hero`
-- `Services`
-- `Booking`
-- `Contact`
-- `Footer`
+## Content Ownership
 
-Each page section is a standalone component using `ChangeDetectionStrategy.OnPush`. Components keep their template, styles, and tests together under `src/app/components/<section>/`.
+All copy and business data live in typed modules under `src/content/` — components never
+hardcode copy:
 
-## Data Flow
+- `business-info.ts` — email, response time, availability, target segment, `mailto:` href.
+- `site.ts` — site name, URL, tagline, Calendly URL, GitHub URL, location (San Diego, CA).
+- `services.ts`, `process.ts`, `trust.ts`, `faq.ts`, `about.ts` — section content.
+- `seo.ts` — per-route meta builder and JSON-LD builders (Organization + WebSite graph,
+  ProfessionalService with offer catalog, FAQPage).
 
-Most page content is static and owned by the component that renders it.
+## Components and Styling
 
-Shared business contact data is centralized in `BusinessInfoService`:
+Presentational components live in `src/components/` with a co-located CSS file per
+component (`nav.tsx` + `nav.css`). Every color, font, size, spacing step, z-index layer,
+and motion token is a custom property in `src/design/tokens.css`; `src/design/base.css`
+holds the reset, primitives (section labels, buttons, skip link), and the CSS-only
+scroll-reveal (`animation-timeline: view()`, transform-only, reduced-motion gated).
 
-- Email address.
-- Expected response time.
-- Availability.
-- Target customer segment.
-- Derived `mailto:` link.
+The design direction ("Engineered Dark") is specified in
+`docs/redesign/03-design-direction.md`. Do not introduce raw hex values in components or
+unrelated visual systems.
 
-Use this service when a component needs business contact information so the site does not drift across sections.
+## Static Assets
 
-## Styling
-
-Global reset rules, design tokens, fonts, body defaults, and the shared `.container` layout utility live in `src/styles.scss`.
-
-Component SCSS files own section-specific layout and visual treatment. Prefer local component styles for new section work unless the style is a true site-wide token or primitive.
-
-The visual direction is a dark, high-contrast software-studio brand using blue and green accents, display typography, and sharp geometry. Preserve the established direction when adding or changing page sections.
-
-## Assets and External Resources
-
-Static assets live in `public/` and are copied by Angular's build configuration:
-
-- `public/assets/bit_byte_ideas_full_logo.png`
-- `public/assets/BandBIdeas-Icon-small.png`
-- `public/BandBIdeas.ico`
-- `public/favicon.ico`
-
-`src/index.html` loads Google Fonts and Calendly's widget script and stylesheet. The booking component provides the Calendly inline widget URL.
-
-## Routing
-
-The site currently uses anchor links for in-page navigation:
-
-- `#services`
-- `#booking`
-- `#contact`
-
-Add Angular routes only when the site grows beyond a single-page experience. Prefer lazy-loaded routes for new page-level features.
-
-## Backstage TechDocs
-
-TechDocs configuration is provided by:
-
-- `mkdocs.yml`
-- `catalog-info.yaml`
-- Markdown files in `docs/`
-
-`catalog-info.yaml` includes the `backstage.io/techdocs-ref: dir:.` annotation so Backstage can generate documentation from this repository root.
+`public/` is copied verbatim into the build output: favicons, brand images (WebP variants
+generated for page use; PNG originals kept for `og:image`), `robots.txt`, `llms.txt`, and
+`staticwebapp.config.json`. `sitemap.xml` is generated at build time by
+`scripts/generate-sitemap.mjs` — add new prerendered routes to both
+`react-router.config.ts` and that script.

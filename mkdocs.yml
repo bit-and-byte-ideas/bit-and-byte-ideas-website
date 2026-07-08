@@ -1,5 +1,5 @@
 site_name: Bit and Byte Ideas Website
-site_description: Contributor documentation for the Bit and Byte Ideas Angular website.
+site_description: Contributor documentation for the Bit and Byte Ideas website (Vite + React 19, statically prerendered).
 docs_dir: docs
 nav:
   - Home: index.md
@@ -7,5 +7,12 @@ nav:
   - Development: development.md
   - UX and Content: ux-content.md
   - Quality and Operations: quality-operations.md
+  - Redesign Decision Record:
+      - Overview: redesign/00-overview.md
+      - Template Adoption: redesign/01-template-adoption.md
+      - Application Architecture: redesign/02-architecture.md
+      - Design Direction: redesign/03-design-direction.md
+      - Content, IA & SEO: redesign/04-content-ia-seo.md
+      - Migration Roadmap: redesign/05-migration-roadmap.md
 plugins:
   - techdocs-core
