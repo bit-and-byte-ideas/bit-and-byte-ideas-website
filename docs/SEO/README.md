@@ -5,6 +5,14 @@ Audit date: 2026-05-23 | Overall health score: **47 / 100**
 Each file below is a self-contained action item with a definition of done.
 Items are ordered by priority. Work through Critical → High → Medium → Low.
 
+This audit predates the 2026-07 rebuild from Angular to React (see
+[`docs/redesign/`](../redesign/00-overview.md)), so individual action-item files below may
+reference old Angular paths (`hero.html`, `src/index.html`, etc.) — treat those as
+historical context for *why* an item mattered, not as current file locations. The **Done?**
+column here reflects the actual, current implementation in the React app; the resolution
+of every item is recorded in
+[`docs/redesign/04-content-ia-seo.md`](../redesign/04-content-ia-seo.md).
+
 ## Critical
 
 | File                                                                         | Issue                                             | Done? |

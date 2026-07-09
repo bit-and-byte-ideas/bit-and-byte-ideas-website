@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: bit-and-byte-ideas-website
-  description: Angular website for the Bit and Byte Ideas software studio.
+  description: React website for the Bit and Byte Ideas software studio.
   annotations:
     backstage.io/techdocs-ref: dir:.
 spec:
