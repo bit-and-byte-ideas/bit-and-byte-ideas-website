@@ -10,16 +10,14 @@ export function Footer() {
       <div className="container footer-main">
         <div className="footer-brand">
           <a href="#" className="footer-logo" aria-label="Bit and Byte Ideas — back to top">
-            <span className="footer-logo-icon-pill">
-              <img
-                src="/assets/bandb-icon-64.webp"
-                alt=""
-                className="footer-logo-icon"
-                aria-hidden="true"
-                width="30"
-                height="30"
-              />
-            </span>
+            <img
+              src="/assets/bandb-mark.webp"
+              alt=""
+              className="footer-logo-icon"
+              aria-hidden="true"
+              width="28"
+              height="40"
+            />
             <span className="footer-logo-wordmark">
               Bit <span className="footer-logo-amp">&amp;</span> Byte{' '}
               <span className="footer-logo-ideas">Ideas</span>

@@ -31,22 +31,21 @@ footer {
   min-height: 44px;
 }
 
-.footer-logo-icon-pill {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border: 1px solid var(--border-accent);
-  border-radius: 999px;
-  background: var(--accent-dim);
-}
-
+/* No container — see nav.css .logo-icon for the flush + signal-glow rationale. */
 .footer-logo-icon {
   display: block;
-  width: 30px;
-  height: 30px;
-  object-fit: contain;
+  height: 40px;
+  width: auto;
+  filter:
+    drop-shadow(0 0 5px rgba(34, 197, 94, 0.45))
+    drop-shadow(0 0 10px rgba(59, 130, 246, 0.25));
+  transition: filter var(--duration-base) var(--ease-out);
+}
+
+.footer-logo:hover .footer-logo-icon {
+  filter:
+    drop-shadow(0 0 7px rgba(34, 197, 94, 0.6))
+    drop-shadow(0 0 14px rgba(59, 130, 246, 0.35));
 }
 
 .footer-logo-wordmark {
