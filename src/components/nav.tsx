@@ -25,18 +25,14 @@ export function Nav() {
       <nav className={scrolled ? 'site-nav scrolled' : 'site-nav'}>
         <div className="container nav-inner">
           <Link to="/" className="logo" aria-label="Bit and Byte Ideas home" onClick={closeMenu}>
-            <span className="logo-icon-pill">
-              <span className="logo-icon-inner">
-                <img
-                  src="/assets/bandb-icon-64.webp"
-                  alt=""
-                  className="logo-icon"
-                  aria-hidden="true"
-                  width="30"
-                  height="30"
-                />
-              </span>
-            </span>
+            <img
+              src="/assets/bandb-mark.webp"
+              alt=""
+              className="logo-icon"
+              aria-hidden="true"
+              width="24"
+              height="35"
+            />
             <span className="logo-wordmark">
               Bit <span className="logo-amp">&amp;</span> Byte{' '}
               <span className="logo-ideas">Ideas</span>
