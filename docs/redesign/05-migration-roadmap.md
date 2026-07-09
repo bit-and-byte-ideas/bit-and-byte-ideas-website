@@ -75,14 +75,31 @@ Outcome notes:
   `/seo-page` + Lighthouse against dev; fix regressions.
 - **Gate:** dev environment audit clean vs. Phase 0 baseline.
 
-## Phase 6 — Docs & cutover (PR 6 → main) 🔄 docs shipped 2026-07-07; merge + release are owner actions
+## Phase 6 — Docs & cutover (PR 6 → main) ✅ (2026-07-08)
 
 - Rewrite `docs/architecture.md`, `development.md`, `ux-content.md`,
   `quality-operations.md`, `docs/index.md` for the React app; add `docs/redesign/` to
   `mkdocs.yml` nav as a decision record.
 - `graphify update .`; merge to `main`; publish release → prod deploy.
-- Post-cutover checklist: IndexNow sitemap re-submission (H6), GSC URL inspection on both
-  routes, `/seo-page` production audit, monitor CWV field data.
+
+Cutover outcome (PR #33 merged, release v0.1.3, 2026-07-08):
+
+- Production audit **12/12**: new site served with keyword title, San Diego targeting,
+  three JSON-LD blocks, 7-item FAQ, canonical www, security headers + CSP, real 404
+  status with the branded page, prerendered `/about`, and llms.txt / robots.txt /
+  sitemap.xml all live.
+- Performance on production: **CLS 0, LCP ~1.6s**, zero console errors.
+- Dev environment restored to protected-branches-only (Phase 5 cleanup done).
+- Known item: `https://` apex serves the site (200) instead of 301 → www. Azure SWA
+  cannot host-redirect via `staticwebapp.config.json`; canonical tags point at www, so
+  duplicate-content risk is mitigated. Fixing properly needs an infra-level redirect
+  (e.g. Front Door) — tracked as a nice-to-have, not a blocker.
+
+Remaining owner actions (need Search Console access):
+
+- Submit sitemap + URL inspection for `/` and `/about` in GSC; optional Bing IndexNow
+  (H6 automation still deferred).
+- Watch CWV field data over the next 28 days.
 
 ## Rollback
 
