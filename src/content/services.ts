@@ -9,35 +9,35 @@ export interface Service {
 export const services: Service[] = [
   {
     number: '01',
-    title: 'Static Website Development',
+    title: 'Website & Application Development',
     description:
-      "A polished, fast-loading presence built for lasting impressions and day-one SEO. Whether you're launching a new brand or replacing a template site, you get a custom design crafted around your goals. Delivered on Azure Static Web Apps for global performance and rock-solid uptime.",
+      'From a fast, polished marketing site to a full-featured application with logins, dashboards, and business logic — we design and build custom software around your goals, not a template. Start where you are today; we architect it to grow with you.',
     features: [
-      'Custom design — no templates',
-      'Mobile-first responsive layout',
-      'SEO-optimized markup & metadata',
-      'Fast performance & Core Web Vitals',
-      'Contact forms & third-party integrations',
+      'Custom design — no templates or page builders',
+      'Mobile-first, SEO-optimized, and fast (Core Web Vitals)',
+      'User accounts, dashboards & business logic when you need them',
+      'Database design, APIs & cloud infrastructure for anything custom',
+      'Built to scale from a single page to a full application',
     ],
   },
   {
     number: '02',
-    title: 'Web Application Development',
+    title: 'Business Automation & Integrations',
     description:
-      'Interactive, data-driven applications designed around your workflow and built to scale. From customer portals to internal tools, we handle the full stack — frontend, backend, cloud infrastructure, and integrations. You describe the business problem; we engineer the solution.',
+      "Stop copying the same information between tools by hand. We connect the software you already use — CRM, invoicing, forms, email, e-commerce — so information flows automatically, and build custom integrations via API when an off-the-shelf connector doesn't exist. Less manual work, fewer mistakes, more time to run your business.",
     features: [
-      'Custom business logic & workflows',
-      'User authentication & roles',
-      'Database design & API development',
-      'Third-party service integrations',
-      'Scalable cloud architecture',
+      'Connect the tools you already use (CRM, invoicing, forms, e-commerce, email)',
+      "Custom API integrations when an off-the-shelf connector doesn't exist",
+      'Automated workflows that replace manual, repetitive tasks',
+      'Data sync between systems — no more double data entry',
+      'Notifications & alerts wired into the tools your team already checks',
     ],
   },
   {
     number: '03',
     title: 'Maintenance + Hosting',
     description:
-      'Stay focused on running your business while we handle everything technical. Monthly plans cover managed cloud hosting, security updates, dependency patches, and performance monitoring — plus priority support when you need a quick change. Peace of mind, billed monthly.',
+      'Stay focused on running your business while we handle everything technical. Monthly plans cover managed cloud hosting, security updates, dependency patches, and performance monitoring — plus keeping automations working as the tools on either end change. Peace of mind, billed monthly.',
     features: [
       'Managed cloud hosting',
       'Automated backups & recovery',

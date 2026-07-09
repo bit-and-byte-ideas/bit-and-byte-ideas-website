@@ -134,7 +134,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L1",
       "id": "skills_lock_json",
-      "community": 196,
+      "community": 182,
       "norm_label": "skills-lock.json"
     },
     {
@@ -143,7 +143,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L2",
       "id": "bit_and_byte_ideas_website_skills_lock_version",
-      "community": 196,
+      "community": 182,
       "norm_label": "version"
     },
     {
@@ -152,7 +152,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L3",
       "id": "bit_and_byte_ideas_website_skills_lock_skills",
-      "community": 196,
+      "community": 182,
       "norm_label": "skills"
     },
     {
@@ -4311,114 +4311,6 @@
       "norm_label": "static assets"
     },
     {
-      "label": "services-strategy.md",
-      "file_type": "document",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L1",
-      "id": "docs_services_strategy_md",
-      "community": 256,
-      "norm_label": "services-strategy.md"
-    },
-    {
-      "label": "Services Rethink \u2014 Strategy Notes",
-      "file_type": "document",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L1",
-      "id": "docs_services_strategy_services_rethink_strategy_notes",
-      "community": 256,
-      "norm_label": "services rethink \u2014 strategy notes"
-    },
-    {
-      "label": "The actual problem",
-      "file_type": "document",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L12",
-      "id": "docs_services_strategy_the_actual_problem",
-      "community": 256,
-      "norm_label": "the actual problem"
-    },
-    {
-      "label": "Guiding principle",
-      "file_type": "document",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L38",
-      "id": "docs_services_strategy_guiding_principle",
-      "community": 256,
-      "norm_label": "guiding principle"
-    },
-    {
-      "label": "Recommendation: three services, reframed around Build \u2192 Automate \u2192 Maintain",
-      "file_type": "document",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L51",
-      "id": "docs_services_strategy_recommendation_three_services_reframed_around_build_automate_maintain",
-      "community": 256,
-      "norm_label": "recommendation: three services, reframed around build \u2192 automate \u2192 maintain"
-    },
-    {
-      "label": "Why this order",
-      "file_type": "document",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L62",
-      "id": "docs_services_strategy_why_this_order",
-      "community": 256,
-      "norm_label": "why this order"
-    },
-    {
-      "label": "Proposed copy",
-      "file_type": "document",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L70",
-      "id": "docs_services_strategy_proposed_copy",
-      "community": 256,
-      "norm_label": "proposed copy"
-    },
-    {
-      "label": "Alternative considered: four cards instead of three",
-      "file_type": "document",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L114",
-      "id": "docs_services_strategy_alternative_considered_four_cards_instead_of_three",
-      "community": 256,
-      "norm_label": "alternative considered: four cards instead of three"
-    },
-    {
-      "label": "Downstream touchpoints (once we implement)",
-      "file_type": "document",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L128",
-      "id": "docs_services_strategy_downstream_touchpoints_once_we_implement",
-      "community": 256,
-      "norm_label": "downstream touchpoints (once we implement)"
-    },
-    {
-      "label": "Decisions (2026-07-09)",
-      "file_type": "document",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L154",
-      "id": "docs_services_strategy_decisions_2026_07_09",
-      "community": 256,
-      "norm_label": "decisions (2026-07-09)"
-    },
-    {
-      "label": "Additional thoughts before implementation",
-      "file_type": "document",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L165",
-      "id": "docs_services_strategy_additional_thoughts_before_implementation",
-      "community": 256,
-      "norm_label": "additional thoughts before implementation"
-    },
-    {
-      "label": "Implementation plan",
-      "file_type": "document",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L219",
-      "id": "docs_services_strategy_implementation_plan",
-      "community": 256,
-      "norm_label": "implementation plan"
-    },
-    {
       "label": "quality-operations.md",
       "file_type": "document",
       "source_file": "docs/quality-operations.md",
@@ -8248,7 +8140,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L4",
-      "community": 258,
+      "community": 182,
       "norm_label": "angular-architect",
       "id": "bit_and_byte_ideas_website_skills_lock_skills_angular_architect"
     },
@@ -8257,7 +8149,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L5",
-      "community": 258,
+      "community": 182,
       "norm_label": "source",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_architect_source"
     },
@@ -8266,7 +8158,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L6",
-      "community": 258,
+      "community": 182,
       "norm_label": "sourcetype",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_architect_sourcetype"
     },
@@ -8275,7 +8167,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L7",
-      "community": 258,
+      "community": 182,
       "norm_label": "computedhash",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_architect_computedhash"
     },
@@ -8284,7 +8176,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L9",
-      "community": 259,
+      "community": 182,
       "norm_label": "angular-developer",
       "id": "bit_and_byte_ideas_website_skills_lock_skills_angular_developer"
     },
@@ -8293,7 +8185,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L10",
-      "community": 259,
+      "community": 182,
       "norm_label": "source",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_developer_source"
     },
@@ -8302,7 +8194,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L11",
-      "community": 259,
+      "community": 182,
       "norm_label": "sourcetype",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_developer_sourcetype"
     },
@@ -8311,7 +8203,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L12",
-      "community": 259,
+      "community": 182,
       "norm_label": "computedhash",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_developer_computedhash"
     },
@@ -8662,7 +8554,7 @@
       "file_type": "code",
       "source_file": "angular.json",
       "source_location": "L47",
-      "community": 117,
+      "community": 172,
       "norm_label": "configurations",
       "id": "bit_and_byte_ideas_website_angular_build_configurations"
     },
@@ -9202,7 +9094,7 @@
       "file_type": "code",
       "source_file": "src/app/components/home/home.ts",
       "source_location": "L1",
-      "community": 67,
+      "community": 112,
       "norm_label": "home.ts",
       "id": "src_app_components_home_home_ts"
     },
@@ -9211,7 +9103,7 @@
       "file_type": "code",
       "source_file": "src/app/components/home/home.ts",
       "source_location": "L15",
-      "community": 67,
+      "community": 112,
       "norm_label": "home",
       "id": "home_home_home"
     },
@@ -9337,7 +9229,7 @@
       "file_type": "code",
       "source_file": "src/app/components/trust-strip/trust-strip.ts",
       "source_location": "L1",
-      "community": 67,
+      "community": 112,
       "norm_label": "trust-strip.ts",
       "id": "src_app_components_trust_strip_trust_strip_ts"
     },
@@ -9346,7 +9238,7 @@
       "file_type": "code",
       "source_file": "src/app/components/trust-strip/trust-strip.ts",
       "source_location": "L11",
-      "community": 67,
+      "community": 112,
       "norm_label": "truststrip",
       "id": "trust_strip_trust_strip_truststrip"
     },
@@ -9760,7 +9652,7 @@
       "file_type": "code",
       "source_file": "src/app/components/process/process.ts",
       "source_location": "L1",
-      "community": 67,
+      "community": 112,
       "norm_label": "process.ts",
       "id": "src_app_components_process_process_ts"
     },
@@ -9769,7 +9661,7 @@
       "file_type": "code",
       "source_file": "src/app/components/process/process.ts",
       "source_location": "L3",
-      "community": 67,
+      "community": 112,
       "norm_label": "step",
       "id": "process_process_step"
     },
@@ -9778,7 +9670,7 @@
       "file_type": "code",
       "source_file": "src/app/components/process/process.ts",
       "source_location": "L17",
-      "community": 67,
+      "community": 112,
       "norm_label": "process",
       "id": "process_process_process"
     },
@@ -18751,7 +18643,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/mcp.md",
       "source_location": "L1",
-      "community": 60,
+      "community": 256,
       "norm_label": "mcp.md",
       "id": "claude_skills_angular_developer_references_mcp_md"
     },
@@ -18760,7 +18652,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/mcp.md",
       "source_location": "L1",
-      "community": 60,
+      "community": 256,
       "norm_label": "angular cli mcp server",
       "id": "claude_skills_angular_developer_references_mcp_md_references_mcp_angular_cli_mcp_server"
     },
@@ -18769,7 +18661,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/mcp.md",
       "source_location": "L5",
-      "community": 60,
+      "community": 256,
       "norm_label": "available tools (default)",
       "id": "claude_skills_angular_developer_references_mcp_md_references_mcp_available_tools_default"
     },
@@ -18778,7 +18670,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/mcp.md",
       "source_location": "L18",
-      "community": 60,
+      "community": 256,
       "norm_label": "experimental tools",
       "id": "claude_skills_angular_developer_references_mcp_md_references_mcp_experimental_tools"
     },
@@ -18868,7 +18760,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/mcp.md",
       "source_location": "L96",
-      "community": 60,
+      "community": 256,
       "norm_label": "command options",
       "id": "claude_skills_angular_developer_references_mcp_md_references_mcp_command_options"
     },
@@ -18877,7 +18769,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/mcp.md",
       "source_location": "L106",
-      "community": 60,
+      "community": 256,
       "norm_label": "code:json (\"args\": [\"-y\", \"@angular/cli\", \"mcp\", \"--read-only\", \"-e\", \")",
       "id": "claude_skills_angular_developer_references_mcp_md_references_mcp_codeblock_5"
     },
@@ -21415,7 +21307,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/signal-forms.md",
       "source_location": "L158",
-      "community": 12,
+      "community": 258,
       "norm_label": "binding",
       "id": "claude_skills_angular_developer_references_signal_forms_md_references_signal_forms_binding"
     },
@@ -21424,7 +21316,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/signal-forms.md",
       "source_location": "L162",
-      "community": 12,
+      "community": 258,
       "norm_label": "code:ts (import { formfield } from '@angular/forms/signals';)",
       "id": "claude_skills_angular_developer_references_signal_forms_md_references_signal_forms_codeblock_8"
     },
@@ -21433,7 +21325,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/signal-forms.md",
       "source_location": "L179",
-      "community": 12,
+      "community": 258,
       "norm_label": "code:html (<!-- input -->)",
       "id": "claude_skills_angular_developer_references_signal_forms_md_references_signal_forms_codeblock_9"
     },
@@ -23185,7 +23077,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 196,
+      "community": 109,
       "norm_label": "angular cli mcp server reference",
       "id": "angular_developer_mcp"
     },
@@ -23198,7 +23090,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "angular signal-based inputs reference",
       "id": "angular_developer_inputs"
     },
@@ -23289,7 +23181,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "angular signal-based inputs api",
       "id": "concept_signal_inputs"
     },
@@ -24212,7 +24104,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 150,
+      "community": 40,
       "norm_label": "canactivate route guard",
       "id": "agents_route_guards_canactivate"
     },
@@ -24862,7 +24754,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 60,
+      "community": 256,
       "norm_label": "angular cli mcp server",
       "id": "claude_mcp_angular_cli_mcp_server"
     },
@@ -24875,7 +24767,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 60,
+      "community": 256,
       "norm_label": "angular mcp experimental tools",
       "id": "claude_mcp_experimental_tools"
     },
@@ -30754,9 +30646,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_seo_tojsonldscript"
+      "target": "content_seo_tojsonldscript",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -30858,9 +30750,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L76",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_seo_test_malicious"
+      "target": "content_seo_test_malicious",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30868,9 +30760,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L77",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_seo_test_serialized"
+      "target": "content_seo_test_serialized",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -30878,9 +30770,9 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L85",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
-      "target": "content_seo_test_parsed"
+      "target": "content_seo_test_parsed",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -31420,9 +31312,9 @@
       "source_file": "src/content/seo.ts",
       "source_location": "L144",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_content_seo_ts",
-      "target": "content_seo_tojsonldscript"
+      "target": "content_seo_tojsonldscript",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -31596,9 +31488,9 @@
       "source_file": "src/routes/home.tsx",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "src_routes_home_tsx",
-      "target": "content_seo_tojsonldscript"
+      "target": "content_seo_tojsonldscript",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -32243,9 +32135,9 @@
       "source_file": "README.md",
       "source_location": "L55",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "bit_and_byte_ideas_website_readme_bit_and_byte_ideas_website",
-      "target": "bit_and_byte_ideas_website_readme_lint"
+      "target": "bit_and_byte_ideas_website_readme_lint",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -32373,9 +32265,9 @@
       "source_file": "README.md",
       "source_location": "L57",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "bit_and_byte_ideas_website_readme_lint",
-      "target": "bit_and_byte_ideas_website_readme_codeblock_6"
+      "target": "bit_and_byte_ideas_website_readme_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -33590,116 +33482,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "docs_services_strategy_md",
-      "target": "docs_services_strategy_services_rethink_strategy_notes",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "docs_services_strategy_services_rethink_strategy_notes",
-      "target": "docs_services_strategy_the_actual_problem",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L38",
-      "weight": 1.0,
-      "source": "docs_services_strategy_services_rethink_strategy_notes",
-      "target": "docs_services_strategy_guiding_principle",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L51",
-      "weight": 1.0,
-      "source": "docs_services_strategy_services_rethink_strategy_notes",
-      "target": "docs_services_strategy_recommendation_three_services_reframed_around_build_automate_maintain",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L114",
-      "weight": 1.0,
-      "source": "docs_services_strategy_services_rethink_strategy_notes",
-      "target": "docs_services_strategy_alternative_considered_four_cards_instead_of_three",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L128",
-      "weight": 1.0,
-      "source": "docs_services_strategy_services_rethink_strategy_notes",
-      "target": "docs_services_strategy_downstream_touchpoints_once_we_implement",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L154",
-      "weight": 1.0,
-      "source": "docs_services_strategy_services_rethink_strategy_notes",
-      "target": "docs_services_strategy_decisions_2026_07_09",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L165",
-      "weight": 1.0,
-      "source": "docs_services_strategy_services_rethink_strategy_notes",
-      "target": "docs_services_strategy_additional_thoughts_before_implementation",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L219",
-      "weight": 1.0,
-      "source": "docs_services_strategy_services_rethink_strategy_notes",
-      "target": "docs_services_strategy_implementation_plan",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L62",
-      "weight": 1.0,
-      "source": "docs_services_strategy_recommendation_three_services_reframed_around_build_automate_maintain",
-      "target": "docs_services_strategy_why_this_order",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/services-strategy.md",
-      "source_location": "L70",
-      "weight": 1.0,
-      "source": "docs_services_strategy_recommendation_three_services_reframed_around_build_automate_maintain",
-      "target": "docs_services_strategy_proposed_copy",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "docs/quality-operations.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -33753,9 +33535,9 @@
       "source_file": "docs/quality-operations.md",
       "source_location": "L54",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_quality_operations_quality_and_operations",
-      "target": "docs_quality_operations_security"
+      "target": "docs_quality_operations_security",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -34393,9 +34175,9 @@
       "source_file": "docs/redesign/05-migration-roadmap.md",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_phase_1_scaffold_content_extraction_pr_1_2026_07_07"
+      "target": "redesign_05_migration_roadmap_phase_1_scaffold_content_extraction_pr_1_2026_07_07",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -34443,9 +34225,9 @@
       "source_file": "docs/redesign/05-migration-roadmap.md",
       "source_location": "L78",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_phase_6_docs_cutover_pr_6_main_2026_07_08"
+      "target": "redesign_05_migration_roadmap_phase_6_docs_cutover_pr_6_main_2026_07_08",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -34463,9 +34245,9 @@
       "source_file": "docs/redesign/05-migration-roadmap.md",
       "source_location": "L111",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_outcome"
+      "target": "redesign_05_migration_roadmap_outcome",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -60701,5 +60483,5 @@
       "source_file": "docs/SEO/C4-lcp-image-optimization.md"
     }
   ],
-  "built_at_commit": "4a9ff28f816a11313f149b9e9642b8e788a46b0b"
+  "built_at_commit": "eb1b12c17d5e2b76174ae9a5376a665e003d57ef"
 }
