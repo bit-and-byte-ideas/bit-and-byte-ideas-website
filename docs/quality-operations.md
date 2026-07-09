@@ -51,6 +51,27 @@ Both build with pnpm and upload the static `build/client/` directory
 (`skip_app_build: true`). Security headers, CSP, and the 404 mapping come from
 `public/staticwebapp.config.json`.
 
+## Security
+
+- `script-src 'self' 'unsafe-inline'` in the CSP is a deliberate, verified-necessary
+  trade-off, not an oversight: React Router's streaming/hydration output embeds several
+  inline `<script>` blocks with no `src` (history restoration, `window.__reactRouterContext`
+  bootstrap, Suspense-reveal helpers) that change on every build and cannot be pinned by
+  nonce or hash in a purely static `staticwebapp.config.json`. Removing `'unsafe-inline'`
+  from `script-src` breaks hydration. `style-src` has no such requirement — the app has
+  zero inline `style` attributes or `<style>` blocks (verified against the prerendered
+  output), so it is `'self'` only.
+- JSON-LD is injected via `dangerouslySetInnerHTML`; `src/content/seo.ts`'s
+  `toJsonLdScript()` escapes `<` before serialization so a schema value containing
+  `</script>` cannot break out of the script element. Current schema content is fully
+  static (never user-supplied), so this is defense in depth, not a response to a known
+  exploit path.
+- GitHub Actions: every `actions/checkout` step sets `persist-credentials: false` (the
+  default token isn't needed after checkout in any workflow here), and third-party actions
+  (`pnpm/action-setup`, `Azure/static-web-apps-deploy`, `open-policy-agent/setup-opa`) are
+  pinned to a commit SHA rather than a floating tag — bump these deliberately, not via a
+  blind tag update.
+
 ## Rollback
 
 Prod deploys are release-driven and the artifact is fully static: to roll back, re-publish

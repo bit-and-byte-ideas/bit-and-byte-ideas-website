@@ -1,16 +1,16 @@
-# Graph Report - bit-and-byte-ideas-website  (2026-07-08)
+# Graph Report - bit-and-byte-ideas-website  (2026-07-07)
 
 ## Corpus Check
-- 104 files · ~44,501 words
+- 104 files · ~43,311 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2888 nodes · 3251 edges · 259 communities (240 shown, 19 thin omitted)
+- 2878 nodes · 3238 edges · 259 communities (240 shown, 19 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 74 edges (avg confidence: 0.82)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `eb1b12c1`
+- Built from commit: `1ba8e4de`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -269,10 +269,10 @@
 ## God Nodes (most connected - your core abstractions)
 1. `Signal Forms` - 36 edges
 2. `SEO Action Items` - 21 edges
-3. `05 — Migration Roadmap` - 18 edges
-4. `compilerOptions` - 17 edges
-5. `compilerOptions` - 16 edges
-6. `Angular Architect Skill` - 16 edges
+3. `compilerOptions` - 17 edges
+4. `compilerOptions` - 16 edges
+5. `Angular Architect Skill` - 16 edges
+6. `05 — Migration Roadmap` - 15 edges
 7. `Angular Routing Reference` - 15 edges
 8. `scripts` - 14 edges
 9. `Architecture` - 14 edges
@@ -287,8 +287,8 @@
   docs/ux-content.md → src/index.html
 - `CLAUDE.md - Claude Code Instructions` --semantically_similar_to--> `AGENTS.md - Codex Agent Instructions`  [INFERRED] [semantically similar]
   CLAUDE.md → AGENTS.md
-- `Angular Signals for Reactive State` --conceptually_related_to--> `Angular Signal-based Inputs API`  [INFERRED]
-  CLAUDE.md → .agents/skills/angular-developer/references/inputs.md
+- `Angular Dependency Injection Providers` --semantically_similar_to--> `inject() Function for Dependency Injection`  [INFERRED] [semantically similar]
+  .agents/skills/angular-developer/references/defining-providers.md → CLAUDE.md
 
 ## Hyperedges (group relationships)
 - **Angular SSR Bootstrap Pipeline** — src_main_browser_bootstrap, src_main_server_bootstrap, src_server_express, app_config_server_serverconfig [EXTRACTED 0.95]
@@ -304,12 +304,12 @@
 ## Communities (259 total, 19 thin omitted)
 
 ### Community 0 - "CI/CD & Deploy Workflows"
-Cohesion: 0.22
-Nodes (4): Nav(), bookLinks, toggle, user
+Cohesion: 0.15
+Nodes (7): Footer(), github, year, Nav(), bookLinks, toggle, user
 
 ### Community 1 - "CI/CD & Deploy Workflows (2)"
-Cohesion: 0.11
-Nodes (17): 1. Managing Dependencies, 2. Generating Code (`ng generate` or `ng g`), 3. Development Server & Proxying, 4. Building the Application, 5. Testing, 6. Deployment, Angular CLI Guide for Agents, Backend API Proxying (+9 more)
+Cohesion: 0.22
+Nodes (8): 1. Managing Dependencies, 2. Generating Code (`ng generate` or `ng g`), 5. Testing, 6. Deployment, Angular CLI Guide for Agents, code:bash (ng add @angular/material), code:bash (ng update @angular/core@<latest or specific version> @angula), code:bash (# Example for Firebase)
 
 ### Community 2 - "Angular Testing Patterns"
 Cohesion: 0.05
@@ -328,8 +328,8 @@ Cohesion: 0.10
 Nodes (20): dependencies, @angular/common, @angular/compiler, @angular/core, @angular/forms, @angular/platform-browser, @angular/platform-server, @angular/router (+12 more)
 
 ### Community 6 - "Angular Component Harnesses"
-Cohesion: 0.09
-Nodes (25): code:ts (import { TestbedHarnessEnvironment } from '@angular/cdk/test), Example: Testing with a `MatButtonHarness`, Key Concepts, Testing with Component Harnesses, Using a Harness in a Unit Test, Why Use Harnesses?, code:typescript (import { ComponentHarness, HarnessPredicate } from '@angular), code:typescript (import { TestbedHarnessEnvironment } from '@angular/cdk/test) (+17 more)
+Cohesion: 0.15
+Nodes (16): code:ts (import { TestbedHarnessEnvironment } from '@angular/cdk/test), Example: Testing with a `MatButtonHarness`, Key Concepts, Testing with Component Harnesses, Using a Harness in a Unit Test, Why Use Harnesses?, code:typescript (import { ComponentHarness, HarnessPredicate } from '@angular), code:typescript (import { TestbedHarnessEnvironment } from '@angular/cdk/test) (+8 more)
 
 ### Community 7 - "Angular Testing Skill"
 Cohesion: 0.06
@@ -352,8 +352,8 @@ Cohesion: 0.09
 Nodes (22): 1. Native CSS Animations (v20.2+ Recommended), 2. Advanced CSS Animations, 3. Legacy Animations DSL (Deprecated), Angular Animations, `animate.enter` and `animate.leave`, Animating Auto Height, Animating State and Styles, code:html (@if (isShown()) {) (+14 more)
 
 ### Community 12 - "Angular Signal Forms"
-Cohesion: 0.09
-Nodes (25): Accessing State, code:ts (import {), code:ts (// Access the field by calling it), code:ts (form().invalid()), code:ts (import { submit } from '@angular/forms/signals';), code:ts (import { Component, signal } from '@angular/core';), code:ts (import { required, email, min, max, minLength, maxLength, pa), code:ts (userForm = form(this.userModel, (schemaPath) => {) (+17 more)
+Cohesion: 0.08
+Nodes (28): Accessing State, Binding, code:ts (import {), code:ts (// Access the field by calling it), code:ts (form().invalid()), code:ts (import { submit } from '@angular/forms/signals';), code:ts (import { Component, signal } from '@angular/core';), code:ts (import { required, email, min, max, minLength, maxLength, pa) (+20 more)
 
 ### Community 13 - "Angular Routing"
 Cohesion: 0.10
@@ -448,12 +448,12 @@ Cohesion: 0.20
 Nodes (11): Best Practices, code:ts (import { input, booleanAttribute } from '@angular/core';), code:ts (@Component({), code:html (<!-- Two-way binding with a signal -->), code:ts (import { Component, Input } from '@angular/core';), Configuration Options, Decorator-based Inputs (@Input), Inputs (+3 more)
 
 ### Community 36 - "Template-Driven Forms"
-Cohesion: 0.23
-Nodes (11): Contact(), BusinessInfo, faqPageSchema(), ogImage, organizationSchema(), PageMetaOptions, postalAddress, professionalServiceSchema() (+3 more)
+Cohesion: 0.24
+Nodes (9): Contact(), BusinessInfo, faqPageSchema(), ogImage, organizationSchema(), PageMetaOptions, postalAddress, professionalServiceSchema() (+1 more)
 
 ### Community 37 - "Angular Dependency Injection"
-Cohesion: 0.14
-Nodes (17): ElementInjector, EnvironmentInjector, providers vs viewProviders, runInInjectionContext, code:ts (@Component({...})), Hierarchical Injectors, `providers` vs `viewProviders`, Resolution Modifiers (+9 more)
+Cohesion: 0.27
+Nodes (9): ElementInjector, EnvironmentInjector, providers vs viewProviders, code:ts (@Component({...})), Hierarchical Injectors, `providers` vs `viewProviders`, Resolution Modifiers, Resolution Rules (+1 more)
 
 ### Community 38 - "Angular Testing Patterns (2)"
 Cohesion: 0.11
@@ -472,8 +472,8 @@ Cohesion: 0.17
 Nodes (17): code:typescript (import { Component, signal, computed, effect } from '@angula), code:typescript (import { Component, input, output, model } from '@angular/co), code:typescript (// Smart Component (Container)), code:typescript (// Card component with multiple slots), code:typescript (import { Component, inject } from '@angular/core';), code:typescript (@Component({), code:typescript (@Component({), Content Projection (+9 more)
 
 ### Community 42 - "Angular Testing Skill (2)"
-Cohesion: 0.17
-Nodes (12): httpResource, Angular resource() API, Signal-Based Async Reactivity, HTTP Resource Testing, OnPush Component Testing, Signal-Based Component Testing, Angular Testing Skill, OnPush Change Detection Strategy (+4 more)
+Cohesion: 0.18
+Nodes (11): httpResource, Angular resource() API, Signal-Based Async Reactivity, HTTP Resource Testing, OnPush Component Testing, Signal-Based Component Testing, Angular Testing Skill, OnPush Change Detection Strategy (+3 more)
 
 ### Community 43 - "Skill Reference"
 Cohesion: 0.13
@@ -540,12 +540,12 @@ Cohesion: 0.19
 Nodes (14): Angular routing for a blog, code:typescript (// app.routes.ts), code:json ({), Definition of Done, Files to Change (when implementing), Format, Implementation Notes, L5 — Blog and Content Cadence (+6 more)
 
 ### Community 59 - "Angular Dependency Injection (3)"
-Cohesion: 0.17
-Nodes (14): `assertInInjectionContext`, code:ts (@Component({...})), code:ts (import { Injectable, inject, EnvironmentInjector, runInInjec), code:ts (import { assertInInjectionContext, inject, ElementRef } from), Injection Context, `runInInjectionContext`, Where is an Injection Context Available?, ElementInjector (+6 more)
+Cohesion: 0.24
+Nodes (9): `assertInInjectionContext`, code:ts (@Component({...})), code:ts (import { Injectable, inject, EnvironmentInjector, runInInjec), code:ts (import { assertInInjectionContext, inject, ElementRef } from), Injection Context, `runInInjectionContext`, Where is an Injection Context Available?, assertInInjectionContext() (+1 more)
 
 ### Community 60 - "Angular CLI MCP Server"
-Cohesion: 0.31
-Nodes (9): Antigravity IDE, code:json ({), code:json ({), code:json ({), code:json ({), Configuration, Cursor, Gemini CLI (+1 more)
+Cohesion: 0.17
+Nodes (16): Angular CLI MCP Server, Angular MCP Experimental Tools, Angular CLI MCP Server, Antigravity IDE, Available Tools (Default), code:json ({), code:json ({), code:json ({) (+8 more)
 
 ### Community 61 - "Angular Outputs"
 Cohesion: 0.15
@@ -584,8 +584,8 @@ Cohesion: 0.14
 Nodes (16): Angular Testing, code:typescript (import { ComponentFixture, TestBed } from '@angular/core/tes), code:typescript (import { TestBed } from '@angular/core/testing';), code:typescript (import { TestScheduler } from 'rxjs/testing';), code:typescript (import { signal } from '@angular/core';), code:typescript (import { TestBed } from '@angular/core/testing';), code:typescript (import { TestBed } from '@angular/core/testing';), code:typescript (import { TestBed } from '@angular/core/testing';) (+8 more)
 
 ### Community 70 - "Code:Bash (Npm Install)"
-Cohesion: 0.17
-Nodes (15): Bit and Byte Ideas Website, Build, code:bash (pnpm install), code:bash (pnpm dev), code:bash (pnpm build), code:bash (pnpm test      # Vitest unit suite), code:bash (pnpm test hero.test.tsx), code:bash (pnpm lint) (+7 more)
+Cohesion: 0.20
+Nodes (13): Bit and Byte Ideas Website, Build, code:bash (npm install), code:bash (npm start), code:bash (npm run build), code:bash (npm test), code:bash (ng test --include="**/example.spec.ts"), Local Development (+5 more)
 
 ### Community 71 - "TestBed Configuration"
 Cohesion: 0.20
@@ -620,12 +620,12 @@ Cohesion: 0.18
 Nodes (10): Aborting Requests, Async Reactivity with `resource`, Basic Usage, code:ts (import { Component, resource, signal, computed } from '@angu), code:ts (this.userResource.reload();), code:ts (this.userResource.value.set({ name: 'Optimistic Update' });), Local Mutation, Reactive Data Fetching with `httpResource` (+2 more)
 
 ### Community 79 - "Angular Testing Skill (6)"
-Cohesion: 0.20
-Nodes (11): code:typescript (@Component({), code:typescript (@Component({), code:typescript (import { signal, computed } from '@angular/core';), code:typescript (@Component({), code:typescript (@Component({), Direct Signal Testing, Testing Component Signals, Testing HTTP Resources (+3 more)
+Cohesion: 0.21
+Nodes (12): Angular Testing, code:typescript (@Component({), code:typescript (@Component({), code:typescript (import { signal, computed } from '@angular/core';), code:typescript (@Component({), code:typescript (@Component({), Direct Signal Testing, Testing Component Signals (+4 more)
 
 ### Community 80 - "Angular Accessibility (4)"
-Cohesion: 0.15
-Nodes (14): Adding or Changing Sections, Angular Conventions, code:bash (pnpm install), code:bash (pnpm dev           # React Router dev server at http://local), code:bash (npm test), code:bash (ng test --include="**/component-name.spec.ts"), Commit Hygiene, Common Commands (+6 more)
+Cohesion: 0.20
+Nodes (11): Adding or Changing Sections, Angular Conventions, code:bash (pnpm install), code:bash (pnpm dev           # React Router dev server at http://local), Commit Hygiene, Common Commands, Development, Documentation Changes (+3 more)
 
 ### Community 81 - "Angular Dependency Injection (5)"
 Cohesion: 0.18
@@ -740,8 +740,8 @@ Cohesion: 0.22
 Nodes (9): 2. Advanced CSS Animations, Animating Auto Height, Animating State and Styles, code:html (<div [class.open]="isOpen">...</div>), code:css (div {), code:css (.container {), code:ts (const animations = element.getAnimations();), Programmatic Control (+1 more)
 
 ### Community 109 - "Angular Animations (3)"
-Cohesion: 0.36
-Nodes (7): Angular CLI MCP Server, Available Tools (Default), code:json ("args": ["-y", "@angular/cli", "mcp", "--read-only", "-E", "), Command Options, Experimental Tools, Angular CLI MCP Server Reference, Angular CLI MCP Server
+Cohesion: 0.43
+Nodes (6): Angular CLI MCP Server, Available Tools (Default), code:json ("args": ["-y", "@angular/cli", "mcp", "--read-only", "-E", "), Command Options, Experimental Tools, Angular CLI MCP Server
 
 ### Community 110 - "Router Lifecycle Md"
 Cohesion: 0.29
@@ -772,8 +772,8 @@ Cohesion: 0.25
 Nodes (7): cli, analytics, packageManager, newProjectRoot, projects, $schema, version
 
 ### Community 117 - "Production"
-Cohesion: 0.24
-Nodes (10): development, production, buildTarget, extractLicenses, optimization, sourceMap, budgets, buildTarget (+2 more)
+Cohesion: 0.23
+Nodes (11): configurations, development, production, buildTarget, extractLicenses, optimization, sourceMap, budgets (+3 more)
 
 ### Community 118 - "Prefix"
 Cohesion: 0.25
@@ -836,8 +836,8 @@ Cohesion: 0.38
 Nodes (7): code:html (<custom-slider (panelClosed)="savePanelState()" (valueChange), Usage in Template, @Output() Decorator (Legacy), output() Function-based Component Outputs, Component Outputs (Custom Events), Decorator-based Output (@Output), Function-based Output (output())
 
 ### Community 134 - "Mcp Md"
-Cohesion: 0.43
-Nodes (6): Angular Testing, code:bash (npm install -D vitest jsdom), code:json ({), code:bash (ng test              # Run tests), Vitest Setup (Angular v20+), Vitest Setup for Angular v20+
+Cohesion: 0.60
+Nodes (5): code:bash (npm install -D vitest jsdom), code:json ({), code:bash (ng test              # Run tests), Vitest Setup (Angular v20+), Vitest Setup for Angular v20+
 
 ### Community 135 - "Angular Component Harnesses (2)"
 Cohesion: 0.29
@@ -856,8 +856,8 @@ Cohesion: 0.29
 Nodes (6): 1. Client-Side Rendering (CSR), 2. Static Site Generation (SSG / Prerendering), 3. Server-Side Rendering (SSR), Decision Matrix, Hydration, Rendering Strategies
 
 ### Community 139 - "Angular Animations (4)"
-Cohesion: 0.14
-Nodes (13): 1. Native CSS Animations (v20.2+ Recommended), 3. Legacy Animations DSL (Deprecated), Angular Animations, `animate.enter` and `animate.leave`, code:html (@if (isShown()) {), code:ts (import { signal } from '@angular/core';), code:css (/* Ensure you have a starting style if using transitions ins), code:html (@if(show()) {) (+5 more)
+Cohesion: 0.22
+Nodes (8): 1. Native CSS Animations (v20.2+ Recommended), Angular Animations, `animate.enter` and `animate.leave`, code:html (@if (isShown()) {), code:css (/* Ensure you have a starting style if using transitions ins), code:html (@if(show()) {), code:ts (import { AnimationCallbackEvent } from '@angular/core';), Event Bindings and Third-party Libraries
 
 ### Community 140 - "SEO Schema Markup (3)"
 Cohesion: 0.29
@@ -900,8 +900,8 @@ Cohesion: 0.33
 Nodes (6): Accordion ARIA Pattern, Combobox ARIA Pattern, Angular Aria Headless Directives, Listbox ARIA Pattern, Tabs ARIA Pattern, Tree ARIA Pattern
 
 ### Community 150 - "Angular Testing Patterns (4)"
-Cohesion: 0.40
-Nodes (6): code:typescript (import { RouterTestingHarness } from '@angular/router/testin), code:typescript (describe('AuthGuard', () => {), RouterTestingHarness, Testing Guards, Testing Router, RouterTestingHarness
+Cohesion: 0.33
+Nodes (7): code:typescript (import { RouterTestingHarness } from '@angular/router/testin), code:typescript (describe('AuthGuard', () => {), RouterTestingHarness, Testing Guards, Testing Router, Angular CDK Component Harnesses, RouterTestingHarness
 
 ### Community 151 - "TestBed Configuration (2)"
 Cohesion: 0.33
@@ -988,8 +988,8 @@ Cohesion: 0.50
 Nodes (5): Attribute Directive, code:typescript (@Directive({), code:typescript (@Directive({), Structural Directive, Testing Directives
 
 ### Community 172 - "Angular Signal Forms (7)"
-Cohesion: 0.27
-Nodes (10): build, serve, test, architect, builder, configurations, defaultConfiguration, builder (+2 more)
+Cohesion: 0.31
+Nodes (9): build, serve, test, architect, builder, defaultConfiguration, builder, defaultConfiguration (+1 more)
 
 ### Community 173 - "Backstage Component Entity"
 Cohesion: 0.18
@@ -1020,24 +1020,24 @@ Cohesion: 0.09
 Nodes (21): Accessing State, Binding, code:ts (import {), code:ts (// Access the field by calling it), code:ts (form().invalid()), code:ts (import { submit } from '@angular/forms/signals';), code:ts (import { required, email, min, max, minLength, maxLength, pa), code:ts (userForm = form(this.userModel, (schemaPath) => {) (+13 more)
 
 ### Community 180 - "Angular Signal Forms (9)"
-Cohesion: 0.22
-Nodes (10): Best Practices, code:ts (import { TestBed } from '@angular/core/testing';), code:ts (it('should navigate to a hero detail when a hero is selected), Example Setup, Example: Testing Navigation, Key Concepts, Setting Up for Router Testing, Testing with the RouterTestingHarness (+2 more)
+Cohesion: 0.20
+Nodes (11): Best Practices, code:ts (import { TestBed } from '@angular/core/testing';), code:ts (it('should navigate to a hero detail when a hero is selected), Example Setup, Example: Testing Navigation, Key Concepts, Setting Up for Router Testing, Testing with the RouterTestingHarness (+3 more)
 
 ### Community 181 - "Community 181"
 Cohesion: 0.08
 Nodes (23): ActionArgs, Annotations, ClientActionArgs, ClientLoaderArgs, ClientMiddlewareFunction, ComponentProps, ErrorBoundaryProps, HeadersArgs (+15 more)
 
 ### Community 182 - "Community 182"
-Cohesion: 0.12
-Nodes (15): computedHash, source, sourceType, computedHash, source, sourceType, computedHash, skillPath (+7 more)
+Cohesion: 0.25
+Nodes (9): Tailwind CSS v4 PostCSS Integration, Angular CLI Guide, ng add Command, ng build Command, ng generate Command, ng serve Command, ng test Command, Tailwind CSS v4 with Angular (+1 more)
 
 ### Community 183 - "Angular Signal Forms (12)"
-Cohesion: 0.48
-Nodes (4): Faq(), section, FaqItem, faqItems
+Cohesion: 0.22
+Nodes (9): Faq(), section, FaqItem, faqItems, address, catalog, meta, schema (+1 more)
 
 ### Community 184 - "Community 184"
-Cohesion: 0.11
-Nodes (18): 05 — Migration Roadmap, Estimated shape, Outcome, Phase 0 — Approvals & branch setup ✅ (2026-07-07), Phase 1 — Scaffold & content extraction (PR 1), Phase 1 — Scaffold & content extraction (PR 1) ✅ (2026-07-07), Phase 2 — Design system & shell (PR 2), Phase 2 — Design system & shell (PR 2) ✅ (2026-07-07) (+10 more)
+Cohesion: 0.12
+Nodes (15): 05 — Migration Roadmap, Estimated shape, Phase 0 — Approvals & branch setup ✅ (2026-07-07), Phase 1 — Scaffold & content extraction (PR 1), Phase 2 — Design system & shell (PR 2), Phase 2 — Design system & shell (PR 2) ✅ (2026-07-07), Phase 3 — Home sections (PR 3), Phase 3 — Home sections (PR 3) ✅ (2026-07-07) (+7 more)
 
 ### Community 185 - "Angular Signal Forms (14)"
 Cohesion: 0.21
@@ -1068,8 +1068,8 @@ Cohesion: 0.67
 Nodes (3): OPA Policy Tests Job, Policy Checks Workflow, PR Policy Check Job
 
 ### Community 196 - "Community 196"
-Cohesion: 0.14
-Nodes (18): Angular Aria Accessibility Reference, Angular CLI Guide, Angular Signal-based Inputs Reference, Angular Dependency Providers Reference, computedHash, source, sourceType, computedHash (+10 more)
+Cohesion: 0.05
+Nodes (56): Angular Standalone Components Reference, NgRx State Management Reference, RxJS Patterns Reference, Angular Architect Testing Reference, Angular Aria Accessibility Reference, Angular CLI Guide, Angular Signal-based Inputs Reference, Angular CLI MCP Server Reference (+48 more)
 
 ### Community 197 - "Community 197"
 Cohesion: 0.20
@@ -1093,11 +1093,11 @@ Nodes (18): compilerOptions, allowImportingTsExtensions, erasableSyntaxOnly, jsx
 
 ### Community 215 - "Community 215"
 Cohesion: 0.18
-Nodes (9): Architecture Documentation, App Root Component, Single-Page Anchor Navigation, Global SCSS Styles (src/styles.scss), Backstage TechDocs Integration, Build Bundle Budgets, Conventions, Eager Loading Routes (+1 more)
+Nodes (10): Single-Page Anchor Navigation, Build Bundle Budgets, Conventions, ElementInjector, EnvironmentInjector, viewProviders vs providers, inject() Function, Eager Loading Routes (+2 more)
 
 ### Community 216 - "Community 216"
-Cohesion: 0.31
-Nodes (9): Legacy @angular/animations DSL, Native CSS Animations (animate.enter / animate.leave), provideRouter Route Configuration, RouterTestingHarness, View Transitions API for Route Animations, Angular Animations, Legacy Animations DSL (@angular/animations), Route Transition Animations (View Transitions API) (+1 more)
+Cohesion: 0.36
+Nodes (8): Legacy @angular/animations DSL, Native CSS Animations (animate.enter / animate.leave), provideRouter Route Configuration, View Transitions API for Route Animations, Angular Animations, Legacy Animations DSL (@angular/animations), Route Transition Animations (View Transitions API), View Transitions API (withViewTransitions)
 
 ### Community 217 - "Community 217"
 Cohesion: 0.22
@@ -1168,16 +1168,16 @@ Cohesion: 0.50
 Nodes (4): Official Documentation, References, Related Specifications, Source Attribution
 
 ### Community 235 - "Community 235"
-Cohesion: 0.12
-Nodes (15): Build and Deployment Assumptions, CI, code:bash (pnpm lint), code:bash (npm test), code:bash (npx @techdocs/cli serve), Deployment, External Dependencies, Operational Risks (+7 more)
+Cohesion: 0.13
+Nodes (14): Build and Deployment Assumptions, CI, code:bash (pnpm lint), code:bash (npm test), code:bash (npx @techdocs/cli serve), Deployment, External Dependencies, Operational Risks (+6 more)
 
 ### Community 243 - "Community 243"
-Cohesion: 0.24
-Nodes (13): Angular Standalone Components Reference, NgRx State Management Reference, RxJS Patterns Reference, Angular Architect Testing Reference, Angular Signals for Reactive State, Angular Standalone Components, NgRx State Management Pattern, NgRx Entity Adapter (+5 more)
+Cohesion: 0.31
+Nodes (8): runInInjectionContext, `assertInInjectionContext`, code:ts (@Component({...})), code:ts (import { Injectable, inject, EnvironmentInjector, runInInjec), code:ts (import { assertInInjectionContext, inject, ElementRef } from), Injection Context, `runInInjectionContext`, Where is an Injection Context Available?
 
 ### Community 244 - "Community 244"
-Cohesion: 0.22
-Nodes (9): CI GitHub Actions Workflow, CI Production Build Job, CI Format Check Job (Prettier), CI Unit Tests Job, Operational Risks, Quality Required Checks, index.html Entry Point, Calendly Widget Script and CSS (+1 more)
+Cohesion: 0.15
+Nodes (13): CI GitHub Actions Workflow, CI Production Build Job, CI Format Check Job (Prettier), CI Unit Tests Job, Architecture Documentation, App Root Component, Global SCSS Styles (src/styles.scss), Backstage TechDocs Integration (+5 more)
 
 ### Community 245 - "Community 245"
 Cohesion: 0.40
@@ -1188,8 +1188,8 @@ Cohesion: 0.48
 Nodes (4): Services(), section, Service, services
 
 ### Community 249 - "Community 249"
-Cohesion: 0.26
-Nodes (6): Footer(), github, year, Hero(), primary, site
+Cohesion: 0.60
+Nodes (3): Hero(), primary, site
 
 ### Community 250 - "Community 250"
 Cohesion: 0.50
@@ -1200,8 +1200,8 @@ Cohesion: 0.50
 Nodes (3): TrustStrip(), TrustItem, trustItems
 
 ### Community 252 - "Community 252"
-Cohesion: 0.36
-Nodes (9): Vitest Migration Guide, Frontend Aesthetic Design Principles, Jasmine Testing Framework (Legacy), Angular TestBed Testing Utility, Vitest Unit Testing Framework, AGENTS.md - Codex Agent Instructions, CLAUDE.md - Claude Code Instructions, Angular Testing Skill (+1 more)
+Cohesion: 0.50
+Nodes (4): 4. Building the Application, code:bash (ng build), Build, code:bash (npm run build)
 
 ### Community 253 - "Community 253"
 Cohesion: 0.50
@@ -1212,12 +1212,12 @@ Cohesion: 0.28
 Nodes (9): code:ts (import { Component, input, computed } from '@angular/core';), code:html (<app-user [name]="userName" [age]="25" />), Signal-based Inputs, Usage in Template, code:ts (import { Component, signal } from '@angular/core';), Creating a Form, Angular Inputs Reference, Decorator-based Input (@Input) (+1 more)
 
 ### Community 255 - "Community 255"
-Cohesion: 0.22
-Nodes (8): address, catalog, malicious, meta, parsed, schema, SchemaNode, serialized
+Cohesion: 0.40
+Nodes (5): 3. Legacy Animations DSL (Deprecated), code:ts (import { signal } from '@angular/core';), code:ts (bootstrapApplication(App, {), Defining Transitions, Setup
 
 ### Community 256 - "Community 256"
-Cohesion: 0.36
-Nodes (7): Angular CLI MCP Server, Angular MCP Experimental Tools, Angular CLI MCP Server, Available Tools (Default), code:json ("args": ["-y", "@angular/cli", "mcp", "--read-only", "-E", "), Command Options, Experimental Tools
+Cohesion: 0.40
+Nodes (5): 3. Development Server & Proxying, Backend API Proxying, code:bash (ng serve), code:json ({), code:json ("serve": {)
 
 ### Community 257 - "Community 257"
 Cohesion: 0.67
@@ -1225,26 +1225,26 @@ Nodes (3): code:ts (// f is a FormField (structural)), code:html (<!-- WRONG: Pr
 
 ### Community 258 - "Community 258"
 Cohesion: 0.67
-Nodes (3): Binding, code:ts (import { FormField } from '@angular/forms/signals';), code:html (<!-- Input -->)
+Nodes (3): code:bash (npm test), code:bash (ng test --include="**/component-name.spec.ts"), Tests
 
 ## Knowledge Gaps
-- **1357 isolated node(s):** `version`, `source`, `sourceType`, `skillPath`, `computedHash` (+1352 more)
+- **1349 isolated node(s):** `version`, `source`, `sourceType`, `skillPath`, `computedHash` (+1344 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **19 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Angular Testing Patterns` connect `Angular Testing Patterns (3)` to `Angular Testing Patterns (8)`, `Community 252`, `Angular Testing Patterns (2)`, `Angular Component Harnesses`?**
-  _High betweenness centrality (0.146) - this node is a cross-community bridge._
-- **Why does `Angular Testing Skill` connect `Community 252` to `Community 243`, `Angular Testing Patterns (3)`?**
+- **Why does `Angular Testing Patterns` connect `Angular Testing Patterns (3)` to `Angular Testing Patterns (8)`, `Community 196`, `Angular Testing Patterns (2)`, `Angular Component Harnesses`?**
+  _High betweenness centrality (0.145) - this node is a cross-community bridge._
+- **Why does `Angular Testing Skill` connect `Community 196` to `Angular Testing Patterns (3)`?**
   _High betweenness centrality (0.109) - this node is a cross-community bridge._
-- **Why does `HarnessLoader and TestbedHarnessEnvironment` connect `Angular Component Harnesses` to `Community 216`?**
-  _High betweenness centrality (0.104) - this node is a cross-community bridge._
+- **Why does `HarnessLoader and TestbedHarnessEnvironment` connect `Angular Component Harnesses` to `Angular Signal Forms (9)`?**
+  _High betweenness centrality (0.103) - this node is a cross-community bridge._
 - **What connects `version`, `source`, `sourceType` to the rest of the system?**
-  _1376 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `CI/CD & Deploy Workflows (2)` be split into smaller, more focused modules?**
-  _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
+  _1368 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `CI/CD & Deploy Workflows` be split into smaller, more focused modules?**
+  _Cohesion score 0.14705882352941177 - nodes in this community are weakly interconnected._
 - **Should `Angular Testing Patterns` be split into smaller, more focused modules?**
   _Cohesion score 0.04625346901017576 - nodes in this community are weakly interconnected._
 - **Should `CI/CD & Deploy Workflows (3)` be split into smaller, more focused modules?**
