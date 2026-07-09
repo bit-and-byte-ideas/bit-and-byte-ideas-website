@@ -46,8 +46,8 @@ test.describe('Homepage', () => {
 
   test('services section contains all three service titles', async ({ page }) => {
     const section = page.locator('#services');
-    await expect(section).toContainText('Static Website Development');
-    await expect(section).toContainText('Web Application Development');
+    await expect(section).toContainText('Website & Application Development');
+    await expect(section).toContainText('Business Automation & Integrations');
     await expect(section).toContainText('Maintenance + Hosting');
   });
 

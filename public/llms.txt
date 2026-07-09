@@ -1,18 +1,19 @@
 # Bit & Byte Ideas
 
-> Bit & Byte Ideas is a custom software studio that builds websites and web applications
-> for small and medium businesses. No templates — everything is designed and built from scratch.
+> Bit & Byte Ideas is a custom software studio that builds websites and web applications,
+> and automates the business tools small and medium businesses already use. No templates —
+> everything is designed and built from scratch.
 > Contact: info@bitandbyteideas.com | Response time: within 24 hours.
 
 ## Services
 
-- **Static Website Development** — Custom-designed, performance-optimized, SEO-ready static
-  sites. Mobile-first, Core Web Vitals optimized, third-party integrations included.
-  Pricing: quote-based.
+- **Website & Application Development** — Custom-designed static sites through full
+  applications with logins, dashboards, and business logic. No templates. Mobile-first,
+  SEO-optimized, Core Web Vitals performance. Pricing: quote-based.
 
-- **Web Application Development** — Full-featured web applications for small and medium
-  businesses. Custom business logic, user authentication, database design, API integrations,
-  and scalable cloud architecture. Pricing: quote-based.
+- **Business Automation & Integrations** — Connects the software a business already uses
+  (CRM, invoicing, forms, e-commerce, email) so information flows automatically, plus
+  custom API integrations when no off-the-shelf connector exists. Pricing: quote-based.
 
 - **Maintenance + Hosting** — Subscription-based managed hosting. Includes automated backups,
   security patches, performance monitoring, and priority support for minor changes.

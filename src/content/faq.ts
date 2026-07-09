@@ -30,9 +30,14 @@ export const faqItems: FaqItem[] = [
       "Yes. We start with a technical review, give you an honest assessment of what's worth keeping, and take it from there.",
   },
   {
-    question: 'Do I need a web application or just a website?',
+    question: 'Do I need a website, a full application, or just my tools connected?',
     answer:
-      "If your customers only need to find and contact you, a fast static site is usually right. If they need to log in, submit data, or run a workflow, that's an application — the consultation sorts this out in the first ten minutes.",
+      "Most businesses start with a website; you add application features like logins or dashboards only when customers need to interact with the system directly. But sometimes the real bottleneck isn't your website at all — it's the manual work between the tools you already use. We'll help you figure out which one (or which combination) actually solves the problem in the first ten minutes of a call.",
+  },
+  {
+    question: 'What does "business automation" actually mean?',
+    answer:
+      "It means the manual, repetitive parts of running your business — copying data between systems, re-entering the same customer information twice, manually sending a follow-up email after every sale — get handled automatically. Describe how you currently do it and we'll tell you what's possible; you don't need to know any technical terms to start that conversation.",
   },
   {
     question: 'Where are you located and who do you work with?',
