@@ -1,6 +1,6 @@
 # 05 — Migration Roadmap
 
-**Status:** Accepted 2026-07-07 — in flight
+**Status:** Complete — cutover shipped 2026-07-08 (release v0.1.3)
 
 Work happens on the existing `site-redesign` branch (decision D1, amended). Each phase is
 one reviewable PR; the final cutover is a single PR to `main` followed by a release.
@@ -15,7 +15,7 @@ switch in Phase 5.
 - Decisions D1–D4 confirmed; open questions in docs 01–04 answered.
 - Working on the existing `site-redesign` branch.
 
-## Phase 1 — Scaffold & content extraction (PR 1)
+## Phase 1 — Scaffold & content extraction (PR 1) ✅ (2026-07-07)
 
 - Extract all copy, contact details, Calendly config, and meta strings from the Angular
   components into `src/content/*.ts` modules (staged in a temp folder in the PR).
@@ -48,8 +48,8 @@ switch in Phase 5.
 
 ## Phase 4 — New content & remaining routes (PR 4) ✅ (2026-07-07)
 
-- `/about` rebuilt (C1 depth), FAQ (M2 — draft in 04, pending your edit), 404 page (M8).
-  No pricing anchors (M1 won't-do).
+- `/about` rebuilt (C1 depth), FAQ (M2 — shipped from the draft in 04, `src/content/faq.ts`
+  is the living source now), 404 page (M8). No pricing anchors (M1 won't-do).
 - `content/seo.ts` completed: meta, OG, canonical, JSON-LD (Organization, FAQPage,
   ProfessionalService) per route; sitemap generation script.
 - **Gate:** prerender smoke tests assert every item in 04's "re-implemented" list.
@@ -103,11 +103,17 @@ Remaining owner actions (need Search Console access):
 
 ## Rollback
 
-Prod deploys are release-driven and `dist/` is fully static: rollback = re-publish the
-previous release (Angular build) — no infra changes anywhere in this plan, so DNS/SWA are
-never at risk.
+Prod deploys are release-driven and `build/client/` is fully static: rollback = re-publish
+the previous release — no infra changes anywhere in this plan, so DNS/SWA are never at
+risk. The last pre-rebuild (Angular) release remains available as a rollback target if a
+regression is ever severe enough to warrant reverting the whole stack, not just a page.
 
-## Estimated shape
+## Outcome
 
-Six PRs, each independently reviewable in one sitting. Phases 1–2 are the risk
-concentrators (tooling swap, design language); 3–6 are mechanical once those land.
+In practice, Phases 1–6 shipped as sequential commits on the long-lived `site-redesign`
+branch rather than six separate PRs, merged to `main` as a single cutover PR (#33) followed
+by release v0.1.3. Phases 1–2 were the risk concentrators (tooling swap, design language)
+as anticipated; 3–6 were mechanical once those landed. A short docs-outcome PR (#34)
+recorded the post-cutover audit, and independent UI follow-ups (e.g. #35) have shipped
+since on their own branches. See the "Cutover outcome" and "Outcome notes" under Phases
+5–6 above for the verification record.
