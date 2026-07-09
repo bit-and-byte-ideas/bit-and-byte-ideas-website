@@ -12,7 +12,7 @@ footer {
 
 @media (min-width: 768px) {
   .footer-main {
-    grid-template-columns: 2fr 1fr auto;
+    grid-template-columns: 2fr 1fr;
     align-items: start;
   }
 }
@@ -24,17 +24,45 @@ footer {
   align-items: flex-start;
 }
 
-.footer-logo-pill {
+.footer-logo {
   display: inline-flex;
-  padding: var(--space-2) var(--space-3);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  background: var(--bg);
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 44px;
 }
 
-.footer-logo-img {
-  width: 140px;
-  height: auto;
+.footer-logo-icon-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border-accent);
+  border-radius: 999px;
+  background: var(--accent-dim);
+}
+
+.footer-logo-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.footer-logo-wordmark {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-xl);
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+.footer-logo-amp {
+  color: var(--accent);
+}
+
+.footer-logo-ideas {
+  color: var(--text-muted);
 }
 
 .footer-tagline {
@@ -75,12 +103,31 @@ footer {
   color: var(--soft-green);
 }
 
+.footer-bottom {
+  border-top: 1px solid var(--border);
+  padding: var(--space-4) 0;
+}
+
+.footer-bottom-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.footer-copy {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
 .social-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 44px;
   height: 44px;
+  flex-shrink: 0;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   color: var(--text-muted);
@@ -92,15 +139,4 @@ footer {
 .social-link:hover {
   color: var(--soft-green);
   border-color: var(--border-accent);
-}
-
-.footer-bottom {
-  border-top: 1px solid var(--border);
-  padding: var(--space-4) 0;
-}
-
-.footer-copy {
-  font-family: var(--font-mono);
-  font-size: var(--text-xs);
-  color: var(--text-muted);
 }

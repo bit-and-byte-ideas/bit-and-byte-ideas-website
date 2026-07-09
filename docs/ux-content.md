@@ -57,8 +57,9 @@ Maintain these patterns:
 
 - A skip link is the first focusable element and targets `#main-content`.
 - Landmarks and sections use clear labels or heading references; headings are sequential.
-- Decorative images (hero watermark, nav icon) have empty `alt` and `aria-hidden`;
-  informative images (footer logo) have meaningful `alt` text.
+- Decorative images (hero watermark, nav icon, footer icon) have empty `alt` and
+  `aria-hidden`; brand identity is carried by real text (the "Bit & Byte Ideas" wordmark,
+  identical in the nav and footer), not a raster logo image.
 - Interactive elements are keyboard reachable with visible focus rings, and touch targets
   are at least 44×44px.
 - Text contrast meets 4.5:1 on the dark background — body-muted text uses `--text-muted`;
