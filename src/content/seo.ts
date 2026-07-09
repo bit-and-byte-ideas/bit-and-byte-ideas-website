@@ -133,3 +133,14 @@ export function faqPageSchema(): object {
     })),
   };
 }
+
+/**
+ * Serializes a JSON-LD object for inline <script> injection via
+ * dangerouslySetInnerHTML. Escapes '<' so a value containing "</script>" or
+ * "<!--" cannot break out of the script element and inject markup — defense
+ * in depth even though current schema content is fully static, not
+ * user-supplied.
+ */
+export function toJsonLdScript(schema: object): string {
+  return JSON.stringify(schema).replace(/</g, '\\u003c');
+}

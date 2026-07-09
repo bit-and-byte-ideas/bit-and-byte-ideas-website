@@ -134,7 +134,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L1",
       "id": "skills_lock_json",
-      "community": 182,
+      "community": 196,
       "norm_label": "skills-lock.json"
     },
     {
@@ -143,7 +143,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L2",
       "id": "bit_and_byte_ideas_website_skills_lock_version",
-      "community": 182,
+      "community": 196,
       "norm_label": "version"
     },
     {
@@ -152,7 +152,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L3",
       "id": "bit_and_byte_ideas_website_skills_lock_skills",
-      "community": 182,
+      "community": 196,
       "norm_label": "skills"
     },
     {
@@ -161,7 +161,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L4",
       "id": "bit_and_byte_ideas_website_skills_lock_skills_commitlint",
-      "community": 182,
+      "community": 196,
       "norm_label": "commitlint"
     },
     {
@@ -170,7 +170,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L5",
       "id": "bit_and_byte_ideas_website_skills_lock_commitlint_source",
-      "community": 182,
+      "community": 196,
       "norm_label": "source"
     },
     {
@@ -179,7 +179,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L6",
       "id": "bit_and_byte_ideas_website_skills_lock_commitlint_sourcetype",
-      "community": 182,
+      "community": 196,
       "norm_label": "sourcetype"
     },
     {
@@ -188,7 +188,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L7",
       "id": "bit_and_byte_ideas_website_skills_lock_commitlint_skillpath",
-      "community": 182,
+      "community": 196,
       "norm_label": "skillpath"
     },
     {
@@ -197,7 +197,7 @@
       "source_file": "skills-lock.json",
       "source_location": "L8",
       "id": "bit_and_byte_ideas_website_skills_lock_commitlint_computedhash",
-      "community": 182,
+      "community": 196,
       "norm_label": "computedhash"
     },
     {
@@ -2660,80 +2660,53 @@
       "source_file": "src/content/seo.test.ts",
       "source_location": "L1",
       "id": "src_content_seo_test_ts",
-      "community": 255,
+      "community": 183,
       "norm_label": "seo.test.ts"
     },
     {
       "label": "SchemaNode",
       "file_type": "code",
       "source_file": "src/content/seo.test.ts",
-      "source_location": "L11",
+      "source_location": "L5",
       "id": "content_seo_test_schemanode",
-      "community": 255,
+      "community": 183,
       "norm_label": "schemanode"
     },
     {
       "label": "meta",
       "file_type": "code",
       "source_file": "src/content/seo.test.ts",
-      "source_location": "L17",
+      "source_location": "L11",
       "id": "content_seo_test_meta",
-      "community": 255,
+      "community": 183,
       "norm_label": "meta"
     },
     {
       "label": "address",
       "file_type": "code",
       "source_file": "src/content/seo.test.ts",
-      "source_location": "L47",
+      "source_location": "L41",
       "id": "content_seo_test_address",
-      "community": 255,
+      "community": 183,
       "norm_label": "address"
     },
     {
       "label": "schema",
       "file_type": "code",
       "source_file": "src/content/seo.test.ts",
-      "source_location": "L55",
+      "source_location": "L49",
       "id": "content_seo_test_schema",
-      "community": 255,
+      "community": 183,
       "norm_label": "schema"
     },
     {
       "label": "catalog",
       "file_type": "code",
       "source_file": "src/content/seo.test.ts",
-      "source_location": "L58",
+      "source_location": "L52",
       "id": "content_seo_test_catalog",
-      "community": 255,
+      "community": 183,
       "norm_label": "catalog"
-    },
-    {
-      "label": "malicious",
-      "file_type": "code",
-      "source_file": "src/content/seo.test.ts",
-      "source_location": "L76",
-      "id": "content_seo_test_malicious",
-      "community": 255,
-      "norm_label": "malicious"
-    },
-    {
-      "label": "serialized",
-      "file_type": "code",
-      "source_file": "src/content/seo.test.ts",
-      "source_location": "L77",
-      "id": "content_seo_test_serialized",
-      "community": 255,
-      "norm_label": "serialized"
-    },
-    {
-      "label": "parsed",
-      "file_type": "code",
-      "source_file": "src/content/seo.test.ts",
-      "source_location": "L85",
-      "id": "content_seo_test_parsed",
-      "community": 255,
-      "norm_label": "parsed"
     },
     {
       "label": "faq.ts",
@@ -2970,15 +2943,6 @@
       "norm_label": "faqpageschema()"
     },
     {
-      "label": "toJsonLdScript()",
-      "file_type": "code",
-      "source_file": "src/content/seo.ts",
-      "source_location": "L144",
-      "id": "content_seo_tojsonldscript",
-      "community": 36,
-      "norm_label": "tojsonldscript()"
-    },
-    {
       "label": "services.ts",
       "file_type": "code",
       "source_file": "src/content/services.ts",
@@ -3119,7 +3083,7 @@
       "source_file": "src/components/footer.tsx",
       "source_location": "L1",
       "id": "src_components_footer_tsx",
-      "community": 249,
+      "community": 0,
       "norm_label": "footer.tsx"
     },
     {
@@ -3128,7 +3092,7 @@
       "source_file": "src/components/footer.tsx",
       "source_location": "L5",
       "id": "components_footer_footer",
-      "community": 249,
+      "community": 0,
       "norm_label": "footer()"
     },
     {
@@ -3155,7 +3119,7 @@
       "source_file": "src/components/footer.test.tsx",
       "source_location": "L1",
       "id": "src_components_footer_test_tsx",
-      "community": 249,
+      "community": 0,
       "norm_label": "footer.test.tsx"
     },
     {
@@ -3164,7 +3128,7 @@
       "source_file": "src/components/footer.test.tsx",
       "source_location": "L5",
       "id": "components_footer_test_renderfooter",
-      "community": 249,
+      "community": 0,
       "norm_label": "renderfooter()"
     },
     {
@@ -3173,7 +3137,7 @@
       "source_file": "src/components/footer.test.tsx",
       "source_location": "L13",
       "id": "components_footer_test_year",
-      "community": 249,
+      "community": 0,
       "norm_label": "year"
     },
     {
@@ -3182,7 +3146,7 @@
       "source_file": "src/components/footer.test.tsx",
       "source_location": "L19",
       "id": "components_footer_test_github",
-      "community": 249,
+      "community": 0,
       "norm_label": "github"
     },
     {
@@ -3297,7 +3261,7 @@
       "label": "meta()",
       "file_type": "code",
       "source_file": "src/routes/home.tsx",
-      "source_location": "L17",
+      "source_location": "L16",
       "id": "routes_home_meta",
       "community": 185,
       "norm_label": "meta()"
@@ -3306,7 +3270,7 @@
       "label": "JsonLd()",
       "file_type": "code",
       "source_file": "src/routes/home.tsx",
-      "source_location": "L25",
+      "source_location": "L24",
       "id": "routes_home_jsonld",
       "community": 36,
       "norm_label": "jsonld()"
@@ -3315,7 +3279,7 @@
       "label": "Home()",
       "file_type": "code",
       "source_file": "src/routes/home.tsx",
-      "source_location": "L29",
+      "source_location": "L30",
       "id": "routes_home_home",
       "community": 36,
       "norm_label": "home()"
@@ -3396,7 +3360,7 @@
       "label": "Requirements",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L12",
+      "source_location": "L5",
       "id": "bit_and_byte_ideas_website_readme_requirements",
       "community": 70,
       "norm_label": "requirements"
@@ -3405,100 +3369,82 @@
       "label": "Setup",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L17",
+      "source_location": "L10",
       "id": "bit_and_byte_ideas_website_readme_setup",
       "community": 70,
       "norm_label": "setup"
     },
     {
-      "label": "code:bash (pnpm install)",
+      "label": "code:bash (npm install)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L19",
+      "source_location": "L12",
       "id": "bit_and_byte_ideas_website_readme_codeblock_1",
       "community": 70,
-      "norm_label": "code:bash (pnpm install)"
+      "norm_label": "code:bash (npm install)"
     },
     {
       "label": "Local Development",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L24",
+      "source_location": "L16",
       "id": "bit_and_byte_ideas_website_readme_local_development",
       "community": 70,
       "norm_label": "local development"
     },
     {
-      "label": "code:bash (pnpm dev)",
+      "label": "code:bash (npm start)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L26",
+      "source_location": "L18",
       "id": "bit_and_byte_ideas_website_readme_codeblock_2",
       "community": 70,
-      "norm_label": "code:bash (pnpm dev)"
+      "norm_label": "code:bash (npm start)"
     },
     {
       "label": "Build",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L32",
+      "source_location": "L24",
       "id": "bit_and_byte_ideas_website_readme_build",
       "community": 70,
       "norm_label": "build"
     },
     {
-      "label": "code:bash (pnpm build)",
+      "label": "code:bash (npm run build)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L34",
+      "source_location": "L26",
       "id": "bit_and_byte_ideas_website_readme_codeblock_3",
       "community": 70,
-      "norm_label": "code:bash (pnpm build)"
+      "norm_label": "code:bash (npm run build)"
     },
     {
       "label": "Tests",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L42",
+      "source_location": "L32",
       "id": "bit_and_byte_ideas_website_readme_tests",
       "community": 70,
       "norm_label": "tests"
     },
     {
-      "label": "code:bash (pnpm test      # Vitest unit suite)",
+      "label": "code:bash (npm test)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L44",
+      "source_location": "L34",
       "id": "bit_and_byte_ideas_website_readme_codeblock_4",
       "community": 70,
-      "norm_label": "code:bash (pnpm test      # vitest unit suite)"
+      "norm_label": "code:bash (npm test)"
     },
     {
-      "label": "code:bash (pnpm test hero.test.tsx)",
+      "label": "code:bash (ng test --include=\"**/example.spec.ts\")",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L51",
+      "source_location": "L40",
       "id": "bit_and_byte_ideas_website_readme_codeblock_5",
       "community": 70,
-      "norm_label": "code:bash (pnpm test hero.test.tsx)"
-    },
-    {
-      "label": "Lint",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L55",
-      "id": "bit_and_byte_ideas_website_readme_lint",
-      "community": 70,
-      "norm_label": "lint"
-    },
-    {
-      "label": "code:bash (pnpm lint)",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L57",
-      "id": "bit_and_byte_ideas_website_readme_codeblock_6",
-      "community": 70,
-      "norm_label": "code:bash (pnpm lint)"
+      "norm_label": "code:bash (ng test --include=\"**/example.spec.ts\")"
     },
     {
       "label": "AGENTS.md",
@@ -4374,19 +4320,10 @@
       "norm_label": "deployment"
     },
     {
-      "label": "Security",
-      "file_type": "document",
-      "source_file": "docs/quality-operations.md",
-      "source_location": "L54",
-      "id": "docs_quality_operations_security",
-      "community": 235,
-      "norm_label": "security"
-    },
-    {
       "label": "Rollback",
       "file_type": "document",
       "source_file": "docs/quality-operations.md",
-      "source_location": "L75",
+      "source_location": "L54",
       "id": "docs_quality_operations_rollback",
       "community": 235,
       "norm_label": "rollback"
@@ -4395,7 +4332,7 @@
       "label": "SEO Operations",
       "file_type": "document",
       "source_file": "docs/quality-operations.md",
-      "source_location": "L80",
+      "source_location": "L59",
       "id": "docs_quality_operations_seo_operations",
       "community": 235,
       "norm_label": "seo operations"
@@ -4521,7 +4458,7 @@
       "label": "Brand Direction",
       "file_type": "document",
       "source_file": "docs/ux-content.md",
-      "source_location": "L70",
+      "source_location": "L69",
       "id": "docs_ux_content_brand_direction",
       "community": 173,
       "norm_label": "brand direction"
@@ -4788,13 +4725,13 @@
       "norm_label": "phase 0 \u2014 approvals & branch setup \u2705 (2026-07-07)"
     },
     {
-      "label": "Phase 1 \u2014 Scaffold & content extraction (PR 1) \u2705 (2026-07-07)",
+      "label": "Phase 1 \u2014 Scaffold & content extraction (PR 1)",
       "file_type": "document",
       "source_file": "docs/redesign/05-migration-roadmap.md",
       "source_location": "L18",
-      "id": "redesign_05_migration_roadmap_phase_1_scaffold_content_extraction_pr_1_2026_07_07",
+      "id": "redesign_05_migration_roadmap_phase_1_scaffold_content_extraction_pr_1",
       "community": 184,
-      "norm_label": "phase 1 \u2014 scaffold & content extraction (pr 1) \u2705 (2026-07-07)"
+      "norm_label": "phase 1 \u2014 scaffold & content extraction (pr 1)"
     },
     {
       "label": "Phase 2 \u2014 Design system & shell (PR 2) \u2705 (2026-07-07)",
@@ -4833,31 +4770,31 @@
       "norm_label": "phase 5 \u2014 ci/cd switchover (pr 5) \u2705 (2026-07-07)"
     },
     {
-      "label": "Phase 6 \u2014 Docs & cutover (PR 6 \u2192 main) \u2705 (2026-07-08)",
+      "label": "Phase 6 \u2014 Docs & cutover (PR 6 \u2192 main) \ud83d\udd04 docs shipped 2026-07-07; merge + release are owner actions",
       "file_type": "document",
       "source_file": "docs/redesign/05-migration-roadmap.md",
       "source_location": "L78",
-      "id": "redesign_05_migration_roadmap_phase_6_docs_cutover_pr_6_main_2026_07_08",
+      "id": "redesign_05_migration_roadmap_phase_6_docs_cutover_pr_6_main_docs_shipped_2026_07_07_merge_release_are_owner_actions",
       "community": 184,
-      "norm_label": "phase 6 \u2014 docs & cutover (pr 6 \u2192 main) \u2705 (2026-07-08)"
+      "norm_label": "phase 6 \u2014 docs & cutover (pr 6 \u2192 main) \ud83d\udd04 docs shipped 2026-07-07; merge + release are owner actions"
     },
     {
       "label": "Rollback",
       "file_type": "document",
       "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L104",
+      "source_location": "L87",
       "id": "redesign_05_migration_roadmap_rollback",
       "community": 184,
       "norm_label": "rollback"
     },
     {
-      "label": "Outcome",
+      "label": "Estimated shape",
       "file_type": "document",
       "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L111",
-      "id": "redesign_05_migration_roadmap_outcome",
+      "source_location": "L93",
+      "id": "redesign_05_migration_roadmap_estimated_shape",
       "community": 184,
-      "norm_label": "outcome"
+      "norm_label": "estimated shape"
     },
     {
       "label": "04-content-ia-seo.md",
@@ -6267,7 +6204,7 @@
       "label": "Critical",
       "file_type": "document",
       "source_file": "docs/SEO/README.md",
-      "source_location": "L16",
+      "source_location": "L8",
       "id": "seo_readme_critical",
       "community": 57,
       "norm_label": "critical"
@@ -6276,7 +6213,7 @@
       "label": "High",
       "file_type": "document",
       "source_file": "docs/SEO/README.md",
-      "source_location": "L25",
+      "source_location": "L17",
       "id": "seo_readme_high",
       "community": 57,
       "norm_label": "high"
@@ -6285,7 +6222,7 @@
       "label": "Medium",
       "file_type": "document",
       "source_file": "docs/SEO/README.md",
-      "source_location": "L37",
+      "source_location": "L29",
       "id": "seo_readme_medium",
       "community": 57,
       "norm_label": "medium"
@@ -6294,7 +6231,7 @@
       "label": "Low",
       "file_type": "document",
       "source_file": "docs/SEO/README.md",
-      "source_location": "L51",
+      "source_location": "L43",
       "id": "seo_readme_low",
       "community": 57,
       "norm_label": "low"
@@ -7866,33 +7803,6 @@
       "norm_label": "definition of done"
     },
     {
-      "label": "Phase 1 \u2014 Scaffold & content extraction (PR 1)",
-      "file_type": "document",
-      "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L18",
-      "community": 184,
-      "norm_label": "phase 1 \u2014 scaffold & content extraction (pr 1)",
-      "id": "redesign_05_migration_roadmap_phase_1_scaffold_content_extraction_pr_1"
-    },
-    {
-      "label": "Phase 6 \u2014 Docs & cutover (PR 6 \u2192 main) \ud83d\udd04 docs shipped 2026-07-07; merge + release are owner actions",
-      "file_type": "document",
-      "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L78",
-      "community": 184,
-      "norm_label": "phase 6 \u2014 docs & cutover (pr 6 \u2192 main) \ud83d\udd04 docs shipped 2026-07-07; merge + release are owner actions",
-      "id": "redesign_05_migration_roadmap_phase_6_docs_cutover_pr_6_main_docs_shipped_2026_07_07_merge_release_are_owner_actions"
-    },
-    {
-      "label": "Estimated shape",
-      "file_type": "document",
-      "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L93",
-      "community": 184,
-      "norm_label": "estimated shape",
-      "id": "redesign_05_migration_roadmap_estimated_shape"
-    },
-    {
       "label": "Application Entry Point",
       "file_type": "document",
       "source_file": "docs/architecture.md",
@@ -8023,7 +7933,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L24",
-      "community": 1,
+      "community": 252,
       "norm_label": "build",
       "id": "docs_development_build"
     },
@@ -8032,7 +7942,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L28",
-      "community": 1,
+      "community": 252,
       "norm_label": "code:bash (npm run build)",
       "id": "docs_development_codeblock_3"
     },
@@ -8041,7 +7951,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L37",
-      "community": 80,
+      "community": 258,
       "norm_label": "tests",
       "id": "docs_development_tests"
     },
@@ -8050,7 +7960,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L41",
-      "community": 80,
+      "community": 258,
       "norm_label": "code:bash (npm test)",
       "id": "docs_development_codeblock_4"
     },
@@ -8059,7 +7969,7 @@
       "file_type": "document",
       "source_file": "docs/development.md",
       "source_location": "L47",
-      "community": 80,
+      "community": 258,
       "norm_label": "code:bash (ng test --include=\"**/component-name.spec.ts\")",
       "id": "docs_development_codeblock_5"
     },
@@ -8140,7 +8050,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L4",
-      "community": 182,
+      "community": 196,
       "norm_label": "angular-architect",
       "id": "bit_and_byte_ideas_website_skills_lock_skills_angular_architect"
     },
@@ -8149,7 +8059,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L5",
-      "community": 182,
+      "community": 196,
       "norm_label": "source",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_architect_source"
     },
@@ -8158,7 +8068,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L6",
-      "community": 182,
+      "community": 196,
       "norm_label": "sourcetype",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_architect_sourcetype"
     },
@@ -8167,7 +8077,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L7",
-      "community": 182,
+      "community": 196,
       "norm_label": "computedhash",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_architect_computedhash"
     },
@@ -8176,7 +8086,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L9",
-      "community": 182,
+      "community": 196,
       "norm_label": "angular-developer",
       "id": "bit_and_byte_ideas_website_skills_lock_skills_angular_developer"
     },
@@ -8185,7 +8095,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L10",
-      "community": 182,
+      "community": 196,
       "norm_label": "source",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_developer_source"
     },
@@ -8194,7 +8104,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L11",
-      "community": 182,
+      "community": 196,
       "norm_label": "sourcetype",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_developer_sourcetype"
     },
@@ -8203,7 +8113,7 @@
       "file_type": "code",
       "source_file": "skills-lock.json",
       "source_location": "L12",
-      "community": 182,
+      "community": 196,
       "norm_label": "computedhash",
       "id": "bit_and_byte_ideas_website_skills_lock_angular_developer_computedhash"
     },
@@ -8554,7 +8464,7 @@
       "file_type": "code",
       "source_file": "angular.json",
       "source_location": "L47",
-      "community": 172,
+      "community": 117,
       "norm_label": "configurations",
       "id": "bit_and_byte_ideas_website_angular_build_configurations"
     },
@@ -9814,7 +9724,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-testing/SKILL.md",
       "source_location": "L1",
-      "community": 134,
+      "community": 79,
       "norm_label": "skill.md",
       "id": "agents_skills_angular_testing_skill_md"
     },
@@ -9823,7 +9733,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-testing/SKILL.md",
       "source_location": "L6",
-      "community": 134,
+      "community": 79,
       "norm_label": "angular testing",
       "id": "agents_skills_angular_testing_skill_md_angular_testing_skill_angular_testing"
     },
@@ -12550,7 +12460,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L36",
-      "community": 1,
+      "community": 256,
       "norm_label": "3. development server & proxying",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_3_development_server_proxying"
     },
@@ -12559,7 +12469,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L40",
-      "community": 1,
+      "community": 256,
       "norm_label": "code:bash (ng serve)",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_codeblock_3"
     },
@@ -12568,7 +12478,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L44",
-      "community": 1,
+      "community": 256,
       "norm_label": "backend api proxying",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_backend_api_proxying"
     },
@@ -12577,7 +12487,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L49",
-      "community": 1,
+      "community": 256,
       "norm_label": "code:json ({)",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_codeblock_4"
     },
@@ -12586,7 +12496,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L55",
-      "community": 1,
+      "community": 256,
       "norm_label": "code:json (\"serve\": {)",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_codeblock_5"
     },
@@ -12595,7 +12505,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L62",
-      "community": 1,
+      "community": 252,
       "norm_label": "4. building the application",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_4_building_the_application"
     },
@@ -12604,7 +12514,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/cli.md",
       "source_location": "L66",
-      "community": 1,
+      "community": 252,
       "norm_label": "code:bash (ng build)",
       "id": "agents_skills_angular_developer_references_cli_md_references_cli_codeblock_6"
     },
@@ -14215,7 +14125,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L127",
-      "community": 139,
+      "community": 255,
       "norm_label": "3. legacy animations dsl (deprecated)",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_3_legacy_animations_dsl_deprecated"
     },
@@ -14224,7 +14134,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L133",
-      "community": 139,
+      "community": 255,
       "norm_label": "setup",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_setup"
     },
@@ -14233,7 +14143,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L135",
-      "community": 139,
+      "community": 255,
       "norm_label": "code:ts (bootstrapapplication(app, {)",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_codeblock_9"
     },
@@ -14242,7 +14152,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L141",
-      "community": 139,
+      "community": 255,
       "norm_label": "defining transitions",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_defining_transitions"
     },
@@ -14251,7 +14161,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/angular-animations.md",
       "source_location": "L143",
-      "community": 139,
+      "community": 255,
       "norm_label": "code:ts (import { signal } from '@angular/core';)",
       "id": "agents_skills_angular_developer_references_angular_animations_md_references_angular_animations_codeblock_10"
     },
@@ -16042,7 +15952,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/injection-context.md",
       "source_location": "L1",
-      "community": 37,
+      "community": 243,
       "norm_label": "injection-context.md",
       "id": "agents_skills_angular_developer_references_injection_context_md"
     },
@@ -16051,7 +15961,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/injection-context.md",
       "source_location": "L1",
-      "community": 37,
+      "community": 243,
       "norm_label": "injection context",
       "id": "agents_skills_angular_developer_references_injection_context_md_references_injection_context_injection_context"
     },
@@ -16060,7 +15970,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/injection-context.md",
       "source_location": "L5",
-      "community": 37,
+      "community": 243,
       "norm_label": "where is an injection context available?",
       "id": "agents_skills_angular_developer_references_injection_context_md_references_injection_context_where_is_an_injection_context_available"
     },
@@ -16069,7 +15979,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/injection-context.md",
       "source_location": "L14",
-      "community": 37,
+      "community": 243,
       "norm_label": "code:ts (@component({...}))",
       "id": "agents_skills_angular_developer_references_injection_context_md_references_injection_context_codeblock_1"
     },
@@ -16078,7 +15988,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/injection-context.md",
       "source_location": "L32",
-      "community": 37,
+      "community": 243,
       "norm_label": "`runininjectioncontext`",
       "id": "agents_skills_angular_developer_references_injection_context_md_references_injection_context_runininjectioncontext"
     },
@@ -16087,7 +15997,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/injection-context.md",
       "source_location": "L36",
-      "community": 37,
+      "community": 243,
       "norm_label": "code:ts (import { injectable, inject, environmentinjector, runininjec)",
       "id": "agents_skills_angular_developer_references_injection_context_md_references_injection_context_codeblock_2"
     },
@@ -16096,7 +16006,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/injection-context.md",
       "source_location": "L52",
-      "community": 37,
+      "community": 243,
       "norm_label": "`assertininjectioncontext`",
       "id": "agents_skills_angular_developer_references_injection_context_md_references_injection_context_assertininjectioncontext"
     },
@@ -16105,7 +16015,7 @@
       "file_type": "document",
       "source_file": ".agents/skills/angular-developer/references/injection-context.md",
       "source_location": "L56",
-      "community": 37,
+      "community": 243,
       "norm_label": "code:ts (import { assertininjectioncontext, inject, elementref } from)",
       "id": "agents_skills_angular_developer_references_injection_context_md_references_injection_context_codeblock_3"
     },
@@ -18643,7 +18553,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/mcp.md",
       "source_location": "L1",
-      "community": 256,
+      "community": 60,
       "norm_label": "mcp.md",
       "id": "claude_skills_angular_developer_references_mcp_md"
     },
@@ -18652,7 +18562,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/mcp.md",
       "source_location": "L1",
-      "community": 256,
+      "community": 60,
       "norm_label": "angular cli mcp server",
       "id": "claude_skills_angular_developer_references_mcp_md_references_mcp_angular_cli_mcp_server"
     },
@@ -18661,7 +18571,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/mcp.md",
       "source_location": "L5",
-      "community": 256,
+      "community": 60,
       "norm_label": "available tools (default)",
       "id": "claude_skills_angular_developer_references_mcp_md_references_mcp_available_tools_default"
     },
@@ -18670,7 +18580,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/mcp.md",
       "source_location": "L18",
-      "community": 256,
+      "community": 60,
       "norm_label": "experimental tools",
       "id": "claude_skills_angular_developer_references_mcp_md_references_mcp_experimental_tools"
     },
@@ -18760,7 +18670,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/mcp.md",
       "source_location": "L96",
-      "community": 256,
+      "community": 60,
       "norm_label": "command options",
       "id": "claude_skills_angular_developer_references_mcp_md_references_mcp_command_options"
     },
@@ -18769,7 +18679,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/mcp.md",
       "source_location": "L106",
-      "community": 256,
+      "community": 60,
       "norm_label": "code:json (\"args\": [\"-y\", \"@angular/cli\", \"mcp\", \"--read-only\", \"-e\", \")",
       "id": "claude_skills_angular_developer_references_mcp_md_references_mcp_codeblock_5"
     },
@@ -21307,7 +21217,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/signal-forms.md",
       "source_location": "L158",
-      "community": 258,
+      "community": 12,
       "norm_label": "binding",
       "id": "claude_skills_angular_developer_references_signal_forms_md_references_signal_forms_binding"
     },
@@ -21316,7 +21226,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/signal-forms.md",
       "source_location": "L162",
-      "community": 258,
+      "community": 12,
       "norm_label": "code:ts (import { formfield } from '@angular/forms/signals';)",
       "id": "claude_skills_angular_developer_references_signal_forms_md_references_signal_forms_codeblock_8"
     },
@@ -21325,7 +21235,7 @@
       "file_type": "document",
       "source_file": ".claude/skills/angular-developer/references/signal-forms.md",
       "source_location": "L179",
-      "community": 258,
+      "community": 12,
       "norm_label": "code:html (<!-- input -->)",
       "id": "claude_skills_angular_developer_references_signal_forms_md_references_signal_forms_codeblock_9"
     },
@@ -22700,7 +22610,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 252,
+      "community": 196,
       "norm_label": "agents.md - codex agent instructions",
       "id": "root_agents"
     },
@@ -22713,7 +22623,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 252,
+      "community": 196,
       "norm_label": "claude.md - claude code instructions",
       "id": "root_claude"
     },
@@ -22752,7 +22662,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "angular standalone components",
       "id": "concept_angular_standalone"
     },
@@ -22765,7 +22675,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "angular signals for reactive state",
       "id": "concept_angular_signals"
     },
@@ -22778,7 +22688,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "onpush change detection strategy",
       "id": "concept_onpush_change_detection"
     },
@@ -22817,7 +22727,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "takeuntildestroyed for rxjs cleanup",
       "id": "concept_takeuntildestroyed"
     },
@@ -22830,7 +22740,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 252,
+      "community": 196,
       "norm_label": "vitest unit testing framework",
       "id": "concept_vitest"
     },
@@ -22908,7 +22818,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 252,
+      "community": 196,
       "norm_label": "angular testing skill",
       "id": "skill_angular_testing"
     },
@@ -22921,7 +22831,7 @@
       "captured_at": null,
       "author": "https://github.com/Jeffallan",
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "angular architect skill",
       "id": "skill_angular_architect"
     },
@@ -22934,7 +22844,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 252,
+      "community": 196,
       "norm_label": "frontend design skill",
       "id": "skill_frontend_design"
     },
@@ -22960,7 +22870,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 252,
+      "community": 196,
       "norm_label": "vitest migration guide",
       "id": "angular_testing_vitest_migration"
     },
@@ -22999,7 +22909,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "angular standalone components reference",
       "id": "angular_architect_components"
     },
@@ -23012,7 +22922,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "rxjs patterns reference",
       "id": "angular_architect_rxjs"
     },
@@ -23025,7 +22935,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "angular architect testing reference",
       "id": "angular_architect_testing"
     },
@@ -23038,7 +22948,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "ngrx state management reference",
       "id": "angular_architect_ngrx"
     },
@@ -23077,7 +22987,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 109,
+      "community": 196,
       "norm_label": "angular cli mcp server reference",
       "id": "angular_developer_mcp"
     },
@@ -23116,7 +23026,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "ngrx state management pattern",
       "id": "concept_ngrx"
     },
@@ -23129,7 +23039,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "rxjs operators and patterns",
       "id": "concept_rxjs_operators"
     },
@@ -23194,7 +23104,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 252,
+      "community": 196,
       "norm_label": "angular testbed testing utility",
       "id": "concept_testbed"
     },
@@ -23207,7 +23117,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 252,
+      "community": 196,
       "norm_label": "frontend aesthetic design principles",
       "id": "concept_frontend_aesthetics"
     },
@@ -23220,7 +23130,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 252,
+      "community": 196,
       "norm_label": "jasmine testing framework (legacy)",
       "id": "concept_jasmine"
     },
@@ -23233,7 +23143,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "ngrx facade pattern",
       "id": "concept_ngrx_facade"
     },
@@ -23246,7 +23156,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 243,
+      "community": 196,
       "norm_label": "ngrx entity adapter",
       "id": "concept_ngrx_entity_adapter"
     },
@@ -23324,7 +23234,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 182,
       "norm_label": "tailwind css v4 with angular",
       "id": "references_tailwind_css"
     },
@@ -23974,7 +23884,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 216,
+      "community": 180,
       "norm_label": "routertestingharness",
       "id": "concept_router_testing_harness"
     },
@@ -23987,7 +23897,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 182,
       "norm_label": "tailwind css v4 postcss integration",
       "id": "concept_tailwind_v4"
     },
@@ -24156,7 +24066,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 243,
       "norm_label": "runininjectioncontext",
       "id": "agents_injection_context_runinjectioncontext"
     },
@@ -24325,7 +24235,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 42,
+      "community": 150,
       "norm_label": "angular cdk component harnesses",
       "id": "claude_testing_patterns_component_harnesses"
     },
@@ -24754,7 +24664,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 256,
+      "community": 60,
       "norm_label": "angular cli mcp server",
       "id": "claude_mcp_angular_cli_mcp_server"
     },
@@ -24767,7 +24677,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 256,
+      "community": 60,
       "norm_label": "angular mcp experimental tools",
       "id": "claude_mcp_experimental_tools"
     },
@@ -24832,7 +24742,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 182,
       "norm_label": "angular cli guide",
       "id": "references_cli"
     },
@@ -24845,7 +24755,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 182,
       "norm_label": "ng add command",
       "id": "references_cli_ng_add"
     },
@@ -24858,7 +24768,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 182,
       "norm_label": "ng generate command",
       "id": "references_cli_ng_generate"
     },
@@ -24871,7 +24781,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 182,
       "norm_label": "ng build command",
       "id": "references_cli_ng_build"
     },
@@ -24884,7 +24794,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 182,
       "norm_label": "ng serve command",
       "id": "references_cli_ng_serve"
     },
@@ -24897,7 +24807,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 182,
       "norm_label": "ng test command",
       "id": "references_cli_ng_test"
     },
@@ -24924,7 +24834,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Tailwind v4 replaces tailwind.config.js and @tailwind directives with a single @import and PostCSS plugin; critical breaking change from v3.",
-      "community": 6,
+      "community": 182,
       "norm_label": "tailwind css v4 setup pattern",
       "id": "references_tailwind_css_v4"
     },
@@ -25601,7 +25511,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 215,
       "norm_label": "canactivatefn guard",
       "id": "route_guards_canactivatefn"
     },
@@ -25679,7 +25589,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 215,
       "norm_label": "inject() function",
       "id": "injection_context_injectfn"
     },
@@ -25770,7 +25680,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 215,
       "norm_label": "environmentinjector",
       "id": "hierarchical_injectors_environmentinjector"
     },
@@ -25783,7 +25693,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 215,
       "norm_label": "elementinjector",
       "id": "hierarchical_injectors_elementinjector"
     },
@@ -25796,7 +25706,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 215,
       "norm_label": "viewproviders vs providers",
       "id": "hierarchical_injectors_viewproviders"
     },
@@ -25809,7 +25719,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 244,
       "norm_label": "architecture documentation",
       "id": "docs_architecture"
     },
@@ -25822,7 +25732,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 244,
       "norm_label": "app root component",
       "id": "docs_architecture_appcomponent"
     },
@@ -25848,7 +25758,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 244,
       "norm_label": "global scss styles (src/styles.scss)",
       "id": "docs_architecture_stylesscss"
     },
@@ -25874,7 +25784,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 215,
+      "community": 244,
       "norm_label": "backstage techdocs integration",
       "id": "docs_architecture_techdocs"
     },
@@ -30640,17 +30550,6 @@
       "target": "content_seo_professionalserviceschema"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/content/seo.test.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "source": "src_content_seo_test_ts",
-      "target": "content_seo_tojsonldscript",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -30743,36 +30642,6 @@
       "confidence_score": 1.0,
       "source": "src_content_seo_test_ts",
       "target": "content_seo_test_catalog"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/content/seo.test.ts",
-      "source_location": "L76",
-      "weight": 1.0,
-      "source": "src_content_seo_test_ts",
-      "target": "content_seo_test_malicious",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/content/seo.test.ts",
-      "source_location": "L77",
-      "weight": 1.0,
-      "source": "src_content_seo_test_ts",
-      "target": "content_seo_test_serialized",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/content/seo.test.ts",
-      "source_location": "L85",
-      "weight": 1.0,
-      "source": "src_content_seo_test_ts",
-      "target": "content_seo_test_parsed",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -31307,16 +31176,6 @@
       "target": "content_seo_faqpageschema"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/content/seo.ts",
-      "source_location": "L144",
-      "weight": 1.0,
-      "source": "src_content_seo_ts",
-      "target": "content_seo_tojsonldscript",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -31480,28 +31339,6 @@
       "weight": 1.0,
       "source": "routes_home_home",
       "target": "content_seo_faqpageschema"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/routes/home.tsx",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "src_routes_home_tsx",
-      "target": "content_seo_tojsonldscript",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/routes/home.tsx",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "routes_home_jsonld",
-      "target": "content_seo_tojsonldscript"
     },
     {
       "relation": "contains",
@@ -32133,16 +31970,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L55",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_readme_bit_and_byte_ideas_website",
-      "target": "bit_and_byte_ideas_website_readme_lint",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -32258,16 +32085,6 @@
       "confidence_score": 1.0,
       "source": "bit_and_byte_ideas_website_agents_common_commands",
       "target": "bit_and_byte_ideas_website_readme_codeblock_5"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L57",
-      "weight": 1.0,
-      "source": "bit_and_byte_ideas_website_readme_lint",
-      "target": "bit_and_byte_ideas_website_readme_codeblock_6",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -33365,9 +33182,9 @@
       "source_file": "docs/architecture.md",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_architecture_architecture",
-      "target": "docs_architecture_routing_and_rendering"
+      "target": "docs_architecture_routing_and_rendering",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -33375,9 +33192,9 @@
       "source_file": "docs/architecture.md",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_architecture_architecture",
-      "target": "docs_architecture_document_shell"
+      "target": "docs_architecture_document_shell",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -33385,9 +33202,9 @@
       "source_file": "docs/architecture.md",
       "source_location": "L39",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_architecture_architecture",
-      "target": "docs_architecture_content_ownership"
+      "target": "docs_architecture_content_ownership",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -33395,9 +33212,9 @@
       "source_file": "docs/architecture.md",
       "source_location": "L50",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_architecture_architecture",
-      "target": "docs_architecture_components_and_styling"
+      "target": "docs_architecture_components_and_styling",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -33405,9 +33222,9 @@
       "source_file": "docs/architecture.md",
       "source_location": "L62",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_architecture_architecture",
-      "target": "docs_architecture_static_assets"
+      "target": "docs_architecture_static_assets",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -33515,9 +33332,9 @@
       "source_file": "docs/quality-operations.md",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_quality_operations_quality_and_operations",
-      "target": "docs_quality_operations_ci"
+      "target": "docs_quality_operations_ci",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -33525,18 +33342,8 @@
       "source_file": "docs/quality-operations.md",
       "source_location": "L40",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_quality_operations_quality_and_operations",
-      "target": "docs_quality_operations_deployment"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/quality-operations.md",
-      "source_location": "L54",
-      "weight": 1.0,
-      "source": "docs_quality_operations_quality_and_operations",
-      "target": "docs_quality_operations_security",
+      "target": "docs_quality_operations_deployment",
       "confidence_score": 1.0
     },
     {
@@ -33545,9 +33352,9 @@
       "source_file": "docs/quality-operations.md",
       "source_location": "L54",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_quality_operations_quality_and_operations",
-      "target": "docs_quality_operations_rollback"
+      "target": "docs_quality_operations_rollback",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -33555,9 +33362,9 @@
       "source_file": "docs/quality-operations.md",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_quality_operations_quality_and_operations",
-      "target": "docs_quality_operations_seo_operations"
+      "target": "docs_quality_operations_seo_operations",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -33835,9 +33642,9 @@
       "source_file": "docs/development.md",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_development_development",
-      "target": "docs_development_common_commands"
+      "target": "docs_development_common_commands",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -33845,9 +33652,9 @@
       "source_file": "docs/development.md",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_development_development",
-      "target": "docs_development_typescript_layout"
+      "target": "docs_development_typescript_layout",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -33865,9 +33672,9 @@
       "source_file": "docs/development.md",
       "source_location": "L54",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_development_development",
-      "target": "docs_development_commit_hygiene"
+      "target": "docs_development_commit_hygiene",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -33945,9 +33752,9 @@
       "source_file": "docs/development.md",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_development_common_commands",
-      "target": "docs_development_codeblock_2"
+      "target": "docs_development_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -34175,9 +33982,9 @@
       "source_file": "docs/redesign/05-migration-roadmap.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_phase_1_scaffold_content_extraction_pr_1_2026_07_07",
-      "confidence_score": 1.0
+      "target": "redesign_05_migration_roadmap_phase_1_scaffold_content_extraction_pr_1"
     },
     {
       "relation": "contains",
@@ -34215,9 +34022,9 @@
       "source_file": "docs/redesign/05-migration-roadmap.md",
       "source_location": "L57",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_phase_5_ci_cd_switchover_pr_5_2026_07_07"
+      "target": "redesign_05_migration_roadmap_phase_5_ci_cd_switchover_pr_5_2026_07_07",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -34226,7 +34033,7 @@
       "source_location": "L78",
       "weight": 1.0,
       "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_phase_6_docs_cutover_pr_6_main_2026_07_08",
+      "target": "redesign_05_migration_roadmap_phase_6_docs_cutover_pr_6_main_docs_shipped_2026_07_07_merge_release_are_owner_actions",
       "confidence_score": 1.0
     },
     {
@@ -34238,36 +34045,6 @@
       "confidence_score": 1.0,
       "source": "redesign_05_migration_roadmap_05_migration_roadmap",
       "target": "redesign_05_migration_roadmap_rollback"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L111",
-      "weight": 1.0,
-      "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_outcome",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_phase_1_scaffold_content_extraction_pr_1"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/redesign/05-migration-roadmap.md",
-      "source_location": "L78",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "redesign_05_migration_roadmap_05_migration_roadmap",
-      "target": "redesign_05_migration_roadmap_phase_6_docs_cutover_pr_6_main_docs_shipped_2026_07_07_merge_release_are_owner_actions"
     },
     {
       "relation": "contains",
@@ -60483,5 +60260,5 @@
       "source_file": "docs/SEO/C4-lcp-image-optimization.md"
     }
   ],
-  "built_at_commit": "eb1b12c17d5e2b76174ae9a5376a665e003d57ef"
+  "built_at_commit": "1ba8e4de60c89f2d75693bd5f2fce6af5a00b3fe"
 }

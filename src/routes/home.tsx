@@ -11,6 +11,7 @@ import {
   organizationSchema,
   pageMeta,
   professionalServiceSchema,
+  toJsonLdScript,
 } from '../content/seo';
 
 export function meta(): MetaDescriptor[] {
@@ -22,9 +23,7 @@ export function meta(): MetaDescriptor[] {
 }
 
 function JsonLd({ schema }: { schema: object }) {
-  return (
-    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
-  );
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: toJsonLdScript(schema) }} />;
 }
 
 export default function Home() {
