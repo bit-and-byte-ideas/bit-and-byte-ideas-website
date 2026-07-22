@@ -15,7 +15,7 @@ export const processSteps: ProcessStep[] = [
     number: '02',
     title: 'Build',
     description:
-      'We design, develop, and test your solution with regular check-ins. You see real progress weekly — no black-box development, no surprises at the end.',
+      'We craft and test your solution with regular check-ins. You see real progress weekly — no black-box development, no surprises at the end.',
   },
   {
     number: '03',
