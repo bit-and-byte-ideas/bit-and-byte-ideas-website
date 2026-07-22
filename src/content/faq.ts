@@ -17,7 +17,7 @@ export const faqItems: FaqItem[] = [
   {
     question: 'Do you use templates or page builders?',
     answer:
-      'No — every site is custom-designed and hand-built for your brand, your customers, and Core Web Vitals performance.',
+      'No — every site is custom-built around your brand, your customers, and how fast it actually loads for them.',
   },
   {
     question: 'What happens after launch?',
@@ -32,7 +32,7 @@ export const faqItems: FaqItem[] = [
   {
     question: 'Do I need a website, a full application, or just my tools connected?',
     answer:
-      "Most businesses start with a website; you add application features like logins or dashboards only when customers need to interact with the system directly. But sometimes the real bottleneck isn't your website at all — it's the manual work between the tools you already use. We'll help you figure out which one (or which combination) actually solves the problem in the first ten minutes of a call.",
+      "Most businesses start with a website; you add application features like logins or dashboards only when customers need to interact with the system directly. But sometimes the real bottleneck isn't your website at all — it's the manual work between the tools you already use. We'll help you figure out which one (or which combination) actually solves the problem during our assessment.",
   },
   {
     question: 'What does "business automation" actually mean?',
