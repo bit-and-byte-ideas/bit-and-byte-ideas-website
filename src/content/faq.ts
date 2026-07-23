@@ -12,17 +12,17 @@ export const faqItems: FaqItem[] = [
   {
     question: 'How long does it take to build a website?',
     answer:
-      "Timelines vary by scope — a static site is typically the fastest to ship, while a web application is estimated during the consultation. Either way, you'll see progress weekly.",
+      "Timelines vary by scope. Static sites ship the fastest, while web applications are estimated during our consultation. Either way, you'll see progress weekly.",
   },
   {
     question: 'Do you use templates or page builders?',
     answer:
-      'Every site is custom-built around your brand, your customers, and how fast it actually loads for them.',
+      'Every site is custom-built around your brand, and your customers.',
   },
   {
     question: 'What happens after launch?',
     answer:
-      'You own everything — code, content, and infrastructure. Most clients add the maintenance + hosting subscription: managed cloud hosting, security updates, backups, monitoring, and keeping any automations running as the tools on either end change.',
+      "Launch isn't the finish line. Most clients move into the maintenance + hosting subscription, so we keep watching the site — security updates, backups, monitoring, and priority support when something needs to change.",
   },
   {
     question: 'Can you take over an existing website or codebase?',
