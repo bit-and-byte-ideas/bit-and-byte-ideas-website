@@ -5,24 +5,24 @@ export interface FaqItem {
 
 export const faqItems: FaqItem[] = [
   {
-    question: 'How much does a website cost?',
+    question: 'How much does a project cost?',
     answer:
       "Every project is quoted individually after a free 30-minute consultation — scope, integrations, and timeline drive the price, so we'd rather give you an accurate number than a misleading range. Maintenance + hosting is a flat monthly subscription.",
   },
   {
     question: 'How long does it take to build a website?',
     answer:
-      'A typical static marketing site ships in 2–4 weeks from kickoff. Web applications depend on scope and are estimated during the consultation, with progress you can see weekly.',
+      "Timelines vary by scope — a static site is typically the fastest to ship, while a web application is estimated during the consultation. Either way, you'll see progress weekly.",
   },
   {
     question: 'Do you use templates or page builders?',
     answer:
-      'No — every site is custom-built around your brand, your customers, and how fast it actually loads for them.',
+      'Every site is custom-built around your brand, your customers, and how fast it actually loads for them.',
   },
   {
     question: 'What happens after launch?',
     answer:
-      'You own everything — code, content, and infrastructure. Most clients add the maintenance + hosting subscription: managed cloud hosting, security updates, backups, monitoring, and priority support for small changes.',
+      'You own everything — code, content, and infrastructure. Most clients add the maintenance + hosting subscription: managed cloud hosting, security updates, backups, monitoring, and keeping any automations running as the tools on either end change.',
   },
   {
     question: 'Can you take over an existing website or codebase?',
