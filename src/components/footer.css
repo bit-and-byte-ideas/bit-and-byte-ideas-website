@@ -22,6 +22,10 @@ footer {
   flex-direction: column;
   gap: var(--space-3);
   align-items: flex-start;
+  /* Centers vertically within the footer-main row (which pins other
+     items to the top via align-items: start) while staying in the left
+     column, ahead of .footer-nav's list. */
+  align-self: center;
 }
 
 .footer-logo {
