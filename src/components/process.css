@@ -47,10 +47,6 @@
   background: var(--accent);
 }
 
-.step-connector {
-  display: none;
-}
-
 .step-title {
   font-size: var(--text-xl);
   font-weight: 700;
