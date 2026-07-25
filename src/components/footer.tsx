@@ -45,7 +45,8 @@ export function Footer() {
             </li>
             <li>
               <a href={site.calendlyUrl} target="_blank" rel="noopener noreferrer">
-                Book a Call ↗
+                Book a Call <span aria-hidden="true">↗</span>
+                <span className="sr-only"> (opens in new tab)</span>
               </a>
             </li>
           </ul>
