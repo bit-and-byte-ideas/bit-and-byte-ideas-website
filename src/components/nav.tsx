@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, NavLink } from 'react-router';
 import { site } from '../content/site';
 import './nav.css';
@@ -6,6 +6,7 @@ import './nav.css';
 export function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const hamburgerRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -14,7 +15,26 @@ export function Nav() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  // Escape closes the mobile nav dialog and returns focus to its trigger,
+  // matching standard dialog keyboard behavior.
+  useEffect(() => {
+    if (!menuOpen) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setMenuOpen(false);
+        hamburgerRef.current?.focus();
+      }
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [menuOpen]);
+
   const closeMenu = () => setMenuOpen(false);
+
+  const closeMenuAndReturnFocus = () => {
+    setMenuOpen(false);
+    hamburgerRef.current?.focus();
+  };
 
   return (
     <>
@@ -61,11 +81,13 @@ export function Nav() {
                 rel="noopener noreferrer"
               >
                 Book a Call
+                <span className="sr-only"> (opens in new tab)</span>
               </a>
             </li>
           </ul>
 
           <button
+            ref={hamburgerRef}
             className="hamburger"
             type="button"
             aria-expanded={menuOpen}
@@ -91,7 +113,7 @@ export function Nav() {
           className="mobile-close"
           type="button"
           aria-label="Close navigation menu"
-          onClick={closeMenu}
+          onClick={closeMenuAndReturnFocus}
         >
           <svg
             width="20"
@@ -136,7 +158,8 @@ export function Nav() {
                 rel="noopener noreferrer"
                 onClick={closeMenu}
               >
-                Book a Call ↗
+                Book a Call <span aria-hidden="true">↗</span>
+                <span className="sr-only"> (opens in new tab)</span>
               </a>
             </li>
           </ul>

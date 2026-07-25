@@ -7,23 +7,43 @@
   overflow: hidden;
 }
 
-/* ── Blueprint layer: engineering grid + measurement dots ──── */
-
-.dot-grid {
+/*
+ * Ambient layer: a single brand-gradient glow plus one deliberate corner
+ * mark, in place of a tiled measurement grid. Uses --gradient (defined in
+ * tokens.css since the initial palette but previously unused anywhere) and
+ * a one-off registration mark — blueprint precision without the repeating
+ * pattern that reads as a generic generated-UI signature.
+ */
+.atmosphere {
   position: absolute;
   inset: 0;
-  background-image:
-    linear-gradient(var(--border) 1px, transparent 1px),
-    linear-gradient(90deg, var(--border) 1px, transparent 1px),
-    radial-gradient(rgba(148, 163, 184, 0.35) 1px, transparent 1px);
-  background-size:
-    96px 96px,
-    96px 96px,
-    24px 24px;
-  mask-image: radial-gradient(ellipse 90% 80% at 30% 40%, black 20%, transparent 75%);
-  -webkit-mask-image: radial-gradient(ellipse 90% 80% at 30% 40%, black 20%, transparent 75%);
-  opacity: 0.5;
+  overflow: hidden;
   pointer-events: none;
+}
+
+.atmosphere::before {
+  content: '';
+  position: absolute;
+  top: -25%;
+  right: -15%;
+  width: 55%;
+  aspect-ratio: 1;
+  background: var(--gradient);
+  filter: blur(140px);
+  opacity: 0.16;
+  border-radius: 50%;
+}
+
+.atmosphere::after {
+  content: '';
+  position: absolute;
+  left: 6%;
+  bottom: 14%;
+  width: 96px;
+  height: 96px;
+  border-left: 1px solid var(--border-accent);
+  border-bottom: 1px solid var(--border-accent);
+  opacity: 0.5;
 }
 
 /* Grain overlay for surface texture */

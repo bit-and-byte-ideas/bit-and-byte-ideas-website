@@ -5,11 +5,22 @@
   background: var(--surface);
 }
 
+.trust-strip .container {
+  padding-top: var(--space-5);
+  padding-bottom: var(--space-5);
+}
+
+.trust-caption {
+  max-width: 60ch;
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-4);
+}
+
 .trust-items {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: var(--space-4) var(--space-5);
-  padding: var(--space-5) 0;
 }
 
 .trust-item {

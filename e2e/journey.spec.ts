@@ -5,7 +5,7 @@ test.describe('Site journey', () => {
     await page.goto('/');
     await page.locator('.site-nav').getByRole('link', { name: 'About' }).click();
     await expect(page).toHaveURL(/\/about$/);
-    await expect(page.locator('h1')).toContainText(/been/i);
+    await expect(page.locator('h1')).toContainText(/shipped/i);
   });
 
   test('unknown routes render the branded 404 page', async ({ page }) => {

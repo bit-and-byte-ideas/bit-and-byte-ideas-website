@@ -10,7 +10,7 @@ describe('Hero', () => {
 
   it('renders Book a Call as the primary CTA linking to Calendly', () => {
     render(<Hero />);
-    const primary = screen.getByRole('link', { name: 'Book a Call' });
+    const primary = screen.getByRole('link', { name: /book a call/i });
     expect(primary).toHaveAttribute('href', site.calendlyUrl);
     expect(primary).toHaveAttribute('target', '_blank');
     expect(primary).toHaveAttribute('rel', 'noopener noreferrer');

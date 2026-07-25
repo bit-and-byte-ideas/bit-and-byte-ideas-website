@@ -1,5 +1,6 @@
 export interface TechGroup {
   title: string;
+  summary: string;
   items: string[];
 }
 
@@ -9,10 +10,14 @@ export interface ClientFit {
   description: string;
 }
 
+export const techIntro =
+  "You don't need to know what any of this means to work with us — here's the plain-English version of what each area covers.";
+
 export const about = {
   label: 'Founder — Bit & Byte Ideas',
   role: 'Founder & Engineer',
   name: 'Carlos Barajas',
+  yearsExperience: '18+',
   bio: [
     "I've been building software and infrastructure since 2008 — starting as a programmer analyst and working my way through senior engineering, management, and platform leadership roles across fintech, energy, and financial services.",
     "Most recently I've focused on platform engineering: running developer experience, designing GitOps workflows, and building the cloud infrastructure that engineering teams depend on daily. Before that, I managed site reliability at Shell Recharge Solutions, where I stood up end-to-end observability, incident management, and Kubernetes-based container orchestration across AWS — all managed as code with Terraform.",
@@ -22,6 +27,7 @@ export const about = {
   techGroups: [
     {
       title: 'Frontend',
+      summary: 'The parts your customers actually see and click.',
       items: [
         'React & TypeScript',
         'HTML / CSS',
@@ -31,6 +37,7 @@ export const about = {
     },
     {
       title: 'Cloud & Infrastructure',
+      summary: 'Where your site and data live, and how they stay online.',
       items: [
         'Azure (Static Web Apps, Functions)',
         'AWS (EKS, EC2, RDS, Lambda, S3)',
@@ -41,6 +48,7 @@ export const about = {
     },
     {
       title: 'DevOps & GitOps',
+      summary: 'How changes ship safely, and how we catch problems before you do.',
       items: [
         'GitHub Actions',
         'GitLab CI / Bitbucket Pipelines',
@@ -51,6 +59,7 @@ export const about = {
     },
     {
       title: 'Languages & Backends',
+      summary: 'The programming languages powering the logic behind the scenes.',
       items: ['TypeScript / JavaScript', 'Go', 'C# & .NET', 'Java (Spring)', 'Python'],
     },
   ] satisfies TechGroup[],
