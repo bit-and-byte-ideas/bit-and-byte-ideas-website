@@ -4,14 +4,14 @@ import './hero.css';
 export function Hero() {
   return (
     <section className="hero" aria-label="Hero">
-      <div className="dot-grid" aria-hidden="true" />
+      <div className="atmosphere" aria-hidden="true" />
       <div className="hero-icon-bg" aria-hidden="true">
         <img src="/assets/bandb-icon-600.webp" alt="" width="600" height="900" />
       </div>
       <div className="container hero-content">
         <div className="hero-label">
           <span className="label-dot" aria-hidden="true" />
-          software consulting — est. 2024
+          {site.heroEyebrow}
         </div>
         <h1 className="hero-headline">
           We Build
@@ -31,6 +31,7 @@ export function Hero() {
           <div className="hero-ctas">
             <a href={site.calendlyUrl} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
               Book a Call
+              <span className="sr-only"> (opens in new tab)</span>
             </a>
             <a href="#services" className="btn btn-ghost">
               Explore Services

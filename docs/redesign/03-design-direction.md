@@ -45,6 +45,15 @@ quietly confident — a blueprint you'd trust with your business.
   `prefers-reduced-motion`. No parallax, no scroll-jacking.
 - **Texture**: subtle grid/blueprint background at low opacity in the hero, faint grain
   overlay on surfaces — atmosphere without noise.
+  - **Amended 2026-07-25**: the tiled grid-line implementation was replaced on both hero
+    surfaces (`src/components/hero.css`, `src/routes/about.css`) with a single brand-gradient
+    ambient glow (`--gradient`, defined in the palette above but previously unused) plus one
+    deliberate corner measurement mark. The project's design-review hook (`codex-grid-background`)
+    flags hairline grid-line backgrounds tiled by a fixed pixel cell as a recurring generic
+    generated-UI signature; the tiled implementation matched that signature closely enough to
+    keep re-flagging on every pass. The "blueprint, atmosphere without noise" intent stands —
+    the corner mark and grain overlay (`.hero::after`) still carry it — but the literal tiled
+    grid is retired in favor of a treatment specific to this brand's own accent gradient.
 
 ## Direction B — "Studio Ledger" (alternative)
 
