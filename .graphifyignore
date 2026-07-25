@@ -5,3 +5,11 @@ dist/
 .idea/
 test-results/
 # only index src/, ignore everything else
+
+# Vendored agent-skill packages (impeccable, emil-design-eng, pick-ui-library):
+# third-party tooling mirrored for Claude Code / Codex / GitHub runtimes, not
+# part of this site's own codebase — indexing them (x3, once per runtime)
+# bloats the graph with noise instead of app architecture.
+.agents/skills/
+.claude/skills/
+.github/skills/

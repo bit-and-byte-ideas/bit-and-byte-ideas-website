@@ -2,9 +2,23 @@
 .terraform/
 
 # graphify
+# graph.json (+ .graphify_labels.json) is kept tracked: it's the shared,
+# queryable index `graphify query/path/explain` read directly, so every
+# contributor sees the same graph without re-indexing from scratch.
+# Everything below is either a rendered-for-humans artifact (regenerate via
+# CI instead of committing) or machine-local state that must never be
+# shared between contributors' machines.
 graphify-out/cache/
 graphify-out/**/manifest.json
 graphify-out/**/cost.json
+graphify-out/graph.html
+graphify-out/GRAPH_REPORT.md
+graphify-out/wiki/
+graphify-out/.graphify_root
+graphify-out/.graphify_python
+# Dated snapshot dirs graphify writes on each run (e.g. 2026-07-09/) —
+# history lives in git already; don't let these accumulate.
+graphify-out/[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]*/
 
 # Build output
 /dist
