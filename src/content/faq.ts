@@ -1,45 +1,56 @@
 export interface FaqItem {
   question: string;
   answer: string;
+  category: string;
 }
+
+export const faqCategories = ['Cost & Process', 'Fit & Logistics'] as const;
 
 export const faqItems: FaqItem[] = [
   {
+    category: 'Cost & Process',
     question: 'How much does a project cost?',
     answer:
       "Every project is quoted individually after a free 30-minute consultation — scope, integrations, and timeline drive the price, so we'd rather give you an accurate number than a misleading range. Maintenance + hosting is a flat monthly subscription.",
   },
   {
+    category: 'Cost & Process',
     question: 'How long does it take to build a website?',
     answer:
       "Timelines vary by scope. Static sites ship the fastest, while web applications are estimated during our consultation. Either way, you'll see progress weekly.",
   },
   {
+    category: 'Cost & Process',
     question: 'Do you use templates or page builders?',
     answer:
       'Every site is custom-built around your brand, and your customers.',
   },
   {
+    category: 'Cost & Process',
     question: 'What happens after launch?',
     answer:
       "Launch isn't the finish line. Most clients move into the maintenance + hosting subscription, so we keep watching the site — security updates, backups, monitoring, and priority support when something needs to change.",
   },
   {
+    category: 'Fit & Logistics',
     question: 'Can you take over an existing website or codebase?',
     answer:
       "Yes. We start with a technical review, give you an honest assessment of what's worth keeping, and take it from there.",
   },
   {
+    category: 'Fit & Logistics',
     question: 'Do I need a website, a full application, or just my tools connected?',
     answer:
       "Most businesses start with a website; you add application features like logins or dashboards only when customers need to interact with the system directly. But sometimes the real bottleneck isn't your website at all — it's the manual work between the tools you already use. We'll help you figure out which one (or which combination) actually solves the problem during our assessment.",
   },
   {
+    category: 'Fit & Logistics',
     question: 'What does "business automation" actually mean?',
     answer:
       "It means the manual, repetitive parts of running your business — copying data between systems, re-entering the same customer information twice, manually sending a follow-up email after every sale — get handled automatically. Describe how you currently do it and we'll tell you what's possible; you don't need to know any technical terms to start that conversation.",
   },
   {
+    category: 'Fit & Logistics',
     question: 'Where are you located and who do you work with?',
     answer:
       "We're a software studio based in San Diego, California, working remotely with small and medium businesses across the United States. Response time is within one business day.",

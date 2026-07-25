@@ -1,4 +1,4 @@
-import { faqItems } from '../content/faq';
+import { faqCategories, faqItems } from '../content/faq';
 import './faq.css';
 
 export function Faq() {
@@ -11,15 +11,24 @@ export function Faq() {
             Questions, <em>Answered.</em>
           </h2>
         </header>
-        <div className="faq-list">
-          {faqItems.map((item) => (
-            <details className="faq-item" key={item.question}>
-              <summary className="faq-question">
-                {item.question}
-                <span className="faq-marker" aria-hidden="true" />
-              </summary>
-              <p className="faq-answer">{item.answer}</p>
-            </details>
+        <div className="faq-groups">
+          {faqCategories.map((category) => (
+            <div className="faq-group" key={category}>
+              <h3 className="faq-group-title">{category}</h3>
+              <div className="faq-list">
+                {faqItems
+                  .filter((item) => item.category === category)
+                  .map((item) => (
+                    <details className="faq-item" key={item.question}>
+                      <summary className="faq-question">
+                        {item.question}
+                        <span className="faq-marker" aria-hidden="true" />
+                      </summary>
+                      <p className="faq-answer">{item.answer}</p>
+                    </details>
+                  ))}
+              </div>
+            </div>
           ))}
         </div>
       </div>

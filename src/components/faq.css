@@ -1,7 +1,23 @@
+.faq-groups {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  max-width: 760px;
+}
+
+.faq-group-title {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  margin-bottom: var(--space-2);
+}
+
 .faq-list {
   display: flex;
   flex-direction: column;
-  max-width: 760px;
 }
 
 .faq-item {
