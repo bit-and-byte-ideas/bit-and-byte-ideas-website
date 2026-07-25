@@ -1,11 +1,12 @@
 import { Fragment } from 'react';
-import { trustItems } from '../content/trust';
+import { trustCaption, trustItems } from '../content/trust';
 import './trust-strip.css';
 
 export function TrustStrip() {
   return (
     <section className="trust-strip" aria-label="At a glance">
       <div className="container">
+        <p className="trust-caption">{trustCaption}</p>
         <ul className="trust-items" role="list">
           {trustItems.map((item, i) => (
             <Fragment key={item.label}>
