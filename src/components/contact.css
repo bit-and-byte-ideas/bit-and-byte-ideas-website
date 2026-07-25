@@ -47,11 +47,18 @@
   margin-bottom: var(--space-5);
 }
 
+.contact-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+}
+
 .contact-btn {
   display: inline-flex;
   align-items: center;
   gap: var(--space-3);
-  min-height: 56px;
+  min-height: 48px;
   padding: var(--space-3) var(--space-4);
   font-family: var(--font-mono);
   font-size: var(--text-base);
