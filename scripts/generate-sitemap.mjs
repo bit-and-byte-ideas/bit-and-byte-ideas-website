@@ -9,6 +9,7 @@ const OUT = resolve(import.meta.dirname, '../build/client/sitemap.xml');
 const routes = [
   { path: '/', priority: '1.0' },
   { path: '/about', priority: '0.8' },
+  { path: '/connect', priority: '0.6' },
 ];
 
 const lastmod = new Date().toISOString().slice(0, 10);
