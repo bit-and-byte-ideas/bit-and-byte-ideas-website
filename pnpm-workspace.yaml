@@ -2,3 +2,7 @@
 # esbuild needs its postinstall to place the platform binary.
 allowBuilds:
   esbuild: true
+
+# GHSA-v2hh-gcrm-f6hx: fast-uri <3.1.4 has a host-confusion parsing bug (transitive via ajv).
+overrides:
+  fast-uri: ^3.1.4
