@@ -1,6 +1,6 @@
 output "dns_nameservers" {
   description = "Azure DNS nameservers — set these as custom nameservers in GoDaddy to delegate DNS to Azure."
-  value       = length(azurerm_dns_zone.this) > 0 ? azurerm_dns_zone.this[0].name_servers : []
+  value       = length(data.azurerm_dns_zone.this) > 0 ? data.azurerm_dns_zone.this[0].name_servers : []
 }
 
 output "site_url" {
