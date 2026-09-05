@@ -4,7 +4,13 @@ metadata:
   name: bit-and-byte-ideas-website
   description: React website for the Bit and Byte Ideas software studio.
   annotations:
+    github.com/project-slug: bit-and-byte-ideas/bit-and-byte-ideas-website
     backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://bitandbyteideas.com
+      title: Bit and Byte Ideas
+    - url: https://red-grass-0d5881a1e.7.azurestaticapps.net
+      title: Bit and Byte Ideas
 spec:
   type: website
   lifecycle: production
