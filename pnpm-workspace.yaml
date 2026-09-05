@@ -3,6 +3,9 @@
 allowBuilds:
   esbuild: true
 
-# GHSA-v2hh-gcrm-f6hx: fast-uri <3.1.4 has a host-confusion parsing bug (transitive via ajv).
+# GHSA-5jgf-p345-68v8, GHSA-f65p-4m7j-42xc, GHSA-fph4-wmhf-6fwf, GHSA-jqff-g426-hqxp:
+# fast-uri <3.1.6 has host-confusion/SSRF-adjacent parsing bugs (transitive via ajv, commitlint).
+# GHSA-2v37-7h3g-55p8: nanoid <3.3.18 can loop indefinitely with size 0 (transitive via postcss, vite).
 overrides:
-  fast-uri: ^3.1.4
+  fast-uri: ^3.1.6
+  nanoid: ^3.3.18
