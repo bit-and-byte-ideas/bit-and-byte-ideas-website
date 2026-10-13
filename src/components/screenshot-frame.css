@@ -1,0 +1,58 @@
+.screenshot-frame {
+  margin: 0;
+}
+
+.screenshot-frame-matte {
+  position: relative;
+  padding: var(--space-2);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+/*
+ * Registration marks: the same hairline corners as the /connect card
+ * (connect.css .crop-mark), on two opposite corners only, so the frame
+ * reads as measured rather than decorated.
+ */
+.screenshot-frame-matte::before,
+.screenshot-frame-matte::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  pointer-events: none;
+}
+
+.screenshot-frame-matte::before {
+  top: -8px;
+  left: -8px;
+  border-top: 1px solid var(--border-accent);
+  border-left: 1px solid var(--border-accent);
+}
+
+.screenshot-frame-matte::after {
+  right: -8px;
+  bottom: -8px;
+  border-right: 1px solid var(--border-accent);
+  border-bottom: 1px solid var(--border-accent);
+}
+
+/* Inner radius tighter than the matte's, so the corners nest. */
+.screenshot-frame img {
+  border-radius: calc(var(--radius) / 2);
+}
+
+.screenshot-frame--crop img {
+  aspect-ratio: var(--frame-ratio);
+  object-fit: cover;
+  object-position: top;
+}
+
+.screenshot-frame-caption {
+  margin-top: var(--space-3);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}

@@ -1,0 +1,23 @@
+.content-status {
+  flex-basis: 100%;
+  padding: var(--space-2) var(--space-3);
+  border: 1px dashed var(--border-accent);
+  border-radius: var(--radius);
+  background: var(--accent-dim);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  color: var(--text);
+}
+
+.content-status-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border: 1px dashed var(--border-accent);
+  border-radius: var(--radius);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}

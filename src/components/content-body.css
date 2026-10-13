@@ -1,0 +1,229 @@
+/*
+ * Long-form content (case studies now, articles in WP-06). Reading text is
+ * full --text, not muted; links are underlined so they never rely on color.
+ */
+.content-body {
+  max-width: var(--measure-prose);
+  font-size: var(--text-prose);
+  line-height: var(--leading-prose);
+  color: var(--text);
+}
+
+.content-body > * + * {
+  margin-top: var(--space-4);
+}
+
+.content-body h2,
+.content-body h3,
+.content-body h4 {
+  scroll-margin-top: 96px;
+  line-height: 1.15;
+}
+
+.content-body h2 {
+  margin-top: var(--space-7);
+  font-size: var(--text-xl);
+  font-weight: 700;
+}
+
+.content-body h3 {
+  margin-top: var(--space-6);
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+
+.content-body h4 {
+  margin-top: var(--space-5);
+  font-size: var(--text-base);
+  font-weight: 700;
+}
+
+.content-body > :first-child {
+  margin-top: 0;
+}
+
+.content-body h2 + *,
+.content-body h3 + *,
+.content-body h4 + * {
+  margin-top: var(--space-3);
+}
+
+.content-body a {
+  color: var(--soft-green);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  transition: text-decoration-color var(--duration-fast) var(--ease-out);
+}
+
+.content-body a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.content-body ul,
+.content-body ol {
+  padding-left: 1.4em;
+}
+
+.content-body li + li {
+  margin-top: var(--space-2);
+}
+
+.content-body li::marker {
+  color: var(--accent);
+}
+
+.content-body strong {
+  font-weight: 700;
+}
+
+.content-body code {
+  padding: 0.1em 0.35em;
+  border-radius: calc(var(--radius) / 2);
+  background: var(--surface-2);
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+.content-body blockquote {
+  padding-left: var(--space-4);
+  border-left: 1px solid var(--border-accent);
+  color: var(--text-muted);
+}
+
+.content-body hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+}
+
+.content-figure {
+  margin: var(--space-5) 0;
+}
+
+.content-figure img {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.content-figure-caption {
+  margin-top: var(--space-3);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+/* Tables scroll inside a focusable container (tabindex=0) on narrow screens. */
+.content-table {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.content-table:focus-visible {
+  outline-offset: -2px;
+}
+
+.content-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-base);
+  line-height: 1.5;
+}
+
+.content-table th,
+.content-table td {
+  padding: var(--space-2) var(--space-3);
+  text-align: left;
+  vertical-align: top;
+}
+
+.content-table th {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  color: var(--text-muted);
+  background: var(--surface);
+  white-space: nowrap;
+}
+
+.content-table tr + tr td,
+.content-table tbody tr:first-child td {
+  border-top: 1px solid var(--border);
+}
+
+/*
+ * Articles: the larger heading scale from DESIGN.md "Long-form prose rules",
+ * and permalinks beside H2/H3. The wrapper carries the heading's spacing so
+ * the sibling rhythm above still applies.
+ */
+.content-body--article h2 {
+  font-size: var(--text-2xl);
+}
+
+.content-body--article h3 {
+  font-size: var(--text-xl);
+}
+
+.prose-heading {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+}
+
+.content-body > .prose-heading--h2 {
+  margin-top: var(--space-7);
+}
+
+.content-body > .prose-heading--h3 {
+  margin-top: var(--space-6);
+}
+
+.content-body > .prose-heading:first-child {
+  margin-top: 0;
+}
+
+.prose-heading > h2,
+.prose-heading > h3 {
+  margin: 0;
+}
+
+.content-body .prose-heading + * {
+  margin-top: var(--space-3);
+}
+
+.content-body .prose-heading-anchor {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  margin-block: -12px;
+  font-family: var(--font-mono);
+  font-size: var(--text-base);
+  color: var(--text-faint);
+  text-decoration: none;
+  opacity: 0;
+  transition:
+    opacity var(--duration-fast) var(--ease-out),
+    color var(--duration-fast) var(--ease-out);
+}
+
+.prose-heading:hover .prose-heading-anchor,
+.content-body .prose-heading-anchor:focus-visible {
+  opacity: 1;
+}
+
+.content-body .prose-heading-anchor:hover {
+  color: var(--soft-green);
+}
+
+/* No hover on touch screens: keep the permalink visible, quietly. */
+@media (hover: none) {
+  .content-body .prose-heading-anchor {
+    opacity: 1;
+  }
+}

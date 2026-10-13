@@ -120,7 +120,8 @@ section[id] {
     .service-card,
     .step,
     .trust-item,
-    .contact-grid {
+    .contact-grid,
+    .project-row {
       animation: section-rise 1ms var(--ease-out) both;
       animation-timeline: view();
       animation-range: entry 10% entry 45%;
@@ -177,6 +178,22 @@ section[id] {
 }
 
 .section-label::before {
+  content: '// ';
+  color: var(--text-faint);
+}
+
+/* A real heading set as a quiet `// label`: structure for assistive tech, not a display title. */
+.heading-label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  color: var(--text-muted);
+}
+
+.heading-label::before {
   content: '// ';
   color: var(--text-faint);
 }

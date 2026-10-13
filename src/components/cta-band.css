@@ -1,0 +1,15 @@
+/* Same band as the about page's closing CTA (about.css .about-cta). */
+.cta-band {
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
+
+.cta-band-heading {
+  margin-bottom: var(--space-5);
+  font-size: var(--text-2xl);
+  font-weight: 800;
+}
+
+.cta-band .cta-actions {
+  justify-content: center;
+}

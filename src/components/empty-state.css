@@ -1,0 +1,60 @@
+.empty-state {
+  padding-top: var(--space-5);
+}
+
+.empty-state-frame {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space-3);
+  min-height: 18rem;
+  padding: var(--space-6) var(--space-5);
+  background: var(--surface);
+  border: 1px dashed var(--border-accent);
+  border-radius: var(--radius);
+}
+
+@media (min-width: 900px) {
+  .empty-state-frame {
+    aspect-ratio: var(--frame-ratio);
+    min-height: 0;
+    max-height: 28rem;
+    padding: var(--space-7);
+  }
+}
+
+/* Registration marks, as on ScreenshotFrame and the /connect card. */
+.empty-state-frame::before,
+.empty-state-frame::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  pointer-events: none;
+}
+
+.empty-state-frame::before {
+  top: -8px;
+  left: -8px;
+  border-top: 1px solid var(--border-accent);
+  border-left: 1px solid var(--border-accent);
+}
+
+.empty-state-frame::after {
+  right: -8px;
+  bottom: -8px;
+  border-right: 1px solid var(--border-accent);
+  border-bottom: 1px solid var(--border-accent);
+}
+
+.empty-state-heading {
+  max-width: 18ch;
+  font-size: var(--text-2xl);
+  font-weight: 700;
+}
+
+.empty-state-body {
+  max-width: 52ch;
+  color: var(--text-muted);
+}

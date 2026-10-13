@@ -1,0 +1,93 @@
+/*
+ * Fenced code in long-form content. Highlighting is class-based (rehype-highlight
+ * emits hljs-* spans at build time; the CSP forbids inline styles), and every
+ * syntax color is a token measured against --surface-code.
+ */
+.code-block {
+  position: relative;
+  min-width: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-code);
+}
+
+.code-block-language {
+  padding: var(--space-2) var(--space-4);
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  color: var(--text-muted);
+}
+
+.code-block-language::before {
+  content: '// ';
+  color: var(--text-faint);
+}
+
+.code-block-pre {
+  overflow-x: auto;
+  padding: var(--space-3) var(--space-4);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  line-height: 1.65;
+  color: var(--text);
+  tab-size: 2;
+}
+
+.code-block-pre:focus-visible {
+  outline-offset: -2px;
+}
+
+/* Reset the inline-code chip from .content-body code (which loads later, so match its weight). */
+.code-block .code-block-pre code {
+  padding: 0;
+  border-radius: 0;
+  background: none;
+  font-size: inherit;
+}
+
+.code-block .hljs-keyword,
+.code-block .hljs-built_in,
+.code-block .hljs-type,
+.code-block .hljs-meta,
+.code-block .hljs-selector-tag,
+.code-block .hljs-doctag {
+  color: var(--syntax-keyword);
+}
+
+.code-block .hljs-string,
+.code-block .hljs-regexp,
+.code-block .hljs-symbol,
+.code-block .hljs-template-tag,
+.code-block .hljs-addition {
+  color: var(--syntax-string);
+}
+
+.code-block .hljs-number,
+.code-block .hljs-literal {
+  color: var(--syntax-number);
+}
+
+.code-block .hljs-title,
+.code-block .hljs-section,
+.code-block .hljs-name,
+.code-block .hljs-attr,
+.code-block .hljs-attribute,
+.code-block .hljs-selector-id,
+.code-block .hljs-selector-class {
+  color: var(--syntax-title);
+  font-weight: 500;
+}
+
+.code-block .hljs-comment,
+.code-block .hljs-quote,
+.code-block .hljs-deletion {
+  color: var(--syntax-comment);
+}
+
+.code-block .hljs-punctuation,
+.code-block .hljs-operator {
+  color: var(--syntax-punctuation);
+}

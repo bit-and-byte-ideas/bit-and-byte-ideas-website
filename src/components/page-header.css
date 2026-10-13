@@ -1,0 +1,82 @@
+.page-header {
+  position: relative;
+  overflow: hidden;
+  padding: 128px 0 var(--space-6);
+}
+
+@media (min-width: 900px) {
+  .page-header {
+    padding-top: 152px;
+  }
+}
+
+/* Same ambient family as the home and about heroes: one gradient glow, no grid. */
+.page-header-atmosphere {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  /* Short header: fade the glow out instead of letting the box clip it. */
+  mask-image: linear-gradient(to bottom, black 40%, transparent);
+}
+
+.page-header-atmosphere::before {
+  content: '';
+  position: absolute;
+  top: -35%;
+  right: -12%;
+  width: 45%;
+  aspect-ratio: 1;
+  background: var(--gradient);
+  filter: blur(130px);
+  opacity: 0.12;
+  border-radius: 50%;
+}
+
+.page-header-inner {
+  position: relative;
+}
+
+.page-header-before {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+/* Back link for the `before` slot (project and article pages). */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 44px;
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.back-link:hover {
+  color: var(--soft-green);
+}
+
+.page-header-title {
+  max-width: 22ch;
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.page-header-title em {
+  font-style: normal;
+  color: var(--accent);
+}
+
+.page-header-dek {
+  max-width: 58ch;
+  margin-top: var(--space-4);
+  font-size: var(--text-lg);
+  color: var(--text-muted);
+}

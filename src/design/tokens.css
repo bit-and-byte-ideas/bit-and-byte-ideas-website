@@ -36,7 +36,24 @@
   --text-lg: 1.125rem;
   --text-xl: 1.375rem;
   --text-2xl: clamp(1.75rem, 3.5vw, 2.5rem);
+  /* Content page titles (/work, /blog): between section titles and the hero display */
+  --text-3xl: clamp(2.25rem, 5vw, 3.75rem);
   --text-display: clamp(2.75rem, 8.5vw, 6.5rem);
+
+  /* Long-form reading (case studies, articles) */
+  --measure-prose: 68ch;
+  --text-prose: 1.0625rem;
+  --leading-prose: 1.7;
+
+  /* Code blocks: class-based highlighting (CSP forbids inline styles). Every
+     syntax color is >= 6.6:1 on --surface-code (docs/website evidence, WP-06). */
+  --surface-code: #131c31;
+  --syntax-keyword: #93c5fd;
+  --syntax-string: #86efac;
+  --syntax-number: #67e8f9;
+  --syntax-title: var(--text);
+  --syntax-comment: var(--text-muted);
+  --syntax-punctuation: var(--text-muted);
 
   /* Spacing — 4/8 rhythm */
   --space-1: 4px;
@@ -48,6 +65,9 @@
   --space-7: 64px;
   --space-8: 96px;
   --space-9: 128px;
+
+  /* Media: screenshot crop for cards and rows (docs/website/DESIGN.md) */
+  --frame-ratio: 16 / 10;
 
   /* Layers */
   --z-nav: 40;
