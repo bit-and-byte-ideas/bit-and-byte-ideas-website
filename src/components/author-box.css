@@ -1,0 +1,46 @@
+.author-box {
+  display: grid;
+  gap: var(--space-2);
+  margin-top: var(--space-8);
+  padding: var(--space-4) 0 0;
+  border-top: 1px solid var(--border-accent);
+}
+
+.author-box-name {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-1) var(--space-3);
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+
+.author-box-role {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  font-weight: 400;
+  color: var(--text-muted);
+}
+
+.author-box-bio {
+  max-width: 60ch;
+  color: var(--text-muted);
+}
+
+/* Inline (not flex) so the arrow stays attached to the last word. */
+.author-box-link {
+  display: inline-block;
+  justify-self: start;
+  /* 12px + 22px line box: a 44px+ target without flex (keeps the nbsp arrow attached). */
+  padding-block: calc(var(--space-2) + var(--space-1));
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--accent);
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.author-box-link:hover {
+  color: var(--soft-green);
+}

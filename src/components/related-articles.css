@@ -1,0 +1,8 @@
+.related-articles {
+  margin-top: var(--space-7);
+  padding: 0;
+}
+
+.related-articles-heading {
+  margin-bottom: var(--space-2);
+}

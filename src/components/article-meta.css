@@ -1,0 +1,57 @@
+/* Same `// label` term grammar as the project facts rail (project-meta.css). */
+/* Two even columns on phones (topics across both); one wrapping row above. */
+.article-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4) var(--space-5);
+  max-width: 58rem;
+  margin-top: var(--space-5);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--border-accent);
+}
+
+.article-meta-item:last-child {
+  grid-column: 1 / -1;
+}
+
+@media (min-width: 640px) {
+  .article-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4) var(--space-6);
+  }
+}
+
+.article-meta-item dt {
+  margin-bottom: var(--space-1);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  color: var(--text-muted);
+}
+
+.article-meta-item dt::before {
+  content: '// ';
+  color: var(--text-faint);
+}
+
+.article-meta-item dd {
+  font-size: var(--text-sm);
+  color: var(--text);
+}
+
+.article-meta-author {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-block: -12px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  color: var(--soft-green);
+}
+
+.article-meta-author:hover {
+  text-decoration-thickness: 2px;
+}

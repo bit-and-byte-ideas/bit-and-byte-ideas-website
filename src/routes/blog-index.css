@@ -1,0 +1,10 @@
+.blog-list {
+  padding-top: var(--space-4);
+  padding-bottom: var(--space-8);
+}
+
+/* One reading column: ledger rows at the prose measure plus the date rail. */
+.blog-list-items {
+  max-width: calc(var(--measure-prose) + 11rem + var(--space-6));
+  border-bottom: 1px solid var(--border);
+}

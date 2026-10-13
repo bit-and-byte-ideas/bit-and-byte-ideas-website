@@ -1,0 +1,27 @@
+.blog-article-layout {
+  display: grid;
+  gap: var(--space-6);
+  padding-top: var(--space-3);
+  padding-bottom: var(--space-8);
+}
+
+.blog-article-main {
+  min-width: 0;
+  max-width: var(--measure-prose);
+}
+
+/* TOC rail on the left at desktop; the reading column keeps its measure. */
+@media (min-width: 1100px) {
+  .blog-article-layout--toc {
+    grid-template-columns: 13rem minmax(0, var(--measure-prose));
+    column-gap: var(--space-8);
+    align-items: start;
+  }
+
+  .blog-article-layout--toc .toc {
+    position: sticky;
+    top: 104px;
+    max-height: calc(100vh - 128px);
+    overflow-y: auto;
+  }
+}
