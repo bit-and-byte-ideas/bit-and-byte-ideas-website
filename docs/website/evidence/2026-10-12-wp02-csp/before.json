@@ -1,0 +1,14 @@
+{
+  "capturedAt": "2026-10-13T02:19:43.897Z",
+  "url": "http://127.0.0.1:4173/",
+  "cspHeader": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'",
+  "hydrated": false,
+  "reactRouterContext": false,
+  "mobileMenuExpandedAfterClick": "false",
+  "cspViolationCount": 8,
+  "sampleViolations": [
+    "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-n1D9cZXw4ZNSiUR+6/8u4KC6Mx7KCFb9ScJA8U0UdhI=')",
+    "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-eWa6DMZRMTkb7k2BX579qgK/VGeDqc4D+SQPSUKmNtE=')",
+    "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-h32t4eKtT/4mtPWQltFcjB0A4UniBY33gyOQ3LduW3g=')"
+  ]
+}

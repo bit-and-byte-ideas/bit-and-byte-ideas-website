@@ -1,0 +1,30 @@
+AC-10 / ARCHITECTURE "Performance budgets": added client JS for the content routes <= 15 KB gzip
+Fixture build manifest-7efa657b.js; gzip level 9 of each chunk; excludes root + entry (101.24 KB, loaded by every page)
+and chunks the existing pages already load (home: seo; /404: not-found-content).
+
+routes/blog-index                        added   2.51 KB   (all non-root 5.56 KB)
+    blog-index-BflZQkV9.js              0.54 KB
+    content-status-B7jI6qyL.js          0.71 KB
+    empty-state-Bjo6kijA.js             0.26 KB
+    article-card-BpGhYFYE.js            1.00 KB
+blog-article/fixture-long-article        added  14.37 KB   (all non-root 17.80 KB)
+    blog-article-CrNFNNhQ.js            1.52 KB
+    content-status-B7jI6qyL.js          0.71 KB
+    content-body-Bz30xQKB.js           10.84 KB
+    article-card-BpGhYFYE.js            1.00 KB
+    responsive-image-DA_v-nDD.js        0.30 KB
+routes/work-index                        added   3.00 KB   (all non-root 6.04 KB)
+    work-index-DqfrSt8A.js              0.87 KB
+    content-status-B7jI6qyL.js          0.71 KB
+    empty-state-Bjo6kijA.js             0.26 KB
+    work-page-RERJqlHm.js               0.85 KB
+    responsive-image-DA_v-nDD.js        0.30 KB
+work-project/fixture-client-greenhouse   added  14.21 KB   (all non-root 17.63 KB)
+    work-project-Bl1leQLz.js            1.50 KB
+    content-status-B7jI6qyL.js          0.71 KB
+    work-page-RERJqlHm.js               0.85 KB
+    content-body-Bz30xQKB.js           10.84 KB
+    responsive-image-DA_v-nDD.js        0.30 KB
+
+Blog-only chunks (new in WP-06): blog-index 0.54 KB, blog-article 1.52 KB, article-card 1.00 KB
+content-body (hast renderer, CodeBlock, table, anchors; shared with /work/<slug>): 10.84 KB

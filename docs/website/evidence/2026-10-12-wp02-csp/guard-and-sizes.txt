@@ -1,0 +1,22 @@
+## guard on an unfixed build (react-router build without the externalize step)
+externalize-inline-scripts: 36 executable inline script(s) remain in: 404/index.html, __spa-fallback.html, about/index.html, connect/index.html, index.html. The CSP (script-src 'self') would block them.
+check exit=1
+## full pnpm build, then guard
+build exit=0
+externalize-inline-scripts: 5 page(s) checked, no executable inline scripts
+check exit=0
+## externalized file sizes (bytes) and how many of the 4 served pages reference each
+    16  a7b184efc6db3070.js  pages=4
+    53  44164d886dd9b5bd.js  pages=4
+    57  ee6bb81f4e9fc030.js  pages=4
+   135  76e85ac56348fba4.js  pages=4
+   192  2d011bbd71207150.js  pages=0
+   265  877dade1e2ad4ffe.js  pages=1
+   267  4f6f822b3e516284.js  pages=1
+   271  f34bb1242231b36e.js  pages=1
+   275  5bbc34d2b06fee96.js  pages=1
+   369  5fe3d5e28e6635ca.js  pages=0
+   370  7966ba0cc6513139.js  pages=4
+   509  9f50fd7195f0e193.js  pages=4
+   845  4009527b06902e2f.js  pages=4
+total bytes: 3624

@@ -1,0 +1,19 @@
+# WP-04 final gate 2026-10-12 21:53 PDT at 4074b5e + working tree
+pnpm lint exit=0
+pnpm typecheck exit=0
+ Test Files  16 passed (16)
+      Tests  152 passed (152)
+content:images: 0 generated, 6 unchanged, manifest unchanged
+content:images --check: 6 image(s) up to date
+  0 issues
+CONTENT_FIXTURES=1 pnpm build exit=0
+$ tsc -b && react-router build && node scripts/generate-sitemap.mjs && node scripts/externalize-inline-scripts.mjs && node scripts/prune-build-media.ts && node scripts/verify-build-content.ts
+prune-build-media: fixtures build keeps media for 6 entries; removed 0 folder(s)
+verify-build-content: fixtures build OK: 34 files scanned; work 3/4 included, blog 3/4 included
+verify-build-content: FIXTURE BUILD (CONTENT_FIXTURES=1): do not deploy
+pnpm build exit=0
+$ tsc -b && react-router build && node scripts/generate-sitemap.mjs && node scripts/externalize-inline-scripts.mjs && node scripts/prune-build-media.ts && node scripts/verify-build-content.ts
+prune-build-media: production build keeps media for 0 entries; removed 4 folder(s)
+verify-build-content: production build OK: 34 files scanned; work 0/4 included, blog 0/4 included
+pnpm test:e2e:   20 passed (5.6s)
+pnpm test:e2e:built:   17 passed (2.4s)

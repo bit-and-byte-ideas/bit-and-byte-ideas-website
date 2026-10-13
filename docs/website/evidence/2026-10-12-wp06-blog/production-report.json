@@ -1,0 +1,102 @@
+[
+  {
+    "path": "/blog",
+    "width": 375,
+    "status": 200,
+    "title": "Blog — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Engineering Notes"
+    ],
+    "headings": [
+      1,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 375,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": null,
+    "proseWidth": null,
+    "tocVisible": 0,
+    "smallTargets": [],
+    "statusMarkers": 0,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/blog",
+    "width": 768,
+    "status": 200,
+    "title": "Blog — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Engineering Notes"
+    ],
+    "headings": [
+      1,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 768,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": null,
+    "proseWidth": null,
+    "tocVisible": 0,
+    "smallTargets": [],
+    "statusMarkers": 0,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/blog",
+    "width": 1024,
+    "status": 200,
+    "title": "Blog — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Engineering Notes"
+    ],
+    "headings": [
+      1,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1024,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": null,
+    "proseWidth": null,
+    "tocVisible": 0,
+    "smallTargets": [],
+    "statusMarkers": 0,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/blog",
+    "width": 1440,
+    "status": 200,
+    "title": "Blog — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Engineering Notes"
+    ],
+    "headings": [
+      1,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1440,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": null,
+    "proseWidth": null,
+    "tocVisible": 0,
+    "smallTargets": [],
+    "statusMarkers": 0,
+    "skippedHeadingLevel": false
+  }
+]

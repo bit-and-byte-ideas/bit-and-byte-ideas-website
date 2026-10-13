@@ -1,0 +1,16 @@
+## capture this site's own production build (not a customer site), into the scratchpad
+content:capture: wrote ../../../../../../../private/tmp/claude-501/-Users-carlosbarajas-source-repos-github-bit-and-byte-ideas-bit-and-byte-ideas-website/3b5c33bd-a084-43d3-88a2-9a84b151800c/scratchpad/capture/home.png (desktop)
+  Before committing: record the owner's approval (publicApproval) - this repository is public.
+  Next: reference the file in index.md (images: or ![alt](./images/...)), then run pnpm content:images.
+content:capture: wrote ../../../../../../../private/tmp/claude-501/-Users-carlosbarajas-source-repos-github-bit-and-byte-ideas-bit-and-byte-ideas-website/3b5c33bd-a084-43d3-88a2-9a84b151800c/scratchpad/capture/about-mobile.png (mobile)
+  Before committing: record the owner's approval (publicApproval) - this repository is public.
+  Next: reference the file in index.md (images: or ![alt](./images/...)), then run pnpm content:images.
+home.png {"format":"png","width":2880,"height":1800}
+about-mobile.png {"format":"png","width":1170,"height":2532}
+
+## refusals
+content:capture: ../../../../../../../private/tmp/claude-501/-Users-carlosbarajas-source-repos-github-bit-and-byte-ideas-bit-and-byte-ideas-website/3b5c33bd-a084-43d3-88a2-9a84b151800c/scratchpad/capture/home.png exists; pass --force to replace it
+content:capture: "fixtures/work/x" must be work/<slug> or blog/<slug> (fixtures never use real screenshots)
+content:capture: src/content/work/no-such-entry/index.md does not exist; create the entry first
+content:capture: only http(s) URLs can be captured
+content:capture: name "Home_Page" must be lowercase kebab-case

@@ -1,0 +1,10 @@
+## source changed after generation (diagram.png overwritten with cover.png bytes)
+1 issue(s):
+  - src/content/fixtures/blog/fixture-long-article/index.md: image "diagram.png" changed since its variants were generated; run pnpm content:images
+content:check exit=1
+content:images --check: 1 problem(s):
+  - src/content/fixtures/blog/fixture-long-article/images/diagram.png: variants are missing or stale; run pnpm content:images
+content:images --check exit=1
+## restored original
+  0 issues
+content:images --check: 6 image(s) up to date

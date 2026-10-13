@@ -1,0 +1,237 @@
+{
+  "baseUrl": "http://127.0.0.1:4173",
+  "capturedAt": "2026-10-13T01:23:21.540Z",
+  "probes": [
+    {
+      "viewport": "mobile",
+      "path": "/",
+      "horizontalOverflow": true,
+      "headings": [
+        "H1:We BuildCustomWebsites& Web Apps.",
+        "H2:Services Builtfor Real Business",
+        "H3:Website & Application Development",
+        "H3:Business Automation & Integrations",
+        "H3:Maintenance + Hosting",
+        "H2:Simple Process.No Surprises.",
+        "H3:Consult",
+        "H3:Build",
+        "H3:Launch",
+        "H2:Questions, Answered.",
+        "H3:Cost & Process",
+        "H3:Fit & Logistics",
+        "H2:Ready to buildsomething great?"
+      ],
+      "imagesMissingDims": [],
+      "imagesMissingAlt": [],
+      "smallTouchTargets": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/about/",
+      "horizontalOverflow": false,
+      "headings": [
+        "H1:Built by someone who's shipped fintech and energy ",
+        "H2:CarlosBarajas",
+        "H2:What I Work With",
+        "H3:Frontend",
+        "H3:Cloud & Infrastructure",
+        "H3:DevOps & GitOps",
+        "H3:Languages & Backends",
+        "H2:Best Fit For",
+        "H3:Small Businesses & Local Services",
+        "H3:Startups & Founders",
+        "H3:Teams Needing a Technical Partner",
+        "H2:Let's Talk."
+      ],
+      "imagesMissingDims": [],
+      "imagesMissingAlt": [],
+      "smallTouchTargets": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/connect/",
+      "horizontalOverflow": false,
+      "headings": [
+        "H1:Carlos Barajas",
+        "H2:Build. Automate. Maintain.",
+        "H3:Build",
+        "H3:Automate",
+        "H3:Maintain"
+      ],
+      "imagesMissingDims": [],
+      "imagesMissingAlt": [],
+      "smallTouchTargets": []
+    },
+    {
+      "viewport": "mobile",
+      "path": "/404/",
+      "horizontalOverflow": false,
+      "headings": [
+        "H1:This page took a wrong turn."
+      ],
+      "imagesMissingDims": [],
+      "imagesMissingAlt": [],
+      "smallTouchTargets": []
+    },
+    {
+      "viewport": "tablet",
+      "path": "/",
+      "horizontalOverflow": false,
+      "headings": [
+        "H1:We BuildCustomWebsites& Web Apps.",
+        "H2:Services Builtfor Real Business",
+        "H3:Website & Application Development",
+        "H3:Business Automation & Integrations",
+        "H3:Maintenance + Hosting",
+        "H2:Simple Process.No Surprises.",
+        "H3:Consult",
+        "H3:Build",
+        "H3:Launch",
+        "H2:Questions, Answered.",
+        "H3:Cost & Process",
+        "H3:Fit & Logistics",
+        "H2:Ready to buildsomething great?"
+      ],
+      "imagesMissingDims": [],
+      "imagesMissingAlt": [],
+      "smallTouchTargets": []
+    },
+    {
+      "viewport": "tablet",
+      "path": "/about/",
+      "horizontalOverflow": false,
+      "headings": [
+        "H1:Built by someone who's shipped fintech and energy ",
+        "H2:CarlosBarajas",
+        "H2:What I Work With",
+        "H3:Frontend",
+        "H3:Cloud & Infrastructure",
+        "H3:DevOps & GitOps",
+        "H3:Languages & Backends",
+        "H2:Best Fit For",
+        "H3:Small Businesses & Local Services",
+        "H3:Startups & Founders",
+        "H3:Teams Needing a Technical Partner",
+        "H2:Let's Talk."
+      ],
+      "imagesMissingDims": [],
+      "imagesMissingAlt": [],
+      "smallTouchTargets": []
+    },
+    {
+      "viewport": "tablet",
+      "path": "/connect/",
+      "horizontalOverflow": false,
+      "headings": [
+        "H1:Carlos Barajas",
+        "H2:Build. Automate. Maintain.",
+        "H3:Build",
+        "H3:Automate",
+        "H3:Maintain"
+      ],
+      "imagesMissingDims": [],
+      "imagesMissingAlt": [],
+      "smallTouchTargets": []
+    },
+    {
+      "viewport": "tablet",
+      "path": "/404/",
+      "horizontalOverflow": false,
+      "headings": [
+        "H1:This page took a wrong turn."
+      ],
+      "imagesMissingDims": [],
+      "imagesMissingAlt": [],
+      "smallTouchTargets": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/",
+      "horizontalOverflow": false,
+      "headings": [
+        "H1:We BuildCustomWebsites& Web Apps.",
+        "H2:Services Builtfor Real Business",
+        "H3:Website & Application Development",
+        "H3:Business Automation & Integrations",
+        "H3:Maintenance + Hosting",
+        "H2:Simple Process.No Surprises.",
+        "H3:Consult",
+        "H3:Build",
+        "H3:Launch",
+        "H2:Questions, Answered.",
+        "H3:Cost & Process",
+        "H3:Fit & Logistics",
+        "H2:Ready to buildsomething great?"
+      ],
+      "imagesMissingDims": [],
+      "imagesMissingAlt": [],
+      "smallTouchTargets": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/about/",
+      "horizontalOverflow": false,
+      "headings": [
+        "H1:Built by someone who's shipped fintech and energy ",
+        "H2:CarlosBarajas",
+        "H2:What I Work With",
+        "H3:Frontend",
+        "H3:Cloud & Infrastructure",
+        "H3:DevOps & GitOps",
+        "H3:Languages & Backends",
+        "H2:Best Fit For",
+        "H3:Small Businesses & Local Services",
+        "H3:Startups & Founders",
+        "H3:Teams Needing a Technical Partner",
+        "H2:Let's Talk."
+      ],
+      "imagesMissingDims": [],
+      "imagesMissingAlt": [],
+      "smallTouchTargets": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/connect/",
+      "horizontalOverflow": false,
+      "headings": [
+        "H1:Carlos Barajas",
+        "H2:Build. Automate. Maintain.",
+        "H3:Build",
+        "H3:Automate",
+        "H3:Maintain"
+      ],
+      "imagesMissingDims": [],
+      "imagesMissingAlt": [],
+      "smallTouchTargets": []
+    },
+    {
+      "viewport": "desktop",
+      "path": "/404/",
+      "horizontalOverflow": false,
+      "headings": [
+        "H1:This page took a wrong turn."
+      ],
+      "imagesMissingDims": [],
+      "imagesMissingAlt": [],
+      "smallTouchTargets": []
+    }
+  ],
+  "csp": {
+    "withoutHeader": {
+      "reactRouterContext": true,
+      "mobileMenuExpandedAfterClick": "true",
+      "cspViolationCount": 0,
+      "sampleViolations": []
+    },
+    "withProductionHeader": {
+      "reactRouterContext": false,
+      "mobileMenuExpandedAfterClick": "false",
+      "cspViolationCount": 8,
+      "sampleViolations": [
+        "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-n1D9cZ",
+        "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-eWa6DM",
+        "Executing inline script violates the following Content Security Policy directive 'script-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-h32t4e"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+# WP-02 final gate 2026-10-12 19:42 PDT at 4074b5e + working tree
+pnpm lint exit=0
+pnpm typecheck exit=0
+ Test Files  7 passed (7)
+      Tests  27 passed (27)
+pnpm build exit=0
+externalize-inline-scripts: moved 36 inline script(s) from 5 page(s) into 13 file(s) under /assets/inline/
+externalize-inline-scripts: 5 page(s) checked, no executable inline scripts
+guard --check exit=0
+pnpm test:e2e:   20 passed (5.4s)
+pnpm test:e2e:built:   17 passed (2.4s)
+staticwebapp.config.json diff exit=0 (0 = unchanged)

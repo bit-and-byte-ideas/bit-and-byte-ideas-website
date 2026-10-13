@@ -1,0 +1,298 @@
+[
+  {
+    "path": "/work",
+    "width": 375,
+    "status": 200,
+    "title": "Work — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Selected Work"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 375,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 3,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/work",
+    "width": 768,
+    "status": 200,
+    "title": "Work — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Selected Work"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 768,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 3,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/work",
+    "width": 1024,
+    "status": 200,
+    "title": "Work — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Selected Work"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1024,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 3,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/work",
+    "width": 1440,
+    "status": 200,
+    "title": "Work — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Selected Work"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1440,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 3,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/work/fixture-client-greenhouse",
+    "width": 375,
+    "status": 200,
+    "title": "[Fixture] Client project: Lunar Greenhouse Supply — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] Client project: Lunar Greenhouse Supply"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 375,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 1,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/work/fixture-client-greenhouse",
+    "width": 768,
+    "status": 200,
+    "title": "[Fixture] Client project: Lunar Greenhouse Supply — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] Client project: Lunar Greenhouse Supply"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 768,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 1,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/work/fixture-client-greenhouse",
+    "width": 1024,
+    "status": 200,
+    "title": "[Fixture] Client project: Lunar Greenhouse Supply — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] Client project: Lunar Greenhouse Supply"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1024,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 1,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/work/fixture-client-greenhouse",
+    "width": 1440,
+    "status": 200,
+    "title": "[Fixture] Client project: Lunar Greenhouse Supply — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] Client project: Lunar Greenhouse Supply"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1440,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 1,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/work/fixture-concept-ferry-weather",
+    "width": 375,
+    "status": 200,
+    "title": "[Fixture] Concept: Weather board for a fictional ferry — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] Concept: Weather board for a fictional ferry"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 375,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 1,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/work/fixture-concept-ferry-weather",
+    "width": 768,
+    "status": 200,
+    "title": "[Fixture] Concept: Weather board for a fictional ferry — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] Concept: Weather board for a fictional ferry"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 768,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 1,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/work/fixture-concept-ferry-weather",
+    "width": 1024,
+    "status": 200,
+    "title": "[Fixture] Concept: Weather board for a fictional ferry — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] Concept: Weather board for a fictional ferry"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1024,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 1,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/work/fixture-concept-ferry-weather",
+    "width": 1440,
+    "status": 200,
+    "title": "[Fixture] Concept: Weather board for a fictional ferry — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] Concept: Weather board for a fictional ferry"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1440,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 1,
+    "skippedHeadingLevel": false
+  }
+]

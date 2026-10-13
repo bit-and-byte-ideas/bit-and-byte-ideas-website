@@ -1,0 +1,30 @@
+# WP-05 final gate 2026-10-12 22:18 PDT at 4074b5e + working tree
+pnpm lint exit=0
+pnpm typecheck exit=0
+ Test Files  18 passed (18)
+      Tests  176 passed (176)
+  0 issues
+pnpm test:e2e (dev):   31 passed (6.4s)
+CONTENT_FIXTURES=1 pnpm build exit=0
+$ tsc -b && react-router build && node scripts/generate-sitemap.mjs && node scripts/externalize-inline-scripts.mjs && node scripts/prune-build-media.ts && node scripts/verify-build-content.ts
+Prerender (html): /work -> build/client/work/index.html
+Prerender (html): /work/fixture-client-greenhouse -> build/client/work/fixture-client-greenhouse/index.html
+Prerender (html): /work/fixture-concept-ferry-weather -> build/client/work/fixture-concept-ferry-weather/index.html
+Prerender (html): /work/fixture-internal-invoice-robot -> build/client/work/fixture-internal-invoice-robot/index.html
+verify-build-content: fixtures build OK: 54 files scanned; work 3/4 included, blog 3/4 included
+verify-build-content: FIXTURE BUILD (CONTENT_FIXTURES=1): do not deploy
+pnpm test:e2e:built (fixture build):   2 skipped
+pnpm test:e2e:built (fixture build):   21 passed (2.9s)
+pnpm build exit=0
+$ tsc -b && react-router build && node scripts/generate-sitemap.mjs && node scripts/externalize-inline-scripts.mjs && node scripts/prune-build-media.ts && node scripts/verify-build-content.ts
+Prerender (html): / -> build/client/index.html
+Prerender (html): /about -> build/client/about/index.html
+Prerender (html): /connect -> build/client/connect/index.html
+Prerender (html): /work -> build/client/work/index.html
+Prerender (html): /404 -> build/client/404/index.html
+Prerender (html): SPA Fallback -> build/client/__spa-fallback.html
+verify-build-content: production build OK: 39 files scanned; work 0/4 included, blog 0/4 included
+pnpm test:e2e:built (production build):   4 skipped
+pnpm test:e2e:built (production build):   19 passed (2.5s)
+client JS parser leak check:
+  none

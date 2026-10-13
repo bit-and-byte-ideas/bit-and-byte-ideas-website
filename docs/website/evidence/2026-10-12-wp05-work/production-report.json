@@ -1,0 +1,86 @@
+[
+  {
+    "path": "/work",
+    "width": 375,
+    "status": 200,
+    "title": "Work — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Selected Work"
+    ],
+    "headings": [
+      1,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 375,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 0,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/work",
+    "width": 768,
+    "status": 200,
+    "title": "Work — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Selected Work"
+    ],
+    "headings": [
+      1,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 768,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 0,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/work",
+    "width": 1024,
+    "status": 200,
+    "title": "Work — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Selected Work"
+    ],
+    "headings": [
+      1,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1024,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 0,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/work",
+    "width": 1440,
+    "status": 200,
+    "title": "Work — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Selected Work"
+    ],
+    "headings": [
+      1,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1440,
+    "imagesMissingDims": 0,
+    "smallTargets": [],
+    "statusMarkers": 0,
+    "skippedHeadingLevel": false
+  }
+]

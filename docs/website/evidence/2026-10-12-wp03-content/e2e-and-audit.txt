@@ -1,0 +1,22 @@
+## pnpm test:e2e
+  20 passed (4.2s)
+## pnpm test:e2e:built (production build in place)
+  17 passed (2.5s)
+## pnpm audit
+├─────────────────────┼────────────────────────────────────────────────────────┤
+│ Vulnerable versions │ >=8.0.0 <8.10.2                                        │
+├─────────────────────┼────────────────────────────────────────────────────────┤
+│ Patched versions    │ >=8.10.2                                               │
+├─────────────────────┼────────────────────────────────────────────────────────┤
+│ Paths               │ .>@vitest/coverage-v8>vitest>jsdom>undici              │
+│                     │                                                        │
+│                     │ .>jsdom>undici                                         │
+│                     │                                                        │
+│                     │ .>vitest>jsdom>undici                                  │
+├─────────────────────┼────────────────────────────────────────────────────────┤
+│ More info           │ https://github.com/advisories/GHSA-8436-99hf-9mmv      │
+└─────────────────────┴────────────────────────────────────────────────────────┘
+18 vulnerabilities found
+Severity: 3 low | 9 moderate | 6 high
+## pnpm audit --prod
+No known vulnerabilities found

@@ -1,0 +1,390 @@
+[
+  {
+    "path": "/blog",
+    "width": 375,
+    "status": 200,
+    "title": "Blog — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Engineering Notes"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 375,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": null,
+    "proseWidth": null,
+    "tocVisible": 0,
+    "smallTargets": [],
+    "statusMarkers": 3,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/blog",
+    "width": 768,
+    "status": 200,
+    "title": "Blog — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Engineering Notes"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 768,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": null,
+    "proseWidth": null,
+    "tocVisible": 0,
+    "smallTargets": [],
+    "statusMarkers": 3,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/blog",
+    "width": 1024,
+    "status": 200,
+    "title": "Blog — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Engineering Notes"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1024,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": null,
+    "proseWidth": null,
+    "tocVisible": 0,
+    "smallTargets": [],
+    "statusMarkers": 3,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/blog",
+    "width": 1440,
+    "status": 200,
+    "title": "Blog — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "Engineering Notes"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1440,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": null,
+    "proseWidth": null,
+    "tocVisible": 0,
+    "smallTargets": [],
+    "statusMarkers": 3,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/blog/fixture-long-article",
+    "width": 375,
+    "status": 200,
+    "title": "[Fixture] A long article that exercises every element — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] A long article that exercises every element"
+    ],
+    "headings": [
+      1,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      3,
+      3,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 375,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": 17,
+    "proseWidth": [
+      327,
+      707.273
+    ],
+    "tocVisible": 7,
+    "smallTargets": [],
+    "statusMarkers": 3,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/blog/fixture-long-article",
+    "width": 768,
+    "status": 200,
+    "title": "[Fixture] A long article that exercises every element — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] A long article that exercises every element"
+    ],
+    "headings": [
+      1,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      3,
+      3,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 768,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": 17,
+    "proseWidth": [
+      666,
+      707.273
+    ],
+    "tocVisible": 7,
+    "smallTargets": [],
+    "statusMarkers": 3,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/blog/fixture-long-article",
+    "width": 1024,
+    "status": 200,
+    "title": "[Fixture] A long article that exercises every element — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] A long article that exercises every element"
+    ],
+    "headings": [
+      1,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      3,
+      3,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1024,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": 17,
+    "proseWidth": [
+      666,
+      707.273
+    ],
+    "tocVisible": 7,
+    "smallTargets": [],
+    "statusMarkers": 3,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/blog/fixture-long-article",
+    "width": 1440,
+    "status": 200,
+    "title": "[Fixture] A long article that exercises every element — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] A long article that exercises every element"
+    ],
+    "headings": [
+      1,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      3,
+      3,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1440,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": 17,
+    "proseWidth": [
+      666,
+      707.273
+    ],
+    "tocVisible": 7,
+    "smallTargets": [],
+    "statusMarkers": 3,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/blog/fixture-short-article",
+    "width": 375,
+    "status": 200,
+    "title": "[Fixture] A short article without a table of contents — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] A short article without a table of contents"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 375,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": 17,
+    "proseWidth": [
+      327,
+      707.273
+    ],
+    "tocVisible": 0,
+    "smallTargets": [],
+    "statusMarkers": 2,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/blog/fixture-short-article",
+    "width": 768,
+    "status": 200,
+    "title": "[Fixture] A short article without a table of contents — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] A short article without a table of contents"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 768,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": 17,
+    "proseWidth": [
+      666,
+      707.273
+    ],
+    "tocVisible": 0,
+    "smallTargets": [],
+    "statusMarkers": 2,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/blog/fixture-short-article",
+    "width": 1024,
+    "status": 200,
+    "title": "[Fixture] A short article without a table of contents — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] A short article without a table of contents"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1024,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": 17,
+    "proseWidth": [
+      666,
+      707.273
+    ],
+    "tocVisible": 0,
+    "smallTargets": [],
+    "statusMarkers": 2,
+    "skippedHeadingLevel": false
+  },
+  {
+    "path": "/blog/fixture-short-article",
+    "width": 1440,
+    "status": 200,
+    "title": "[Fixture] A short article without a table of contents — Bit & Byte Ideas",
+    "robots": "noindex",
+    "h1": [
+      "[Fixture] A short article without a table of contents"
+    ],
+    "headings": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2
+    ],
+    "overflow": false,
+    "scrollWidth": 1440,
+    "imagesMissingDims": 0,
+    "styleAttributes": 0,
+    "proseFontPx": 17,
+    "proseWidth": [
+      666,
+      707.273
+    ],
+    "tocVisible": 0,
+    "smallTargets": [],
+    "statusMarkers": 2,
+    "skippedHeadingLevel": false
+  }
+]

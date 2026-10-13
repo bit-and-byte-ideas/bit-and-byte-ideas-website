@@ -1,0 +1,20 @@
+  ✓   1 [chromium] › e2e/built/hydration.spec.ts:47:5 › Production build under the production CSP › / carries the configured CSP header
+  ✘   2 [chromium] › e2e/built/hydration.spec.ts:52:5 › Production build under the production CSP › / has no executable inline scripts
+  ✘   3 [chromium] › e2e/built/hydration.spec.ts:57:5 › Production build under the production CSP › / hydrates with zero CSP violations
+  ✓   4 [chromium] › e2e/built/hydration.spec.ts:47:5 › Production build under the production CSP › /about carries the configured CSP header
+  ✘   5 [chromium] › e2e/built/hydration.spec.ts:52:5 › Production build under the production CSP › /about has no executable inline scripts
+  ✘   6 [chromium] › e2e/built/hydration.spec.ts:57:5 › Production build under the production CSP › /about hydrates with zero CSP violations
+  ✓   7 [chromium] › e2e/built/hydration.spec.ts:47:5 › Production build under the production CSP › /connect carries the configured CSP header
+  ✘   8 [chromium] › e2e/built/hydration.spec.ts:52:5 › Production build under the production CSP › /connect has no executable inline scripts
+  ✘   9 [chromium] › e2e/built/hydration.spec.ts:57:5 › Production build under the production CSP › /connect hydrates with zero CSP violations
+  ✓  10 [chromium] › e2e/built/hydration.spec.ts:47:5 › Production build under the production CSP › /404 carries the configured CSP header
+  ✘  11 [chromium] › e2e/built/hydration.spec.ts:52:5 › Production build under the production CSP › /404 has no executable inline scripts
+  ✘  12 [chromium] › e2e/built/hydration.spec.ts:57:5 › Production build under the production CSP › /404 hydrates with zero CSP violations
+  ✘  13 [chromium] › e2e/built/hydration.spec.ts:69:3 › Production build under the production CSP › mobile menu opens, navigates, and closes
+  ✘  14 [chromium] › e2e/built/hydration.spec.ts:81:3 › Production build under the production CSP › Escape closes the mobile menu and returns focus to the toggle
+  ✘  15 [chromium] › e2e/built/hydration.spec.ts:93:3 › Production build under the production CSP › nav picks up its scrolled state
+  ✘  16 [chromium] › e2e/built/hydration.spec.ts:100:3 › Production build under the production CSP › nav links navigate client-side without a full reload
+  ✘  17 [chromium] › e2e/built/hydration.spec.ts:115:3 › Production build under the production CSP › unknown paths return a real 404 with the branded page
+  13 failed
+  4 passed
+[ELIFECYCLE] Command failed with exit code 1.

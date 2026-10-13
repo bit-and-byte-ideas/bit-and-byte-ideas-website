@@ -1,0 +1,16 @@
+# WP-03 final gate 2026-10-12 20:13 PDT at 4074b5e + working tree
+pnpm lint exit=0
+pnpm typecheck exit=0
+ Test Files  13 passed (13)
+      Tests  125 passed (125)
+content:check (8 source files, today 2026-10-13 UTC)
+  work: 4 valid (0 real, 4 fixtures, 1 drafts); included in production 0, fixtures 3, development 4
+  blog: 4 valid (0 real, 4 fixtures, 1 drafts); included in production 0, fixtures 3, development 4
+  0 issues
+CONTENT_FIXTURES=1 pnpm build exit=0
+verify-build-content: fixtures build OK: 34 files scanned; work 3/4 included, blog 3/4 included
+verify-build-content: FIXTURE BUILD (CONTENT_FIXTURES=1): do not deploy
+pnpm build exit=0
+verify-build-content: production build OK: 34 files scanned; work 0/4 included, blog 0/4 included
+pnpm test:e2e:   20 passed (4.4s)
+pnpm test:e2e:built:   17 passed (2.6s)

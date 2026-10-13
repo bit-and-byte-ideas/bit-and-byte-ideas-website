@@ -1,0 +1,15 @@
+home-mobile.png: 375x812, 0 differing pixels (0.000%)
+home-tablet.png: 768x1024, 0 differing pixels (0.000%)
+home-desktop.png: 1440x4585, 0 differing pixels (0.000%)
+about-mobile.png: 375x812, 0 differing pixels (0.000%)
+about-tablet.png: 768x1024, 0 differing pixels (0.000%)
+about-desktop.png: 1440x3378, 0 differing pixels (0.000%)
+connect-mobile.png: 375x812, 0 differing pixels (0.000%)
+connect-tablet.png: 768x1024, 0 differing pixels (0.000%)
+connect-desktop.png: 1440x2134, 0 differing pixels (0.000%)
+404-mobile.png: 375x812, 0 differing pixels (0.000%)
+404-tablet.png: 768x1024, 0 differing pixels (0.000%)
+404-desktop.png: 1440x900, 0 differing pixels (0.000%)
+
+The 12 regression screenshots were deleted after this comparison: they were pixel-identical to
+docs/website/evidence/2026-10-12-wp01-baseline/ (re-create with capture-baseline.mjs + compare.mjs).

@@ -1,0 +1,7 @@
+## pnpm audit --prod
+No known vulnerabilities found
+## pnpm audit (summary)
+18 vulnerabilities found
+Severity: 3 low | 9 moderate | 6 high
+## advisories involving sharp or @img/*
+none

@@ -1,0 +1,38 @@
+$ playwright test --config playwright.built.config.ts --reporter=list
+
+Running 31 tests using 3 workers
+
+  ✓   2 [chromium] › e2e/built/hydration.spec.ts:22:5 › Production build under the production CSP › / carries the configured CSP header (11ms)
+  ✓   4 [chromium] › e2e/built/hydration.spec.ts:27:5 › Production build under the production CSP › / has no executable inline scripts (5ms)
+  ✓   3 [chromium] › e2e/built/blog.spec.ts:13:3 › Blog in the production build › /blog shows the deliberate empty state and is not indexed (AC-8) (213ms)
+  ✓   1 [chromium] › e2e/built/work.spec.ts:11:3 › Work in the production build › /work shows the deliberate empty state and is not indexed (218ms)
+  ✓   5 [chromium] › e2e/built/hydration.spec.ts:32:5 › Production build under the production CSP › / hydrates with zero CSP violations (225ms)
+  ✓   6 [chromium] › e2e/built/blog.spec.ts:23:3 › Blog in the production build › fixture and draft article URLs return 404 (AC-8) (9ms)
+  -   9 [chromium] › e2e/built/blog.spec.ts:33:3 › Blog in a fixture build › direct load and refresh of an article return 200 with full content (AC-9)
+  -  10 [chromium] › e2e/built/blog.spec.ts:47:3 › Blog in a fixture build › unknown and draft slugs return 404 and keep the branded page after hydration (AC-9)
+  -  11 [chromium] › e2e/built/blog.spec.ts:58:3 › Blog in a fixture build › the index lists the published fixtures only, newest first
+  -  12 [chromium] › e2e/built/blog.spec.ts:68:3 › Blog in a fixture build › client navigation: index → article → back, with hydration on
+  -  13 [chromium] › e2e/built/blog.spec.ts:83:3 › Blog in a fixture build › a TOC link clicked before hydration still lands below the fixed nav (AC-3)
+  -  14 [chromium] › e2e/built/blog.spec.ts:103:3 › Blog in a fixture build › article data files are served with the configured MIME type
+  ✓   7 [chromium] › e2e/built/work.spec.ts:20:3 › Work in the production build › fixture and draft project URLs return 404 (9ms)
+  -  15 [chromium] › e2e/built/work.spec.ts:30:3 › Work in a fixture build › direct load and refresh of a project return 200 with full content
+  -  16 [chromium] › e2e/built/work.spec.ts:43:3 › Work in a fixture build › unknown and draft slugs return 404 and keep the branded page after hydration
+  -  17 [chromium] › e2e/built/work.spec.ts:52:3 › Work in a fixture build › client navigation: index → project → back, with hydration on
+  -  18 [chromium] › e2e/built/work.spec.ts:67:3 › Work in a fixture build › project data files are served with the configured MIME type
+  ✓   8 [chromium] › e2e/built/hydration.spec.ts:22:5 › Production build under the production CSP › /about carries the configured CSP header (5ms)
+  ✓  19 [chromium] › e2e/built/hydration.spec.ts:27:5 › Production build under the production CSP › /about has no executable inline scripts (2ms)
+  ✓  20 [chromium] › e2e/built/hydration.spec.ts:32:5 › Production build under the production CSP › /about hydrates with zero CSP violations (144ms)
+  ✓  21 [chromium] › e2e/built/hydration.spec.ts:22:5 › Production build under the production CSP › /connect carries the configured CSP header (2ms)
+  ✓  22 [chromium] › e2e/built/hydration.spec.ts:27:5 › Production build under the production CSP › /connect has no executable inline scripts (5ms)
+  ✓  23 [chromium] › e2e/built/hydration.spec.ts:32:5 › Production build under the production CSP › /connect hydrates with zero CSP violations (141ms)
+  ✓  24 [chromium] › e2e/built/hydration.spec.ts:22:5 › Production build under the production CSP › /404 carries the configured CSP header (2ms)
+  ✓  25 [chromium] › e2e/built/hydration.spec.ts:27:5 › Production build under the production CSP › /404 has no executable inline scripts (2ms)
+  ✓  26 [chromium] › e2e/built/hydration.spec.ts:32:5 › Production build under the production CSP › /404 hydrates with zero CSP violations (119ms)
+  ✓  27 [chromium] › e2e/built/hydration.spec.ts:41:3 › Production build under the production CSP › mobile menu opens, navigates, and closes (262ms)
+  ✓  28 [chromium] › e2e/built/hydration.spec.ts:53:3 › Production build under the production CSP › Escape closes the mobile menu and returns focus to the toggle (189ms)
+  ✓  29 [chromium] › e2e/built/hydration.spec.ts:65:3 › Production build under the production CSP › nav picks up its scrolled state (216ms)
+  ✓  30 [chromium] › e2e/built/hydration.spec.ts:72:3 › Production build under the production CSP › nav links navigate client-side without a full reload (304ms)
+  ✓  31 [chromium] › e2e/built/hydration.spec.ts:87:3 › Production build under the production CSP › unknown paths return a real 404 with the branded page (120ms)
+
+  10 skipped
+  21 passed (2.2s)

@@ -1,0 +1,30 @@
+## pnpm build (production)
+externalize-inline-scripts: moved 36 inline script(s) from 5 page(s) into 13 file(s) under /assets/inline/
+prune-build-media: production build keeps media for 0 entries; removed 4 folder(s)
+verify-build-content: production build OK: 34 files scanned; work 0/4 included, blog 0/4 included
+exit=0
+build/client/media present: no
+
+## planted fixture media in a production build
+verify-build-content: excluded content found in the production build:
+  - build/client/media/work/fixture-client-greenhouse: media for an entry this build does not include
+exit=1
+
+## CONTENT_FIXTURES=1 pnpm build
+externalize-inline-scripts: moved 36 inline script(s) from 5 page(s) into 13 file(s) under /assets/inline/
+prune-build-media: fixtures build keeps media for 6 entries; removed 0 folder(s)
+verify-build-content: fixtures build OK: 34 files scanned; work 3/4 included, blog 3/4 included
+verify-build-content: FIXTURE BUILD (CONTENT_FIXTURES=1): do not deploy
+exit=0
+media kept:
+build/client/media/blog/:
+fixture-long-article
+
+build/client/media/work/:
+fixture-client-greenhouse
+fixture-concept-ferry-weather
+fixture-internal-invoice-robot
+
+## pnpm build again (leave production build in place)
+prune-build-media: production build keeps media for 0 entries; removed 4 folder(s)
+verify-build-content: production build OK: 34 files scanned; work 0/4 included, blog 0/4 included

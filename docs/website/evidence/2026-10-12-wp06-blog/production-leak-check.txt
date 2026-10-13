@@ -1,0 +1,12 @@
+Production build leak check (2026-10-13T05:46:39Z)
+blog files:
+  build/client/blog
+  build/client/blog.data
+  build/client/blog/index.html
+  build/client/assets/blog-index-BoWs0P6h.js
+  build/client/assets/blog-index-DclImXD_.css
+fixture/draft strings in HTML, .data, XML, JS:
+  build/client/assets/content-status-CIJnS5WM.js
+  (end)
+media folders:
+note: the only match is the ContentStatusBanner/Tag component chunk (the attribute name data-content-status in code). No page HTML, .data, or XML contains fixture or draft content; scripts/verify-build-content.ts checks pages for the attribute.

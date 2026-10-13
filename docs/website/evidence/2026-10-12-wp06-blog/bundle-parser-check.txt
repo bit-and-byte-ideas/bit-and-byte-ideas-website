@@ -1,0 +1,26 @@
+AC-10 client bundle check (fixture build, build/client/assets/*.js)
+
+1. Task-doc grep: micromark|unified|lowlight|highlight.js
+   none
+
+2. AC word list including zod and yaml (plain words):
+   micromark     none
+   unified       none
+   lowlight      none
+   highlight\.js none
+   zod           none
+   yaml          content-body-Bz30xQKB.js 
+   context of the yaml match (the fence-language display name, src/content/content-labels.ts):
+   content-body-Bz30xQKB.js::`Go`,bash:`Bash`,json:`JSON`,yaml:`YAML`,http:`HTTP`,
+
+3. Package signatures (parser code would carry these):
+   YAMLParseError    none
+   parseDocument     none
+   ZodError          none
+   z\.object         none
+   micromark         none
+   remark-parse      none
+   rehype-highlight  none
+   registerLanguage  none
+   hljs\.            none
+   github-slugger    none

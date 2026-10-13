@@ -1,0 +1,43 @@
+## pnpm content:check
+content:check (8 source files, today 2026-10-13 UTC)
+  work: 4 valid (0 real, 4 fixtures, 1 drafts); included in production 0, fixtures 3, development 4
+  blog: 4 valid (0 real, 4 fixtures, 1 drafts); included in production 0, fixtures 3, development 4
+  0 issues
+exit=0
+
+## pnpm build (production)
+exit=0
+sitemap.xml written (3 routes, lastmod 2026-10-13)
+externalize-inline-scripts: moved 36 inline script(s) from 5 page(s) into 13 file(s) under /assets/inline/
+verify-build-content: production build OK: 34 files scanned; work 0/4 included, blog 0/4 included
+
+## CONTENT_FIXTURES=1 pnpm build
+exit=0
+externalize-inline-scripts: moved 36 inline script(s) from 5 page(s) into 13 file(s) under /assets/inline/
+verify-build-content: fixtures build OK: 34 files scanned; work 3/4 included, blog 3/4 included
+verify-build-content: FIXTURE BUILD (CONTENT_FIXTURES=1): do not deploy
+
+## planted fixture marker in a production build
+verify-build-content: excluded content found in the production build:
+  - build/client/planted.html: fixture title "[Fixture] Client project: Lunar Greenhouse Supply"
+  - build/client/planted.html: draft URL /blog/fixture-draft-article
+  - build/client/planted.html: fixture title prefix "[Fixture]"
+exit=1
+
+## planted draft marker in a fixture build
+verify-build-content: excluded content found in the fixtures build:
+  - build/client/planted.html: draft URL /blog/fixture-draft-article
+exit=1
+
+## clean production build after planting
+verify-build-content: production build OK: 34 files scanned; work 0/4 included, blog 0/4 included
+exit=0
+## invalid content fails the build's guard step
+verify-build-content: 3 content issue(s):
+  - src/content/blog/temp-invalid/index.md: description must be at least 50 characters
+  - src/content/blog/temp-invalid/index.md: tags[0] "reactjs" is not in src/content/blog-tags.ts
+  - src/content/blog/temp-invalid/index.md:9: H1 "# H1 in body" is not allowed in the body; the title is the H1 (use ##)
+exit=1
+
+## parser/validation code in client bundle (expect none)
+none found

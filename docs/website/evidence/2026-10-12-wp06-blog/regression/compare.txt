@@ -1,0 +1,20 @@
+home-mobile.png: 375x812, 1 differing pixels (0.000%)
+home-tablet.png: 768x1024, 0 differing pixels (0.000%)
+home-desktop.png: 1440x4585, 0 differing pixels (0.000%)
+about-mobile.png: 375x812, 0 differing pixels (0.000%)
+about-tablet.png: 768x1024, 0 differing pixels (0.000%)
+about-desktop.png: 1440x3378, 0 differing pixels (0.000%)
+connect-mobile.png: 375x812, 1 differing pixels (0.000%)
+connect-tablet.png: 768x1024, 0 differing pixels (0.000%)
+connect-desktop.png: 1440x2134, 0 differing pixels (0.000%)
+404-mobile.png: 375x812, 1 differing pixels (0.000%)
+404-tablet.png: 768x1024, 0 differing pixels (0.000%)
+404-desktop.png: 1440x900, 0 differing pixels (0.000%)
+
+Production build (WP-06), compared with docs/website/evidence/2026-10-12-wp01-baseline/ using
+capture-baseline.mjs + ../2026-10-12-wp05-work/regression/compare.mjs.
+The single differing pixel is the same spot on each mobile page, (349, 15) at the menu
+toggle's corner under the nav's backdrop-filter blur, off by 1/255 in the green channel.
+It is renderer noise, not a change: a second capture differed from the baseline only on
+connect-mobile, and the two runs differed from each other at the same pixel on home and
+404. The nav CSS is unchanged. Screenshots were not kept (re-create as above).

@@ -1,0 +1,18 @@
+## the block works
+require: blocked by block-sharp.mjs: sharp
+import: blocked by block-sharp.mjs: sharp
+content:images: 0 generated, 6 unchanged, manifest unchanged
+content:images under the block: exit=0 (expected 0: nothing to generate, so sharp is never loaded)
+
+## pnpm build with sharp blocked
+externalize-inline-scripts: moved 36 inline script(s) from 5 page(s) into 13 file(s) under /assets/inline/
+prune-build-media: production build keeps media for 0 entries; removed 4 folder(s)
+verify-build-content: production build OK: 34 files scanned; work 0/4 included, blog 0/4 included
+build exit=0
+
+## pnpm test with sharp blocked
+ Test Files  14 passed (14)
+      Tests  142 passed (142)
+
+## pnpm content:check with sharp blocked
+  0 issues

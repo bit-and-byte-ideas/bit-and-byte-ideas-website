@@ -1,0 +1,2 @@
+desktop {"width":596,"height":372,"ratio":"1.600","current":"home-desktop-1200.652a5e4e.avif","overflow":false}
+mobile {"width":309,"height":193,"ratio":"1.600","current":"home-desktop-480.652a5e4e.avif","overflow":false}

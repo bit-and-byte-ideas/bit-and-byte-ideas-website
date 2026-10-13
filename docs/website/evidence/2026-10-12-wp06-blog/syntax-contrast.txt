@@ -1,0 +1,14 @@
+WCAG 2 contrast against --surface-code #131c31 (computed from src/design/tokens.css)
+threshold 4.5:1 (AC-4)
+
+--text                 #f8fafc  16.21:1 pass
+--syntax-keyword       #93c5fd  9.41:1 pass
+--syntax-string        #86efac  12.08:1 pass
+--syntax-number        #67e8f9  11.70:1 pass
+--syntax-title         #f8fafc  16.21:1 pass
+--syntax-comment       #94a3b8  6.61:1 pass
+--syntax-punctuation   #94a3b8  6.61:1 pass
+
+language tag (--text-muted) #94a3b8 6.61:1
+
+all syntax tokens pass
