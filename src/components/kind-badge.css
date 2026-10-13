@@ -1,0 +1,29 @@
+.kind-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.kind-badge--client {
+  color: var(--accent);
+  border-color: var(--border-accent);
+  background: var(--accent-dim);
+}
+
+.kind-badge--internal {
+  color: var(--text);
+  background: var(--surface);
+}
+
+/* A concept is not shipped work: a dashed outline reads as provisional. */
+.kind-badge--concept {
+  color: var(--text-muted);
+  border-style: dashed;
+  border-color: var(--border-accent);
+}

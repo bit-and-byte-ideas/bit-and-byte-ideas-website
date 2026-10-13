@@ -6,5 +6,9 @@ import type { Config } from '@react-router/dev/config';
 export default {
   appDirectory: 'src',
   ssr: false,
-  prerender: ['/', '/about', '/connect', '/404'],
+  // Every route without a parameter, which includes one route per included
+  // content entry (src/routes.ts), plus the 404 page for the `*` route.
+  async prerender({ getStaticPaths }) {
+    return [...getStaticPaths(), '/404'];
+  },
 } satisfies Config;

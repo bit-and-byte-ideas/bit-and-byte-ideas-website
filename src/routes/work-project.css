@@ -1,0 +1,81 @@
+.work-project-cover {
+  padding-bottom: var(--space-7);
+}
+
+.work-project-body {
+  display: grid;
+  gap: var(--space-6);
+  padding-bottom: var(--space-8);
+}
+
+/* Facts rail on the right at desktop; first in reading order everywhere. */
+@media (min-width: 1024px) {
+  .work-project-body {
+    grid-template-columns: minmax(0, 1fr) 17rem;
+    column-gap: var(--space-8);
+    align-items: start;
+  }
+
+  .work-project-body .project-meta {
+    grid-column: 2;
+    grid-row: 1;
+    position: sticky;
+    top: 104px;
+  }
+
+  .work-project-main {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+.work-project-gallery {
+  margin-top: var(--space-8);
+}
+
+.work-project-gallery h2 {
+  margin-bottom: var(--space-5);
+  font-size: var(--text-xl);
+  font-weight: 700;
+}
+
+.work-project-gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--space-6);
+}
+
+.work-project-gallery-item--desktop {
+  flex: 1 1 100%;
+}
+
+.work-project-gallery-item--mobile {
+  flex: 0 1 20rem;
+}
+
+.work-project-more {
+  border-top: 1px solid var(--border);
+  padding: var(--space-7) 0;
+}
+
+.work-project-more-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Inline (not flex) so the arrow stays attached to the title's last word. */
+.work-project-next {
+  display: inline-block;
+  padding-block: var(--space-2);
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  transition: color var(--duration-fast) var(--ease-out);
+}
+
+.work-project-next:hover {
+  color: var(--soft-green);
+}

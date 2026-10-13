@@ -1,0 +1,9 @@
+.work-list {
+  padding-top: var(--space-5);
+}
+
+.work-list-items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
