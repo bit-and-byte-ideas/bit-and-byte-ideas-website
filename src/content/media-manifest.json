@@ -1,0 +1,286 @@
+{
+  "version": 1,
+  "settings": "6c9d90947bda10d3",
+  "images": {
+    "blog/fixture-long-article/cover.png": {
+      "source": "src/content/fixtures/blog/fixture-long-article/images/cover.png",
+      "sourceHash": "90f11e72f3a14f7f",
+      "width": 1600,
+      "height": 900,
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "avif": "/media/blog/fixture-long-article/cover-480.90f11e72.avif",
+          "webp": "/media/blog/fixture-long-article/cover-480.90f11e72.webp",
+          "avifBytes": 7457,
+          "webpBytes": 9318
+        },
+        {
+          "width": 800,
+          "height": 450,
+          "avif": "/media/blog/fixture-long-article/cover-800.90f11e72.avif",
+          "webp": "/media/blog/fixture-long-article/cover-800.90f11e72.webp",
+          "avifBytes": 11010,
+          "webpBytes": 15944
+        },
+        {
+          "width": 1200,
+          "height": 675,
+          "avif": "/media/blog/fixture-long-article/cover-1200.90f11e72.avif",
+          "webp": "/media/blog/fixture-long-article/cover-1200.90f11e72.webp",
+          "avifBytes": 15357,
+          "webpBytes": 22624
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "avif": "/media/blog/fixture-long-article/cover-1600.90f11e72.avif",
+          "webp": "/media/blog/fixture-long-article/cover-1600.90f11e72.webp",
+          "avifBytes": 13229,
+          "webpBytes": 25904
+        }
+      ],
+      "og": {
+        "url": "/media/blog/fixture-long-article/cover-og.90f11e72.jpg",
+        "width": 1200,
+        "height": 630,
+        "bytes": 30069
+      }
+    },
+    "blog/fixture-long-article/diagram.png": {
+      "source": "src/content/fixtures/blog/fixture-long-article/images/diagram.png",
+      "sourceHash": "3f27ca223cd6e254",
+      "width": 1600,
+      "height": 900,
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "avif": "/media/blog/fixture-long-article/diagram-480.3f27ca22.avif",
+          "webp": "/media/blog/fixture-long-article/diagram-480.3f27ca22.webp",
+          "avifBytes": 7474,
+          "webpBytes": 9352
+        },
+        {
+          "width": 800,
+          "height": 450,
+          "avif": "/media/blog/fixture-long-article/diagram-800.3f27ca22.avif",
+          "webp": "/media/blog/fixture-long-article/diagram-800.3f27ca22.webp",
+          "avifBytes": 11100,
+          "webpBytes": 16006
+        },
+        {
+          "width": 1200,
+          "height": 675,
+          "avif": "/media/blog/fixture-long-article/diagram-1200.3f27ca22.avif",
+          "webp": "/media/blog/fixture-long-article/diagram-1200.3f27ca22.webp",
+          "avifBytes": 15454,
+          "webpBytes": 22736
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "avif": "/media/blog/fixture-long-article/diagram-1600.3f27ca22.avif",
+          "webp": "/media/blog/fixture-long-article/diagram-1600.3f27ca22.webp",
+          "avifBytes": 13400,
+          "webpBytes": 26158
+        }
+      ]
+    },
+    "work/fixture-client-greenhouse/home-desktop.png": {
+      "source": "src/content/fixtures/work/fixture-client-greenhouse/images/home-desktop.png",
+      "sourceHash": "652a5e4e43ccaf0e",
+      "width": 2880,
+      "height": 1800,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "avif": "/media/work/fixture-client-greenhouse/home-desktop-480.652a5e4e.avif",
+          "webp": "/media/work/fixture-client-greenhouse/home-desktop-480.652a5e4e.webp",
+          "avifBytes": 6315,
+          "webpBytes": 8572
+        },
+        {
+          "width": 800,
+          "height": 500,
+          "avif": "/media/work/fixture-client-greenhouse/home-desktop-800.652a5e4e.avif",
+          "webp": "/media/work/fixture-client-greenhouse/home-desktop-800.652a5e4e.webp",
+          "avifBytes": 11138,
+          "webpBytes": 15862
+        },
+        {
+          "width": 1200,
+          "height": 750,
+          "avif": "/media/work/fixture-client-greenhouse/home-desktop-1200.652a5e4e.avif",
+          "webp": "/media/work/fixture-client-greenhouse/home-desktop-1200.652a5e4e.webp",
+          "avifBytes": 15941,
+          "webpBytes": 23854
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "avif": "/media/work/fixture-client-greenhouse/home-desktop-1600.652a5e4e.avif",
+          "webp": "/media/work/fixture-client-greenhouse/home-desktop-1600.652a5e4e.webp",
+          "avifBytes": 20715,
+          "webpBytes": 29706
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "avif": "/media/work/fixture-client-greenhouse/home-desktop-2400.652a5e4e.avif",
+          "webp": "/media/work/fixture-client-greenhouse/home-desktop-2400.652a5e4e.webp",
+          "avifBytes": 27061,
+          "webpBytes": 43086
+        }
+      ],
+      "og": {
+        "url": "/media/work/fixture-client-greenhouse/home-desktop-og.652a5e4e.jpg",
+        "width": 1200,
+        "height": 630,
+        "bytes": 31442
+      }
+    },
+    "work/fixture-client-greenhouse/home-mobile.png": {
+      "source": "src/content/fixtures/work/fixture-client-greenhouse/images/home-mobile.png",
+      "sourceHash": "a47c9308f5f9081a",
+      "width": 1170,
+      "height": 2532,
+      "variants": [
+        {
+          "width": 480,
+          "height": 1039,
+          "avif": "/media/work/fixture-client-greenhouse/home-mobile-480.a47c9308.avif",
+          "webp": "/media/work/fixture-client-greenhouse/home-mobile-480.a47c9308.webp",
+          "avifBytes": 11230,
+          "webpBytes": 16350
+        },
+        {
+          "width": 800,
+          "height": 1731,
+          "avif": "/media/work/fixture-client-greenhouse/home-mobile-800.a47c9308.avif",
+          "webp": "/media/work/fixture-client-greenhouse/home-mobile-800.a47c9308.webp",
+          "avifBytes": 18637,
+          "webpBytes": 26044
+        },
+        {
+          "width": 1170,
+          "height": 2532,
+          "avif": "/media/work/fixture-client-greenhouse/home-mobile-1170.a47c9308.avif",
+          "webp": "/media/work/fixture-client-greenhouse/home-mobile-1170.a47c9308.webp",
+          "avifBytes": 21548,
+          "webpBytes": 36464
+        }
+      ]
+    },
+    "work/fixture-concept-ferry-weather/board-desktop.png": {
+      "source": "src/content/fixtures/work/fixture-concept-ferry-weather/images/board-desktop.png",
+      "sourceHash": "16d29aeed420fa4a",
+      "width": 2880,
+      "height": 1800,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "avif": "/media/work/fixture-concept-ferry-weather/board-desktop-480.16d29aee.avif",
+          "webp": "/media/work/fixture-concept-ferry-weather/board-desktop-480.16d29aee.webp",
+          "avifBytes": 6231,
+          "webpBytes": 8654
+        },
+        {
+          "width": 800,
+          "height": 500,
+          "avif": "/media/work/fixture-concept-ferry-weather/board-desktop-800.16d29aee.avif",
+          "webp": "/media/work/fixture-concept-ferry-weather/board-desktop-800.16d29aee.webp",
+          "avifBytes": 11257,
+          "webpBytes": 15976
+        },
+        {
+          "width": 1200,
+          "height": 750,
+          "avif": "/media/work/fixture-concept-ferry-weather/board-desktop-1200.16d29aee.avif",
+          "webp": "/media/work/fixture-concept-ferry-weather/board-desktop-1200.16d29aee.webp",
+          "avifBytes": 16124,
+          "webpBytes": 24104
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "avif": "/media/work/fixture-concept-ferry-weather/board-desktop-1600.16d29aee.avif",
+          "webp": "/media/work/fixture-concept-ferry-weather/board-desktop-1600.16d29aee.webp",
+          "avifBytes": 21096,
+          "webpBytes": 30606
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "avif": "/media/work/fixture-concept-ferry-weather/board-desktop-2400.16d29aee.avif",
+          "webp": "/media/work/fixture-concept-ferry-weather/board-desktop-2400.16d29aee.webp",
+          "avifBytes": 27569,
+          "webpBytes": 42810
+        }
+      ],
+      "og": {
+        "url": "/media/work/fixture-concept-ferry-weather/board-desktop-og.16d29aee.jpg",
+        "width": 1200,
+        "height": 630,
+        "bytes": 31763
+      }
+    },
+    "work/fixture-internal-invoice-robot/dashboard-desktop.png": {
+      "source": "src/content/fixtures/work/fixture-internal-invoice-robot/images/dashboard-desktop.png",
+      "sourceHash": "50e09eee3f4ff90a",
+      "width": 2880,
+      "height": 1800,
+      "variants": [
+        {
+          "width": 480,
+          "height": 300,
+          "avif": "/media/work/fixture-internal-invoice-robot/dashboard-desktop-480.50e09eee.avif",
+          "webp": "/media/work/fixture-internal-invoice-robot/dashboard-desktop-480.50e09eee.webp",
+          "avifBytes": 6305,
+          "webpBytes": 8686
+        },
+        {
+          "width": 800,
+          "height": 500,
+          "avif": "/media/work/fixture-internal-invoice-robot/dashboard-desktop-800.50e09eee.avif",
+          "webp": "/media/work/fixture-internal-invoice-robot/dashboard-desktop-800.50e09eee.webp",
+          "avifBytes": 11382,
+          "webpBytes": 15956
+        },
+        {
+          "width": 1200,
+          "height": 750,
+          "avif": "/media/work/fixture-internal-invoice-robot/dashboard-desktop-1200.50e09eee.avif",
+          "webp": "/media/work/fixture-internal-invoice-robot/dashboard-desktop-1200.50e09eee.webp",
+          "avifBytes": 16390,
+          "webpBytes": 24268
+        },
+        {
+          "width": 1600,
+          "height": 1000,
+          "avif": "/media/work/fixture-internal-invoice-robot/dashboard-desktop-1600.50e09eee.avif",
+          "webp": "/media/work/fixture-internal-invoice-robot/dashboard-desktop-1600.50e09eee.webp",
+          "avifBytes": 21278,
+          "webpBytes": 31010
+        },
+        {
+          "width": 2400,
+          "height": 1500,
+          "avif": "/media/work/fixture-internal-invoice-robot/dashboard-desktop-2400.50e09eee.avif",
+          "webp": "/media/work/fixture-internal-invoice-robot/dashboard-desktop-2400.50e09eee.webp",
+          "avifBytes": 27909,
+          "webpBytes": 43292
+        }
+      ],
+      "og": {
+        "url": "/media/work/fixture-internal-invoice-robot/dashboard-desktop-og.50e09eee.jpg",
+        "width": 1200,
+        "height": 630,
+        "bytes": 31972
+      }
+    }
+  }
+}
