@@ -1,0 +1,475 @@
+# Authoritative status for the website extension (work gallery + blog).
+# Task documents hold detailed requirements; this file holds status. If they disagree on
+# acceptance detail, the task document wins; on status, this file wins.
+schema_version: 1
+last_updated: 2026-10-12
+
+objective: >-
+  Extend bitandbyteideas.com (React 19 + React Router 8, statically prerendered on Azure
+  Static Web Apps) with a customer work gallery (/work) and a technology blog (/blog),
+  using validated Markdown content in the repository, preserving the existing
+  "Engineered Dark" brand, URLs, and conversion paths, and leaving the site review-ready
+  and deployable through the existing release workflow.
+
+current_task: null # set to a task id while it is in_progress
+next_task: WP-07 # recommended; WP-08 and WP-11 are also ready
+
+status_values: [todo, ready, in_progress, blocked, done]
+
+repository:
+  branch: site-improvements
+  base_revision: 4074b5e
+  default_branch: main
+  production_url: https://www.bitandbyteideas.com
+  docs_root: docs/website
+
+# Implementation completion (task status below) is tracked separately from real
+# production content. Every task can reach `done` using labeled fixtures. These items are
+# what the public site still needs. Item statuses: missing | supplied | in_review | published.
+content_readiness:
+  launch_behavior: >-
+    Shipping with zero entries is safe: /work and /blog show deliberate empty states with
+    noindex, and the nav, footer, sitemap, and homepage omit them (D-013, D-014). Each area
+    becomes visible after its first published entry.
+  checklist: docs/website/CONTENT.md#missing-asset-checklist
+  items:
+    - id: C-01
+      item: Confirm /work + "Work" naming (BRIEF Q3) before the first project is published
+      owner: Carlos
+      status: missing
+    - id: C-02
+      item: At least one real project (kind, facts, case-study notes)
+      owner: Carlos
+      status: missing
+    - id: C-03
+      item: Written client approval with scope for each client project
+      owner: Carlos
+      status: missing
+    - id: C-04
+      item: Authentic screenshots (or URL plus permission to capture) for each project
+      owner: Carlos
+      status: missing
+    - id: C-05
+      item: At least one article reviewed and approved by Carlos (topic backlog in CONTENT.md)
+      owner: Carlos
+      status: missing
+    - id: C-06
+      item: Founder headshot for bylines (optional, BRIEF Q5)
+      owner: Carlos
+      status: missing
+    - id: C-07
+      item: Confirm the default share image (logo PNG) for entries without a cover
+      owner: Carlos
+      status: missing
+    - id: C-08
+      item: PRODUCT.md and llms.txt updated after first publication (AUDIT K11, K12)
+      owner: WP-10 or the first publishing session
+      status: missing
+
+tasks:
+  - id: WP-01
+    title: Repository audit, brief, and documentation foundation
+    status: done
+    depends_on: []
+    doc: docs/website/tasks/WP-01-audit-and-docs.md
+    content_dependency: none
+    deliverables:
+      - docs/website/{README,BRIEF,AUDIT,DESIGN,ARCHITECTURE,CONTENT,DECISIONS,HANDOFF,VALIDATION}.md
+      - docs/website/MANIFEST.yaml
+      - docs/website/tasks/WP-01..WP-11
+      - docs/website/templates/{project,article}.md
+      - docs/website/evidence/2026-10-12-wp01-baseline/
+      - Pointer section in CLAUDE.md and AGENTS.md
+    acceptance_criteria:
+      - AC-1 All documents exist and are populated with observed facts
+      - AC-2 Manifest complete, with content readiness separated
+      - AC-3 Every task document has all required sections and a prompt
+      - AC-4 Baseline checks recorded as passed / failed / not run
+      - AC-5 CLAUDE.md and AGENTS.md pointer added without changing existing instructions
+      - AC-6 No source, config, or content changes outside docs/website (except AC-5)
+    validation_commands:
+      - pnpm lint
+      - pnpm typecheck
+      - pnpm test
+      - pnpm build
+      - pnpm test:e2e
+      - python3 -c "import yaml; yaml.safe_load(open('docs/website/MANIFEST.yaml'))"
+      - git status --short
+    evidence:
+      - docs/website/VALIDATION.md#session-2026-10-12-wp-01
+      - docs/website/evidence/2026-10-12-wp01-baseline/baseline-report.json
+      - docs/website/evidence/2026-10-12-wp01-baseline/csp-enforced-mobile-menu.png
+      - docs/website/evidence/2026-10-12-wp01-baseline/csp-absent-mobile-menu.png
+    blockers: []
+    next_action: None. Completed 2026-10-12.
+
+  - id: WP-02
+    title: Restore production hydration under strict CSP, plus a build-output e2e harness
+    status: done
+    depends_on: [WP-01]
+    doc: docs/website/tasks/WP-02-csp-hydration-and-built-e2e.md
+    content_dependency: none
+    deliverables:
+      - scripts/serve-built.mjs and the pnpm serve:built script
+      - scripts/externalize-inline-scripts.mjs wired into pnpm build
+      - playwright.built.config.ts, e2e/built/hydration.spec.ts, and the pnpm test:e2e:built script
+      - ci.yaml runs pnpm test:e2e:built
+      - docs/quality-operations.md CSP section corrected
+    acceptance_criteria:
+      - AC-1 No executable inline scripts in build/client HTML; build fails otherwise
+      - AC-2 Built-output e2e under the production CSP passes (hydration, mobile menu, client nav, 404 status, headers)
+      - AC-3 staticwebapp.config.json unchanged
+      - AC-4 lint, typecheck, test, build, test:e2e pass
+      - AC-5 CI runs the new suite; CSP docs accurate
+      - AC-6 Before/after evidence saved
+    validation_commands:
+      - pnpm lint
+      - pnpm typecheck
+      - pnpm test
+      - pnpm build
+      - pnpm test:e2e
+      - pnpm test:e2e:built
+      - git diff --exit-code -- public/staticwebapp.config.json
+    evidence_location: docs/website/evidence/<YYYY-MM-DD>-wp02-csp/
+    evidence:
+      - docs/website/VALIDATION.md#session-2026-10-12-wp-02
+      - docs/website/evidence/2026-10-12-wp02-csp/gates.txt
+      - docs/website/evidence/2026-10-12-wp02-csp/e2e-built-before.txt
+      - docs/website/evidence/2026-10-12-wp02-csp/e2e-built-after.txt
+      - docs/website/evidence/2026-10-12-wp02-csp/e2e-built-webkit.txt
+      - docs/website/evidence/2026-10-12-wp02-csp/before.json
+      - docs/website/evidence/2026-10-12-wp02-csp/after.json
+      - docs/website/evidence/2026-10-12-wp02-csp/before-mobile-menu.png
+      - docs/website/evidence/2026-10-12-wp02-csp/after-mobile-menu.png
+      - docs/website/evidence/2026-10-12-wp02-csp/guard-and-sizes.txt
+    blockers: []
+    next_action: >-
+      None for implementation. Completed 2026-10-12. The live site stays broken until this
+      change is committed, merged, and released (Carlos's call; see HANDOFF.md).
+  - id: WP-03
+    title: Content models, validation, and authoring pipeline
+    status: done
+    depends_on: [WP-01]
+    doc: docs/website/tasks/WP-03-content-pipeline.md
+    content_dependency: fixtures_only
+    deliverables:
+      - src/content/collections/ (schema, frontmatter, filter, body rules, markdown.server, load.server, paths, helpers) with unit tests
+      - src/content/{authors,blog-tags,work-taxonomy}.ts
+      - src/content/fixtures/{work,blog}/ labeled fixtures and placeholder images
+      - pnpm content:check; scripts/verify-build-content.mjs in pnpm build
+    acceptance_criteria:
+      - AC-1 pnpm content:check passes on the repo
+      - AC-2 Every validation rule has a failing-case test
+      - AC-3 Build-mode filtering tested (production, development, fixtures, future dates)
+      - AC-4 Sanitizer strips script, iframe, event handlers, style, and unsafe URLs
+      - AC-5 Heading ids, TOC, reading time, related ranking tested
+      - AC-6 Post-build guard passes and is proven to fail on a planted marker
+      - AC-7 Existing checks pass; no existing test weakened
+      - AC-8 pnpm audit results recorded
+    validation_commands:
+      - pnpm install
+      - pnpm content:check
+      - pnpm test
+      - pnpm lint
+      - pnpm typecheck
+      - pnpm build
+      - CONTENT_FIXTURES=1 pnpm build
+      - pnpm test:e2e
+      - pnpm audit
+    evidence_location: docs/website/evidence/<YYYY-MM-DD>-wp03-content/
+    evidence:
+      - docs/website/VALIDATION.md#session-2026-10-12-wp-03
+      - docs/website/evidence/2026-10-12-wp03-content/gates.txt
+      - docs/website/evidence/2026-10-12-wp03-content/build-guard.txt
+      - docs/website/evidence/2026-10-12-wp03-content/e2e-and-audit.txt
+      - docs/website/evidence/2026-10-12-wp03-content/build-production.txt
+      - docs/website/evidence/2026-10-12-wp03-content/build-fixtures.txt
+    blockers: []
+    next_action: None. Completed 2026-10-12.
+  - id: WP-04
+    title: Image pipeline and responsive image components
+    status: done
+    depends_on: [WP-03]
+    doc: docs/website/tasks/WP-04-image-pipeline.md
+    content_dependency: fixtures_only
+    deliverables:
+      - scripts/content-images.ts (pnpm content:images) and scripts/content-capture.ts (pnpm content:capture)
+      - scripts/prune-build-media.ts in pnpm build; stray-media check in verify-build-content.ts
+      - public/media/** and src/content/media-manifest.json for fixtures
+      - src/components/responsive-image.tsx and screenshot-frame.tsx with tests
+      - Manifest validation in the content loader
+    acceptance_criteria:
+      - AC-1 Image generation is idempotent
+      - AC-2 Variants and OG images correct; manifest dimensions verified
+      - AC-3 content:check catches missing or stale images
+      - AC-4 ResponsiveImage renders picture/srcset/sizes/dimensions/alt/loading correctly
+      - AC-5 pnpm build does not need sharp
+      - AC-6 Size report saved
+      - AC-7 All checks pass; sharp audit recorded
+    validation_commands:
+      - pnpm install
+      - pnpm content:images
+      - pnpm content:check
+      - pnpm test
+      - pnpm lint
+      - pnpm typecheck
+      - pnpm build
+      - pnpm test:e2e
+    evidence_location: docs/website/evidence/<YYYY-MM-DD>-wp04-images/
+    evidence:
+      - docs/website/VALIDATION.md#session-2026-10-12-wp-04
+      - docs/website/evidence/2026-10-12-wp04-images/gates.txt
+      - docs/website/evidence/2026-10-12-wp04-images/size-report.md
+      - docs/website/evidence/2026-10-12-wp04-images/stale-source-check.txt
+      - docs/website/evidence/2026-10-12-wp04-images/build-without-sharp.txt
+      - docs/website/evidence/2026-10-12-wp04-images/build-media.txt
+      - docs/website/evidence/2026-10-12-wp04-images/capture-helper.txt
+      - docs/website/evidence/2026-10-12-wp04-images/frames-desktop.png
+      - docs/website/evidence/2026-10-12-wp04-images/audit.txt
+    blockers: []
+    next_action: None. Completed 2026-10-12.
+  - id: WP-05
+    title: Work gallery index and project pages
+    status: done
+    depends_on: [WP-02, WP-03, WP-04]
+    doc: docs/website/tasks/WP-05-work-gallery.md
+    content_dependency: fixtures_only
+    deliverables:
+      - /work and one static route per included project (D-034), prerender via getStaticPaths, 404 error boundary
+      - Shared page components (PageHeader, KindBadge, ProjectCard, ProjectMeta, CaseStudy, CtaBand, EmptyState, ContentStatusBanner, content-body)
+      - src/content/work-page.ts copy; tokens per DESIGN.md
+      - e2e/work.spec.ts and e2e/built/work.spec.ts
+    acceptance_criteria:
+      - AC-1 Index lists fixtures in order with kind labels; draft banner in dev
+      - AC-2 Project page shows all fields, four sections, verified outcomes only
+      - AC-3 Existing CTA labels and destinations on every project page
+      - AC-4 Production build shows the empty state with noindex and no fixture pages
+      - AC-5 Direct load and refresh work; unknown slug returns 404 with branded content
+      - AC-6 Keyboard, focus, and heading structure correct
+      - AC-7 Responsive screenshots with no overflow
+      - AC-8 No raw colors added; only planned tokens
+      - AC-9 All checks pass; existing pages visually unchanged
+    validation_commands:
+      - pnpm content:check
+      - pnpm test
+      - pnpm lint
+      - pnpm typecheck
+      - pnpm test:e2e
+      - CONTENT_FIXTURES=1 pnpm build && pnpm test:e2e:built
+      - pnpm build && pnpm test:e2e:built
+    evidence_location: docs/website/evidence/<YYYY-MM-DD>-wp05-work/
+    evidence:
+      - docs/website/VALIDATION.md#session-2026-10-12-wp-05
+      - docs/website/evidence/2026-10-12-wp05-work/gates.txt
+      - docs/website/evidence/2026-10-12-wp05-work/fixtures-report.json
+      - docs/website/evidence/2026-10-12-wp05-work/production-report.json
+      - docs/website/evidence/2026-10-12-wp05-work/fixtures-work-1440.png
+      - docs/website/evidence/2026-10-12-wp05-work/fixtures-work_fixture-client-greenhouse-375.png
+      - docs/website/evidence/2026-10-12-wp05-work/production-work-1440.png
+      - docs/website/evidence/2026-10-12-wp05-work/regression/compare.txt
+    blockers: []
+    next_action: None. Completed 2026-10-12.
+  - id: WP-06
+    title: Blog index and article pages
+    status: done
+    depends_on: [WP-02, WP-03, WP-04]
+    doc: docs/website/tasks/WP-06-blog.md
+    content_dependency: fixtures_only
+    deliverables:
+      - /blog and /blog/:slug routes, prerender wiring, 404 error boundary
+      - ArticleCard, ArticleMeta, Prose, CodeBlock, TableOfContents, RelatedArticles, AuthorBox
+      - src/content/blog-page.ts copy; prose and syntax tokens
+      - e2e/blog.spec.ts and e2e/built/blog.spec.ts
+    acceptance_criteria:
+      - AC-1 Index lists fixtures newest first with dates, reading time, tags
+      - AC-2 Article header, byline, dates, reading time correct
+      - AC-3 TOC on long articles only; anchors land below the fixed nav
+      - AC-4 Accessible, class-highlighted code blocks; syntax contrast ≥ 4.5:1
+      - AC-5 Prose elements styled per DESIGN.md; readable at 375px
+      - AC-6 Related articles per D-021, absent when none
+      - AC-7 Existing CTA labels and destinations on every article
+      - AC-8 Production build shows the empty state; no draft or fixture output
+      - AC-9 Direct load and refresh work; unknown and draft slugs return 404
+      - AC-10 No parser code in client JS; added JS ≤ 15 KB gzip
+      - AC-11 Responsive screenshots with no overflow
+      - AC-12 All checks pass
+    validation_commands:
+      - pnpm content:check
+      - pnpm test
+      - pnpm lint
+      - pnpm typecheck
+      - pnpm test:e2e
+      - CONTENT_FIXTURES=1 pnpm build && pnpm test:e2e:built
+      - pnpm build && pnpm test:e2e:built
+    evidence_location: docs/website/evidence/2026-10-12-wp06-blog/
+    evidence:
+      - docs/website/VALIDATION.md#session-2026-10-12-wp-06
+      - docs/website/evidence/2026-10-12-wp06-blog/gates.txt
+      - docs/website/evidence/2026-10-12-wp06-blog/e2e-built-fixtures.txt
+      - docs/website/evidence/2026-10-12-wp06-blog/e2e-built-production.txt
+      - docs/website/evidence/2026-10-12-wp06-blog/syntax-contrast.txt
+      - docs/website/evidence/2026-10-12-wp06-blog/bundle-parser-check.txt
+      - docs/website/evidence/2026-10-12-wp06-blog/bundle-size.txt
+      - docs/website/evidence/2026-10-12-wp06-blog/production-leak-check.txt
+      - docs/website/evidence/2026-10-12-wp06-blog/fixtures-report.json
+      - docs/website/evidence/2026-10-12-wp06-blog/production-report.json
+      - docs/website/evidence/2026-10-12-wp06-blog/fixtures-blog-1440.png
+      - docs/website/evidence/2026-10-12-wp06-blog/fixtures-blog_fixture-long-article-1440.png
+      - docs/website/evidence/2026-10-12-wp06-blog/fixtures-blog_fixture-long-article-375.png
+      - docs/website/evidence/2026-10-12-wp06-blog/production-blog-375.png
+      - docs/website/evidence/2026-10-12-wp06-blog/regression/compare.txt
+    blockers: []
+    next_action: None. Completed 2026-10-12.
+  - id: WP-07
+    title: Metadata, structured data, sitemap, and RSS
+    status: ready
+    depends_on: [WP-05, WP-06]
+    doc: docs/website/tasks/WP-07-metadata-and-discovery.md
+    content_dependency: fixtures_only
+    deliverables:
+      - pageMeta snapshot tests and extensions; JSON-LD builders
+      - /sitemap.xml and /blog/rss.xml resource routes; generate-sitemap.mjs retired after parity
+      - RSS alternate link; verify script covers XML
+    acceptance_criteria:
+      - AC-1 Existing pageMeta output unchanged (snapshots)
+      - AC-2 Complete, valid meta and JSON-LD on every content page
+      - AC-3 Sitemap parity for existing URLs; well-formed
+      - AC-4 RSS well-formed with absolute links; empty channel is valid
+      - AC-5 No draft or fixture leakage in production output
+      - AC-6 No ratings, reviews, prices, or metrics in structured data
+      - AC-7 All checks pass
+    validation_commands:
+      - pnpm test
+      - pnpm build
+      - CONTENT_FIXTURES=1 pnpm build && pnpm test:e2e:built
+      - pnpm build && pnpm test:e2e:built
+    evidence_location: docs/website/evidence/<YYYY-MM-DD>-wp07-discovery/
+    evidence: []
+    blockers: []
+    next_action: >-
+      Ready (WP-05 and WP-06 done). Snapshot the current pageMeta output first (AC-1),
+      then add JSON-LD builders, the sitemap and RSS resource routes, and extend
+      verify-build-content to XML.
+
+  - id: WP-08
+    title: Homepage selected-work section and navigation
+    status: ready
+    depends_on: [WP-02, WP-05, WP-06]
+    doc: docs/website/tasks/WP-08-homepage-and-navigation.md
+    content_dependency: fixtures_only
+    deliverables:
+      - Content-presence signal (decision recorded)
+      - FeaturedWork section between Services and Process
+      - Work and Blog links in nav, mobile menu, footer (gated)
+      - Updated nav/footer unit tests and new e2e
+    acceptance_criteria:
+      - AC-1 With no content, existing markup is unchanged and existing e2e passes unmodified
+      - AC-2 With content, links appear after Services with active states
+      - AC-3 Featured section in rank order; absent when nothing is featured
+      - AC-4 Desktop nav fits at 900/1024/1280/1440 (breakpoint change recorded if needed)
+      - AC-5 Mobile menu works under the production CSP and includes the new links
+      - AC-6 Anchors, Calendly, and email unchanged
+      - AC-7 Screenshots saved
+      - AC-8 All checks pass
+    validation_commands:
+      - pnpm test
+      - pnpm lint
+      - pnpm typecheck
+      - pnpm build
+      - pnpm test:e2e
+      - CONTENT_FIXTURES=1 pnpm build && pnpm test:e2e:built
+      - pnpm build && pnpm test:e2e:built
+    evidence_location: docs/website/evidence/<YYYY-MM-DD>-wp08-integration/
+    evidence: []
+    blockers: []
+    next_action: Ready (WP-02, WP-05, WP-06 done). Save the pre-change index.html first.
+
+  - id: WP-09
+    title: Accessibility, performance, and regression verification
+    status: todo
+    depends_on: [WP-07, WP-08]
+    doc: docs/website/tasks/WP-09-verification-sweep.md
+    content_dependency: fixtures_only
+    deliverables:
+      - axe, keyboard, reduced-motion, and lab performance e2e suites
+      - Responsive screenshot set, link crawl, impeccable audit/critique reports
+      - Authoring dry run (one project, one article) with CONTENT.md corrections
+    acceptance_criteria:
+      - AC-1 Zero serious/critical axe violations
+      - AC-2 Keyboard, focus, headings, contrast verified
+      - AC-3 Reduced motion respected
+      - AC-4 Lab CLS ≤ 0.05; LCP image prioritized; budgets met or documented
+      - AC-5 No horizontal overflow at 375/768/1024/1440
+      - AC-6 Draft exclusion proven with a unique marker
+      - AC-7 Regression suite and conversion paths intact
+      - AC-8 Dry run needed zero component or route edits
+      - AC-9 VALIDATION.md complete and honest
+    validation_commands:
+      - pnpm lint
+      - pnpm typecheck
+      - pnpm test
+      - pnpm test:e2e
+      - pnpm build && pnpm test:e2e:built
+      - CONTENT_FIXTURES=1 pnpm build && pnpm test:e2e:built
+    evidence_location: docs/website/evidence/<YYYY-MM-DD>-wp09-verification/
+    evidence: []
+    blockers: []
+    next_action: Starts after WP-07 and WP-08 are done.
+
+  - id: WP-10
+    title: Content readiness, release instructions, and final handoff
+    status: todo
+    depends_on: [WP-09]
+    doc: docs/website/tasks/WP-10-content-readiness-and-release.md
+    content_dependency: real_content_optional
+    deliverables:
+      - docs/website/RELEASE.md
+      - Content readiness report in this manifest
+      - Pointers from the general docs; PRODUCT.md and llms.txt only if content is published
+      - Final HANDOFF.md and a PR description draft
+    acceptance_criteria:
+      - AC-1 RELEASE.md uses real commands and was walked through up to merge
+      - AC-2 content_readiness matches the repository
+      - AC-3 Any real entry validated and previewed, approvals present or kept as draft
+      - AC-4 All release gates pass
+      - AC-5 Final handoff complete
+    validation_commands:
+      - pnpm content:check
+      - pnpm lint
+      - pnpm typecheck
+      - pnpm test
+      - pnpm build
+      - pnpm test:e2e
+      - pnpm test:e2e:built
+      - git status --short
+    evidence_location: docs/website/evidence/<YYYY-MM-DD>-wp10-release/
+    evidence: []
+    blockers: []
+    next_action: Starts after WP-09 is done.
+
+  - id: WP-11
+    title: Repository documentation hygiene (stale references)
+    status: ready
+    depends_on: [WP-01]
+    doc: docs/website/tasks/WP-11-docs-hygiene.md
+    content_dependency: none
+    deliverables:
+      - Stale docs/redesign and docs/SEO references re-pointed (or archived, per Carlos)
+      - CLAUDE.md/AGENTS.md version and prerender list corrected
+      - mkdocs.yml nav valid and including docs/website
+    acceptance_criteria:
+      - AC-1 Drift grep returns nothing outside historical records
+      - AC-2 Every mkdocs nav path exists
+      - AC-3 CLAUDE.md/AGENTS.md diffs limited to drifted sentences
+      - AC-4 lint, typecheck, test pass
+    validation_commands:
+      - pnpm lint
+      - pnpm typecheck
+      - pnpm test
+      - git diff --stat
+    evidence_location: docs/website/evidence/<YYYY-MM-DD>-wp11-docs/
+    evidence: []
+    blockers: []
+    next_action: >-
+      Ask Carlos: re-point references to docs/website (default) or archive the deleted
+      redesign records under docs/archive/. Low priority; run any time.
