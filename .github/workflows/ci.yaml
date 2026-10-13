@@ -70,3 +70,23 @@ jobs:
       # playwright.config.ts starts the dev server itself (webServer).
       - name: Run e2e tests
         run: pnpm test:e2e
+
+      # The dev server sends no production headers, so the same journeys also
+      # run against the built output served with staticwebapp.config.json's
+      # headers (CSP included) by scripts/serve-built.mjs.
+      - name: Build
+        run: pnpm build
+
+      - name: Run e2e tests against the production build
+        run: pnpm test:e2e:built
+
+      # Same suite against a fixture build, which prerenders the labeled
+      # development fixtures (project pages, 404s for unknown/draft slugs).
+      # Never deployed: only this job builds with CONTENT_FIXTURES=1.
+      - name: Build with content fixtures
+        run: pnpm build
+        env:
+          CONTENT_FIXTURES: '1'
+
+      - name: Run e2e tests against the fixture build
+        run: pnpm test:e2e:built
