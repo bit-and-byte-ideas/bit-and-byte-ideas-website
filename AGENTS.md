@@ -22,6 +22,15 @@ structural or design decisions; they are the decision record.
 - `pnpm typecheck` — `tsc -b` only (the type-check half of the build).
 - `pnpm test` — Vitest unit suite once; `pnpm test:watch` for watch mode.
 - `pnpm test:e2e` — Playwright e2e against the dev server (`pnpm test:e2e:ui` for UI mode).
+- `pnpm test:e2e:built` — Playwright e2e against `build/client/` served with the production
+  `staticwebapp.config.json` headers (CSP included); run `pnpm build` first.
+- `pnpm serve:built` — serve the built output with those production headers
+  (http://127.0.0.1:4173).
+- `pnpm content:check` — validate every project and article (`src/content/{work,blog}`)
+  and report what each build mode includes; see `docs/website/CONTENT.md`.
+- `pnpm content:images` — generate the committed AVIF/WebP variants in `public/media/`
+  after adding or changing content images (`--check` verifies only); authoring only,
+  never run by the build or CI.
 - `pnpm preview` — serve the built output locally.
 
 These scripts are the single source of truth: the local pre-commit hooks and the CI
@@ -78,6 +87,15 @@ accepted aesthetic is "Engineered Dark" (docs/redesign/03): today's palette (tok
 `src/design/tokens.css`), Bricolage Grotesque / Public Sans / IBM Plex Mono, monospace
 system labels, one primary CTA ("Book a call"). Avoid generic AI aesthetics: no
 Inter/Roboto/Arial, no purple gradients, no cookie-cutter layouts.
+
+## Website extension: work gallery + blog
+
+Docs for the in-progress `/work` and `/blog` project live in `docs/website/`. For that
+work, start with `docs/website/README.md` → `MANIFEST.yaml` (authoritative task status) →
+`HANDOFF.md`, then the task in `docs/website/tasks/`. New UI follows
+`docs/website/DESIGN.md`; content authoring follows `docs/website/CONTENT.md`. The
+`docs/redesign/` records mentioned above were removed in `a804ef4` (recover with
+`git show a804ef4^:<path>`; see `docs/website/AUDIT.md` K3).
 
 ## graphify
 

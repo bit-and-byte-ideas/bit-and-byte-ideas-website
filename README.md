@@ -43,7 +43,8 @@ Static output — including prerendered HTML for every route — is written to
 
 ```bash
 pnpm test      # Vitest unit suite
-pnpm test:e2e  # Playwright end-to-end suite
+pnpm test:e2e  # Playwright end-to-end suite (dev server)
+pnpm build && pnpm test:e2e:built  # same journeys against the build with production headers
 ```
 
 Run a focused unit test file (or a glob) with:
