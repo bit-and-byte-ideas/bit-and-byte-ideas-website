@@ -9,6 +9,7 @@ const __dirname = path.dirname(__filename);
 
 // Sanitize logs by removing ANSI color codes
 import stripAnsi from 'strip-ansi';
+import { GraphQLClient } from 'graphql-request';
 
 // Read findings from the JSON file
 function readFindings() {
@@ -26,7 +27,7 @@ function readFindings() {
 }
 
 // GraphQL query to create a Linear issue
-const CREATE_LINEAR_ISSUE = gql`
+const CREATE_LINEAR_ISSUE = `
   mutation CreateIssue($input: IssueCreateInput!) {
     issueCreate(input: $input) {
       issue {
@@ -50,35 +51,54 @@ async function createLinearIssues(findings) {
     return false;
   }
 
-  // Mock implementation for testing - in real usage this would call the GraphQL API
-  console.log(`Would create ${findings.length} Linear issues.`);
-  
-  // In a real implementation, we would:
-  // 1. Create a GraphQL client
-  // 2. Loop through findings and create issues using CREATE_LINEAR_ISSUE mutation
-  // 3. Handle errors appropriately
+  // Create GraphQL client
+  const client = new GraphQLClient('https://api.linear.app/graphql', {
+    headers: {
+      'Authorization': `Bearer ${linearToken}`,
+    },
+  });
+
+  let successCount = 0;
   
   for (const finding of findings) {
     try {
-      // This is a mock - in reality, we'd call the API
-      console.log(`Would create Linear issue: ${finding.component}`);
-      
-      // Mock issue creation with sample data
-      const mockIssue = {
-        id: `issue-${Math.random().toString(36).substr(2, 9)}`,
-        title: finding.component,
-        description: finding.description,
-        severity: finding.severity,
-        tool: finding.tool
+      // Prepare issue data
+      const issueData = {
+        title: `Security Vulnerability: ${finding.severity} – ${finding.component || 'Unknown Component'}`,
+        description: `
+          **Component:** ${finding.component || 'N/A'}
+          
+          **Severity:** ${finding.severity}
+          
+          **Tool:** ${finding.tool}
+          
+          **Description:** ${finding.description || 'No description available'}
+          
+          **Remediation:** ${finding.remediation || 'No remediation steps provided'}
+          
+          **CVSS Score:** ${finding.cvssScore || 'N/A'}
+        `.trim(),
+        labels: [
+          'security',
+          finding.severity.toLowerCase()
+        ],
+        teamId: 'security-team', // This would need to be configured
       };
+
+      // Execute GraphQL mutation
+      const response = await client.request(CREATE_LINEAR_ISSUE, { 
+        input: issueData 
+      });
       
-      console.log(`Mock issue created: ${mockIssue.id}`);
+      console.log(`Created Linear issue: ${response.issueCreate.issue.id} - ${finding.component}`);
+      successCount++;
     } catch (error) {
       console.error('Error creating Linear issue for:', finding.component, stripAnsi(error.message));
     }
   }
   
-  return true;
+  console.log(`Successfully created ${successCount} Linear issues out of ${findings.length}`);
+  return successCount > 0;
 }
 
 // Main function

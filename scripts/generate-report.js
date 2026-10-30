@@ -125,8 +125,8 @@ function deduplicateFindings(findings) {
   const unique = [];
   
   for (const finding of findings) {
-    // Create a key based on component and severity to identify duplicates
-    const key = `${finding.component}_${finding.severity}`;
+    // Create a key based on component, severity and description to identify duplicates
+    const key = `${finding.component}_${finding.severity}_${finding.description}`;
     
     if (!seen.has(key)) {
       seen.add(key);
