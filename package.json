@@ -10,7 +10,7 @@
     "build": "tsc -b && react-router build && node scripts/generate-sitemap.mjs",
     "lint": "eslint .",
     "typecheck": "tsc -b",
-    "test": "vitest run",
+    "test": "jest",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",

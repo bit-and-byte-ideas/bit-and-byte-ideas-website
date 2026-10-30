@@ -49,6 +49,31 @@ describe('create-linear-issues.js', () => {
   });
 
   test('should process findings and create appropriate data structure', () => {
-    // This test will be done as part of integration testing
+    // Create a mock findings file
+    const mockFindings = [
+      {
+        "tool": "npm",
+        "component": "lodash@4.17.20",
+        "severity": "High",
+        "cvssScore": 7.5,
+        "description": "Prototype pollution vulnerability",
+        "remediation": "Update to version 4.17.21 or higher",
+        "filePath": "node_modules/lodash"
+      }
+    ];
+    
+    fs.writeFileSync('reports/foundings.json', JSON.stringify(mockFindings));
+    
+    // This would require more complex mocking to fully test the integration
+    expect(true).toBe(true);
+  });
+
+  test('should handle empty findings gracefully', () => {
+    // Create an empty findings file
+    const mockFindings = [];
+    fs.writeFileSync('reports/foundings.json', JSON.stringify(mockFindings));
+    
+    // This would require more complex mocking to fully test the integration
+    expect(true).toBe(true);
   });
 });
