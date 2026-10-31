@@ -4,8 +4,13 @@ name: Deploy App (prod)
 on:
   release:
     types: [published]
-  # Manual runs allow re-deploying prod without cutting a new release.
+  # Manual runs re-deploy an existing release tag without cutting a new release.
   workflow_dispatch:
+    inputs:
+      ref:
+        description: Existing release tag to deploy, e.g. v0.2.2
+        required: true
+        type: string
 
 concurrency:
   group: deploy-app-prod-${{ github.ref }}
@@ -14,11 +19,14 @@ concurrency:
 jobs:
   deploy:
     name: Build and Deploy
+    # Manual runs may only deploy release tags (v*), never a branch.
+    if: github.event_name == 'release' || startsWith(inputs.ref, 'v')
     runs-on: ubuntu-latest
     environment: prod
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ inputs.ref || github.ref }}
           persist-credentials: false
 
       # pnpm version is read from the "packageManager" field in package.json.
