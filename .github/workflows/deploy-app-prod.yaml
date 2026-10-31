@@ -4,6 +4,8 @@ name: Deploy App (prod)
 on:
   release:
     types: [published]
+  # Manual runs allow re-deploying prod without cutting a new release.
+  workflow_dispatch:
 
 concurrency:
   group: deploy-app-prod-${{ github.ref }}
