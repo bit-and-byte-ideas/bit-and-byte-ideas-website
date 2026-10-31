@@ -58,8 +58,7 @@ enums/namespaces are rejected — prefer plain unions/objects.
 
 - **Conventional Commits** enforced via commitlint (`commitlint.config.js`).
 - **pre-commit framework** (`.pre-commit-config.yaml`): commitlint on `commit-msg`;
-  `eslint --fix` on staged files, `pnpm typecheck`, and `pnpm test` on `pre-commit`;
-  OpenTofu fmt/validate for `deploy/**.tf`.
+  `eslint --fix` on staged files, `pnpm typecheck`, and `pnpm test` on `pre-commit`.
 - New clones: run `pre-commit install --hook-type pre-commit --hook-type commit-msg` once.
 - **Do not bypass with `--no-verify`.** A Claude PreToolUse hook
   (`.claude/hooks/block-no-verify.sh`) rejects it; fix the underlying failure instead.
@@ -68,8 +67,9 @@ enums/namespaces are rejected — prefer plain unions/objects.
 
 `.github/workflows/ci.yaml` runs `pnpm lint`, `pnpm build`, `pnpm test` on push/PR to
 `main` — the same scripts as the pre-commit hooks. Production deploys are release-driven
-(`deploy-app-prod.yaml`) and upload the static build to Azure Static Web Apps; infra is
-Terraform under `deploy/infra/`.
+(`deploy-app-prod.yaml`) and upload the static build to Azure Static Web Apps with the deployment token. This repo
+contains no infrastructure code: hosting, DNS and custom domains are managed in
+`bit-and-byte-ideas/platform-foundation` (`stacks/azure/customers/bit-and-byte-ideas`).
 
 ## Design Direction
 

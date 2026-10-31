@@ -20,7 +20,7 @@ Web Apps. It is a marketing and lead-generation site with three routes: the home
 
 ## Repository Purpose
 
-Use this repository to maintain the source code, assets, tests, infrastructure, and
+Use this repository to maintain the source code, assets, tests, and
 contributor documentation for the Bit and Byte Ideas website. Contributors should keep the
 website fast, accessible, clear for prospective clients, and aligned with the established
 "Engineered Dark" design direction.
