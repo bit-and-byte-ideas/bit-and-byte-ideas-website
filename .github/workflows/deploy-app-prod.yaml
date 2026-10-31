@@ -26,7 +26,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ inputs.ref || github.ref }}
+          # Manual runs resolve the input as a tag only, so a branch or SHA cannot be deployed.
+          ref: ${{ inputs.ref && format('refs/tags/{0}', inputs.ref) || github.ref }}
           persist-credentials: false
 
       # pnpm version is read from the "packageManager" field in package.json.
