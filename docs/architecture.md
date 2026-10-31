@@ -65,4 +65,5 @@ unrelated visual systems.
 generated for page use; PNG originals kept for `og:image`), `robots.txt`, `llms.txt`, and
 `staticwebapp.config.json`. `sitemap.xml` is generated at build time by
 `scripts/generate-sitemap.mjs` — add new prerendered routes to both
-`react-router.config.ts` and that script.
+`react-router.config.ts` and that script. `scripts/csp-hashes.mjs` then pins the
+build's inline hydration scripts into the deployed CSP (see `quality-operations.md`).

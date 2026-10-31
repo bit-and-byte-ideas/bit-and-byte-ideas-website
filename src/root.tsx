@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import {
   isRouteErrorResponse,
+  type LinksFunction,
   Links,
   Meta,
   Outlet,
@@ -15,6 +16,20 @@ import '@fontsource-variable/public-sans/index.css';
 import '@fontsource/ibm-plex-mono/400.css';
 import '@fontsource/ibm-plex-mono/500.css';
 import './design/base.css';
+// Latin subsets of the two above-the-fold faces (hero headline + body copy).
+// Without a preload the browser only discovers them after the CSS is parsed,
+// which delays the hero text paint (LCP) by a full round trip.
+import bricolageLatin from '@fontsource-variable/bricolage-grotesque/files/bricolage-grotesque-latin-wght-normal.woff2?url';
+import publicSansLatin from '@fontsource-variable/public-sans/files/public-sans-latin-wght-normal.woff2?url';
+
+export const links: LinksFunction = () =>
+  [bricolageLatin, publicSansLatin].map((href) => ({
+    rel: 'preload',
+    as: 'font',
+    type: 'font/woff2',
+    href,
+    crossOrigin: 'anonymous' as const,
+  }));
 
 export function Layout({ children }: { children: ReactNode }) {
   return (

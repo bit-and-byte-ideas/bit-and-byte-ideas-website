@@ -6,7 +6,16 @@ export function Hero() {
     <section className="hero" aria-label="Hero">
       <div className="atmosphere" aria-hidden="true" />
       <div className="hero-icon-bg" aria-hidden="true">
-        <img src="/assets/bandb-icon-600.webp" alt="" width="600" height="900" />
+        {/* Decorative (5% opacity): low priority so it never competes with the
+            CSS, fonts and headline for bandwidth on slow connections. */}
+        <img
+          src="/assets/bandb-icon-600.webp"
+          alt=""
+          width="600"
+          height="900"
+          fetchPriority="low"
+          decoding="async"
+        />
       </div>
       <div className="container hero-content">
         <div className="hero-label">
