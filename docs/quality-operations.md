@@ -46,7 +46,10 @@ deployment token (`AZURE_STATIC_WEB_APPS_API_TOKEN`, stored per GitHub environme
 
 - **Dev**: `deploy-app-dev.yaml` runs on push to `main` and via manual
   `workflow_dispatch` (used to audit feature branches on a real URL before cutover).
-- **Prod**: `deploy-app-prod.yaml` runs when a GitHub release is published.
+- **Prod**: `deploy-app-prod.yaml` runs when a GitHub release is published, or via manual
+  `workflow_dispatch` with a `ref` input naming an existing release tag (e.g. `v0.2.2`) to
+  redeploy it. The job is skipped unless `ref` starts with `v`, and the `prod` environment's
+  required reviewers still gate every run.
 
 Both build with pnpm and upload the static `build/client/` directory
 (`skip_app_build: true`). Security headers, CSP, and the 404 mapping come from
@@ -85,7 +88,8 @@ Both build with pnpm and upload the static `build/client/` directory
 ## Rollback
 
 Prod deploys are release-driven and the artifact is fully static: to roll back, re-publish
-the previous release. No infrastructure changes are involved in app deploys (infrastructure lives in
+the previous release or dispatch the prod workflow with the previous tag. No
+infrastructure changes are involved in app deploys (infrastructure lives in
 platform-foundation).
 
 ## SEO Operations
