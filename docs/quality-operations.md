@@ -48,8 +48,9 @@ deployment token (`AZURE_STATIC_WEB_APPS_API_TOKEN`, stored per GitHub environme
   `workflow_dispatch` (used to audit feature branches on a real URL before cutover).
 - **Prod**: `deploy-app-prod.yaml` runs when a GitHub release is published, or via manual
   `workflow_dispatch` with a `ref` input naming an existing release tag (e.g. `v0.2.2`) to
-  redeploy it. The job is skipped unless `ref` starts with `v`, and the `prod` environment's
-  required reviewers still gate every run.
+  redeploy it. The job is skipped unless `ref` starts with `v`, the checkout resolves it as
+  `refs/tags/<ref>` (so a branch or SHA fails instead of deploying), and the `prod`
+  environment's required reviewers still gate every run.
 
 Both build with pnpm and upload the static `build/client/` directory
 (`skip_app_build: true`). Security headers, CSP, and the 404 mapping come from
