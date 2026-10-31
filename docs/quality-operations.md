@@ -53,14 +53,23 @@ Both build with pnpm and upload the static `build/client/` directory
 
 ## Security
 
-- `script-src 'self' 'unsafe-inline'` in the CSP is a deliberate, verified-necessary
-  trade-off, not an oversight: React Router's streaming/hydration output embeds several
-  inline `<script>` blocks with no `src` (history restoration, `window.__reactRouterContext`
-  bootstrap, Suspense-reveal helpers) that change on every build and cannot be pinned by
-  nonce or hash in a purely static `staticwebapp.config.json`. Removing `'unsafe-inline'`
-  from `script-src` breaks hydration. `style-src` has no such requirement — the app has
-  zero inline `style` attributes or `<style>` blocks (verified against the prerendered
-  output), so it is `'self'` only.
+- `script-src` has no `'unsafe-inline'`. React Router's streaming/hydration output embeds
+  several inline `<script>` blocks with no `src` (history restoration,
+  `window.__reactRouterContext` bootstrap, Suspense-reveal helpers, the module entry
+  `import`). Their contents change on every build, so `scripts/csp-hashes.mjs` runs as
+  the last step of `pnpm build`, hashes every executable inline script in the prerendered
+  HTML, and appends the `'sha256-…'` sources to `script-src` in
+  `build/client/staticwebapp.config.json` (the deployed copy — the source config in
+  `public/` stays hash-free). A bare `script-src 'self'` without those hashes blocks
+  hydration entirely (no mobile menu, no client-side navigation); note that `pnpm dev`
+  and the e2e suite do not apply SWA headers, so only a built deploy exercises the CSP.
+  `style-src` has no such requirement — the app has zero inline `style` attributes or
+  `<style>` blocks (verified against the prerendered output), so it is `'self'` only.
+- Caching: Vite-hashed bundles and fonts (`/assets/*.{js,css,woff2,woff}`) are served
+  `Cache-Control: public, max-age=31536000, immutable` via a `routes` entry in
+  `staticwebapp.config.json`. Unhashed files in `public/assets/` are images/vCards only,
+  so they keep the SWA default (revalidate) and never go stale. Do not add JS/CSS/fonts
+  under `public/assets/` — they would inherit the immutable header without a content hash.
 - JSON-LD is injected via `dangerouslySetInnerHTML`; `src/content/seo.ts`'s
   `toJsonLdScript()` escapes `<` before serialization so a schema value containing
   `</script>` cannot break out of the script element. Current schema content is fully
