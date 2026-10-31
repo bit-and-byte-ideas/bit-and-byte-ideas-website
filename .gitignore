@@ -1,6 +1,3 @@
-# Terraform
-.terraform/
-
 # graphify
 # graph.json (+ .graphify_labels.json) is kept tracked: it's the shared,
 # queryable index `graphify query/path/explain` read directly, so every

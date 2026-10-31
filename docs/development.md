@@ -55,6 +55,6 @@ Router, and Playwright config files). Strictness flags to know about:
 
 Conventional Commits are enforced by commitlint (`commit-msg` stage) — note that
 sentence-case subjects are rejected; keep subjects lowercase. The `pre-commit` stage runs
-`eslint --fix` on staged files, then `pnpm typecheck` and `pnpm test` for the whole repo,
-plus OpenTofu fmt/validate when Terraform files change. Do not bypass with `--no-verify`;
+`eslint --fix` on staged files, then `pnpm typecheck` and `pnpm test` for the whole repo.
+Do not bypass with `--no-verify`;
 a Claude Code hook blocks it, and CI would catch the failure anyway.

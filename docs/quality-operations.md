@@ -34,14 +34,15 @@ The pre-commit hooks run the same commands, so a passing commit implies passing 
 ## CI
 
 `.github/workflows/ci.yaml` runs on push/PR to `main`: `pnpm lint`, `pnpm build`,
-`pnpm test` in one job, and Playwright e2e (chromium) in a second. Policy checks and infra
-workflows run separately.
+`pnpm test` in one job, and Playwright e2e (chromium) in a second.
 
 ## Deployment
 
-Hosting is Azure Static Web Apps; DNS and the custom domain are managed by
-OpenTofu/Terraform under `deploy/infra/` (dev and prod), deployed via the
-`deploy-infra-*` workflows.
+Hosting is Azure Static Web Apps. The hosting resources, DNS and custom domains are
+managed in `bit-and-byte-ideas/platform-foundation`
+(`stacks/azure/customers/bit-and-byte-ideas`), not in this repository. This repo only
+builds the site and uploads `build/client/` to the existing Static Web App using the
+deployment token (`AZURE_STATIC_WEB_APPS_API_TOKEN`, stored per GitHub environment).
 
 - **Dev**: `deploy-app-dev.yaml` runs on push to `main` and via manual
   `workflow_dispatch` (used to audit feature branches on a real URL before cutover).
@@ -77,14 +78,15 @@ Both build with pnpm and upload the static `build/client/` directory
   exploit path.
 - GitHub Actions: every `actions/checkout` step sets `persist-credentials: false` (the
   default token isn't needed after checkout in any workflow here), and third-party actions
-  (`pnpm/action-setup`, `Azure/static-web-apps-deploy`, `open-policy-agent/setup-opa`) are
+  (`pnpm/action-setup`, `Azure/static-web-apps-deploy`) are
   pinned to a commit SHA rather than a floating tag — bump these deliberately, not via a
   blind tag update.
 
 ## Rollback
 
 Prod deploys are release-driven and the artifact is fully static: to roll back, re-publish
-the previous release. No infrastructure changes are involved in app deploys.
+the previous release. No infrastructure changes are involved in app deploys (infrastructure lives in
+platform-foundation).
 
 ## SEO Operations
 
