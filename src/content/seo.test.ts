@@ -49,6 +49,12 @@ describe('organizationSchema', () => {
     expect(address['addressRegion']).toBe('CA');
     expect(address['addressCountry']).toBe('US');
   });
+
+  it('describes the current service lines', () => {
+    const descriptions = graph.map((n) => n['description']).join(' ');
+    expect(descriptions).toMatch(/automation/i);
+    expect(descriptions).not.toMatch(/static website/i);
+  });
 });
 
 describe('professionalServiceSchema', () => {
