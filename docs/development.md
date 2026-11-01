@@ -18,12 +18,14 @@ pre-commit install --hook-type pre-commit --hook-type commit-msg
 
 ```bash
 pnpm dev           # React Router dev server at http://localhost:5173
-pnpm build         # tsc -b (gating) + react-router build + sitemap generation
+pnpm build         # tsc -b (gating) + react-router build + sitemap + inline script externalization
 pnpm lint          # ESLint flat config across the repo
 pnpm typecheck     # tsc -b only
 pnpm test          # Vitest unit suite (once)
 pnpm test:watch    # Vitest watch mode
 pnpm test:e2e      # Playwright e2e (starts the dev server itself)
+pnpm test:e2e:built # Playwright e2e against build/client with production headers (run pnpm build first)
+pnpm serve:built   # Serve build/client with the production headers at http://127.0.0.1:4173
 pnpm preview       # Serve the built output locally
 ```
 

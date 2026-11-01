@@ -1,6 +1,6 @@
 /*
  * Design tokens — single source of truth for color, type, spacing, motion.
- * Direction: "Engineered Dark" (docs/redesign/03-design-direction.md).
+ * Direction: "Engineered Dark" (docs/ux-content.md).
  * Palette carried over from the previous site; the one deviation is
  * --text-muted, lightened from #64748b to pass the 4.5:1 contrast gate
  * for body text on --bg. The original value survives as --text-faint and

@@ -3,7 +3,7 @@
 ## Stack
 
 - Vite 8 + React 19 + TypeScript (strict, project references).
-- React Router 7 framework mode with `ssr: false` and build-time prerendering.
+- React Router 8 framework mode with `ssr: false` and build-time prerendering.
 - Plain CSS with design tokens (custom properties); no CSS framework.
 - Self-hosted fonts via Fontsource (Bricolage Grotesque, Public Sans, IBM Plex Mono).
 - Vitest + Testing Library for unit tests; Playwright for e2e.
@@ -18,10 +18,11 @@ Routes are declared in `src/routes.ts` and implemented as route modules under
 | --- | --- | --- |
 | `/` | `routes/home.tsx` | Full landing journey + JSON-LD blocks |
 | `/about` | `routes/about.tsx` | Founder background (E-E-A-T) |
+| `/connect` | `routes/connect.tsx` | QR business card: call, text, email, vCard, Calendly |
 | `*` | `routes/not-found.tsx` | Branded 404, `noindex` |
 
-`react-router.config.ts` sets `ssr: false` and `prerender: ['/', '/about', '/404']`. The
-build emits static HTML for each route into `build/client/`; the client bundle hydrates
+`react-router.config.ts` sets `ssr: false` and
+`prerender: ['/', '/about', '/connect', '/404']`. The build emits static HTML for each route into `build/client/`; the client bundle hydrates
 after load. There is no runtime server — Azure Static Web Apps serves the output as-is,
 and `public/staticwebapp.config.json` maps unknown paths to `/404/index.html` with a real
 404 status.
@@ -56,7 +57,7 @@ holds the reset, primitives (section labels, buttons, skip link), and the CSS-on
 scroll-reveal (`animation-timeline: view()`, transform-only, reduced-motion gated).
 
 The design direction ("Engineered Dark") is specified in
-`docs/redesign/03-design-direction.md`. Do not introduce raw hex values in components or
+`docs/ux-content.md`. Do not introduce raw hex values in components or
 unrelated visual systems.
 
 ## Static Assets
