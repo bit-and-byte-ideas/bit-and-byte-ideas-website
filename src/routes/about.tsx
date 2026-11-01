@@ -16,7 +16,7 @@ export function meta(): MetaDescriptor[] {
   return pageMeta({
     title: 'About — Bit & Byte Ideas',
     description:
-      'Bit & Byte Ideas is run by Carlos Barajas, a San Diego-based engineer with 18+ years of experience across fintech, energy, and financial services — bringing enterprise discipline to small business software.',
+      'Carlos Barajas is a San Diego engineer with 18+ years across fintech, energy, and financial services, bringing enterprise discipline to small business software.',
     path: '/about',
   });
 }

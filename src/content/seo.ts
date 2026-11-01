@@ -5,7 +5,7 @@ import { services } from './services';
 import { faqItems } from './faq';
 
 export const defaultDescription =
-  'Bit & Byte Ideas is a San Diego software studio building custom websites and web applications for small businesses across the United States. No templates — free 30-minute consultation.';
+  'San Diego software studio building custom websites and web apps for small businesses across the United States. No templates — free 30-minute consultation.';
 
 // og:image stays PNG for scraper compatibility; dimensions per SEO M4.
 const ogImage = {
