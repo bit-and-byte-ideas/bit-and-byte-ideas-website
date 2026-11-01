@@ -1,6 +1,6 @@
 # graphify
-# graph.json (+ .graphify_labels.json) is kept tracked: it's the shared,
-# queryable index `graphify query/path/explain` read directly, so every
+# graph.json (+ .graphify_labels.json and its .sig) is kept tracked: it's the
+# shared, queryable index `graphify query/path/explain` read directly, so every
 # contributor sees the same graph without re-indexing from scratch.
 # Everything below is either a rendered-for-humans artifact (regenerate via
 # CI instead of committing) or machine-local state that must never be

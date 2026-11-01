@@ -20,17 +20,17 @@
   },
   "nodes": [
     {
-      "id": "src_content_trust_trustitem",
-      "label": "TrustItem",
+      "id": "src_content_business_info_businessinfo",
+      "label": "businessInfo",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 0,
-      "community_name": "root.tsx",
+      "community": 2,
+      "community_name": "home.tsx",
       "file_type": "code",
-      "norm_label": "trustitem",
-      "source_file": "src/content/trust.ts",
-      "source_location": "L1"
+      "norm_label": "businessinfo",
+      "source_file": "src/content/business-info.ts",
+      "source_location": "L12"
     },
     {
       "id": "src_content_faq_faqitem",
@@ -85,6 +85,19 @@
       "source_location": "L11"
     },
     {
+      "id": "src_content_trust_trustitem",
+      "label": "TrustItem",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "trust-strip.tsx",
+      "file_type": "code",
+      "norm_label": "trustitem",
+      "source_file": "src/content/trust.ts",
+      "source_location": "L1"
+    },
+    {
       "id": "src_content_services_service",
       "label": "Service",
       "_callable": true,
@@ -96,19 +109,6 @@
       "norm_label": "service",
       "source_file": "src/content/services.ts",
       "source_location": "L1"
-    },
-    {
-      "id": "src_content_business_info_businessinfo",
-      "label": "businessInfo",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "connect.tsx",
-      "file_type": "code",
-      "norm_label": "businessinfo",
-      "source_file": "src/content/business-info.ts",
-      "source_location": "L12"
     },
     {
       "id": "src_content_card_buildstep",
@@ -280,6 +280,18 @@
       "file_type": "code",
       "norm_label": "faq()",
       "source_file": "src/components/faq.tsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_components_hero_hero",
+      "label": "Hero()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "home.tsx",
+      "file_type": "code",
+      "norm_label": "hero()",
+      "source_file": "src/components/hero.tsx",
       "source_location": "L4"
     },
     {
@@ -461,18 +473,6 @@
       "norm_label": "send()",
       "source_file": "scripts/serve-built.mjs",
       "source_location": "L64"
-    },
-    {
-      "id": "src_components_hero_hero",
-      "label": "Hero()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "connect.tsx",
-      "file_type": "code",
-      "norm_label": "hero()",
-      "source_file": "src/components/hero.tsx",
-      "source_location": "L4"
     },
     {
       "id": "src_routes_connect_connect",
@@ -689,17 +689,6 @@
       "source_location": "L1"
     },
     {
-      "id": "src_components_nav",
-      "label": "nav.tsx",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "root.tsx",
-      "file_type": "code",
-      "norm_label": "nav.tsx",
-      "source_file": "src/components/nav.tsx",
-      "source_location": "L1"
-    },
-    {
       "id": "src_components_nav_test",
       "label": "nav.test.tsx",
       "_origin": "ast",
@@ -709,50 +698,6 @@
       "norm_label": "nav.test.tsx",
       "source_file": "src/components/nav.test.tsx",
       "source_location": "L1"
-    },
-    {
-      "id": "src_components_trust_strip",
-      "label": "trust-strip.tsx",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "root.tsx",
-      "file_type": "code",
-      "norm_label": "trust-strip.tsx",
-      "source_file": "src/components/trust-strip.tsx",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_content_trust",
-      "label": "trust.ts",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "root.tsx",
-      "file_type": "code",
-      "norm_label": "trust.ts",
-      "source_file": "src/content/trust.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_content_trust_trustcaption",
-      "label": "trustCaption",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "root.tsx",
-      "file_type": "code",
-      "norm_label": "trustcaption",
-      "source_file": "src/content/trust.ts",
-      "source_location": "L6"
-    },
-    {
-      "id": "src_content_trust_trustitems",
-      "label": "trustItems",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "root.tsx",
-      "file_type": "code",
-      "norm_label": "trustitems",
-      "source_file": "src/content/trust.ts",
-      "source_location": "L9"
     },
     {
       "id": "src_root",
@@ -799,17 +744,6 @@
       "source_location": "L23"
     },
     {
-      "id": "ref_react",
-      "label": "react",
-      "_origin": "ast",
-      "community": 0,
-      "community_name": "root.tsx",
-      "file_type": "concept",
-      "norm_label": "react",
-      "source_file": "package.json",
-      "source_location": "L27"
-    },
-    {
       "id": "ref_react_router",
       "label": "react-router",
       "_origin": "ast",
@@ -819,6 +753,17 @@
       "norm_label": "react-router",
       "source_file": "package.json",
       "source_location": "L29"
+    },
+    {
+      "id": "ref_testing_library_react",
+      "label": "@testing-library/react",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "root.tsx",
+      "file_type": "concept",
+      "norm_label": "@testing-library/react",
+      "source_file": "package.json",
+      "source_location": "L39"
     },
     {
       "id": "ref_testing_library_user_event",
@@ -1946,6 +1891,17 @@
       "source_location": "L1"
     },
     {
+      "id": "src_components_contact",
+      "label": "contact.tsx",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "home.tsx",
+      "file_type": "code",
+      "norm_label": "contact.tsx",
+      "source_file": "src/components/contact.tsx",
+      "source_location": "L1"
+    },
+    {
       "id": "src_components_faq",
       "label": "faq.tsx",
       "_origin": "ast",
@@ -1965,6 +1921,39 @@
       "file_type": "code",
       "norm_label": "faq.test.tsx",
       "source_file": "src/components/faq.test.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_hero",
+      "label": "hero.tsx",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "home.tsx",
+      "file_type": "code",
+      "norm_label": "hero.tsx",
+      "source_file": "src/components/hero.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_hero_test",
+      "label": "hero.test.tsx",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "home.tsx",
+      "file_type": "code",
+      "norm_label": "hero.test.tsx",
+      "source_file": "src/components/hero.test.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_components_nav",
+      "label": "nav.tsx",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "home.tsx",
+      "file_type": "code",
+      "norm_label": "nav.tsx",
+      "source_file": "src/components/nav.tsx",
       "source_location": "L1"
     },
     {
@@ -2133,6 +2122,28 @@
       "source_location": "L9"
     },
     {
+      "id": "src_content_site",
+      "label": "site.ts",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "home.tsx",
+      "file_type": "code",
+      "norm_label": "site.ts",
+      "source_file": "src/content/site.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_content_site_site",
+      "label": "site",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "home.tsx",
+      "file_type": "code",
+      "norm_label": "site",
+      "source_file": "src/content/site.ts",
+      "source_location": "L1"
+    },
+    {
       "id": "src_routes_home",
       "label": "home.tsx",
       "_origin": "ast",
@@ -2144,15 +2155,59 @@
       "source_location": "L1"
     },
     {
-      "id": "ref_testing_library_react",
-      "label": "@testing-library/react",
+      "id": "src_components_trust_strip",
+      "label": "trust-strip.tsx",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "home.tsx",
+      "community": 21,
+      "community_name": "trust-strip.tsx",
+      "file_type": "code",
+      "norm_label": "trust-strip.tsx",
+      "source_file": "src/components/trust-strip.tsx",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_content_trust",
+      "label": "trust.ts",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "trust-strip.tsx",
+      "file_type": "code",
+      "norm_label": "trust.ts",
+      "source_file": "src/content/trust.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_content_trust_trustcaption",
+      "label": "trustCaption",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "trust-strip.tsx",
+      "file_type": "code",
+      "norm_label": "trustcaption",
+      "source_file": "src/content/trust.ts",
+      "source_location": "L6"
+    },
+    {
+      "id": "src_content_trust_trustitems",
+      "label": "trustItems",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "trust-strip.tsx",
+      "file_type": "code",
+      "norm_label": "trustitems",
+      "source_file": "src/content/trust.ts",
+      "source_location": "L9"
+    },
+    {
+      "id": "ref_react",
+      "label": "react",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "trust-strip.tsx",
       "file_type": "concept",
-      "norm_label": "@testing-library/react",
+      "norm_label": "react",
       "source_file": "package.json",
-      "source_location": "L39"
+      "source_location": "L27"
     },
     {
       "id": "docs_quality_operations_build_and_deployment_assumptions",
@@ -2948,39 +3003,6 @@
       "source_location": "L45"
     },
     {
-      "id": "src_components_contact",
-      "label": "contact.tsx",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "connect.tsx",
-      "file_type": "code",
-      "norm_label": "contact.tsx",
-      "source_file": "src/components/contact.tsx",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_components_hero",
-      "label": "hero.tsx",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "connect.tsx",
-      "file_type": "code",
-      "norm_label": "hero.tsx",
-      "source_file": "src/components/hero.tsx",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_components_hero_test",
-      "label": "hero.test.tsx",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "connect.tsx",
-      "file_type": "code",
-      "norm_label": "hero.test.tsx",
-      "source_file": "src/components/hero.test.tsx",
-      "source_location": "L1"
-    },
-    {
       "id": "src_content_business_info",
       "label": "business-info.ts",
       "_origin": "ast",
@@ -3067,28 +3089,6 @@
       "norm_label": "card",
       "source_file": "src/content/card.ts",
       "source_location": "L8"
-    },
-    {
-      "id": "src_content_site",
-      "label": "site.ts",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "connect.tsx",
-      "file_type": "code",
-      "norm_label": "site.ts",
-      "source_file": "src/content/site.ts",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_content_site_site",
-      "label": "site",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "connect.tsx",
-      "file_type": "code",
-      "norm_label": "site",
-      "source_file": "src/content/site.ts",
-      "source_location": "L1"
     },
     {
       "id": "src_routes_connect",
@@ -3586,28 +3586,6 @@
       "source_location": "L26"
     },
     {
-      "id": "bit_and_byte_ideas_website_readme_codeblock_4",
-      "label": "code:bash (pnpm test      # Vitest unit suite)",
-      "_origin": "ast",
-      "community": 70,
-      "community_name": "Bit and Byte Ideas Website",
-      "file_type": "document",
-      "norm_label": "code:bash (pnpm test      # vitest unit suite)",
-      "source_file": "README.md",
-      "source_location": "L44"
-    },
-    {
-      "id": "bit_and_byte_ideas_website_readme_codeblock_5",
-      "label": "code:bash (pnpm test hero.test.tsx)",
-      "_origin": "ast",
-      "community": 70,
-      "community_name": "Bit and Byte Ideas Website",
-      "file_type": "document",
-      "norm_label": "code:bash (pnpm test hero.test.tsx)",
-      "source_file": "README.md",
-      "source_location": "L51"
-    },
-    {
       "id": "bit_and_byte_ideas_website_readme_codeblock_6",
       "label": "code:bash (pnpm lint)",
       "_origin": "ast",
@@ -3661,17 +3639,6 @@
       "norm_label": "setup",
       "source_file": "README.md",
       "source_location": "L17"
-    },
-    {
-      "id": "bit_and_byte_ideas_website_readme_tests",
-      "label": "Tests",
-      "_origin": "ast",
-      "community": 70,
-      "community_name": "Bit and Byte Ideas Website",
-      "file_type": "document",
-      "norm_label": "tests",
-      "source_file": "README.md",
-      "source_location": "L42"
     },
     {
       "id": "docs_index",
@@ -4692,6 +4659,39 @@
       "source_location": "L49"
     },
     {
+      "id": "bit_and_byte_ideas_website_readme_codeblock_4",
+      "label": "code:bash (pnpm test      # Vitest unit suite)",
+      "_origin": "ast",
+      "community": 93,
+      "community_name": "AGENTS.md",
+      "file_type": "document",
+      "norm_label": "code:bash (pnpm test      # vitest unit suite)",
+      "source_file": "README.md",
+      "source_location": "L44"
+    },
+    {
+      "id": "bit_and_byte_ideas_website_readme_codeblock_5",
+      "label": "code:bash (pnpm test hero.test.tsx)",
+      "_origin": "ast",
+      "community": 93,
+      "community_name": "AGENTS.md",
+      "file_type": "document",
+      "norm_label": "code:bash (pnpm test hero.test.tsx)",
+      "source_file": "README.md",
+      "source_location": "L51"
+    },
+    {
+      "id": "bit_and_byte_ideas_website_readme_tests",
+      "label": "Tests",
+      "_origin": "ast",
+      "community": 93,
+      "community_name": "AGENTS.md",
+      "file_type": "document",
+      "norm_label": "tests",
+      "source_file": "README.md",
+      "source_location": "L42"
+    },
+    {
       "id": "public_assets_bit_byte_ideas_full_logo_brand",
       "label": "Bit & Byte Ideas Brand Identity",
       "_origin": "semantic",
@@ -4778,81 +4778,6 @@
       "file_type": "image",
       "norm_label": "bit & byte ideas full logo",
       "source_file": "public/assets/bit_byte_ideas_full_logo.png",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "public_assets_bandbideas_icon_small_brand_identity",
-      "label": "Bit and Byte Ideas Brand Identity",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 160,
-      "community_name": "Digital Pixel Elements",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "bit and byte ideas brand identity",
-      "source_file": "public/assets/BandBIdeas-Icon-small.png",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "public_assets_bandbideas_icon_small_digital_pixels",
-      "label": "Digital Pixel Elements",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 160,
-      "community_name": "Digital Pixel Elements",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "digital pixel elements",
-      "source_file": "public/assets/BandBIdeas-Icon-small.png",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "public_assets_bandbideas_icon_small_lightbulb_motif",
-      "label": "Lightbulb Motif",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 160,
-      "community_name": "Digital Pixel Elements",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "lightbulb motif",
-      "source_file": "public/assets/BandBIdeas-Icon-small.png",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "public_assets_bandbideas_icon_small_tech_creativity",
-      "label": "Technology and Creativity Fusion",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 160,
-      "community_name": "Digital Pixel Elements",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "technology and creativity fusion",
-      "source_file": "public/assets/BandBIdeas-Icon-small.png",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "public_assets_bandbideas_icon_small_logo",
-      "label": "Bit and Byte Ideas Brand Icon (Small)",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 160,
-      "community_name": "Digital Pixel Elements",
-      "contributor": null,
-      "file_type": "image",
-      "norm_label": "bit and byte ideas brand icon (small)",
-      "source_file": "public/assets/BandBIdeas-Icon-small.png",
       "source_location": null,
       "source_url": null
     },
@@ -5549,6 +5474,7 @@
     {
       "id": "src_design_base",
       "label": "src_design_base",
+      "_origin": "semantic",
       "community": 0,
       "community_name": "root.tsx",
       "external": true,
@@ -5560,6 +5486,7 @@
     {
       "id": "ref_node_crypto",
       "label": "ref_node_crypto",
+      "_origin": "semantic",
       "community": 253,
       "community_name": "externalize-inline-scripts.mjs",
       "external": true,
@@ -5571,6 +5498,7 @@
     {
       "id": "ref_node_fs",
       "label": "ref_node_fs",
+      "_origin": "semantic",
       "community": 253,
       "community_name": "externalize-inline-scripts.mjs",
       "external": true,
@@ -5582,6 +5510,7 @@
     {
       "id": "ref_node_http",
       "label": "ref_node_http",
+      "_origin": "semantic",
       "community": 253,
       "community_name": "externalize-inline-scripts.mjs",
       "external": true,
@@ -5593,6 +5522,7 @@
     {
       "id": "ref_node_path",
       "label": "ref_node_path",
+      "_origin": "semantic",
       "community": 253,
       "community_name": "externalize-inline-scripts.mjs",
       "external": true,
@@ -12167,39 +12097,6 @@
       "weight": 1.0
     },
     {
-      "source": "public_assets_bandbideas_icon_small_lightbulb_motif",
-      "target": "public_assets_bandbideas_icon_small_digital_pixels",
-      "relation": "conceptually_related_to",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "public/assets/BandBIdeas-Icon-small.png",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "public_assets_bandbideas_icon_small_logo",
-      "target": "public_assets_bandbideas_icon_small_digital_pixels",
-      "relation": "contains",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "public/assets/BandBIdeas-Icon-small.png",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "public_assets_bandbideas_icon_small_logo",
-      "target": "public_assets_bandbideas_icon_small_lightbulb_motif",
-      "relation": "contains",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "public/assets/BandBIdeas-Icon-small.png",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
       "source": "public_assets_bit_byte_ideas_full_logo_image",
       "target": "public_assets_bit_byte_ideas_full_logo_lightbulb_icon",
       "relation": "contains",
@@ -12607,17 +12504,6 @@
       "weight": 1.0
     },
     {
-      "source": "public_assets_bandbideas_icon_small_logo",
-      "target": "public_assets_bandbideas_icon_small_brand_identity",
-      "relation": "represents",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "public/assets/BandBIdeas-Icon-small.png",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
       "source": "public_assets_bit_byte_ideas_full_logo_image",
       "target": "public_assets_bit_byte_ideas_full_logo_brand",
       "relation": "represents",
@@ -12717,17 +12603,6 @@
       "weight": 0.85
     },
     {
-      "source": "public_assets_bandbideas_icon_small_tech_creativity",
-      "target": "public_assets_bandbideas_icon_small_brand_identity",
-      "relation": "conceptually_related_to",
-      "_origin": "semantic",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "public/assets/BandBIdeas-Icon-small.png",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
       "source": "public_assets_bit_byte_ideas_full_logo_brand",
       "target": "public_assets_bit_byte_ideas_full_logo_digital_theme",
       "relation": "conceptually_related_to",
@@ -12781,28 +12656,6 @@
       "source_file": "CLAUDE.md",
       "source_location": null,
       "weight": 0.95
-    },
-    {
-      "source": "public_assets_bandbideas_icon_small_digital_pixels",
-      "target": "public_assets_bandbideas_icon_small_tech_creativity",
-      "relation": "symbolizes",
-      "_origin": "semantic",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "public/assets/BandBIdeas-Icon-small.png",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "public_assets_bandbideas_icon_small_lightbulb_motif",
-      "target": "public_assets_bandbideas_icon_small_tech_creativity",
-      "relation": "symbolizes",
-      "_origin": "semantic",
-      "confidence": "INFERRED",
-      "confidence_score": 0.95,
-      "source_file": "public/assets/BandBIdeas-Icon-small.png",
-      "source_location": null,
-      "weight": 1.0
     }
   ],
   "hyperedges": [
@@ -12820,5 +12673,5 @@
       "source_file": "playwright.config.ts"
     }
   ],
-  "built_at_commit": "e341b39bc83a1913e4ec3e2a81c1e814e12c75dd"
+  "built_at_commit": "b78d666cec1dd03504434e8843c7efe9cd987767"
 }
