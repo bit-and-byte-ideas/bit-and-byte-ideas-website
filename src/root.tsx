@@ -38,6 +38,7 @@ export function Layout({ children }: { children: ReactNode }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <meta name="theme-color" content="#0f172a" />
+        <meta name="referrer" content="strict-origin-when-cross-origin" />
         <link rel="icon" type="image/x-icon" href="/BandBIdeas.ico" />
         <Meta />
         <Links />
