@@ -70,3 +70,12 @@ jobs:
       # playwright.config.ts starts the dev server itself (webServer).
       - name: Run e2e tests
         run: pnpm test:e2e
+
+      # The dev server sends no production headers, so the same journeys also
+      # run against the built output served with staticwebapp.config.json's
+      # headers (CSP included) by scripts/serve-built.mjs.
+      - name: Build
+        run: pnpm build
+
+      - name: Run e2e tests against the production build
+        run: pnpm test:e2e:built
