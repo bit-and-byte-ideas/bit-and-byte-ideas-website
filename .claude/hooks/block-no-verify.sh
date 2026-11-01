@@ -15,13 +15,26 @@ if ! printf '%s' "$cmd" | grep -qE '(^|[[:space:];&|(])git[[:space:]]+commit\b';
 fi
 
 # Keep each `git commit`'s own arguments, so flags on neighboring commands
-# (`grep -n`, `sed -n`) don't count: join backslash-continued lines, drop -m
-# message text (it may contain separators), then stop at the next shell
-# separator or heredoc.
+# (`grep -n`, `sed -n`) don't count. Only a real separator ends them, so first
+# neutralize what merely looks like one: join backslash-continued lines, remove
+# fd redirects (`2>&1`), then in one left-to-right pass drop -m message text and
+# heredoc bodies, and blank separators inside quotes, escapes, and substitutions.
+# When unsure this errs toward seeing a flag, which blocks rather than bypasses.
 flat="${cmd//\\$'\n'/ }"
 args="$(printf '%s' "$flat" \
-  | perl -0pe 's/((?:^|\s)(?:-[A-Za-z]*m\s*|--message[=\s]\s*))(?:"[^"]*"|\x27[^\x27]*\x27)/$1/g' \
-  | grep -oE '(^|[[:space:];&|(])git[[:space:]]+commit\b[^;&|<)]*' || true)"
+  | perl -0pe '
+      s/\d*[<>]&\S*|&>>?/ /g;
+      s{
+        (?<flag>(?:^|(?<=\s))(?:-[A-Za-z]*m\s*|--message[=\s]\s*))
+        (?<quoted>"(?:[^"\\]|\\.)*"|\x27[^\x27]*\x27)
+        | (?<here><<-?\s*["\x27]?(?<tag>\w+)["\x27]?[^\n]*\n)(?:.*?\n)??\g{tag}(?=\n|$)
+        | \\. | (?&quoted) | `[^`]*` | [<>\$](?<sub>\((?:[^()]++|(?&sub))*\))
+      }{
+        defined $+{flag} ? $+{flag}
+          : defined $+{here} ? $+{here}
+          : do { (my $text = $&) =~ tr/;&|<>()\n/ /; $text }
+      }gesx' \
+  | grep -oE '(^|[[:space:];&|(])git[[:space:]]+commit\b[^;&|)]*' || true)"
 
 # Match --no-verify anywhere, or short flag groups containing `n` (e.g. -n, -nm,
 # -am -n) in the commit's arguments.

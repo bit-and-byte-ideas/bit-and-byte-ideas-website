@@ -13,6 +13,6 @@ export default defineConfig(({ mode }) => ({
     setupFiles: ['./src/setupTests.ts'],
     css: false,
     // Playwright specs in e2e/ run via `pnpm test:e2e`, not Vitest.
-    include: ['src/**/*.test.{ts,tsx}'],
+    include: ['src/**/*.test.{ts,tsx}', 'scripts/**/*.test.mjs'],
   },
 }));
