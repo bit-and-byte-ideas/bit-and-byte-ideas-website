@@ -49,6 +49,13 @@ const bypasses = [
   'git commit -F <(printf a; printf b) -n',
   'git commit -F $(mktemp; echo) -n',
   'git commit -F `echo a; echo b` -n',
+  // Nested commits, which run before the outer one
+  'git commit -m "$(git commit -n -m inner)"',
+  'git commit -m "`git commit -n -m inner`"',
+  'git commit -m "$(\ngit commit -n -m inner\n)"',
+  'git commit --message="$(git commit -nm inner)"',
+  'git commit -F - <<EOF\n$(git commit -n -m inner)\nEOF',
+  'git commit -F - <<EOF\n`git commit -n -m inner`\nEOF',
   // Redirects
   'git commit -m x < /dev/null -n',
   'git commit -m x 2>&1 -n',
@@ -80,6 +87,8 @@ const allowed = [
   "git commit -m 'explain the -n flag'",
   'git commit -F - <<EOF\nit\'s about -n\nEOF',
   'git commit -m "$(cat <<\'EOF\'\nbody with -n in it\nEOF\n)"',
+  'git commit -m "$(date) notes on -n"',
+  'git commit -F - <<EOF\n$(date) notes on -n\nEOF',
   // Not a commit
   'git status',
   'grep -n foo file',

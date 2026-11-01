@@ -19,6 +19,8 @@ fi
 # neutralize what merely looks like one: join backslash-continued lines, remove
 # fd redirects (`2>&1`), then in one left-to-right pass drop -m message text and
 # heredoc bodies, and blank separators inside quotes, escapes, and substitutions.
+# Message text or a body stays if a substitution in it runs `git commit`, because
+# that nested commit runs for real.
 # When unsure this errs toward seeing a flag, which blocks rather than bypasses.
 flat="${cmd//\\$'\n'/ }"
 args="$(printf '%s' "$flat" \
@@ -30,9 +32,11 @@ args="$(printf '%s' "$flat" \
         | (?<here><<-?\s*["\x27]?(?<tag>\w+)["\x27]?[^\n]*\n)(?:.*?\n)??\g{tag}(?=\n|$)
         | \\. | (?&quoted) | `[^`]*` | [<>\$](?<sub>\((?:[^()]++|(?&sub))*\))
       }{
-        defined $+{flag} ? $+{flag}
-          : defined $+{here} ? $+{here}
-          : do { (my $text = $&) =~ tr/;&|<>()\n/ /; $text }
+        my ($text, $flag, $here) = ($&, $+{flag}, $+{here});
+        my $nested = $text =~ /(?:\$\(|`).*\bgit\s+commit\b/s;
+        !$nested && defined $flag ? $flag
+          : !$nested && defined $here ? $here
+          : do { $text =~ tr/;&|<>()\n/ /; $text }
       }gesx' \
   | grep -oE '(^|[[:space:];&|(])git[[:space:]]+commit\b[^;&|)]*' || true)"
 
