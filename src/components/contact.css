@@ -84,7 +84,7 @@
 
 .contact-btn:hover {
   border-color: var(--accent);
-  background: rgba(34, 197, 94, 0.14);
+  background: var(--accent-tint);
 }
 
 .contact-btn .btn-arrow {

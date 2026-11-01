@@ -14,7 +14,7 @@
 }
 
 .site-nav.scrolled {
-  background: rgba(15, 23, 42, 0.85);
+  background: var(--bg-glass);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom-color: var(--border);
@@ -47,15 +47,15 @@
   height: 35px;
   width: auto;
   filter:
-    drop-shadow(0 0 5px rgba(34, 197, 94, 0.45))
-    drop-shadow(0 0 10px rgba(59, 130, 246, 0.25));
+    drop-shadow(0 0 5px var(--accent-glow))
+    drop-shadow(0 0 10px var(--blue-glow));
   transition: filter var(--duration-base) var(--ease-out);
 }
 
 .logo:hover .logo-icon {
   filter:
-    drop-shadow(0 0 7px rgba(34, 197, 94, 0.6))
-    drop-shadow(0 0 14px rgba(59, 130, 246, 0.35));
+    drop-shadow(0 0 7px var(--accent-glow-strong))
+    drop-shadow(0 0 14px var(--blue-glow-strong));
 }
 
 .logo-wordmark {
@@ -177,7 +177,7 @@
   position: fixed;
   inset: 0;
   z-index: var(--z-menu);
-  background: rgba(15, 23, 42, 0.98);
+  background: var(--bg-overlay);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   display: flex;
