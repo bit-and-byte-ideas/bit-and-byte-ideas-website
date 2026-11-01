@@ -20,5 +20,11 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["vite.config.ts", "react-router.config.ts", "playwright.config.ts"]
+  "include": [
+    "vite.config.ts",
+    "react-router.config.ts",
+    "playwright.config.ts",
+    "playwright.built.config.ts",
+    "scripts/**/*.ts"
+  ]
 }
