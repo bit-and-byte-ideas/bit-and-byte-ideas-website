@@ -1947,7 +1947,7 @@
       "file_type": "code",
       "norm_label": "allowed",
       "source_file": "scripts/block-no-verify.test.mjs",
-      "source_location": "L64"
+      "source_location": "L71"
     },
     {
       "id": "scripts_block_no_verify_test_bypasses",
@@ -5540,6 +5540,30 @@
       "type": "external"
     },
     {
+      "id": "ref_node_child_process",
+      "label": "ref_node_child_process",
+      "_origin": "semantic",
+      "community": 13,
+      "community_name": "block-no-verify.test.mjs",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "ref_node_child_process",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "ref_node_url",
+      "label": "ref_node_url",
+      "_origin": "semantic",
+      "community": 13,
+      "community_name": "block-no-verify.test.mjs",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "ref_node_url",
+      "source_file": "",
+      "type": "external"
+    },
+    {
       "id": "ref_node_crypto",
       "label": "ref_node_crypto",
       "_origin": "semantic",
@@ -5584,28 +5608,6 @@
       "external": true,
       "file_type": "concept",
       "norm_label": "ref_node_path",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "ref_node_child_process",
-      "label": "ref_node_child_process",
-      "community": 13,
-      "community_name": "block-no-verify.test.mjs",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "ref_node_child_process",
-      "source_file": "",
-      "type": "external"
-    },
-    {
-      "id": "ref_node_url",
-      "label": "ref_node_url",
-      "community": 13,
-      "community_name": "block-no-verify.test.mjs",
-      "external": true,
-      "file_type": "concept",
-      "norm_label": "ref_node_url",
       "source_file": "",
       "type": "external"
     }
@@ -10818,7 +10820,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "scripts/block-no-verify.test.mjs",
-      "source_location": "L64",
+      "source_location": "L71",
       "weight": 1.0
     },
     {
@@ -12832,5 +12834,5 @@
       "source_file": "playwright.config.ts"
     }
   ],
-  "built_at_commit": "6ddae74343c55ce2d49e0c118fc1f796a344b762"
+  "built_at_commit": "66a713ddf73cbe86505ebfb9a94e25706b5ae56d"
 }
