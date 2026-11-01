@@ -69,7 +69,7 @@ export function organizationSchema(): object {
         logo: { '@type': 'ImageObject', url: ogImage.url },
         image: ogImage.url,
         description:
-          'A software studio specializing in static website development, web application development, and maintenance & hosting for small and medium businesses.',
+          'A software studio specializing in website and application development, business automation and integrations, and maintenance & hosting for small and medium businesses.',
         email: businessInfo.email,
         foundingDate: String(site.foundedYear),
         founder: { '@type': 'Person', name: 'Carlos Barajas' },
@@ -82,7 +82,7 @@ export function organizationSchema(): object {
         '@id': `${site.url}/#website`,
         url: site.url,
         name: site.name,
-        description: 'Software Studio — Static Websites, Web Apps, and Maintenance.',
+        description: 'Software Studio — Websites, Web Apps, Business Automation, and Maintenance.',
         publisher: { '@id': organizationId },
         inLanguage: 'en-US',
       },
