@@ -52,6 +52,7 @@ export function Nav() {
               aria-hidden="true"
               width="24"
               height="35"
+              decoding="async"
             />
             <span className="logo-wordmark">
               Bit <span className="logo-amp">&amp;</span> Byte{' '}
