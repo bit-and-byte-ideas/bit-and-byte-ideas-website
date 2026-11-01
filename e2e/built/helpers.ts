@@ -1,10 +1,4 @@
-import { existsSync } from 'node:fs';
 import { expect, type Page } from '@playwright/test';
-
-/** True when build/client is a CONTENT_FIXTURES=1 build (fixture projects were prerendered). */
-export const isFixtureBuild = existsSync(
-  new URL('../../build/client/work/fixture-client-greenhouse/index.html', import.meta.url),
-);
 
 /** Collects CSP violations from the console and from securitypolicyviolation events. */
 export async function trackCspViolations(page: Page): Promise<string[]> {

@@ -24,7 +24,6 @@
     "vite.config.ts",
     "react-router.config.ts",
     "playwright.config.ts",
-    "playwright.built.config.ts",
-    "scripts/**/*.ts"
+    "playwright.built.config.ts"
   ]
 }
