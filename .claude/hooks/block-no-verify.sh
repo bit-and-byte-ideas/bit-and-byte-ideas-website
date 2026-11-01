@@ -10,12 +10,23 @@ input="$(cat)"
 cmd="$(printf '%s' "$input" | jq -r '.tool_input.command // ""')"
 
 # Only inspect git commit invocations.
-if ! printf '%s' "$cmd" | grep -qE '(^|[[:space:];&|])git[[:space:]]+commit\b'; then
+if ! printf '%s' "$cmd" | grep -qE '(^|[[:space:];&|(])git[[:space:]]+commit\b'; then
   exit 0
 fi
 
-# Match --no-verify, or short flag groups containing `n` (e.g. -n, -nm, -am -n).
-if printf '%s' "$cmd" | grep -qE -- '--no-verify\b|(^|[[:space:]])-[A-Za-z]*n[A-Za-z]*([[:space:]]|$)'; then
+# Keep each `git commit`'s own arguments, so flags on neighboring commands
+# (`grep -n`, `sed -n`) don't count: join backslash-continued lines, drop -m
+# message text (it may contain separators), then stop at the next shell
+# separator or heredoc.
+flat="${cmd//\\$'\n'/ }"
+args="$(printf '%s' "$flat" \
+  | perl -0pe 's/((?:^|\s)(?:-[A-Za-z]*m\s*|--message[=\s]\s*))(?:"[^"]*"|\x27[^\x27]*\x27)/$1/g' \
+  | grep -oE '(^|[[:space:];&|(])git[[:space:]]+commit\b[^;&|<)]*' || true)"
+
+# Match --no-verify anywhere, or short flag groups containing `n` (e.g. -n, -nm,
+# -am -n) in the commit's arguments.
+if printf '%s' "$cmd" | grep -qE -- '--no-verify\b' \
+  || printf '%s\n' "$args" | grep -qE -- '[[:space:]]-[A-Za-z]*n[A-Za-z]*([[:space:]]|$)'; then
   cat >&2 <<'MSG'
 Blocked: `git commit --no-verify` (or `-n`) is not allowed in this repo.
 The pre-commit hooks (commitlint, eslint, tsc) are there to catch real problems.
