@@ -7,13 +7,15 @@
   "packageManager": "pnpm@11.6.0",
   "scripts": {
     "dev": "react-router dev",
-    "build": "tsc -b && react-router build && node scripts/generate-sitemap.mjs && node scripts/csp-hashes.mjs",
+    "build": "tsc -b && react-router build && node scripts/generate-sitemap.mjs && node scripts/externalize-inline-scripts.mjs",
     "lint": "eslint .",
     "typecheck": "tsc -b",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
+    "test:e2e:built": "playwright test --config playwright.built.config.ts",
+    "serve:built": "node scripts/serve-built.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
