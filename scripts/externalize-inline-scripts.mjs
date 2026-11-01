@@ -1,7 +1,6 @@
 // Post-build step: moves every executable inline <script> in build/client/**/*.html
 // into a same-origin file so the strict CSP (`script-src 'self'` in
-// public/staticwebapp.config.json) allows React Router's hydration bootstrap
-// (docs/website AUDIT K1, decision D-003).
+// public/staticwebapp.config.json) allows React Router's hydration bootstrap.
 //
 // Each tag keeps its position and its type/async/id attributes. Parser-inserted
 // external classic scripts run in document order and block parsing exactly like

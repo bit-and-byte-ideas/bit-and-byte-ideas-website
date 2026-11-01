@@ -3,8 +3,8 @@ import { test, expect } from '@playwright/test';
 import { expectHydrated, recordedCspViolations, trackCspViolations } from './helpers';
 
 // Runs against the production build served with the real Static Web Apps
-// headers (scripts/serve-built.mjs). Guards AUDIT K1: a strict
-// `script-src 'self'` CSP must not stop React from hydrating.
+// headers (scripts/serve-built.mjs). A strict `script-src 'self'` CSP must
+// not stop React from hydrating.
 
 const swaConfig = JSON.parse(
   readFileSync(new URL('../../public/staticwebapp.config.json', import.meta.url), 'utf8'),
