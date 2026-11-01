@@ -95,6 +95,8 @@ footer {
 .footer-nav a {
   display: inline-flex;
   align-items: center;
+  /* Flex items drop literal spaces, so the space before the ↗ comes from here. */
+  gap: 1ch;
   min-height: 44px;
   font-family: var(--font-mono);
   font-size: var(--text-sm);
