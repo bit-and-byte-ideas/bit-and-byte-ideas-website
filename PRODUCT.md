@@ -67,7 +67,7 @@ and GitOps practices is the one architecting the client's site.
 - No CMS — all site copy lives in typed content modules (`src/content/`), not
   an editable backend.
 - No backend API, authentication, or persisted user data on the marketing site
-  itself; it is a fully static, prerendered build (Vite + React Router v7,
+  itself; it is a fully static, prerendered build (Vite + React Router v8,
   served from Azure Static Web Apps).
 - No blog currently; `/about` is a separate route from the homepage.
 - No published pricing tiers or ranges — pricing is always quoted per
@@ -81,7 +81,7 @@ and GitOps practices is the one architecting the client's site.
   preserve this plural voice in future copy; it is not a claim of a larger team.
 - Visual identity ("Engineered Dark" — dark navy/slate with green/blue accents,
   Bricolage Grotesque / Public Sans / IBM Plex Mono) is an existing, confirmed
-  direction recorded in `docs/redesign/03-design-direction.md` and
+  direction recorded in `docs/ux-content.md` and
   `src/design/tokens.css`. This file records product truth only — the visual
   system itself belongs in DESIGN.md, not here.
 

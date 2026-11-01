@@ -1,18 +1,20 @@
 # Bit and Byte Ideas Website
 
 This repository contains the public website for Bit and Byte Ideas, a software studio based
-in San Diego, CA focused on static website development, web application development, and
-maintenance plus hosting support for small and medium businesses across the United States.
+in San Diego, CA focused on website and application development, business automation and
+integrations, and maintenance plus hosting support for small and medium businesses across
+the United States.
 
-The site is a Vite + React 19 application using React Router 7 framework mode with static
+The site is a Vite + React 19 application using React Router 8 framework mode with static
 prerendering: every route ships as real HTML at build time and is served from Azure Static
-Web Apps. It is a marketing and lead-generation site with three routes: the home page,
-`/about`, and a branded 404.
+Web Apps. It is a marketing and lead-generation site with four routes: the home page,
+`/about`, `/connect` (a QR business card), and a branded 404.
 
 ## What the Site Does
 
 - Introduces Bit and Byte Ideas as a software studio.
-- Explains three service lines: static websites, web applications, and maintenance plus hosting.
+- Explains three service lines: website and application development, business automation and
+  integrations, and maintenance plus hosting.
 - Answers common buyer questions in an FAQ (with FAQPage structured data).
 - Presents the founder's background on `/about` for credibility (E-E-A-T).
 - Drives two conversion paths: booking a free 30-minute Calendly call (primary) and direct
@@ -34,8 +36,9 @@ website fast, accessible, clear for prospective clients, and aligned with the es
   accessibility expectations.
 - [Quality and Operations](quality-operations.md): testing, CI, deployment, SEO
   operations, and rollback.
-- Redesign decision record (`docs/redesign/00`–`05`): why the site was rebuilt from
-  Angular to React in 2026, every accepted decision, and the phased migration log.
+- Redesign decision record: why the site was rebuilt from Angular to React in 2026. It was
+  removed from the tree in `a804ef4`; recover it with
+  `git show a804ef4^:docs/redesign/00-overview.md` (files `00` to `05`).
 
 ## Current Scope
 

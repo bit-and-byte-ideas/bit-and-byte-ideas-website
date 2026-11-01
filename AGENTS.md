@@ -5,23 +5,29 @@ This file provides guidance to Codex (Codex.ai/code) when working with code in t
 ## Project Overview
 
 This is the public website for Bit and Byte Ideas, a software consulting studio. It is a
-Vite + React 19 + TypeScript app using React Router v7 framework mode with **static
+Vite + React 19 + TypeScript app using React Router v8 framework mode with **static
 prerendering** (`ssr: false` + `prerender` in `react-router.config.ts`): every route is
 emitted as real HTML at build time and served from Azure Static Web Apps. Package manager
 is **pnpm** (managed via Corepack — `corepack enable pnpm` if missing).
 
-The ground-up rebuild is tracked in `docs/redesign/` (00–05) — read those before making
-structural or design decisions; they are the decision record.
+The rebuild's decision records (`docs/redesign/`, `docs/SEO/`) were removed from the tree in
+`a804ef4`. Recover them with `git show a804ef4^:<path>` before revisiting a structural or
+design decision.
 
 ## Commands
 
 - `pnpm dev` — React Router dev server with HMR (http://localhost:5173).
-- `pnpm build` — type-check (`tsc -b`, gating) then `react-router build`; static output
-  lands in `build/client/` with prerendered HTML for `/`, `/about`, and `/404`.
+- `pnpm build` — type-check (`tsc -b`, gating), `react-router build`, sitemap generation,
+  then inline scripts move into `/assets/inline/`; static output lands in `build/client/`
+  with prerendered HTML for `/`, `/about`, `/connect`, and `/404`.
 - `pnpm lint` — ESLint flat config (`eslint.config.js`) across the repo.
 - `pnpm typecheck` — `tsc -b` only (the type-check half of the build).
 - `pnpm test` — Vitest unit suite once; `pnpm test:watch` for watch mode.
 - `pnpm test:e2e` — Playwright e2e against the dev server (`pnpm test:e2e:ui` for UI mode).
+- `pnpm test:e2e:built` — Playwright e2e against `build/client/` served with the production
+  `staticwebapp.config.json` headers (CSP included); run `pnpm build` first.
+- `pnpm serve:built` — serve the built output with those production headers
+  (http://127.0.0.1:4173).
 - `pnpm preview` — serve the built output locally.
 
 These scripts are the single source of truth: the local pre-commit hooks and the CI
@@ -66,7 +72,8 @@ enums/namespaces are rejected — prefer plain unions/objects.
 ## CI & deployment
 
 `.github/workflows/ci.yaml` runs `pnpm lint`, `pnpm build`, `pnpm test` on push/PR to
-`main` — the same scripts as the pre-commit hooks. Production deploys are release-driven
+`main` — the same scripts as the pre-commit hooks — plus Playwright e2e against the dev
+server and against the production build. Production deploys are release-driven
 (`deploy-app-prod.yaml`) and upload the static build to Azure Static Web Apps with the deployment token. This repo
 contains no infrastructure code: hosting, DNS and custom domains are managed in
 `bit-and-byte-ideas/platform-foundation` (`stacks/azure/customers/bit-and-byte-ideas`).
@@ -74,7 +81,7 @@ contains no infrastructure code: hosting, DNS and custom domains are managed in
 ## Design Direction
 
 When building UI, use the `frontend-design` skill together with `ui-ux-pro-max`. The
-accepted aesthetic is "Engineered Dark" (docs/redesign/03): today's palette (tokens in
+accepted aesthetic is "Engineered Dark" (docs/ux-content.md): today's palette (tokens in
 `src/design/tokens.css`), Bricolage Grotesque / Public Sans / IBM Plex Mono, monospace
 system labels, one primary CTA ("Book a call"). Avoid generic AI aesthetics: no
 Inter/Roboto/Arial, no purple gradients, no cookie-cutter layouts.

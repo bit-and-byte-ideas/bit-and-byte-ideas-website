@@ -69,7 +69,7 @@ Maintain these patterns:
 
 ## Brand Direction
 
-The accepted direction is "Engineered Dark" (`docs/redesign/03-design-direction.md`):
+The accepted direction is "Engineered Dark":
 
 - Dark navy/slate palette with green and blue accents, carried in `src/design/tokens.css`.
 - Bricolage Grotesque display type, Public Sans body, IBM Plex Mono for the `//` system

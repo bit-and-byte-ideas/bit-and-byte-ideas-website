@@ -1,13 +1,12 @@
 # Bit and Byte Ideas Website
 
 The public website for Bit and Byte Ideas, a software studio based in San Diego, CA
-offering static websites, custom web applications, and maintenance plus hosting support
-for small and medium businesses across the United States.
+offering website and application development, business automation and integrations, and
+maintenance plus hosting support for small and medium businesses across the United States.
 
-Built with Vite + React 19 + React Router 7 (framework mode, statically prerendered) and
+Built with Vite + React 19 + React Router 8 (framework mode, statically prerendered) and
 served from Azure Static Web Apps. See [`docs/`](docs/index.md) for full contributor
-documentation, and [`docs/redesign/`](docs/redesign/00-overview.md) for the decision
-record behind the 2026 rebuild from Angular to React.
+documentation.
 
 ## Requirements
 
@@ -35,7 +34,8 @@ The dev server runs at `http://localhost:5173/` with HMR.
 pnpm build
 ```
 
-Type-checks (`tsc -b`, gating), runs `react-router build`, and generates `sitemap.xml`.
+Type-checks (`tsc -b`, gating), runs `react-router build`, generates `sitemap.xml`, and
+moves inline scripts into same-origin files so the strict CSP holds.
 Static output — including prerendered HTML for every route — is written to
 `build/client/`.
 
@@ -43,7 +43,8 @@ Static output — including prerendered HTML for every route — is written to
 
 ```bash
 pnpm test      # Vitest unit suite
-pnpm test:e2e  # Playwright end-to-end suite
+pnpm test:e2e  # Playwright end-to-end suite (dev server)
+pnpm build && pnpm test:e2e:built  # same journeys against the build with production headers
 ```
 
 Run a focused unit test file (or a glob) with:
