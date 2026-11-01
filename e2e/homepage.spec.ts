@@ -71,4 +71,14 @@ test.describe('Homepage', () => {
     );
     await expect(page.locator('.site-nav')).toHaveClass(/scrolled/);
   });
+
+  for (const width of [320, 375]) {
+    test(`does not overflow horizontally on a ${width}px screen`, async ({ page }) => {
+      await page.setViewportSize({ width, height: 812 });
+      const overflow = await page.evaluate(
+        () => document.documentElement.scrollWidth - window.innerWidth,
+      );
+      expect(overflow).toBeLessThanOrEqual(0);
+    });
+  }
 });
