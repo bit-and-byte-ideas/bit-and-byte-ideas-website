@@ -95,7 +95,7 @@
       "file_type": "code",
       "norm_label": "pagemetaoptions",
       "source_file": "src/content/seo.ts",
-      "source_location": "L20"
+      "source_location": "L24"
     },
     {
       "id": "src_content_seo_test_schemanode",
@@ -376,7 +376,7 @@
       "file_type": "code",
       "norm_label": "faqpageschema()",
       "source_file": "src/content/seo.ts",
-      "source_location": "L125"
+      "source_location": "L135"
     },
     {
       "id": "src_content_seo_organizationschema",
@@ -388,7 +388,7 @@
       "file_type": "code",
       "norm_label": "organizationschema()",
       "source_file": "src/content/seo.ts",
-      "source_location": "L60"
+      "source_location": "L66"
     },
     {
       "id": "src_content_seo_pagemeta",
@@ -400,7 +400,7 @@
       "file_type": "code",
       "norm_label": "pagemeta()",
       "source_file": "src/content/seo.ts",
-      "source_location": "L28"
+      "source_location": "L32"
     },
     {
       "id": "src_content_seo_professionalserviceschema",
@@ -412,7 +412,7 @@
       "file_type": "code",
       "norm_label": "professionalserviceschema()",
       "source_file": "src/content/seo.ts",
-      "source_location": "L94"
+      "source_location": "L104"
     },
     {
       "id": "src_content_seo_tojsonldscript",
@@ -424,7 +424,7 @@
       "file_type": "code",
       "norm_label": "tojsonldscript()",
       "source_file": "src/content/seo.ts",
-      "source_location": "L144"
+      "source_location": "L154"
     },
     {
       "id": "src_routes_about_meta",
@@ -2153,7 +2153,7 @@
       "file_type": "code",
       "norm_label": "postaladdress",
       "source_file": "src/content/seo.ts",
-      "source_location": "L52"
+      "source_location": "L58"
     },
     {
       "id": "src_content_seo_test",
@@ -11399,6 +11399,17 @@
     },
     {
       "source": "src_content_seo",
+      "target": "src_content_seo_professionalserviceschema",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/content/seo.ts",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "src_content_seo",
       "target": "src_content_seo_ogimage",
       "relation": "contains",
       "_origin": "ast",
@@ -11416,7 +11427,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/content/seo.ts",
-      "source_location": "L125",
+      "source_location": "L135",
       "weight": 1.0
     },
     {
@@ -11427,7 +11438,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/content/seo.ts",
-      "source_location": "L144",
+      "source_location": "L154",
       "weight": 1.0
     },
     {
@@ -11438,7 +11449,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/content/seo.ts",
-      "source_location": "L20",
+      "source_location": "L24",
       "weight": 1.0
     },
     {
@@ -11449,7 +11460,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/content/seo.ts",
-      "source_location": "L28",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -11460,7 +11471,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/content/seo.ts",
-      "source_location": "L52",
+      "source_location": "L58",
       "weight": 1.0
     },
     {
@@ -11471,7 +11482,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/content/seo.ts",
-      "source_location": "L60",
+      "source_location": "L66",
       "weight": 1.0
     },
     {
@@ -11483,17 +11494,6 @@
       "confidence_score": 1.0,
       "source_file": "src/content/seo.ts",
       "source_location": "L7",
-      "weight": 1.0
-    },
-    {
-      "source": "src_content_seo",
-      "target": "src_content_seo_professionalserviceschema",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/content/seo.ts",
-      "source_location": "L94",
       "weight": 1.0
     },
     {
@@ -12891,5 +12891,5 @@
       "source_file": "playwright.config.ts"
     }
   ],
-  "built_at_commit": "f010155fda7d72ec945909280a1edbb7294d5385"
+  "built_at_commit": "461ba39e5ef81a6e529387839f23347daccd4a8d"
 }

@@ -29,6 +29,14 @@ describe('pageMeta', () => {
     expect(meta).toContainEqual({ property: 'og:image:height', content: '416' });
     expect(meta).toContainEqual({ property: 'og:locale', content: 'en_US' });
   });
+
+  it('names Bit & Byte Ideas as author and copyright holder', () => {
+    expect(meta).toContainEqual({ name: 'author', content: 'Bit & Byte Ideas' });
+    expect(meta).toContainEqual({
+      name: 'copyright',
+      content: `© ${new Date().getFullYear()} Bit & Byte Ideas`,
+    });
+  });
 });
 
 describe('organizationSchema', () => {
@@ -36,6 +44,15 @@ describe('organizationSchema', () => {
 
   it('contains Organization and WebSite nodes', () => {
     expect(graph.map((n) => n['@type'])).toEqual(['Organization', 'WebSite']);
+  });
+
+  it('credits the Organization as author and copyright holder of the WebSite', () => {
+    const website = graph[1];
+    const org = { '@id': graph[0]['@id'] };
+    expect(website['author']).toEqual(org);
+    expect(website['creator']).toEqual(org);
+    expect(website['copyrightHolder']).toEqual(org);
+    expect(website['copyrightYear']).toBe(2024);
   });
 
   it('links the GitHub profile via sameAs (SEO M6)', () => {

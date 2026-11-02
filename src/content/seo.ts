@@ -17,6 +17,10 @@ const ogImage = {
 
 const organizationId = `${site.url}/#organization`;
 
+// Authorship watermark: every page names the studio as its author and copyright holder.
+// The year is fixed at build time, matching the footer of the prerendered pages.
+const copyrightNotice = `© ${new Date().getFullYear()} ${site.name}`;
+
 interface PageMetaOptions {
   title: string;
   description: string;
@@ -30,6 +34,8 @@ export function pageMeta({ title, description, path, noIndex }: PageMetaOptions)
   return [
     { title },
     { name: 'description', content: description },
+    { name: 'author', content: site.name },
+    { name: 'copyright', content: copyrightNotice },
     { tagName: 'link', rel: 'canonical', href: url },
     { property: 'og:type', content: 'website' },
     { property: 'og:site_name', content: site.name },
@@ -84,6 +90,10 @@ export function organizationSchema(): object {
         name: site.name,
         description: 'Software Studio — Websites, Web Apps, Business Automation, and Maintenance.',
         publisher: { '@id': organizationId },
+        author: { '@id': organizationId },
+        creator: { '@id': organizationId },
+        copyrightHolder: { '@id': organizationId },
+        copyrightYear: site.foundedYear,
         inLanguage: 'en-US',
       },
     ],
