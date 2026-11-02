@@ -3,9 +3,13 @@
 allowBuilds:
   esbuild: true
 
-# GHSA-5jgf-p345-68v8, GHSA-f65p-4m7j-42xc, GHSA-fph4-wmhf-6fwf, GHSA-jqff-g426-hqxp:
-# fast-uri <3.1.6 has host-confusion/SSRF-adjacent parsing bugs (transitive via ajv, commitlint).
+# GHSA-5jgf-p345-68v8, GHSA-f65p-4m7j-42xc, GHSA-fph4-wmhf-6fwf, GHSA-jqff-g426-hqxp,
+# GHSA-333x-w4r6-6crp, GHSA-w74x-v6f9-j3xg, GHSA-xhq7-xmqj-769h, GHSA-wjr9-j795-jxcr:
+# fast-uri <3.1.9 has host-confusion/SSRF-adjacent parsing bugs (transitive via ajv, commitlint).
+# GHSA-g3hv-75wg-m249: minimatch <11.0.1 can be slowed to a DoS by crafted globs (transitive via
+# eslint, typescript-eslint). Both still ask for ^10, so remove this once they allow ^11.
 # GHSA-2v37-7h3g-55p8: nanoid <3.3.18 can loop indefinitely with size 0 (transitive via postcss, vite).
 overrides:
-  fast-uri: ^3.1.6
+  fast-uri: ^3.1.9
+  minimatch: ^11.0.3
   nanoid: ^3.3.18
