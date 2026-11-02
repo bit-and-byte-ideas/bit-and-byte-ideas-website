@@ -17,6 +17,8 @@ export function Footer() {
               aria-hidden="true"
               width="28"
               height="40"
+              loading="lazy"
+              decoding="async"
             />
             <span className="footer-logo-wordmark">
               Bit <span className="footer-logo-amp">&amp;</span> Byte{' '}

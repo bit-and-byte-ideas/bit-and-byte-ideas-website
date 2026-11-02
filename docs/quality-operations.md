@@ -85,6 +85,13 @@ Both build with pnpm and upload the static `build/client/` directory
   `staticwebapp.config.json`. Unhashed files in `public/assets/` are images/vCards only,
   so they keep the SWA default (revalidate) and never go stale. Do not add JS/CSS/fonts
   under `public/assets/` — they would inherit the immutable header without a content hash.
+- Response headers: `globalHeaders` in `staticwebapp.config.json` declares HSTS for one year
+  because Azure's default (126 days) is below the HSTS preload minimum. `includeSubDomains`
+  covers every subdomain of `bitandbyteideas.com` and browsers remember it for the full
+  `max-age`, so any new subdomain must serve HTTPS. `Cross-Origin-Opener-Policy: same-origin`
+  isolates the page from windows it opens. COEP, CORP, NEL, and `Reporting-Endpoints` are
+  intentionally unset: the CSP already blocks cross-origin resources, nothing here is
+  private, and there is no endpoint to receive reports.
 - JSON-LD is injected via `dangerouslySetInnerHTML`; `src/content/seo.ts`'s
   `toJsonLdScript()` escapes `<` before serialization so a schema value containing
   `</script>` cannot break out of the script element. Current schema content is fully
@@ -106,6 +113,8 @@ platform-foundation).
 ## SEO Operations
 
 - `sitemap.xml` is generated at build time with the build date as `lastmod`.
+- Page titles stay within 60 characters and meta descriptions within 160, so search results
+  show them in full. `src/routes/meta.test.ts` enforces this on every route.
 - `robots.txt` explicitly allows the major AI crawlers; `llms.txt` describes the business
   for AI search engines. Keep both factually accurate when the business changes.
 - Structured data (Organization, WebSite, ProfessionalService, FAQPage) is emitted from

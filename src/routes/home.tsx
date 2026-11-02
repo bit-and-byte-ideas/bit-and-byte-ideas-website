@@ -16,7 +16,7 @@ import {
 
 export function meta(): MetaDescriptor[] {
   return pageMeta({
-    title: 'Custom Websites & Web Apps for Small Businesses | Bit & Byte Ideas',
+    title: 'Websites & Web Apps for Small Businesses | Bit & Byte Ideas',
     description: defaultDescription,
     path: '/',
   });

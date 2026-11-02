@@ -10,7 +10,7 @@ export function meta(): MetaDescriptor[] {
   return pageMeta({
     title: "Connect with Carlos Barajas — Bit & Byte Ideas",
     description:
-      'Save my contact, call, text, or book a free 30-minute call directly — Carlos Barajas, founder of Bit & Byte Ideas, a San Diego software studio building custom websites and web apps for small businesses.',
+      'Save my contact, call, text, or book a free 30-minute call — Carlos Barajas, founder of Bit & Byte Ideas, a San Diego software studio.',
     path: '/connect',
   });
 }

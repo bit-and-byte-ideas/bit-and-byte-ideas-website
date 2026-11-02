@@ -9,6 +9,13 @@ function renderNav() {
 }
 
 describe('Nav', () => {
+  it('decodes its logo off the main thread without lazy-loading it', () => {
+    renderNav();
+    const logo = screen.getByRole('presentation', { hidden: true });
+    expect(logo).toHaveAttribute('decoding', 'async');
+    expect(logo).not.toHaveAttribute('loading', 'lazy');
+  });
+
   it('renders a skip link to the main content', () => {
     renderNav();
     expect(screen.getByRole('link', { name: 'Skip to main content' })).toHaveAttribute(

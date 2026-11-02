@@ -24,6 +24,18 @@ test.describe('Production build under the production CSP', () => {
       expect(response.headers()['content-security-policy']).toBe(productionCsp);
     });
 
+    test(`${path} carries the hardening headers and referrer policy`, async ({ request }) => {
+      const response = await request.get(path);
+      const headers = response.headers();
+      expect(headers['cross-origin-opener-policy']).toBe('same-origin');
+      expect(headers['strict-transport-security']).toBe(
+        'max-age=31536000; includeSubDomains; preload',
+      );
+      expect(await response.text()).toContain(
+        '<meta name="referrer" content="strict-origin-when-cross-origin"',
+      );
+    });
+
     test(`${path} has no executable inline scripts`, async ({ request }) => {
       const html = await (await request.get(path)).text();
       expect(html.match(executableInlineScript) ?? []).toEqual([]);

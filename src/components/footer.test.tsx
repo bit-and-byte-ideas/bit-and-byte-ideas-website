@@ -8,6 +8,13 @@ function renderFooter() {
 }
 
 describe('Footer', () => {
+  it('defers its below-the-fold logo', () => {
+    renderFooter();
+    const logo = screen.getByRole('presentation', { hidden: true });
+    expect(logo).toHaveAttribute('loading', 'lazy');
+    expect(logo).toHaveAttribute('decoding', 'async');
+  });
+
   it('renders the current copyright year', () => {
     renderFooter();
     const year = String(new Date().getFullYear());
