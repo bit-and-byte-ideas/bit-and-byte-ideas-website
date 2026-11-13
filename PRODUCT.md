@@ -21,10 +21,12 @@ Secondary, weighted equally with each other but behind the primary segment:
 
 ## Product Purpose
 
-Bit & Byte Ideas is a software consulting studio that designs and builds custom
-websites and applications, automates the manual work between the tools a business
-already uses, and then keeps what it built running (hosting, security patches,
-monitoring) on a monthly subscription. It exists to bring enterprise-grade
+Bit & Byte Ideas builds and runs the websites and software small businesses need to
+grow, so the owner never has to think about the technical side. It designs custom
+websites, builds the software behind them (applications, automation between the tools
+a business already uses), and then keeps what it built running (hosting, security
+patches, monitoring) on a monthly care plan. Most clients start with a website because
+it is familiar; a client can also start with automation or a custom build. It exists to bring enterprise-grade
 engineering discipline to businesses too small to justify a large agency.
 
 Success is a client whose site converts, whose systems talk to each other without
@@ -61,9 +63,17 @@ and GitOps practices is the one architecting the client's site.
   sites to full applications with auth, dashboards, and business logic;
   (2) business automation & integrations — connecting existing tools (CRM,
   invoicing, forms, e-commerce, email) and building custom API integrations
-  where no off-the-shelf connector exists; (3) maintenance + hosting — a
-  monthly add-on subscription covering managed hosting, backups, security
-  patches, and monitoring.
+  where no off-the-shelf connector exists; (3) maintenance + hosting — the
+  monthly care plan covering managed hosting, backups, security patches, and
+  monitoring. It is the ongoing relationship, not an add-on.
+- Ownership: the client owns their website. Software built for a client stays the
+  studio's and is licensed to the client under their plan, with an option to buy it
+  outright. On cancellation the license ends, with a data export and transition
+  support where it applies. This is stated openly to prospects: reuse across clients
+  is what lowers their cost over time.
+- Bilingual English/Spanish websites are offered for businesses with
+  Spanish-speaking customers. The offer is bilingual sites only; do not imply
+  Spanish-language sales or support.
 - No CMS — all site copy lives in typed content modules (`src/content/`), not
   an editable backend.
 - No backend API, authentication, or persisted user data on the marketing site
@@ -90,15 +100,20 @@ and GitOps practices is the one architecting the client's site.
 - Founder bio and a 4-item trust bar (18+ years building software, AWS & Azure,
   fintech & energy background, < 24 hour response time) in
   `src/content/trust.ts` and `src/content/about.ts`.
-- An 8-question FAQ addressing pricing, timelines, templates, post-launch,
-  takeovers, and automation, in `src/content/faq.ts`.
+- A 10-question FAQ addressing pricing, timelines, templates, post-launch,
+  ownership, bilingual sites, takeovers, and automation, in `src/content/faq.ts`.
+- Named client work in `src/content/work.ts` (shown on `/about`). Only clients the
+  founder has cleared for public naming appear there, described only by facts visible
+  on their live site.
 - No client testimonials, case studies, logos, or press mentions exist yet —
   future work must not fabricate these.
 
 ## Product Principles
 
-1. Custom over templated — every engagement, and every page of this site, is
-   built for the specific brand and customer, never generic or page-builder output.
+1. Custom over templated — every website, and every page of this site, is
+   designed for the specific brand and customer, never generic or page-builder output.
+   This claim is about website design; software may be reused across clients (see
+   Ownership above).
 2. Enterprise discipline, SMB accessibility — the same rigor (TDD, CI/CD,
    observability, IaC) the founder brought to fintech/energy platforms, applied
    without agency overhead or pricing opacity.

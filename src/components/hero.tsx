@@ -33,10 +33,7 @@ export function Hero() {
           <span className="caret" aria-hidden="true" />
         </h1>
         <div className="hero-sub-row">
-          <p className="hero-description">
-            From polished static sites to full-featured web apps — custom-built in San Diego for
-            small businesses across the United States.
-          </p>
+          <p className="hero-description">{site.heroDescription}</p>
           <div className="hero-ctas">
             <a href={site.calendlyUrl} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
               Book a Call

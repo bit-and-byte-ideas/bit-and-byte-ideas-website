@@ -32,6 +32,18 @@ export const faqItems: FaqItem[] = [
       "Launch isn't the finish line. Most clients move into the maintenance + hosting subscription, so we keep watching the site — security updates, backups, monitoring, and priority support when something needs to change.",
   },
   {
+    category: 'Cost & Process',
+    question: 'Who owns what you build?',
+    answer:
+      'Your website is yours. Software we build for you is licensed to you under your plan, with the option to buy it outright. We keep the rights to that software so we can keep improving it and offer it to other businesses, and that reuse is what lets us lower your cost over time. If you ever cancel, the license ends and we help you through the transition, including an export of your data where it applies.',
+  },
+  {
+    category: 'Fit & Logistics',
+    question: 'Can you build my website in English and Spanish?',
+    answer:
+      'Yes. If your customers speak Spanish, we build for both languages from the start, so each visitor gets the full site in their language.',
+  },
+  {
     category: 'Fit & Logistics',
     question: 'Can you take over an existing website or codebase?',
     answer:
