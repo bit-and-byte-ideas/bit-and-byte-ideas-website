@@ -340,8 +340,11 @@
   }
 }
 
-.work-grid .client-number {
+.work-meta {
+  font-family: var(--font-mono);
   font-size: var(--text-sm);
+  color: var(--text-muted);
+  margin-bottom: var(--space-3);
 }
 
 /* ── CTA band ──────────────────────────────────────────────── */

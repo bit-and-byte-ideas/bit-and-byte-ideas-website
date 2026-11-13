@@ -7,6 +7,12 @@ export interface WorkItem {
   urlLabel: string;
 }
 
+/** Section labels for the Recent Work block on /about. */
+export const workSection = {
+  label: 'Recent Work',
+  title: 'Built for Real Businesses',
+};
+
 /** Client work we are cleared to name publicly. Only state facts visible on the live site. */
 export const workItems: WorkItem[] = [
   {
