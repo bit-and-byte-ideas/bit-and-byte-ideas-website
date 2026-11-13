@@ -11,6 +11,8 @@ export interface WorkItem {
 export const workSection = {
   label: 'Recent Work',
   title: 'Built for Real Businesses',
+  /** Accessible name for a client link, e.g. "Visit example.com (opens in new tab)". */
+  linkLabel: (urlLabel: string) => `Visit ${urlLabel} (opens in new tab)`,
 };
 
 /** Client work we are cleared to name publicly. Only state facts visible on the live site. */

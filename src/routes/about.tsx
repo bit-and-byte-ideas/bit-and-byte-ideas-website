@@ -154,7 +154,7 @@ export default function About() {
                   className="github-link"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={`Visit ${item.urlLabel} (opens in new tab)`}
+                  aria-label={workSection.linkLabel(item.urlLabel)}
                 >
                   {item.urlLabel}
                   <span aria-hidden="true">↗</span>

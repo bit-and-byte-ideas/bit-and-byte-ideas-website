@@ -9,7 +9,7 @@ describe('About — recent work', () => {
     for (const item of workItems) {
       expect(screen.getByRole('heading', { level: 3, name: item.client })).toBeInTheDocument();
       expect(screen.getByText(item.location)).toBeVisible();
-      const link = screen.getByRole('link', { name: `Visit ${item.urlLabel} (opens in new tab)` });
+      const link = screen.getByRole('link', { name: workSection.linkLabel(item.urlLabel) });
       expect(link).toHaveAttribute('href', item.url);
       expect(link).toHaveAttribute('rel', 'noopener noreferrer');
     }
