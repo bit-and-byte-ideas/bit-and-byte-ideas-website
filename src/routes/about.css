@@ -327,6 +327,23 @@
   color: var(--text-muted);
 }
 
+/* ── Recent work ───────────────────────────────────────────── */
+
+.work-grid {
+  display: grid;
+  gap: var(--space-4);
+}
+
+@media (min-width: 900px) {
+  .work-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 420px));
+  }
+}
+
+.work-grid .client-number {
+  font-size: var(--text-sm);
+}
+
 /* ── CTA band ──────────────────────────────────────────────── */
 
 .about-cta {

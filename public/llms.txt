@@ -1,8 +1,8 @@
 # Bit & Byte Ideas
 
-> Bit & Byte Ideas is a custom software studio that builds websites and web applications,
-> and automates the business tools small and medium businesses already use. No templates —
-> everything is designed and built from scratch.
+> Bit & Byte Ideas builds and runs the websites and software small businesses need to grow,
+> so the owner never has to think about the technical side. Websites are custom-designed,
+> not templated; the software behind them is built, hosted, and maintained on a monthly plan.
 > Contact: info@bitandbyteideas.com | Response time: within 24 hours.
 
 ## Services
@@ -15,7 +15,7 @@
   (CRM, invoicing, forms, e-commerce, email) so information flows automatically, plus
   custom API integrations when no off-the-shelf connector exists. Pricing: quote-based.
 
-- **Maintenance + Hosting** — Subscription-based managed hosting. Includes automated backups,
+- **Maintenance + Hosting** — Monthly care plan with managed hosting. Includes automated backups,
   security patches, performance monitoring, and priority support for minor changes.
 
 ## About
@@ -31,10 +31,12 @@
 
 ## Differentiators
 
-- Custom design only — no templates or page builders
+- Custom website design — no templates or page builders
+- English and Spanish websites for businesses with Spanish-speaking customers
+- Clients own their website; software is licensed under the plan with an option to buy it outright
 - Performance-first: static prerendered pages, Core Web Vitals optimized
 - SEO built into every build
-- Managed hosting available as an add-on subscription
+- Hosting, security, and upkeep handled on a monthly care plan
 
 ## Links
 

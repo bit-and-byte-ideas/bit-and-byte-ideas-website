@@ -11,10 +11,11 @@ export const services: Service[] = [
     number: '01',
     title: 'Website & Application Development',
     description:
-      'From a fast, polished marketing site to a full-featured application with logins, dashboards, and business logic — we design and build custom software around your goals, not a template. Start where you are today; we architect it to grow with you.',
+      'From a fast, polished marketing site to a full-featured application with logins, dashboards, and business logic — every website is designed around your brand, not a template, and the software behind it is built around how your business runs. Start where you are today; we architect it to grow with you.',
     features: [
-      'Custom design — no templates or page builders',
+      'Custom website design — no templates or page builders',
       'Mobile-first, SEO-optimized, and fast (Core Web Vitals)',
+      'English and Spanish sites when your customers speak both',
       'User accounts, dashboards & business logic when you need them',
       'Database design, APIs & cloud infrastructure for anything custom',
       'Built to scale from a single page to a full application',
@@ -45,6 +46,6 @@ export const services: Service[] = [
       'Performance monitoring & alerts',
       'Priority support & minor changes',
     ],
-    badge: 'Add-on subscription',
+    badge: 'Monthly care plan',
   },
 ];

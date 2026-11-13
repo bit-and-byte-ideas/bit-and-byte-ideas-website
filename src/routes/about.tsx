@@ -1,6 +1,7 @@
 import type { MetaDescriptor } from 'react-router';
 import { about, techIntro } from '../content/about';
 import { site } from '../content/site';
+import { workItems } from '../content/work';
 import { pageMeta } from '../content/seo';
 import './about.css';
 
@@ -128,6 +129,38 @@ export default function About() {
                 </span>
                 <h3 className="client-title">{client.title}</h3>
                 <p className="client-desc">{client.description}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="about-work" aria-labelledby="work-heading">
+        <div className="container">
+          <header className="section-header">
+            <span className="section-label">Recent Work</span>
+            <h2 id="work-heading" className="section-title">
+              Built for Real Businesses
+            </h2>
+          </header>
+          <div className="work-grid">
+            {workItems.map((item) => (
+              <article className="client-card" key={item.client}>
+                <span className="client-number" aria-hidden="true">
+                  {item.location}
+                </span>
+                <h3 className="client-title">{item.client}</h3>
+                <p className="client-desc">{item.summary}</p>
+                <a
+                  href={item.url}
+                  className="github-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Visit ${item.urlLabel} (opens in new tab)`}
+                >
+                  {item.urlLabel}
+                  <span aria-hidden="true">↗</span>
+                </a>
               </article>
             ))}
           </div>
